@@ -4,171 +4,240 @@
             "Name": "Valkyrie",
             "Class": "recon",
             "primary_value": ["repositioning", "long", "team"],
-            "secondary_value": ["damage", "AOE", "poke"]
+            "secondary_value": ["damage", "AOE", "poke"],
+            "mobility": "high"
         },
         {
             "Name": "Crypto",
             "Class": "recon",
             "primary_value": ["scanning", "long"],
-            "secondary_value": ["control", "AOE"]
+            "secondary_value": ["control", "AOE"],
+            "mobility": "low"
         },
         {
             "Name": "Pathfinder",
             "Class": "skirmisher",
             "primary_value": ["repositioning", "long", "team"],
-            "secondary_value": ["mobility", "medium", "personal"]
+            "secondary_value": ["mobility", "medium", "personal"],
+            "mobility": "high"
         },
         {
             "Name": "Wraith",
             "Class": "skirmisher",
             "primary_value": ["repositioning", "medium", "team"],
-            "secondary_value": ["repositioning", "short", "personal"]
+            "secondary_value": ["repositioning", "short", "personal"],
+            "mobility": "high"
         },
         {
             "Name": "Bloodhound",
             "Class": "recon",
             "primary_value": ["scanning", "medium"],
-            "secondary_value": ["boost", "personal"]
+            "secondary_value": ["boost", "personal"],
+            "mobility": "low"
         },
         {
             "Name": "Gibraltar",
             "Class": "support",
             "primary_value": ["shield", "AOE", "team"],
-            "secondary_value": ["damage", "AOE", "denial"]
+            "secondary_value": ["damage", "AOE", "denial"],
+            "mobility": "low"
         },
         {
             "Name": "Lifeline",
             "Class": "support",
             "primary_value": ["healing", "team"],
-            "secondary_value": ["shield", "AOE", "team"]
+            "secondary_value": ["shield", "AOE", "team"],
+            "mobility": "low"
         },
         {
             "Name": "Horizon",
             "Class": "skirmisher",
             "primary_value": ["control", "AOE"],
-            "secondary_value": ["mobility", "short", "team"]
+            "secondary_value": ["mobility", "short", "team"],
+            "mobility": "medium"
         },
         {
             "Name": "Fuse",
             "Class": "assault",
             "primary_value": ["damage", "AOE", "poke"],
-            "secondary_value": ["mobility", "medium", "personal"]
+            "secondary_value": ["mobility", "medium", "personal"],
+            "mobility": "medium"
         },
         {
             "Name": "Revenant",
             "Class": "skirmisher",
             "primary_value": ["mobility", "medium", "personal"],
-            "secondary_value": ["shield", "personal", "personal"]
+            "secondary_value": ["shield", "personal", "personal"],
+            "mobility": "high"
         },
         {
             "Name": "Loba",
             "Class": "support",
             "primary_value": ["looting", "high"],
-            "secondary_value": ["repositioning", "medium", "personal"]
+            "secondary_value": ["repositioning", "medium", "personal"],
+            "mobility": "medium"
         },
         {
             "Name": "Rampart",
             "Class": "controler",
             "primary_value": ["barrier", "doorway", "physical"],
-            "secondary_value": ["damage", "gun", "denial"]
+            "secondary_value": ["damage", "gun", "denial"],
+            "mobility": "none"
         },
         {
             "Name": "Alter",
             "Class": "skirmisher",
             "primary_value": ["repositioning", "long", "team"],
-            "secondary_value": ["mobility", "short", "team"]
+            "secondary_value": ["mobility", "short", "team"],
+            "mobility": "medium"
         },
         {
             "Name": "Vantage",
             "Class": "recon",
             "primary_value": ["damage", "gun", "poke"],
-            "secondary_value": ["mobility", "medium", "personal"]
+            "secondary_value": ["mobility", "medium", "personal"],
+            "mobility": "medium"
         },
         {
             "Name": "Ballistic",
             "Class": "assault",
             "primary_value": ["boost", "team"],
-            "secondary_value": ["control", "personal"]
+            "secondary_value": ["control", "personal"],
+            "mobility": "none"
         },
         {
             "Name": "Mad Maggie",
             "Class": "assault",
             "primary_value": ["damage", "AOE", "poke"],
-            "secondary_value": ["mobility", "medium", "team"]
+            "secondary_value": ["mobility", "medium", "team"],
+            "mobility": "medium"
         },
         {
             "Name": "Newcastle",
             "Class": "support",
             "primary_value": ["shield", "AOE", "team"],
-            "secondary_value": ["barrier", "doorway", "physical"]
+            "secondary_value": ["barrier", "doorway", "physical"],
+            "mobility": "none"
         },
         {
             "Name": "Ash",
             "Class": "skirmisher",
             "primary_value": ["repositioning", "medium", "team"],
-            "secondary_value": ["control", "AOE"]
+            "secondary_value": ["control", "AOE"],
+            "mobility": "medium"
         },
         {
             "Name": "Seer",
             "Class": "recon",
             "primary_value": ["scanning", "medium"],
-            "secondary_value": ["control", "AOE"]
+            "secondary_value": ["control", "AOE"],
+            "mobility": "none"
         },
         {
             "Name": "Sparrow",
             "Class": "recon",
             "primary_value": ["scanning", "long"],
-            "secondary_value": ["control", "AOE"]
+            "secondary_value": ["control", "AOE"],
+            "mobility": "low"
         },
         {
             "Name": "Wattson",
             "Class": "controler",
             "primary_value": ["barrier", "doorway", "physical"],
-            "secondary_value": ["shield", "personal", "team"]
+            "secondary_value": ["shield", "personal", "team"],
+            "mobility": "none"
         },
         {
             "Name": "Catalyst",
             "Class": "controler",
             "primary_value": ["barrier", "doorway", "physical"],
-            "secondary_value": ["barrier", "area", "visual"]
+            "secondary_value": ["barrier", "area", "visual"],
+            "mobility": "none"
         },
         {
             "Name": "Caustic",
             "Class": "controler",
             "primary_value": ["barrier", "area", "physical"],
-            "secondary_value": ["damage", "AOE", "denial"]
+            "secondary_value": ["damage", "AOE", "denial"],
+            "mobility": "none"
         },
         {
             "Name": "Octane",
             "Class": "skirmisher",
             "primary_value": ["mobility", "long", "team"],
-            "secondary_value": ["mobility", "long", "personal"]
+            "secondary_value": ["mobility", "long", "personal"],
+            "mobility": "high"
         },
         {
             "Name": "Bangalore",
             "Class": "assault",
             "primary_value": ["barrier", "area", "visual"],
-            "secondary_value": ["control", "AOE"]
+            "secondary_value": ["control", "AOE"],
+            "mobility": "low"
         },
         {
             "Name": "Axel",
-            "Class": "assault",
+            "Class": "skirmisher",
             "primary_value": ["mobility", "medium", "team"],
-            "secondary_value": ["control", "personal"]
-        
+            "secondary_value": ["control", "personal"],
+            "mobility": "high"
         },
         {            
             "Name": "Mirage",
             "Class": "support",
             "primary_value": ["looting", "medium"],
-            "secondary_value": ["wildcard"]
+            "secondary_value": ["wildcard"],
+            "mobility": "none"
         },
         {
             "Name": "Conduit",
             "Class": "support",
             "primary_value": ["shield", "personal", "team"],
-            "secondary_value": ["control", "AOE"]
+            "secondary_value": ["control", "AOE"],
+            "mobility": "none"
         }
 
+    ],
+    "SPECIAL_SYNERGIES": [
+        {
+            "legends":    ["Seer", "Catalyst"],
+            "name":        "Black Dome",
+            "description": "L'ult de Catalyst aveugle tout le monde, l'ult de Seer rend la vision à l'équipe."
+        },
+        {
+            "legends":     ["Gibraltar", "Valkyrie"],
+            "name":        "Bubble Butt",
+            "description": "Le dôme de Gibraltar protège le décollage de Valkyrie et empêche le cancel de son ult."
+        },
+        {
+            "legends":     ["Mirage", "Caustic"],
+            "name":        "the Genius and the Idiot",
+            "description": "La facilité d'accès au point d'evo de Mirage permet de rapidement upgrade Caustic."
+        },
+        {
+            "legends":     ["Bloodhound", "Alter"],
+            "name":        "a Wall ?",
+            "description": "le scan de Bloodhound permet à Alter de voir l'arrivée de sa traversée."
+        },
+        {
+            "legends":     ["Mad Maggie", "Fuse"],
+            "name":        "Salvo Duo",
+            "description": "just go boom."
+        },
+        {
+            "legends":     ["Wraith", "Wattson","Gibraltar"],
+            "name":        "GOAT",
+            "description": "La compo goat de la S5."
+        },
+        {
+            "legends":     ["Caustic", "Wattson"],
+            "name":        "Let's go Bunker",
+            "description": "S2 tu drop bunker et cela devient ton domaine."
+        },
+        {
+            "legends":     ["Wattson", "Alter"],
+            "name":        "The Bait",
+            "description": "Alter pose son point de repli dans les fences de Wattson, et va bait les enemis."
+        }
     ]
 }
