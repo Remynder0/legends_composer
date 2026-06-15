@@ -1,0 +1,30 @@
+[
+    {
+        "team": [
+            "Mad Maggie",
+            "Newcastle"
+        ],
+        "placement": 9
+    },
+    {
+        "team": [
+            "Ash",
+            "Wattson"
+        ],
+        "placement": 2
+    },
+    {
+        "team": [
+            "Lifeline",
+            "Valkyrie"
+        ],
+        "placement": 1
+    },
+    {
+        "team": [
+            "Sparrow",
+            "Newcastle"
+        ],
+        "placement": 11
+    }
+]

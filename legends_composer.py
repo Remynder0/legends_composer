@@ -9,6 +9,19 @@ sys.stdout.reconfigure(encoding='utf-8')
 # Chargement des données
 # ---------------------------------------------------------------------------
 
+HISTORY_FILE = "history.json"
+
+def load_history():
+    try:
+        with open(HISTORY_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return []
+
+def save_history(history):
+    with open(HISTORY_FILE, "w", encoding="utf-8") as f:
+        json.dump(history, f, indent=4, ensure_ascii=False)
+
 def get_data(path="Legends.json"):
     try:
         with open(path, "r", encoding="utf-8") as f:
@@ -49,6 +62,13 @@ def has_team_movement(legend):
 def has_visual_barrier(legend):
     for val in [legend.get("primary_value", []), legend.get("secondary_value", [])]:
         if val and val[0] == "barrier" and "visual" in val:
+            return True
+    return False
+
+def has_long_scan(legend):
+    """True si la légende apporte un scan à longue portée."""
+    for val in [legend.get("primary_value", []), legend.get("secondary_value", [])]:
+        if val and val[0] == "scanning" and "long" in val:
             return True
     return False
 
@@ -132,7 +152,29 @@ def evaluate_team(team):
 # Sélection d'un coéquipier synergique
 # ---------------------------------------------------------------------------
 
-def score_candidate(candidate, current_team):
+def get_historical_bonus(candidate, current_team, history):
+    """Calcule un bonus ou malus basé sur les classements passés (top 1 = +9.5, top 20 = -9.5)."""
+    if not history:
+        return 0
+        
+    bonus = 0
+    matches = 0
+    
+    for record in history:
+        record_team = set(record["team"])
+        placement = record["placement"]
+        
+        # On regarde la synergie historique entre le candidat et chaque membre actuel
+        for member in current_team:
+            if candidate["Name"] in record_team and member["Name"] in record_team:
+                bonus += (10.5 - placement)
+                matches += 1
+                
+    if matches > 0:
+        return (bonus / matches) * 0.5  # Modérateur d'impact sur le score global
+    return 0
+
+def score_candidate(candidate, current_team, history=None):
     """
     Score un candidat selon les manques ET les synergies positives avec l'équipe actuelle.
     Plus le score est élevé, meilleur est le candidat.
@@ -149,15 +191,28 @@ def score_candidate(candidate, current_team):
         mob_bonus = MOBILITY_SCORE.get(candidate.get("mobility", "none"), 0)
 
     # 3. Synergie positive : le candidat renforce ce que l'équipe fait déjà.
-    #    Ex : une équipe avec "barrier" gagne à avoir un 2e perso "barrier".
     #    Ex : une équipe mobile profite d'un autre perso avec repositioning/mobility.
     team_effects = eval_before["effects"]
     candidate_effects = get_effects(candidate)
     overlap = team_effects & candidate_effects
 
     # Effets qui se renforcent vraiment en doublant
-    STACKABLE = {"barrier", "scanning", "repositioning", "mobility", "damage", "control", "shield", "healing"}
+    STACKABLE = {"scanning", "repositioning", "mobility", "damage", "control", "shield", "healing"}
     synergy_bonus = len(overlap & STACKABLE)
+
+    # Synergie spécifique pour "barrier" : nécessite un outil de "repositioning" ou un "long scan"
+    team_has_barrier = "barrier" in team_effects
+    candidate_has_barrier = "barrier" in candidate_effects
+    
+    team_has_repo = "repositioning" in team_effects
+    candidate_has_repo = "repositioning" in candidate_effects
+    
+    team_has_ls = any(has_long_scan(l) for l in current_team)
+    candidate_has_ls = has_long_scan(candidate)
+    
+    if (team_has_barrier and (candidate_has_repo or candidate_has_ls)) or \
+       (candidate_has_barrier and (team_has_repo or team_has_ls)):
+        synergy_bonus += 1
 
     # 4. Malus si le candidat n'apporte rien de nouveau ni de complémentaire
     #    (tous ses effets sont déjà couverts ET aucun manque comblé)
@@ -165,10 +220,15 @@ def score_candidate(candidate, current_team):
     if not new_effects and gaps_filled == 0:
         return -1  # pousse ce candidat tout en bas du pool
 
-    return gaps_filled * 10 + mob_bonus + synergy_bonus
+    base_score = gaps_filled * 10 + mob_bonus + synergy_bonus
+    
+    if history is not None:
+        base_score += get_historical_bonus(candidate, current_team, history)
+        
+    return base_score
 
 
-def pick_synergic(current_team, legends_list):
+def pick_synergic(current_team, legends_list, history=None):
     """Choisit la meilleure légende pour compléter l'équipe, avec un peu d'aléatoire."""
     team_names = {l["Name"] for l in current_team}
     pool = [l for l in legends_list if l["Name"] not in team_names]
@@ -177,11 +237,11 @@ def pick_synergic(current_team, legends_list):
         return None
 
     # Score chaque candidat
-    scored = [(score_candidate(c, current_team), c) for c in pool]
+    scored = [(score_candidate(c, current_team, history), c) for c in pool]
     max_score = max(s for s, _ in scored)
 
-    # Parmi les meilleurs, on tire au sort (évite la déterminisme total)
-    best = [c for s, c in scored if s == max_score]
+    # Parmi les meilleurs (marge de tolérance de 0.1 pour les scores flottants)
+    best = [c for s, c in scored if s >= max_score - 0.1]
     return choice(best)
 
 
@@ -275,14 +335,14 @@ def print_evaluation(team, special_synergies):
 # Main
 # ---------------------------------------------------------------------------
 
-def build_team(legends_list, size=3):
+def build_team(legends_list, size=3, history=None):
     """Construit une équipe de 2 ou 3 : P1 aléatoire, les suivants synergiques."""
     shuffle(legends_list)  # évite le biais lié à l'ordre du JSON
     p1 = choice(legends_list)
-    p2 = pick_synergic([p1], legends_list)
+    p2 = pick_synergic([p1], legends_list, history)
     if size == 2:
         return [p1, p2]
-    flex = pick_synergic([p1, p2], legends_list)
+    flex = pick_synergic([p1, p2], legends_list, history)
     return [p1, p2, flex]
 
 
@@ -295,8 +355,31 @@ def ask_team_size():
         print("  Entrez 2 ou 3.")
 
 
+def generate_presence_stats(legends_list, iterations=100, team_size=2, history=None):
+    """Lance la génération d'équipe plusieurs fois et affiche les statistiques de présence."""
+    presence_counts = {legend["Name"]: 0 for legend in legends_list}
+    
+    for _ in range(iterations):
+        team = build_team(legends_list, size=team_size, history=history)
+        for legend in team:
+            presence_counts[legend["Name"]] += 1
+            
+    print(f"\n{'-'*45}")
+    print(f"  STATISTIQUES DE PRÉSENCE ({iterations} équipes de {team_size})")
+    print(f"{'-'*45}")
+    
+    # Tri par ordre décroissant de présence
+    sorted_presence = sorted(presence_counts.items(), key=lambda x: x[1], reverse=True)
+    
+    for name, count in sorted_presence:
+        percentage = (count / iterations) * 100
+        print(f"  {name:<15} : {percentage:>5.1f}% ({count} fois)")
+    print(f"{'-'*45}\n")
+
+
 def main():
     legends_list, special_synergies = get_data()
+    history = load_history()
 
     print("\n"+"="*45)
     print("   APEX LEGENDS — COMPOSITION ALÉATOIRE")
@@ -304,16 +387,31 @@ def main():
 
     size = ask_team_size()
 
-    team = build_team(legends_list, size)
+    team = build_team(legends_list, size, history)
     print_team(team)
     print_evaluation(team, special_synergies)
 
     while True:
-        again = input("Nouvelle composition ? : ").strip().lower()
+        place = input("Classement de la partie (1-20, ou 'Entrée' pour ignorer) : ").strip()
+        if place.isdigit() and 1 <= int(place) <= 20:
+            history.append({
+                "team": [l["Name"] for l in team],
+                "placement": int(place)
+            })
+            save_history(history)
+            print("  [+] Résultat enregistré, l'algorithme s'adapte !\n")
+
+        again = input("Nouvelle composition (Entrée), 'stats', ou 'n' pour quitter : ").strip().lower()
         if again == "":
-            team = build_team(legends_list, size)
+            team = build_team(legends_list, size, history)
             print_team(team)
             print_evaluation(team, special_synergies)
+        elif again == "stats":
+            try:
+                iters = int(input("Nombre d'itérations ? (défaut 100) : ") or "100")
+                generate_presence_stats(legends_list, iterations=iters, team_size=size, history=history)
+            except ValueError:
+                print("  Nombre invalide.")
         elif again == "n":
             print("Bonne chance sur le terrain !\n")
             break
