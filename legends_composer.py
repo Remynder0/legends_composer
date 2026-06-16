@@ -1,6 +1,6 @@
 import json
 import sys
-from random import choice, shuffle
+from random import choice, choices, shuffle
 
 # Forcer l'encodage UTF-8 pour afficher correctement les émojis dans la console Windows
 sys.stdout.reconfigure(encoding='utf-8')
@@ -41,36 +41,25 @@ def get_data(path="Legends.json"):
 # Analyse d'une légende
 # ---------------------------------------------------------------------------
 
-MOBILITY_SCORE = {"high": 3, "medium": 2, "low": 1, "none": 0}
-
 def get_effects(legend):
-    """Retourne un set des effets principaux d'une légende (primary + secondary)."""
+    """Retourne un set des effets principaux d'une légende (score >= 5)."""
     effects = set()
-    for val in [legend.get("primary_value", []), legend.get("secondary_value", [])]:
-        if val:
-            effects.add(val[0])
+    for stat, value in legend.get("stats", {}).items():
+        if value >= 5:
+            effects.add(stat)
     return effects
 
 def has_team_movement(legend):
     """True si la légende apporte un mouvement d'équipe moyen ou long."""
-    for val in [legend.get("primary_value", []), legend.get("secondary_value", [])]:
-        if val and val[0] in ("repositioning", "mobility"):
-            if "team" in val and ("medium" in val or "long" in val):
-                return True
-    return False
+    team_movers = {"Valkyrie", "Pathfinder", "Wraith", "Alter", "Mad Maggie", "Ash", "Octane", "Axel"}
+    return legend["Name"] in team_movers
 
 def has_visual_barrier(legend):
-    for val in [legend.get("primary_value", []), legend.get("secondary_value", [])]:
-        if val and val[0] == "barrier" and "visual" in val:
-            return True
-    return False
+    return legend["Name"] in ("Bangalore", "Catalyst")
 
 def has_long_scan(legend):
     """True si la légende apporte un scan à longue portée."""
-    for val in [legend.get("primary_value", []), legend.get("secondary_value", [])]:
-        if val and val[0] == "scanning" and "long" in val:
-            return True
-    return False
+    return legend["Name"] in ("Crypto", "Sparrow")
 
 
 # ---------------------------------------------------------------------------
@@ -93,9 +82,9 @@ def evaluate_team(team):
             team_has_movement = True
         if has_visual_barrier(legend):
             team_has_visual_barrier = True
-        mob = legend.get("mobility", "none")
-        total_mobility_score += MOBILITY_SCORE.get(mob, 0)
-        if mob in ("none", "low"):
+        mob = legend.get("stats", {}).get("mobility", 0)
+        total_mobility_score += mob
+        if mob <= 3:
             has_low_mobility_member = True
 
     avg_mobility = total_mobility_score / len(team) if team else 0
@@ -137,7 +126,7 @@ def evaluate_team(team):
         strengths.append("survie")
     if "damage" in all_effects or "control" in all_effects:
         strengths.append("puissance de feu")
-    if avg_mobility >= 2:
+    if avg_mobility >= 6.5:
         strengths.append("mobilité globale élevée")
 
     return {
@@ -188,7 +177,7 @@ def score_candidate(candidate, current_team, history=None):
     # 2. Bonus mobilité si l'équipe a un perso statique sans mouvement d'équipe
     mob_bonus = 0
     if "team_movement" in eval_before["missing"]:
-        mob_bonus = MOBILITY_SCORE.get(candidate.get("mobility", "none"), 0)
+        mob_bonus = candidate.get("stats", {}).get("mobility", 0) / 3.0
 
     # 3. Synergie positive : le candidat renforce ce que l'équipe fait déjà.
     #    Ex : une équipe mobile profite d'un autre perso avec repositioning/mobility.
@@ -229,7 +218,7 @@ def score_candidate(candidate, current_team, history=None):
 
 
 def pick_synergic(current_team, legends_list, history=None):
-    """Choisit la meilleure légende pour compléter l'équipe, avec un peu d'aléatoire."""
+    """Choisit une légende pour compléter l'équipe via un tirage aléatoire pondéré (aléatoire biaisé)."""
     team_names = {l["Name"] for l in current_team}
     pool = [l for l in legends_list if l["Name"] not in team_names]
 
@@ -238,11 +227,14 @@ def pick_synergic(current_team, legends_list, history=None):
 
     # Score chaque candidat
     scored = [(score_candidate(c, current_team, history), c) for c in pool]
-    max_score = max(s for s, _ in scored)
 
-    # Parmi les meilleurs (marge de tolérance de 0.1 pour les scores flottants)
-    best = [c for s, c in scored if s >= max_score - 0.1]
-    return choice(best)
+    # Convertir les scores en poids pour un tirage aléatoire biaisé
+    # On décale les scores et on les élève au carré pour favoriser fortement les meilleures synergies
+    min_score = min(s for s, _ in scored)
+    weights = [(s - min_score + 1) ** 2 for s, _ in scored]
+    candidates = [c for _, c in scored]
+
+    return choices(candidates, weights=weights, k=1)[0]
 
 
 # ---------------------------------------------------------------------------
@@ -263,21 +255,21 @@ def check_special_synergies(team, special_synergies):
 # Affichage
 # ---------------------------------------------------------------------------
 
-MOBILITY_LABEL = {"high": "🟢 haute", "medium": "🟡 moyenne", "low": "🟠 faible", "none": "🔴 aucune"}
-
 def legend_summary(legend, role_label):
     name     = legend["Name"]
     cls      = legend["Class"]
-    mob      = MOBILITY_LABEL.get(legend.get("mobility", "none"), "?")
-    prim     = legend.get("primary_value", [])
-    sec      = legend.get("secondary_value", [])
-    prim_str = "/".join(prim) if prim else "-"
-    sec_str  = "/".join(sec)  if sec  else "-"
+    stats    = legend.get("stats", {})
+    mob      = stats.get("mobility", 0)
+    
+    top_stats = sorted([(k, v) for k, v in stats.items() if v > 0 and k != "mobility"], key=lambda x: x[1], reverse=True)
+    stats_str = ", ".join([f"{k}:{v}" for k, v in top_stats])
+    if not stats_str:
+        stats_str = "Aucune"
+
     return (
         f"  {role_label} : {name} ({cls})\n"
-        f"    Mobilité    : {mob}\n"
-        f"    Primaire    : {prim_str}\n"
-        f"    Secondaire  : {sec_str}"
+        f"    Mobilité    : {mob}/10\n"
+        f"    Stats       : {stats_str}"
     )
 
 def print_team(team, title="COMPOSITION"):
@@ -326,8 +318,8 @@ def print_evaluation(team, special_synergies):
         print("    ✅  Toutes les bases stratégiques sont couvertes !")
 
     mob_avg = result["avg_mobility"]
-    mob_str = "élevée 🟢" if mob_avg >= 2.5 else "correcte 🟡" if mob_avg >= 1.5 else "faible 🔴"
-    print(f"\n  Mobilité moyenne de l'équipe : {mob_avg:.1f}/3 ({mob_str})")
+    mob_str = "élevée 🟢" if mob_avg >= 7 else "correcte 🟡" if mob_avg >= 4 else "faible 🔴"
+    print(f"\n  Mobilité moyenne de l'équipe : {mob_avg:.1f}/10 ({mob_str})")
     print(f"{'-'*45}\n")
 
 
