@@ -5,33 +5,33 @@
             "Class": "recon",
             "stats": {
                 "scanning": 0,
-                "control": 0,
+                "map_info": 5,
+                "control": 4,
                 "repositioning": 8,
-                "mobility": 8,
+                "mobility": 6,
                 "damage": 5,
                 "shield": 0,
                 "healing": 0,
                 "barrier": 0,
                 "looting": 0,
-                "boost": 0,
-                "wildcard": 0
+                "boost": 0
             }
         },
         {
             "Name": "Crypto",
             "Class": "recon",
             "stats": {
-                "scanning": 8,
+                "scanning": 7,
+                "map_info": 7,
                 "control": 5,
                 "repositioning": 0,
                 "mobility": 2,
-                "damage": 0,
+                "damage": 5,
                 "shield": 0,
                 "healing": 0,
                 "barrier": 0,
                 "looting": 0,
-                "boost": 0,
-                "wildcard": 0
+                "boost": 0
             }
         },
         {
@@ -39,16 +39,16 @@
             "Class": "skirmisher",
             "stats": {
                 "scanning": 0,
+                "map_info": 2,
                 "control": 0,
-                "repositioning": 8,
+                "repositioning": 6,
                 "mobility": 8,
                 "damage": 0,
                 "shield": 0,
                 "healing": 0,
                 "barrier": 0,
                 "looting": 0,
-                "boost": 0,
-                "wildcard": 0
+                "boost": 0
             }
         },
         {
@@ -56,16 +56,16 @@
             "Class": "skirmisher",
             "stats": {
                 "scanning": 0,
+                "map_info": 0,
                 "control": 0,
-                "repositioning": 8,
-                "mobility": 8,
+                "repositioning": 7,
+                "mobility": 7,
                 "damage": 0,
                 "shield": 0,
                 "healing": 0,
                 "barrier": 0,
                 "looting": 0,
-                "boost": 0,
-                "wildcard": 0
+                "boost": 0
             }
         },
         {
@@ -73,6 +73,7 @@
             "Class": "recon",
             "stats": {
                 "scanning": 8,
+                "map_info": 4,
                 "control": 0,
                 "repositioning": 0,
                 "mobility": 2,
@@ -81,8 +82,7 @@
                 "healing": 0,
                 "barrier": 0,
                 "looting": 0,
-                "boost": 5,
-                "wildcard": 0
+                "boost": 5
             }
         },
         {
@@ -90,16 +90,16 @@
             "Class": "support",
             "stats": {
                 "scanning": 0,
-                "control": 0,
+                "map_info": 0,
+                "control": 3,
                 "repositioning": 0,
-                "mobility": 2,
-                "damage": 5,
+                "mobility": 3,
+                "damage": 6,
                 "shield": 8,
-                "healing": 0,
-                "barrier": 0,
+                "healing": 3,
+                "barrier": 2,
                 "looting": 0,
-                "boost": 0,
-                "wildcard": 0
+                "boost": 0
             }
         },
         {
@@ -107,16 +107,16 @@
             "Class": "support",
             "stats": {
                 "scanning": 0,
+                "map_info": 0,
                 "control": 0,
                 "repositioning": 0,
                 "mobility": 2,
                 "damage": 0,
                 "shield": 5,
-                "healing": 8,
+                "healing": 10,
                 "barrier": 0,
-                "looting": 0,
-                "boost": 0,
-                "wildcard": 0
+                "looting": 2,
+                "boost": 0
             }
         },
         {
@@ -124,16 +124,16 @@
             "Class": "skirmisher",
             "stats": {
                 "scanning": 0,
+                "map_info": 0,
                 "control": 8,
                 "repositioning": 0,
                 "mobility": 5,
                 "damage": 0,
                 "shield": 0,
-                "healing": 0,
+                "healing": 1,
                 "barrier": 0,
                 "looting": 0,
-                "boost": 0,
-                "wildcard": 0
+                "boost": 0
             }
         },
         {
@@ -141,16 +141,16 @@
             "Class": "assault",
             "stats": {
                 "scanning": 0,
+                "map_info": 0,
                 "control": 0,
                 "repositioning": 0,
-                "mobility": 5,
-                "damage": 8,
+                "mobility": 6,
+                "damage": 9,
                 "shield": 0,
                 "healing": 0,
                 "barrier": 0,
-                "looting": 0,
-                "boost": 0,
-                "wildcard": 0
+                "looting": 2,
+                "boost": 0
             }
         },
         {
@@ -158,16 +158,16 @@
             "Class": "skirmisher",
             "stats": {
                 "scanning": 0,
+                "map_info": 0,
                 "control": 0,
                 "repositioning": 0,
-                "mobility": 8,
+                "mobility": 6,
                 "damage": 0,
                 "shield": 5,
                 "healing": 0,
                 "barrier": 0,
                 "looting": 0,
-                "boost": 0,
-                "wildcard": 0
+                "boost": 0
             }
         },
         {
@@ -175,16 +175,16 @@
             "Class": "support",
             "stats": {
                 "scanning": 0,
+                "map_info": 0,
                 "control": 0,
-                "repositioning": 5,
-                "mobility": 5,
+                "repositioning": 0,
+                "mobility": 6,
                 "damage": 0,
                 "shield": 0,
-                "healing": 0,
+                "healing": 2,
                 "barrier": 0,
-                "looting": 8,
-                "boost": 0,
-                "wildcard": 0
+                "looting": 10,
+                "boost": 0
             }
         },
         {
@@ -192,16 +192,16 @@
             "Class": "controler",
             "stats": {
                 "scanning": 0,
+                "map_info": 2,
                 "control": 0,
                 "repositioning": 0,
-                "mobility": 0,
-                "damage": 5,
+                "mobility": 2,
+                "damage": 8,
                 "shield": 0,
                 "healing": 0,
                 "barrier": 8,
                 "looting": 0,
-                "boost": 0,
-                "wildcard": 0
+                "boost": 3
             }
         },
         {
@@ -209,33 +209,33 @@
             "Class": "skirmisher",
             "stats": {
                 "scanning": 0,
-                "control": 0,
+                "map_info": 0,
+                "control": 2,
                 "repositioning": 8,
-                "mobility": 5,
+                "mobility": 4,
                 "damage": 0,
                 "shield": 0,
                 "healing": 0,
                 "barrier": 0,
-                "looting": 0,
-                "boost": 0,
-                "wildcard": 0
+                "looting": 3,
+                "boost": 0
             }
         },
         {
             "Name": "Vantage",
             "Class": "recon",
             "stats": {
-                "scanning": 0,
+                "scanning": 2,
+                "map_info": 5,
                 "control": 0,
                 "repositioning": 0,
-                "mobility": 5,
-                "damage": 8,
+                "mobility": 7,
+                "damage": 7,
                 "shield": 0,
                 "healing": 0,
                 "barrier": 0,
                 "looting": 0,
-                "boost": 0,
-                "wildcard": 0
+                "boost": 2
             }
         },
         {
@@ -243,33 +243,33 @@
             "Class": "assault",
             "stats": {
                 "scanning": 0,
+                "map_info": 0,
                 "control": 5,
                 "repositioning": 0,
                 "mobility": 0,
-                "damage": 0,
+                "damage": 2,
                 "shield": 0,
                 "healing": 0,
                 "barrier": 0,
-                "looting": 0,
-                "boost": 8,
-                "wildcard": 0
+                "looting": 2,
+                "boost": 8
             }
         },
         {
             "Name": "Mad Maggie",
             "Class": "assault",
             "stats": {
-                "scanning": 0,
-                "control": 0,
-                "repositioning": 0,
+                "scanning": 1,
+                "map_info": 0,
+                "control": 4,
+                "repositioning": 3,
                 "mobility": 5,
                 "damage": 8,
                 "shield": 0,
                 "healing": 0,
                 "barrier": 0,
-                "looting": 0,
-                "boost": 0,
-                "wildcard": 0
+                "looting": 2,
+                "boost": 3
             }
         },
         {
@@ -277,16 +277,16 @@
             "Class": "support",
             "stats": {
                 "scanning": 0,
-                "control": 0,
+                "map_info": 0,
+                "control": 3,
                 "repositioning": 0,
                 "mobility": 0,
-                "damage": 0,
+                "damage": 1,
                 "shield": 8,
-                "healing": 0,
+                "healing": 8,
                 "barrier": 5,
-                "looting": 0,
-                "boost": 0,
-                "wildcard": 0
+                "looting": 2,
+                "boost": 0
             }
         },
         {
@@ -294,50 +294,50 @@
             "Class": "skirmisher",
             "stats": {
                 "scanning": 0,
+                "map_info": 0,
                 "control": 5,
-                "repositioning": 8,
+                "repositioning": 6,
                 "mobility": 5,
-                "damage": 0,
+                "damage": 3,
                 "shield": 0,
                 "healing": 0,
                 "barrier": 0,
                 "looting": 0,
-                "boost": 0,
-                "wildcard": 0
+                "boost": 0
             }
         },
         {
             "Name": "Seer",
             "Class": "recon",
             "stats": {
-                "scanning": 8,
-                "control": 5,
+                "scanning": 7,
+                "map_info": 2,
+                "control": 4,
                 "repositioning": 0,
-                "mobility": 0,
+                "mobility": 1,
                 "damage": 0,
-                "shield": 0,
+                "shield": 1,
                 "healing": 0,
                 "barrier": 0,
                 "looting": 0,
-                "boost": 0,
-                "wildcard": 0
+                "boost": 0
             }
         },
         {
             "Name": "Sparrow",
             "Class": "recon",
             "stats": {
-                "scanning": 8,
+                "scanning": 7,
+                "map_info": 9,
                 "control": 5,
                 "repositioning": 0,
-                "mobility": 2,
-                "damage": 0,
+                "mobility": 4,
+                "damage": 4,
                 "shield": 0,
-                "healing": 0,
+                "healing": 1,
                 "barrier": 0,
                 "looting": 0,
-                "boost": 0,
-                "wildcard": 0
+                "boost": 0
             }
         },
         {
@@ -345,16 +345,16 @@
             "Class": "controler",
             "stats": {
                 "scanning": 0,
-                "control": 0,
+                "map_info": 3,
+                "control": 3,
                 "repositioning": 0,
                 "mobility": 0,
-                "damage": 0,
-                "shield": 5,
-                "healing": 0,
+                "damage": 4,
+                "shield": 6,
+                "healing": 3,
                 "barrier": 8,
-                "looting": 0,
-                "boost": 0,
-                "wildcard": 0
+                "looting": 1,
+                "boost": 0
             }
         },
         {
@@ -362,16 +362,16 @@
             "Class": "controler",
             "stats": {
                 "scanning": 0,
+                "map_info": 3,
                 "control": 5,
                 "repositioning": 0,
                 "mobility": 0,
-                "damage": 0,
+                "damage": 3,
                 "shield": 0,
                 "healing": 0,
                 "barrier": 8,
                 "looting": 0,
-                "boost": 0,
-                "wildcard": 0
+                "boost": 0
             }
         },
         {
@@ -379,16 +379,16 @@
             "Class": "controler",
             "stats": {
                 "scanning": 0,
-                "control": 0,
+                "map_info": 3,
+                "control": 4,
                 "repositioning": 0,
                 "mobility": 0,
-                "damage": 5,
+                "damage": 6,
                 "shield": 0,
-                "healing": 0,
+                "healing": 1,
                 "barrier": 8,
                 "looting": 0,
-                "boost": 0,
-                "wildcard": 0
+                "boost": 0
             }
         },
         {
@@ -396,16 +396,16 @@
             "Class": "skirmisher",
             "stats": {
                 "scanning": 0,
+                "map_info": 0,
                 "control": 0,
-                "repositioning": 5,
+                "repositioning": 6,
                 "mobility": 8,
                 "damage": 0,
                 "shield": 0,
-                "healing": 0,
+                "healing": 1,
                 "barrier": 0,
                 "looting": 0,
-                "boost": 0,
-                "wildcard": 0
+                "boost": 0
             }
         },
         {
@@ -413,16 +413,16 @@
             "Class": "assault",
             "stats": {
                 "scanning": 0,
+                "map_info": 0,
                 "control": 5,
                 "repositioning": 0,
                 "mobility": 2,
-                "damage": 0,
+                "damage": 4,
                 "shield": 0,
-                "healing": 0,
-                "barrier": 8,
-                "looting": 0,
-                "boost": 0,
-                "wildcard": 0
+                "healing": 1,
+                "barrier": 6,
+                "looting": 2,
+                "boost": 0
             }
         },
         {
@@ -430,33 +430,33 @@
             "Class": "skirmisher",
             "stats": {
                 "scanning": 0,
-                "control": 5,
-                "repositioning": 0,
+                "map_info": 0,
+                "control": 6,
+                "repositioning": 4,
                 "mobility": 8,
                 "damage": 0,
                 "shield": 0,
                 "healing": 0,
                 "barrier": 0,
                 "looting": 0,
-                "boost": 0,
-                "wildcard": 0
+                "boost": 0
             }
         },
         {            
             "Name": "Mirage",
             "Class": "support",
             "stats": {
-                "scanning": 0,
+                "scanning": 1,
+                "map_info": 2,
                 "control": 0,
                 "repositioning": 0,
                 "mobility": 0,
                 "damage": 0,
                 "shield": 0,
-                "healing": 0,
+                "healing": 4,
                 "barrier": 0,
                 "looting": 5,
-                "boost": 0,
-                "wildcard": 8
+                "boost": 0
             }
         },
         {
@@ -464,16 +464,16 @@
             "Class": "support",
             "stats": {
                 "scanning": 0,
+                "map_info": 0,
                 "control": 5,
                 "repositioning": 0,
-                "mobility": 0,
+                "mobility": 1,
                 "damage": 0,
                 "shield": 8,
-                "healing": 0,
+                "healing": 2,
                 "barrier": 0,
-                "looting": 0,
-                "boost": 0,
-                "wildcard": 0
+                "looting": 2,
+                "boost": 0
             }
         }
     ],
