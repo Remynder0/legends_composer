@@ -346,6 +346,31 @@ def ask_team_size():
             return int(choice_input)
         print("  Entrez 2 ou 3.")
 
+def list_legends_by_stat(legends_list, stat_name):
+    """Affiche toutes les légendes dans l'ordre décroissant selon une statistique donnée."""
+    sorted_legends = sorted(
+        legends_list,
+        key=lambda l: l.get("stats", {}).get(stat_name, 0),
+        reverse=True
+    )
+    
+    print(f"\n{'-'*45}")
+    print(f"  CLASSEMENT PAR STATISTIQUE : {stat_name.upper()}")
+    print(f"{'-'*45}")
+    
+    previous_value = None
+    for legend in sorted_legends:
+        name = legend["Name"]
+        stat_value = legend.get("stats", {}).get(stat_name, 0)
+        
+        if previous_value is not None and stat_value != previous_value:
+            print(f"  {'-'*20}")
+            
+        print(f"  {name:<15} : {stat_value}/10")
+        previous_value = stat_value
+        
+    print(f"{'-'*45}\n")
+
 
 def generate_presence_stats(legends_list, iterations=100, team_size=2, history=None):
     """Lance la génération d'équipe plusieurs fois et affiche les statistiques de présence."""
@@ -393,7 +418,7 @@ def main():
             save_history(history)
             print("  [+] Résultat enregistré, l'algorithme s'adapte !\n")
 
-        again = input("Nouvelle composition (Entrée), 'stats', ou 'n' pour quitter : ").strip().lower()
+        again = input("Nouvelle composition (Entrée), 'stats', 'sort <stat>', ou 'n' pour quitter : ").strip().lower()
         if again == "":
             team = build_team(legends_list, size, history)
             print_team(team)
@@ -404,6 +429,9 @@ def main():
                 generate_presence_stats(legends_list, iterations=iters, team_size=size, history=history)
             except ValueError:
                 print("  Nombre invalide.")
+        elif again.startswith("sort "):
+            stat = again.split(" ", 1)[1]
+            list_legends_by_stat(legends_list, stat)
         elif again == "n":
             print("Bonne chance sur le terrain !\n")
             break
