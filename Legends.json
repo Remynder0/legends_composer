@@ -243,11 +243,11 @@
             "Class": "assault",
             "stats": {
                 "scanning": 0,
-                "map_info": 0,
+                "map_info": 1,
                 "control": 4,
                 "repositioning": 0,
                 "mobility": 0,
-                "damage": 2,
+                "damage": 6,
                 "shield": 0,
                 "healing": 0,
                 "barrier": 0,
@@ -517,6 +517,28 @@
             "legends":     ["Wattson", "Alter"],
             "name":        "The Bait",
             "description": "Alter pose son point de repli dans les fences de Wattson, et va bait les enemis."
+        }
+    ],
+    "ANTI_SYNERGIES": [
+        {
+            "legends": ["Sparrow", "Wattson"],
+            "name": "Ult Destroyed",
+            "description": "L'ultime de Wattson détruit l'ultime de Sparrow."
+        },
+        {
+            "legends": ["Fuse", "Wattson"],
+            "name": "Nades Denied",
+            "description": "L'ultime de Wattson intercepte le tactique et les grenades de Fuse."
+        },
+        {
+            "legends": ["Caustic", "Wattson"],
+            "name": "Gas Denied",
+            "description": "L'ultime de Wattson détruit l'ultime de Caustic en plein vol."
+        },
+        {
+            "legends": ["Valkyrie", "Wattson"],
+            "name": "Missile Swarm Denied",
+            "description": "L'ultime de Wattson intercepte le tactique de Valkyrie."
         }
     ]
 }

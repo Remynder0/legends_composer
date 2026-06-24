@@ -28,9 +28,10 @@ def get_data(path="Legends.json"):
             data = json.load(f)
         legends = data.get("Legends", [])
         synergies = data.get("SPECIAL_SYNERGIES", [])
+        anti_synergies = data.get("ANTI_SYNERGIES", [])
         if not legends:
             raise ValueError("Aucune légende trouvée dans le fichier.")
-        return legends, synergies
+        return legends, synergies, anti_synergies
     except FileNotFoundError:
         raise SystemExit(f"Erreur : '{path}' introuvable.")
     except json.JSONDecodeError:
@@ -41,26 +42,22 @@ def get_data(path="Legends.json"):
 # Analyse d'une légende
 # ---------------------------------------------------------------------------
 
-def get_effects(legend):
-    """Retourne un set des effets principaux d'une légende (score >= 5)."""
-    effects = set()
-    for stat, value in legend.get("stats", {}).items():
-        if value >= 5:
-            effects.add(stat)
-    return effects
+COMPLEMENTARITY_MATRIX = {
+    # Fortement complémentaires (1.0)
+    ("barrier", "repositioning"): 1.0,
+    ("scanning", "damage"): 1.0,
+    ("control", "shield"): 1.0,
+    ("control", "healing"): 1.0,
+    ("repositioning", "damage"): 1.0,
+    # Moyennement complémentaires (0.5)
+    ("barrier", "map_info"): 0.5,
+    ("map_info", "repositioning"): 0.5,
+    ("control", "damage"): 0.5,
+}
 
-def has_team_movement(legend):
-    """True si la légende apporte un mouvement d'équipe moyen ou long."""
-    team_movers = {"Valkyrie", "Pathfinder", "Wraith", "Alter", "Mad Maggie", "Ash", "Octane", "Axel"}
-    return legend["Name"] in team_movers
-
-def has_visual_barrier(legend):
-    return legend["Name"] in ("Bangalore", "Catalyst")
-
-def has_long_scan(legend):
-    """True si la légende apporte un scan à longue portée."""
-    return legend["Name"] in ("Crypto", "Sparrow")
-
+def get_complementarity(stat1, stat2):
+    return COMPLEMENTARITY_MATRIX.get((stat1, stat2), 
+           COMPLEMENTARITY_MATRIX.get((stat2, stat1), 0.0))
 
 # ---------------------------------------------------------------------------
 # Évaluation d'une équipe
@@ -68,72 +65,56 @@ def has_long_scan(legend):
 
 def evaluate_team(team):
     """
-    Retourne un dict décrivant les forces et les manques de la composition.
+    Évalue une équipe en calculant les synergies par complémentarité.
     """
-    all_effects = set()
-    team_has_movement = False
-    team_has_visual_barrier = False
-    total_mobility_score = 0
-    has_low_mobility_member = False
-
-    for legend in team:
-        all_effects |= get_effects(legend)
-        if has_team_movement(legend):
-            team_has_movement = True
-        if has_visual_barrier(legend):
-            team_has_visual_barrier = True
-        mob = legend.get("stats", {}).get("mobility", 0)
-        total_mobility_score += mob
-        if mob <= 3:
-            has_low_mobility_member = True
-
+    total_mobility_score = sum(l.get("stats", {}).get("mobility", 0) for l in team)
     avg_mobility = total_mobility_score / len(team) if team else 0
 
-    missing = []
+    # Cumul des stats de l'équipe
+    team_stats = {}
+    for legend in team:
+        for stat, value in legend.get("stats", {}).items():
+            team_stats[stat] = team_stats.get(stat, 0) + value
 
-    # Un perso none/low dans l'équipe = besoin d'un mouvement d'équipe
-    if not team_has_movement and has_low_mobility_member:
-        missing.append("team_movement")
+    synergies_found = []
+    total_synergy_score = 0.0
 
-    # Scanning obligatoire si fumée/barrière visuelle présente
-    if team_has_visual_barrier and "scanning" not in all_effects:
-        missing.append("scanning")
+    # On évalue les paires de stats complémentaires présentes dans l'équipe
+    stats_keys = list(team_stats.keys())
+    for i in range(len(stats_keys)):
+        for j in range(i + 1, len(stats_keys)):
+            stat1 = stats_keys[i]
+            stat2 = stats_keys[j]
+            coeff = get_complementarity(stat1, stat2)
+            if coeff > 0:
+                score = (team_stats[stat1] * team_stats[stat2] * coeff) / 10.0
+                if score > 0:
+                    synergies_found.append({
+                        "pair": (stat1, stat2),
+                        "score": score
+                    })
+                    total_synergy_score += score
 
-    # Barrière physique (zonage défensif)
-    if "barrier" not in all_effects:
-        missing.append("barrier")
+    synergies_found.sort(key=lambda x: x["score"], reverse=True)
 
-    # Scanning en général
-    if "scanning" not in all_effects and "scanning" not in missing:
-        missing.append("scanning")
-
-    # Capacité de combat
-    if "damage" not in all_effects and "control" not in all_effects:
-        missing.append("combat")
-
-    # Couverture (shield ou healing)
-    if "shield" not in all_effects and "healing" not in all_effects:
-        missing.append("survivability")
-
-    strengths = []
-    if team_has_movement:
-        strengths.append("mouvement d'équipe")
-    if "scanning" in all_effects:
-        strengths.append("scan ennemi")
-    if "barrier" in all_effects:
-        strengths.append("contrôle de zone")
-    if "shield" in all_effects or "healing" in all_effects:
-        strengths.append("survie")
-    if "damage" in all_effects or "control" in all_effects:
-        strengths.append("puissance de feu")
-    if avg_mobility >= 6.5:
-        strengths.append("mobilité globale élevée")
+    # Déterminer les "manques" suggérés
+    suggestions = []
+    for stat, value in team_stats.items():
+        if value >= 5: # Si l'équipe excelle dans une stat
+            for (s1, s2), coeff in COMPLEMENTARITY_MATRIX.items():
+                complement = s2 if s1 == stat else (s1 if s2 == stat else None)
+                if complement:
+                    if team_stats.get(complement, 0) < 4:
+                        suggestion = f"Besoin de '{complement}' pour compléter votre forte capacité en '{stat}'"
+                        if suggestion not in suggestions:
+                            suggestions.append(suggestion)
 
     return {
-        "missing": missing,
-        "strengths": strengths,
+        "suggestions": suggestions,
+        "synergies": synergies_found,
+        "total_synergy_score": total_synergy_score,
         "avg_mobility": avg_mobility,
-        "effects": all_effects,
+        "team_stats": team_stats
     }
 
 
@@ -165,51 +146,30 @@ def get_historical_bonus(candidate, current_team, history):
 
 def score_candidate(candidate, current_team, history=None):
     """
-    Score un candidat selon les manques ET les synergies positives avec l'équipe actuelle.
-    Plus le score est élevé, meilleur est le candidat.
+    Score un candidat selon les synergies de complémentarité qu'il apporte à l'équipe actuelle.
     """
     eval_before = evaluate_team(current_team)
     eval_after  = evaluate_team(current_team + [candidate])
 
-    # 1. Manques comblés (priorité absolue)
-    gaps_filled = len(eval_before["missing"]) - len(eval_after["missing"])
+    synergy_gain = eval_after["total_synergy_score"] - eval_before["total_synergy_score"]
 
-    # 2. Bonus mobilité si l'équipe a un perso statique sans mouvement d'équipe
     mob_bonus = 0
-    if "team_movement" in eval_before["missing"]:
-        mob_bonus = candidate.get("stats", {}).get("mobility", 0) / 3.0
+    if eval_before["avg_mobility"] < 4:
+        mob_bonus = candidate.get("stats", {}).get("mobility", 0) / 2.0
 
-    # 3. Synergie positive : le candidat renforce ce que l'équipe fait déjà.
-    #    Ex : une équipe mobile profite d'un autre perso avec repositioning/mobility.
-    team_effects = eval_before["effects"]
-    candidate_effects = get_effects(candidate)
-    overlap = team_effects & candidate_effects
-
-    # Effets qui se renforcent vraiment en doublant
-    STACKABLE = {"scanning", "repositioning", "mobility", "damage", "control", "shield", "healing"}
-    synergy_bonus = len(overlap & STACKABLE)
-
-    # Synergie spécifique pour "barrier" : nécessite un outil de "repositioning" ou un "long scan"
-    team_has_barrier = "barrier" in team_effects
-    candidate_has_barrier = "barrier" in candidate_effects
+    STACKABLE = {"scanning", "damage", "control", "shield", "healing"}
+    stack_bonus = 0
+    candidate_stats = candidate.get("stats", {})
+    team_stats = eval_before["team_stats"]
     
-    team_has_repo = "repositioning" in team_effects
-    candidate_has_repo = "repositioning" in candidate_effects
-    
-    team_has_ls = any(has_long_scan(l) for l in current_team)
-    candidate_has_ls = has_long_scan(candidate)
-    
-    if (team_has_barrier and (candidate_has_repo or candidate_has_ls)) or \
-       (candidate_has_barrier and (team_has_repo or team_has_ls)):
-        synergy_bonus += 1
+    for stat in STACKABLE:
+        if candidate_stats.get(stat, 0) >= 5 and team_stats.get(stat, 0) >= 5:
+            stack_bonus += 2
 
-    # 4. Malus si le candidat n'apporte rien de nouveau ni de complémentaire
-    #    (tous ses effets sont déjà couverts ET aucun manque comblé)
-    new_effects = candidate_effects - team_effects
-    if not new_effects and gaps_filled == 0:
-        return -1  # pousse ce candidat tout en bas du pool
-
-    base_score = gaps_filled * 10 + mob_bonus + synergy_bonus
+    if synergy_gain < 1 and stack_bonus == 0:
+        base_score = -1
+    else:
+        base_score = synergy_gain * 2 + mob_bonus + stack_bonus
     
     if history is not None:
         base_score += get_historical_bonus(candidate, current_team, history)
@@ -217,16 +177,31 @@ def score_candidate(candidate, current_team, history=None):
     return base_score
 
 
-def pick_synergic(current_team, legends_list, history=None):
+def pick_synergic(current_team, legends_list, anti_synergies, history=None):
     """Choisit une légende pour compléter l'équipe via un tirage aléatoire pondéré (aléatoire biaisé)."""
     team_names = {l["Name"] for l in current_team}
-    pool = [l for l in legends_list if l["Name"] not in team_names]
+    
+    # Filtrer les candidats qui n'ont pas d'anti-synergie avec l'équipe actuelle
+    valid_pool = []
+    for candidate in legends_list:
+        if candidate["Name"] in team_names:
+            continue
+            
+        candidate_name = candidate["Name"]
+        is_anti = False
+        for anti in anti_synergies:
+            if set(anti["legends"]).issubset(team_names | {candidate_name}):
+                is_anti = True
+                break
+        
+        if not is_anti:
+            valid_pool.append(candidate)
 
-    if not pool:
+    if not valid_pool:
         return None
 
     # Score chaque candidat
-    scored = [(score_candidate(c, current_team, history), c) for c in pool]
+    scored = [(score_candidate(c, current_team, history), c) for c in valid_pool]
 
     # Convertir les scores en poids pour un tirage aléatoire biaisé
     # On décale les scores et on les élève au carré pour favoriser fortement les meilleures synergies
@@ -248,6 +223,15 @@ def check_special_synergies(team, special_synergies):
     for synergy in special_synergies:
         if set(synergy["legends"]).issubset(team_names):
             found.append(synergy)
+    return found
+
+def check_anti_synergies(team, anti_synergies):
+    """Retourne la liste des anti-synergies présentes dans l'équipe."""
+    team_names = {l["Name"] for l in team}
+    found = []
+    for anti in anti_synergies:
+        if set(anti["legends"]).issubset(team_names):
+            found.append(anti)
     return found
 
 
@@ -284,38 +268,41 @@ def print_team(team, title="COMPOSITION"):
         print(legend_summary(legend, role))
     print()
 
-def print_evaluation(team, special_synergies):
+def print_evaluation(team, special_synergies, anti_synergies):
     result = evaluate_team(team)
     special = check_special_synergies(team, special_synergies)
+    anti = check_anti_synergies(team, anti_synergies)
 
-    # Synergie spéciale en avant si présente
     if special:
         for s in special:
             print(f"  ⚡ SUPER SYNERGIE : « {s['name']} »")
             print(f"     {s['description']}")
         print()
+        
+    if anti:
+        for a in anti:
+            print(f"  ❌ ANTI-SYNERGIE : « {a['name']} »")
+            print(f"     {a['description']}")
+        print()
 
-    print("  SYNERGIES")
-    if result["strengths"]:
-        for s in result["strengths"]:
-            print(f"    ✅  {s}")
+    print("  SYNERGIES DE COMPLÉMENTARITÉ")
+    if result["synergies"]:
+        for syn in result["synergies"]:
+            pair = syn["pair"]
+            score = syn["score"]
+            print(f"    ✅  {pair[0].capitalize()} + {pair[1].capitalize()} (Score: {score:.1f})")
     else:
-        print("    (aucune synergie détectée)")
+        print("    (aucune synergie de complémentarité majeure détectée)")
+
+    print(f"\n  Score global de synergie : {result['total_synergy_score']:.1f}")
 
     print()
-    print("  MANQUES")
-    if result["missing"]:
-        labels = {
-            "team_movement":  "Mouvement d'équipe",
-            "scanning":       "Scan / information",
-            "barrier":        "Contrôle de zone (barrière)",
-            "combat":         "Puissance de feu",
-            "survivability":  "Survie (shield/heal)",
-        }
-        for m in result["missing"]:
-            print(f"    ⚠️   {labels.get(m, m)}")
+    print("  SUGGESTIONS / MANQUES")
+    if result["suggestions"]:
+        for sug in result["suggestions"]:
+            print(f"    💡  {sug}")
     else:
-        print("    ✅  Toutes les bases stratégiques sont couvertes !")
+        print("    ✅  Toutes les forces de l'équipe ont de bons compléments !")
 
     mob_avg = result["avg_mobility"]
     mob_str = "élevée 🟢" if mob_avg >= 7 else "correcte 🟡" if mob_avg >= 4 else "faible 🔴"
@@ -327,14 +314,14 @@ def print_evaluation(team, special_synergies):
 # Main
 # ---------------------------------------------------------------------------
 
-def build_team(legends_list, size=3, history=None):
+def build_team(legends_list, anti_synergies, size=3, history=None):
     """Construit une équipe de 2 ou 3 : P1 aléatoire, les suivants synergiques."""
     shuffle(legends_list)  # évite le biais lié à l'ordre du JSON
     p1 = choice(legends_list)
-    p2 = pick_synergic([p1], legends_list, history)
+    p2 = pick_synergic([p1], legends_list, anti_synergies, history)
     if size == 2:
         return [p1, p2]
-    flex = pick_synergic([p1, p2], legends_list, history)
+    flex = pick_synergic([p1, p2], legends_list, anti_synergies, history)
     return [p1, p2, flex]
 
 
@@ -372,12 +359,12 @@ def list_legends_by_stat(legends_list, stat_name):
     print(f"{'-'*45}\n")
 
 
-def generate_presence_stats(legends_list, iterations=100, team_size=2, history=None):
+def generate_presence_stats(legends_list, anti_synergies, iterations=100, team_size=2, history=None):
     """Lance la génération d'équipe plusieurs fois et affiche les statistiques de présence."""
     presence_counts = {legend["Name"]: 0 for legend in legends_list}
     
     for _ in range(iterations):
-        team = build_team(legends_list, size=team_size, history=history)
+        team = build_team(legends_list, anti_synergies, size=team_size, history=history)
         for legend in team:
             presence_counts[legend["Name"]] += 1
             
@@ -395,7 +382,7 @@ def generate_presence_stats(legends_list, iterations=100, team_size=2, history=N
 
 
 def main():
-    legends_list, special_synergies = get_data()
+    legends_list, special_synergies, anti_synergies = get_data()
     history = load_history()
 
     print("\n"+"="*45)
@@ -404,9 +391,9 @@ def main():
 
     size = ask_team_size()
 
-    team = build_team(legends_list, size, history)
+    team = build_team(legends_list, anti_synergies, size, history)
     print_team(team)
-    print_evaluation(team, special_synergies)
+    print_evaluation(team, special_synergies, anti_synergies)
 
     while True:
         place = input("Classement de la partie (1-20, ou 'Entrée' pour ignorer) : ").strip()
@@ -420,13 +407,13 @@ def main():
 
         again = input("Nouvelle composition (Entrée), 'stats', 'sort <stat>', ou 'n' pour quitter : ").strip().lower()
         if again == "":
-            team = build_team(legends_list, size, history)
+            team = build_team(legends_list, anti_synergies, size, history)
             print_team(team)
-            print_evaluation(team, special_synergies)
+            print_evaluation(team, special_synergies, anti_synergies)
         elif again == "stats":
             try:
                 iters = int(input("Nombre d'itérations ? (défaut 100) : ") or "100")
-                generate_presence_stats(legends_list, iterations=iters, team_size=size, history=history)
+                generate_presence_stats(legends_list, anti_synergies, iterations=iters, team_size=size, history=history)
             except ValueError:
                 print("  Nombre invalide.")
         elif again.startswith("sort "):
