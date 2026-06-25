@@ -243,16 +243,14 @@ def legend_summary(legend, role_label):
     name     = legend["Name"]
     cls      = legend["Class"]
     stats    = legend.get("stats", {})
-    mob      = stats.get("mobility", 0)
     
-    top_stats = sorted([(k, v) for k, v in stats.items() if v > 0 and k != "mobility"], key=lambda x: x[1], reverse=True)
+    top_stats = sorted([(k, v) for k, v in stats.items() if v > 0], key=lambda x: x[1], reverse=True)
     stats_str = ", ".join([f"{k}:{v}" for k, v in top_stats])
     if not stats_str:
         stats_str = "Aucune"
 
     return (
         f"  {role_label} : {name} ({cls})\n"
-        f"    Mobilité    : {mob}/10\n"
         f"    Stats       : {stats_str}"
     )
 
@@ -267,6 +265,35 @@ def print_team(team, title="COMPOSITION"):
     for legend, role in zip(team, roles):
         print(legend_summary(legend, role))
     print()
+
+def get_team_archetype(team_stats):
+    # La somme des deux types de mouvements pour la mobilité globale de l'équipe
+    mob_repo = team_stats.get("mobility", 0) + team_stats.get("repositioning", 0)
+    
+    # On utilise min() pour s'assurer que l'équipe possède véritablement les DEUX piliers de l'archétype.
+    # L'archétype est défini par son "maillon le plus faible".
+    info_rota_score = min(team_stats.get("map_info", 0), mob_repo)
+    fight_control_score = min(team_stats.get("scanning", 0), max(team_stats.get("control", 0), team_stats.get("damage", 0)))
+    dive_score = min(mob_repo, team_stats.get("damage", 0))
+    bunker_score = min(team_stats.get("barrier", 0), team_stats.get("control", 0))
+    sustain_score = min(team_stats.get("healing", 0), team_stats.get("shield", 0))
+
+    scores = {
+        "Info & Rota 🧭": info_rota_score,
+        "Fight Control 🎯": fight_control_score,
+        "Dive / Aggro ⚔️": dive_score,
+        "Bunker / Zone 🛡️": bunker_score,
+        "Sustain / Usure 💉": sustain_score
+    }
+    
+    best_archetype = max(scores, key=scores.get)
+    max_score = scores[best_archetype]
+    
+    # Il faut qu'au moins 8 points cumulés soient présents dans les deux piliers pour définir l'équipe
+    if max_score < 8:
+        return "Hybride / Flex ⚖️"
+        
+    return best_archetype
 
 def print_evaluation(team, special_synergies, anti_synergies):
     result = evaluate_team(team)
@@ -285,24 +312,8 @@ def print_evaluation(team, special_synergies, anti_synergies):
             print(f"     {a['description']}")
         print()
 
-    print("  SYNERGIES DE COMPLÉMENTARITÉ")
-    if result["synergies"]:
-        for syn in result["synergies"]:
-            pair = syn["pair"]
-            score = syn["score"]
-            print(f"    ✅  {pair[0].capitalize()} + {pair[1].capitalize()} (Score: {score:.1f})")
-    else:
-        print("    (aucune synergie de complémentarité majeure détectée)")
-
-    print(f"\n  Score global de synergie : {result['total_synergy_score']:.1f}")
-
-    print()
-    print("  SUGGESTIONS / MANQUES")
-    if result["suggestions"]:
-        for sug in result["suggestions"]:
-            print(f"    💡  {sug}")
-    else:
-        print("    ✅  Toutes les forces de l'équipe ont de bons compléments !")
+    archetype = get_team_archetype(result["team_stats"])
+    print(f"  ARCHÉTYPE DE L'ÉQUIPE : {archetype}")
 
     mob_avg = result["avg_mobility"]
     mob_str = "élevée 🟢" if mob_avg >= 7 else "correcte 🟡" if mob_avg >= 4 else "faible 🔴"
@@ -359,6 +370,58 @@ def list_legends_by_stat(legends_list, stat_name):
     print(f"{'-'*45}\n")
 
 
+def calculate_pick_probabilities(target_legend_name, legends_list, anti_synergies, history=None):
+    """Calcule et affiche la probabilité de tirage de chaque légende pour accompagner une légende cible."""
+    target_legend = next((l for l in legends_list if l["Name"].lower() == target_legend_name.lower()), None)
+    if not target_legend:
+        print(f"  Légende '{target_legend_name}' introuvable.")
+        return
+
+    current_team = [target_legend]
+    team_names = {target_legend["Name"]}
+    
+    valid_pool = []
+    for candidate in legends_list:
+        if candidate["Name"] in team_names:
+            continue
+            
+        candidate_name = candidate["Name"]
+        is_anti = False
+        for anti in anti_synergies:
+            if set(anti["legends"]).issubset(team_names | {candidate_name}):
+                is_anti = True
+                break
+        
+        if not is_anti:
+            valid_pool.append(candidate)
+
+    if not valid_pool:
+        print("  Aucune légende éligible à associer.")
+        return
+
+    scored = [(score_candidate(c, current_team, history), c) for c in valid_pool]
+    min_score = min(s for s, _ in scored)
+    
+    weights_info = []
+    total_weight = 0
+    for s, c in scored:
+        weight = (s - min_score + 1) ** 2
+        total_weight += weight
+        weights_info.append((weight, c))
+    
+    weights_info.sort(key=lambda x: x[0], reverse=True)
+    
+    print(f"\n{'-'*45}")
+    print(f"  PROBABILITÉS D'ASSOCIATION AVEC {target_legend['Name'].upper()}")
+    print(f"{'-'*45}")
+    
+    for weight, c in weights_info:
+        prob = (weight / total_weight) * 100 if total_weight > 0 else 0
+        print(f"  {c['Name']:<15} : {prob:>5.1f}%")
+        
+    print(f"{'-'*45}\n")
+
+
 def generate_presence_stats(legends_list, anti_synergies, iterations=100, team_size=2, history=None):
     """Lance la génération d'équipe plusieurs fois et affiche les statistiques de présence."""
     presence_counts = {legend["Name"]: 0 for legend in legends_list}
@@ -405,7 +468,7 @@ def main():
             save_history(history)
             print("  [+] Résultat enregistré, l'algorithme s'adapte !\n")
 
-        again = input("Nouvelle composition (Entrée), 'stats', 'sort <stat>', ou 'n' pour quitter : ").strip().lower()
+        again = input("Nouvelle composition (Entrée), 'stats', 'sort <stat>', 'prob <legende>', ou 'n' pour quitter : ").strip().lower()
         if again == "":
             team = build_team(legends_list, anti_synergies, size, history)
             print_team(team)
@@ -419,6 +482,9 @@ def main():
         elif again.startswith("sort "):
             stat = again.split(" ", 1)[1]
             list_legends_by_stat(legends_list, stat)
+        elif again.startswith("prob "):
+            legend_name = again.split(" ", 1)[1]
+            calculate_pick_probabilities(legend_name, legends_list, anti_synergies, history)
         elif again == "n":
             print("Bonne chance sur le terrain !\n")
             break
