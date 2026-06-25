@@ -10,9 +10,19 @@ export default {
         apex: {
           red: '#da292a',
           dark: '#1a1a1a',
-          darker: '#111111',
+          darker: '#0a0a0c',
           gray: '#2c2c2c',
+        },
+        titan: {
+          cyan: '#00f0ff',
+          orange: '#ff5a00',
+          panel: '#15191e',
+          border: '#2a313a'
         }
+      },
+      fontFamily: {
+        mono: ['"Share Tech Mono"', '"Courier New"', 'monospace'],
+        sans: ['"Rajdhani"', 'sans-serif']
       }
     },
   },

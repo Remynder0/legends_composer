@@ -16,25 +16,26 @@ const topStats = computed(() => {
 </script>
 
 <template>
-  <div class="glass p-6 flex flex-col justify-between transition-transform transform hover:-translate-y-1 hover:shadow-2xl hover:border-apex-red/50">
-    <div>
+  <div class="glass-panel p-6 flex flex-col justify-between transition-transform transform hover:-translate-y-1 hover:border-titan-cyan group">
+    <div class="absolute top-0 left-0 w-1 h-full bg-titan-border group-hover:bg-titan-cyan transition-colors"></div>
+    <div class="pl-2">
       <div class="flex justify-between items-start mb-4">
         <div>
-          <h2 class="text-xs uppercase tracking-widest text-apex-red font-bold mb-1">{{ role }}</h2>
-          <h3 class="text-2xl font-black text-white">{{ legend.Name }}</h3>
+          <h2 class="text-[10px] uppercase tracking-widest text-titan-orange font-mono font-bold mb-1">{{ role }}</h2>
+          <h3 class="text-2xl font-black text-white font-sans uppercase tracking-wider">{{ legend.Name }}</h3>
         </div>
-        <span class="px-3 py-1 bg-white/10 rounded-full text-xs font-semibold backdrop-blur-sm border border-white/5">
+        <span class="px-2 py-1 bg-black/50 text-[10px] font-mono text-titan-cyan uppercase border border-titan-border">
           {{ legend.Class }}
         </span>
       </div>
 
-      <div class="space-y-2 mt-4">
+      <div class="space-y-2 mt-6">
         <div v-for="[statName, val] in topStats" :key="statName" class="flex items-center">
-          <div class="w-24 text-xs text-gray-400 capitalize">{{ statName.replace('_', ' ') }}</div>
-          <div class="flex-1 bg-black/40 h-2 rounded-full overflow-hidden border border-white/5">
-            <div class="bg-gradient-to-r from-apex-red to-orange-500 h-full rounded-full" :style="{ width: `${val * 10}%` }"></div>
+          <div class="w-24 text-[10px] text-gray-400 capitalize font-mono">{{ statName.replace('_', ' ') }}</div>
+          <div class="flex-1 bg-black/60 h-1 overflow-hidden border border-titan-border/50">
+            <div class="bg-titan-cyan h-full transition-all" :style="{ width: `${val * 10}%` }"></div>
           </div>
-          <div class="w-8 text-right text-xs font-bold text-white">{{ val }}</div>
+          <div class="w-6 text-right text-[10px] font-bold text-white font-mono">{{ val }}</div>
         </div>
       </div>
     </div>

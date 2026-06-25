@@ -20,8 +20,8 @@ export interface Legend {
 }
 
 export interface SpecialSynergy {
-    legends: string[];
     name: string;
+    legends: string[];
     description: string;
 }
 
@@ -29,6 +29,11 @@ export interface AntiSynergy {
     legends: string[];
     name: string;
     description: string;
+}
+
+export interface HistoryRecord {
+    team: string[];
+    placement: number;
 }
 
 export interface EvaluationResult {
@@ -83,7 +88,31 @@ export function evaluateTeam(team: Legend[]): EvaluationResult {
     return { totalSynergyScore, avgMobility, teamStats };
 }
 
-export function scoreCandidate(candidate: Legend, currentTeam: Legend[]): number {
+export function getHistoricalBonus(candidate: Legend, currentTeam: Legend[], history: HistoryRecord[]): number {
+    if (!history || history.length === 0) return 0;
+    
+    let bonus = 0;
+    let matches = 0;
+    
+    for (const record of history) {
+        const recordTeam = new Set(record.team);
+        const placement = record.placement;
+        
+        for (const member of currentTeam) {
+            if (recordTeam.has(candidate.Name) && recordTeam.has(member.Name)) {
+                bonus += (10.5 - placement);
+                matches += 1;
+            }
+        }
+    }
+    
+    if (matches > 0) {
+        return (bonus / matches) * 0.5;
+    }
+    return 0;
+}
+
+export function scoreCandidate(candidate: Legend, currentTeam: Legend[], history: HistoryRecord[] = []): number {
     const evalBefore = evaluateTeam(currentTeam);
     const evalAfter = evaluateTeam([...currentTeam, candidate]);
 
@@ -94,23 +123,23 @@ export function scoreCandidate(candidate: Legend, currentTeam: Legend[]): number
         mobBonus = (candidate.stats.mobility || 0) / 2.0;
     }
 
-    const STACKABLE = ["scanning", "damage", "control", "shield", "healing"];
+    const STACKABLE = new Set(["scanning", "damage", "control", "shield", "healing"]);
     let stackBonus = 0;
-    
-    for (const stat of STACKABLE) {
-        if ((candidate.stats[stat] || 0) >= 5 && (evalBefore.teamStats[stat] || 0) >= 5) {
-            stackBonus += 2;
+    for (const stat of Object.keys(candidate.stats)) {
+        if (STACKABLE.has(stat)) {
+            const val = candidate.stats[stat] || 0;
+            if (val >= 6) {
+                stackBonus += val * 0.3;
+            }
         }
     }
 
-    if (synergyGain < 1 && stackBonus === 0) {
-        return -1;
-    }
+    const histBonus = getHistoricalBonus(candidate, currentTeam, history);
 
-    return synergyGain * 2 + mobBonus + stackBonus;
+    return synergyGain + mobBonus + stackBonus + histBonus;
 }
 
-export function pickSynergic(currentTeam: Legend[], legendsList: Legend[], antiSynergies: AntiSynergy[]): Legend | null {
+export function pickSynergic(currentTeam: Legend[], legendsList: Legend[], antiSynergies: AntiSynergy[], history: HistoryRecord[] = []): Legend | null {
     const teamNames = new Set(currentTeam.map(l => l.Name));
     
     const validPool = legendsList.filter(candidate => {
@@ -138,7 +167,7 @@ export function pickSynergic(currentTeam: Legend[], legendsList: Legend[], antiS
 
     if (validPool.length === 0) return null;
 
-    const scored = validPool.map(c => ({ score: scoreCandidate(c, currentTeam), legend: c }));
+    const scored = validPool.map(c => ({ score: scoreCandidate(c, currentTeam, history), legend: c }));
     const minScore = Math.min(...scored.map(s => s.score));
     
     const weights = scored.map(s => Math.pow(s.score - minScore + 1, 2));
@@ -191,16 +220,16 @@ export function getTeamArchetype(teamStats: Record<string, number>): string {
     return bestArchetype;
 }
 
-export function buildTeam(legendsList: Legend[], antiSynergies: AntiSynergy[], size: number = 3): Legend[] {
+export function buildTeam(legendsList: Legend[], antiSynergies: AntiSynergy[], size: number = 3, history: HistoryRecord[] = []): Legend[] {
     const shuffled = [...legendsList].sort(() => 0.5 - Math.random());
     const p1 = shuffled[0];
     const team = [p1];
     
-    const p2 = pickSynergic(team, legendsList, antiSynergies);
+    const p2 = pickSynergic(team, legendsList, antiSynergies, history);
     if (p2) team.push(p2);
     
     if (size === 3) {
-        const p3 = pickSynergic(team, legendsList, antiSynergies);
+        const p3 = pickSynergic(team, legendsList, antiSynergies, history);
         if (p3) team.push(p3);
     }
     
@@ -222,7 +251,7 @@ export interface ProbResult {
     prob: number;
 }
 
-export function calculatePickProbabilities(targetLegendName: string, legendsList: Legend[], antiSynergies: AntiSynergy[]): ProbResult[] {
+export function calculatePickProbabilities(targetLegendName: string, legendsList: Legend[], antiSynergies: AntiSynergy[], history: HistoryRecord[] = []): ProbResult[] {
     const targetLegend = legendsList.find(l => l.Name.toLowerCase() === targetLegendName.toLowerCase());
     if (!targetLegend) return [];
 
@@ -252,7 +281,7 @@ export function calculatePickProbabilities(targetLegendName: string, legendsList
     if (validPool.length === 0) return [];
 
     const currentTeam = [targetLegend];
-    const scored = validPool.map(c => ({ score: scoreCandidate(c, currentTeam), legend: c }));
+    const scored = validPool.map(c => ({ score: scoreCandidate(c, currentTeam, history), legend: c }));
     const minScore = Math.min(...scored.map(s => s.score));
     
     let totalWeight = 0;
