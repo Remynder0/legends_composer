@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-apex-darker text-gray-200 antialiased min-h-screen;
+    background-image: radial-gradient(circle at top, #2a0808 0%, #111111 100%);
+  }
+}
+
+.glass {
+  @apply bg-apex-dark/70 backdrop-blur-md border border-white/10 shadow-xl rounded-xl;
+}
