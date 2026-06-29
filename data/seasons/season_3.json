@@ -1,146 +1,146 @@
 {
-  "season": 13,
+  "season": 3,
   "max_level": 110,
   "rewards": {
     "level_1": {
       "premium": [
-        "Wyrmborn Gilded Grappler Lava Queen Firewall XP Boost [ 1 ]"
+        "Longbow DMR Skin: Reckoner Mirage Skin: Fired Up Bloodhound Skin: Arctic Hunter Octane Skin: Glacial Pace XP Boost[note 1]"
       ],
-      "free": [
-        "Pre-Orders Now Open!"
-      ]
+      "free": []
     },
     "level_2": {
       "premium": [
-        "Three, Two, One"
+        "Charm: Pyro Meteor"
       ],
-      "free": []
+      "free": [
+        "Loading Screen: Humble Witt"
+      ]
     },
     "level_3": {
       "premium": [
-        "Apex Pack"
+        "XP Boost[note 1]"
       ],
-      "free": []
+      "free": [
+        "Crypto Stat Tracker: Season 3 Wins"
+      ]
     },
     "level_4": {
       "premium": [
-        "120"
+        "Apex Pack"
       ],
       "free": [
-        "Savior"
+        "Gibraltar Stat Tracker: Season 3 Wins"
       ]
     },
     "level_5": {
       "premium": [
-        "100"
+        "50"
       ],
       "free": [
-        "100"
+        "Wraith Stat Tracker: Season 3 Wins"
       ]
     },
     "level_6": {
       "premium": [
-        "XP Boost [ 1 ]"
+        "Apex Pack"
       ],
-      "free": []
+      "free": [
+        "Caustic Stat Tracker: Season 3 Wins"
+      ]
     },
     "level_7": {
       "premium": [
-        "Kill Quip : You were all sizzle and no steak"
+        "Loading Screen: Streets of Suotamo"
       ],
       "free": [
-        "Shedding the Dead"
+        "Mirage Stat Tracker: Season 3 Wins"
       ]
     },
     "level_8": {
       "premium": [
-        "Lava Drill"
+        "Apex Pack"
       ],
       "free": [
-        "Season 13 Wins"
+        "Bangalore Stat Tracker: Season 3 Wins"
       ]
     },
     "level_9": {
       "premium": [
-        "Scaled Tapestry"
+        "50"
       ],
       "free": [
-        "Season 13 Wins"
+        "Pathfinder Stat Tracker: Season 3 Wins"
       ]
     },
     "level_10": {
       "premium": [
-        "Burning Embrace"
+        "Charge Rifle Skin: Frozen Path"
       ],
       "free": [
-        "Season 13 Wins"
+        "Wattson Stat Tracker: Season 3 Wins"
       ]
     },
     "level_11": {
       "premium": [
-        "Eat this, Eggs!"
+        "Pathfinder Banner Frame: Ice Towers"
       ],
       "free": [
-        "Apex Pack"
+        "Octane Stat Tracker: Season 3 Wins"
       ]
     },
     "level_12": {
       "premium": [
-        "Apex Pack"
+        "P2020 Skin: Cold Punch"
       ],
-      "free": []
+      "free": [
+        "Lifeline Stat Tracker: Season 3 Wins"
+      ]
     },
     "level_13": {
       "premium": [
-        "120"
+        "Gibraltar Skydive Emote: Surf's Up"
       ],
       "free": [
-        "Lion Tamer"
+        "Bloodhound Stat Tracker: Season 3 Wins"
       ]
     },
     "level_14": {
       "premium": [
-        "XP Boost [ 1 ]"
+        "XP Boost[note 1]"
       ],
       "free": []
     },
     "level_15": {
       "premium": [
-        "Inside the Outlands: Episode 1082.5"
+        "Loading Screen: A New Dawn"
       ],
-      "free": [
-        "Scales and Stripes"
-      ]
+      "free": []
     },
     "level_16": {
       "premium": [
-        "Brudda in Arms"
+        "Apex Pack"
       ],
       "free": []
     },
     "level_17": {
       "premium": [
-        "Saint's End"
+        "50"
       ],
       "free": [
-        "Season 13 Wins"
+        "Apex Pack"
       ]
     },
     "level_18": {
       "premium": [
-        "All the Tales are True"
+        "RE-45 Auto Skin: Grasshopper"
       ],
-      "free": [
-        "Season 13 Wins"
-      ]
+      "free": []
     },
     "level_19": {
       "premium": [
-        "Emote Side Hustle"
+        "Charm: Abominable Snowman"
       ],
-      "free": [
-        "Season 13 Wins"
-      ]
+      "free": []
     },
     "level_20": {
       "premium": [
@@ -150,55 +150,49 @@
     },
     "level_21": {
       "premium": [
-        "100"
+        "Wattson Skydive Emote: Tesla-Copter"
       ],
       "free": [
-        "Fate Sealer"
+        "Apex Pack"
       ]
     },
     "level_22": {
       "premium": [
-        "XP Boost [ 1 ]"
+        "XP Boost[note 1]"
       ],
       "free": []
     },
     "level_23": {
       "premium": [
-        "Wins"
+        "Loading Screen: World's Edge - Meltdown"
       ],
-      "free": [
-        "Season 13 Wins"
-      ]
+      "free": []
     },
     "level_24": {
       "premium": [
-        "Damage Done"
+        "Crypto Kill Quip: You Thought You Were Better Than Me"
       ],
       "free": []
     },
     "level_25": {
       "premium": [
-        "Sir Fitzroy"
-      ],
-      "free": [
-        "Season 13 Wins"
-      ]
-    },
-    "level_26": {
-      "premium": [
-        "Kills"
-      ],
-      "free": [
-        "Season 13 Kills"
-      ]
-    },
-    "level_27": {
-      "premium": [
-        "Regal Seals"
+        "Pathfinder Skin: Iced Out"
       ],
       "free": [
         "Apex Pack"
       ]
+    },
+    "level_26": {
+      "premium": [
+        "R-99 SMG Skin: Glacier"
+      ],
+      "free": []
+    },
+    "level_27": {
+      "premium": [
+        "Gibraltar Banner Frame: Hot Chains"
+      ],
+      "free": []
     },
     "level_28": {
       "premium": [
@@ -208,113 +202,99 @@
     },
     "level_29": {
       "premium": [
-        "100"
+        "Music Pack: Gibraltar"
       ],
       "free": [
-        "Guardian's Battlecrest"
+        "Apex Pack"
       ]
     },
     "level_30": {
       "premium": [
-        "XP Boost [ 1 ]"
+        "XP Boost[note 1]"
       ],
       "free": []
     },
     "level_31": {
       "premium": [
-        "Kill Quip : By your hand, through me"
+        "Loading Screen: Mirage's Worst Day"
       ],
-      "free": [
-        "Season 13 Wins"
-      ]
+      "free": []
     },
     "level_32": {
       "premium": [
-        "Charm of Nature"
+        "Lifeline Kill Quip: I Don't Even Think You Tryin'"
       ],
       "free": []
     },
     "level_33": {
       "premium": [
-        "Fantastic Trails"
+        "100"
       ],
       "free": [
-        "Season 13 Wins"
+        "Apex Pack"
       ]
     },
     "level_34": {
       "premium": [
-        "Cold Sparks"
+        "Peacekeeper Skin: Firestarter"
       ],
-      "free": [
-        "Season 13 Wins"
-      ]
+      "free": []
     },
     "level_35": {
       "premium": [
-        "Fire At Will"
+        "Lifeline Banner Frame: Crystalized Ice"
       ],
-      "free": [
-        "Apex Pack"
-      ]
+      "free": []
     },
     "level_36": {
       "premium": [
-        "Apex Pack"
+        "120"
       ],
       "free": []
     },
     "level_37": {
       "premium": [
-        "120"
+        "Music Pack: Crypto"
       ],
       "free": [
-        "Singed Sight"
+        "Caustic Skin: Freezer Burn"
       ]
     },
     "level_38": {
       "premium": [
-        "XP Boost [ 1 ]"
+        "XP Boost[note 1]"
       ],
       "free": []
     },
     "level_39": {
       "premium": [
-        "Kill Quip : Real Heroes Get Back Up"
+        "Loading Screen: Send in the Clowns"
       ],
-      "free": [
-        "Season 13 Wins"
-      ]
+      "free": []
     },
     "level_40": {
       "premium": [
-        "Crest Ascension"
+        "Apex Pack"
       ],
       "free": []
     },
     "level_41": {
       "premium": [
-        "Retro Ball"
+        "100"
       ],
-      "free": [
-        "Season 13 Wins"
-      ]
+      "free": []
     },
     "level_42": {
       "premium": [
-        "The Hot Seat"
+        "Mastiff Shotgun Skin: Fractured Cove"
       ],
-      "free": [
-        "Season 13 Wins"
-      ]
+      "free": []
     },
     "level_43": {
       "premium": [
-        "Apex Pack"
+        "100"
       ],
-      "free": [
-        "You Can't Choose Your Family"
-      ]
+      "free": []
     },
     "level_44": {
       "premium": [
@@ -324,237 +304,189 @@
     },
     "level_45": {
       "premium": [
-        "100"
+        "Mirage Banner Frame: Hot Head"
       ],
-      "free": [
-        "Scaled Silhouette"
-      ]
+      "free": []
     },
     "level_46": {
       "premium": [
-        "XP Boost [ 1 ]"
+        "XP Boost[note 1]"
       ],
       "free": []
     },
     "level_47": {
       "premium": [
-        "Imbued Fury"
+        "Loading Screen: True Warrior"
       ],
-      "free": [
-        "Season 13 Wins"
-      ]
+      "free": []
     },
     "level_48": {
       "premium": [
-        "Wins"
+        "Apex Pack"
       ],
-      "free": [
-        "Season 13 Wins"
-      ]
+      "free": []
     },
     "level_49": {
       "premium": [
-        "Kills"
+        "Wraith Banner Frame: Snow Monster"
       ],
-      "free": [
-        "Season 13 Wins"
-      ]
+      "free": []
     },
     "level_50": {
       "premium": [
-        "Feral's Future"
+        "Alternator SMG Skin: Winged Phoenix"
       ],
-      "free": [
-        "Season 13 Wins"
-      ]
+      "free": []
     },
     "level_51": {
       "premium": [
-        "Damage Done"
+        "Charm: Nox's Trap"
       ],
-      "free": [
-        "Apex Pack"
-      ]
+      "free": []
     },
     "level_52": {
       "premium": [
-        "Margaret Kōhere's Lessons"
+        "120"
       ],
       "free": []
     },
     "level_53": {
       "premium": [
-        "120"
+        "Lifeline Skin: From the Ashes"
       ],
-      "free": [
-        "Royal Crest"
-      ]
+      "free": []
     },
     "level_54": {
       "premium": [
-        "XP Boost [ 1 ]"
+        "XP Boost[note 1]"
       ],
       "free": []
     },
     "level_55": {
       "premium": [
-        "ApexGamesDaily Presents..."
+        "L-STAR EMG Skin: Campfire"
       ],
-      "free": [
-        "Season 13 Wins"
-      ]
+      "free": []
     },
     "level_56": {
       "premium": [
-        "Kill Quip : We're Not Here To Shag Spiders"
+        "Bloodhound Kill Quip: The Allfather Has Gifted Me"
       ],
-      "free": [
-        "Season 13 Kills"
-      ]
+      "free": []
     },
     "level_57": {
       "premium": [
-        "Lordly Helm"
+        "100"
       ],
-      "free": [
-        "Season 13 Kills"
-      ]
+      "free": []
     },
     "level_58": {
       "premium": [
-        "Gilded Lineage"
+        "Kraber .50-Cal Sniper Skin: Frozen Tundra"
       ],
-      "free": [
-        "Season 13 Kills"
-      ]
+      "free": []
     },
     "level_59": {
       "premium": [
-        "Tower Defense"
+        "50"
       ],
-      "free": [
-        "Blue Dragon"
-      ]
+      "free": []
     },
     "level_60": {
       "premium": [
-        "Roger That Boss"
+        "120"
       ],
       "free": []
     },
     "level_61": {
       "premium": [
-        "100"
+        "Caustic Banner Frame: Gassed Out"
       ],
-      "free": [
-        "Serpent's Blood"
-      ]
+      "free": []
     },
     "level_62": {
       "premium": [
-        "XP Boost [ 1 ]"
+        "XP Boost[note 1]"
       ],
       "free": []
     },
     "level_63": {
       "premium": [
-        "Defender Axe"
+        "Octane Banner Frame: Running Hot"
       ],
-      "free": [
-        "Season 13 Kills"
-      ]
+      "free": []
     },
     "level_64": {
       "premium": [
-        "Highborn"
+        "VK-47 Flatline Skin: Green Lagoon"
       ],
-      "free": [
-        "Season 13 Kills"
-      ]
+      "free": []
     },
     "level_65": {
       "premium": [
-        "Ancient Infusion"
+        "Crypto Banner Frame: Nuclear Air"
       ],
-      "free": [
-        "Season 13 Kills"
-      ]
+      "free": []
     },
     "level_66": {
       "premium": [
-        "Kill Quip : I Stick A Fork In You, You're Done"
+        "R-301 Carbine Skin: Firestorm"
       ],
-      "free": [
-        "Season 13 Kills"
-      ]
+      "free": []
     },
     "level_67": {
       "premium": [
-        "Apex Pack"
+        "100"
       ],
-      "free": [
-        "Selfish Mistakes"
-      ]
+      "free": []
     },
     "level_68": {
       "premium": [
-        "The Dragon's Clutch"
+        "120"
       ],
       "free": []
     },
     "level_69": {
       "premium": [
-        "100"
+        "Hemlok Burst AR Skin: The Abyss"
       ],
-      "free": [
-        "Quicksilver"
-      ]
+      "free": []
     },
     "level_70": {
       "premium": [
-        "XP Boost [ 1 ]"
+        "XP Boost[note 1]"
       ],
       "free": []
     },
     "level_71": {
       "premium": [
-        "Kill Quip : Look On The Brightside - I Won"
+        "Loading Screen: Books and Covers"
       ],
-      "free": [
-        "Season 13 Kills"
-      ]
+      "free": []
     },
     "level_72": {
       "premium": [
-        "I Call Dibs"
+        "Mozambique Shotgun Skin: Flamethrower"
       ],
-      "free": [
-        "Season 13 Kills"
-      ]
+      "free": []
     },
     "level_73": {
       "premium": [
-        "Rare Throwback"
+        "Mirage Skydive Emote: It Takes Two"
       ],
-      "free": [
-        "Season 13 Kills"
-      ]
+      "free": []
     },
     "level_74": {
       "premium": [
-        "Return to Sender"
+        "Devotion LMG Skin: Cool Breeze"
       ],
-      "free": [
-        "Season 13 Kills"
-      ]
+      "free": []
     },
     "level_75": {
       "premium": [
-        "Zip It!"
+        "Bangalore Banner Frame: Melted Grounds"
       ],
-      "free": [
-        "Apex Pack"
-      ]
+      "free": []
     },
     "level_76": {
       "premium": [
@@ -564,57 +496,45 @@
     },
     "level_77": {
       "premium": [
-        "100"
+        "Apex Pack"
       ],
-      "free": [
-        "Newcastle"
-      ]
+      "free": []
     },
     "level_78": {
       "premium": [
-        "Apex Pack"
+        "Wingman Skin: Ice Breaker"
       ],
       "free": []
     },
     "level_79": {
       "premium": [
-        "Virtual Hero"
+        "Loading Screen: Rose-Colored Legends"
       ],
-      "free": [
-        "Season 13 Wins"
-      ]
+      "free": []
     },
     "level_80": {
       "premium": [
-        "Mighty Incisor"
+        "Prowler Burst PDW Skin: Flamed Out"
       ],
-      "free": [
-        "Season 13 Kills"
-      ]
+      "free": []
     },
     "level_81": {
       "premium": [
-        "No One Looks Up"
+        "100"
       ],
-      "free": [
-        "Season 13 Kills"
-      ]
+      "free": []
     },
     "level_82": {
       "premium": [
-        "Out With the Old, In With the New"
+        "M600 Spitfire Skin: Water Riptide"
       ],
-      "free": [
-        "Season 13 Kills"
-      ]
+      "free": []
     },
     "level_83": {
       "premium": [
-        "Circling Back"
+        "Wattson Banner Frame: Down Under"
       ],
-      "free": [
-        "Nothing Personal"
-      ]
+      "free": []
     },
     "level_84": {
       "premium": [
@@ -624,57 +544,45 @@
     },
     "level_85": {
       "premium": [
-        "100"
+        "Lifeline Skydive Emote: Windmill"
       ],
-      "free": [
-        "Dragon Crest"
-      ]
+      "free": []
     },
     "level_86": {
       "premium": [
-        "Apex Pack"
+        "EVA-8 Auto Skin: Polar Bear"
       ],
       "free": []
     },
     "level_87": {
       "premium": [
-        "Battle Crested"
+        "Loading Screen: Codename Crypto"
       ],
-      "free": [
-        "Season 13 Kills"
-      ]
+      "free": []
     },
     "level_88": {
       "premium": [
-        "Contained Corruption"
+        "Hemlok Burst AR Skin: Hot Zone"
       ],
-      "free": [
-        "Season 13 Kills"
-      ]
+      "free": []
     },
     "level_89": {
       "premium": [
-        "Venom Eggs"
+        "100"
       ],
-      "free": [
-        "Season 13 Kills"
-      ]
+      "free": []
     },
     "level_90": {
       "premium": [
-        "You Can Choose Your Friends"
+        "Longbow DMR Skin: Cool Heat"
       ],
-      "free": [
-        "Season 13 Kills"
-      ]
+      "free": []
     },
     "level_91": {
       "premium": [
-        "Air Defense"
+        "Charm: Artur"
       ],
-      "free": [
-        "Spinal Double Tap"
-      ]
+      "free": []
     },
     "level_92": {
       "premium": [
@@ -684,72 +592,58 @@
     },
     "level_93": {
       "premium": [
-        "100"
+        "Pathfinder Skydive Emote: I Can Fly!"
       ],
-      "free": [
-        "100"
-      ]
+      "free": []
     },
     "level_94": {
       "premium": [
-        "Apex Pack"
+        "Triple Take Skin: Lightshow"
       ],
       "free": []
     },
     "level_95": {
       "premium": [
-        "100"
+        "Loading Screen: Pathfinder the Poet"
       ],
-      "free": [
-        "Kill Quip : You Seem A Bit Dense"
-      ]
+      "free": []
     },
     "level_96": {
       "premium": [
-        "Finders Keepers"
+        "HAVOC Rifle Skin: Volcano Grounds"
       ],
-      "free": [
-        "Season 13 Kills"
-      ]
+      "free": []
     },
     "level_97": {
       "premium": [
-        "Emote Terrible Twos"
+        "100"
       ],
-      "free": [
-        "Apex Pack"
-      ]
+      "free": []
     },
     "level_98": {
       "premium": [
-        "Wings of Wrath"
+        "G7 Scout Skin: Golden Wings"
       ],
-      "free": [
-        "Season 13 Kills"
-      ]
+      "free": []
     },
     "level_99": {
       "premium": [
-        "Kill Quip : I Thought You Were Someone Else"
+        "Charm: Nessy"
       ],
-      "free": [
-        "Season 13 Kills"
-      ]
+      "free": []
     },
     "level_100": {
       "premium": [
-        "Winter Soul"
+        "Peacekeeper Skin: Frostbite"
       ],
-      "free": [
-        "100"
-      ]
+      "free": []
     },
     "level_110": {
       "premium": [
-        "Molten Soul"
+        "Peacekeeper Skin: Blood Stone"
       ],
       "free": [
-        "Badge : Saviors Level Season 13"
+        "Badge: Meltdown Level Season 3 Badge"
       ]
     }
   }

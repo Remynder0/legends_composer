@@ -1,0 +1,401 @@
+{
+  "season": 26,
+  "max_level": 60,
+  "rewards": {
+    "level_1": {
+      "premium": [
+        "Rapid Racer Champion's Tool Apex Fiesta Let's Go XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_2": {
+      "premium": [
+        "Kill Quip: Hey don't feel bad"
+      ],
+      "free": [
+        "Unlikely Ally"
+      ]
+    },
+    "level_3": {
+      "premium": [
+        "Emote Stim Shuffle"
+      ],
+      "free": []
+    },
+    "level_4": {
+      "premium": [
+        "Staying Alive"
+      ],
+      "free": []
+    },
+    "level_5": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_6": {
+      "premium": [
+        "Daredevil Down - Top Daredevil Down - Middle Daredevil Down - Bottom"
+      ],
+      "free": []
+    },
+    "level_7": {
+      "premium": [
+        "Steel & Gold"
+      ],
+      "free": [
+        "Showdown Split 1"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "Steelbird"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_10": {
+      "premium": [
+        "Daredevil Down Gilded Phoenix+"
+      ],
+      "free": []
+    },
+    "level_11": {
+      "premium": [
+        "Primal Apparel XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_12": {
+      "premium": [
+        "Rising Crane"
+      ],
+      "free": []
+    },
+    "level_13": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_14": {
+      "premium": [
+        "See Ya!"
+      ],
+      "free": []
+    },
+    "level_15": {
+      "premium": [
+        "200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_16": {
+      "premium": [
+        "Luminous Ending"
+      ],
+      "free": []
+    },
+    "level_17": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_18": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_19": {
+      "premium": [
+        "Hearty Handshake"
+      ],
+      "free": [
+        "Emote Highland Heave"
+      ]
+    },
+    "level_20": {
+      "premium": [
+        "Stellar Pilot 10+"
+      ],
+      "free": []
+    },
+    "level_21": {
+      "premium": [
+        "World's Flame XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_22": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_23": {
+      "premium": [
+        "Color Block"
+      ],
+      "free": []
+    },
+    "level_24": {
+      "premium": [
+        "200"
+      ],
+      "free": [
+        "Pure Dead Brilliant"
+      ]
+    },
+    "level_25": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_26": {
+      "premium": [
+        "Paraglider"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_27": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_28": {
+      "premium": [
+        "200"
+      ],
+      "free": []
+    },
+    "level_29": {
+      "premium": [
+        "Dumb Win"
+      ],
+      "free": []
+    },
+    "level_30": {
+      "premium": [
+        "10 Final Flight"
+      ],
+      "free": []
+    },
+    "level_31": {
+      "premium": [
+        "100 XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_32": {
+      "premium": [
+        "Emote Flying Footy"
+      ],
+      "free": [
+        "Plaid Existence"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "Fortune and Favor - Top Fortune and Favor - Middle Fortune and Favor - Bottom"
+      ],
+      "free": []
+    },
+    "level_34": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Rivalry for the Ages"
+      ]
+    },
+    "level_35": {
+      "premium": [
+        "Crane Fury"
+      ],
+      "free": []
+    },
+    "level_36": {
+      "premium": [
+        "Mystic Tower"
+      ],
+      "free": []
+    },
+    "level_37": {
+      "premium": [
+        "Apex Pack Run Wild"
+      ],
+      "free": []
+    },
+    "level_38": {
+      "premium": [
+        "Frenemies"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_39": {
+      "premium": [
+        "200"
+      ],
+      "free": []
+    },
+    "level_40": {
+      "premium": [
+        "Fortune and Favor Celestial Essence+"
+      ],
+      "free": []
+    },
+    "level_41": {
+      "premium": [
+        "Emote Six Swing XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_42": {
+      "premium": [
+        "Kill Quip: Lekin ab tera time khatam"
+      ],
+      "free": [
+        "Tartan Technician"
+      ]
+    },
+    "level_43": {
+      "premium": [
+        "Podium Pride"
+      ],
+      "free": []
+    },
+    "level_44": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_45": {
+      "premium": [
+        "Make a Ruckus"
+      ],
+      "free": []
+    },
+    "level_46": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_47": {
+      "premium": [
+        "200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_48": {
+      "premium": [
+        "Hidden Lotus"
+      ],
+      "free": []
+    },
+    "level_49": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_50": {
+      "premium": [
+        "Pavo Apparel"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "Who's a G.O.A.T. Kitty?"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_52": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_53": {
+      "premium": [
+        "Drill Team"
+      ],
+      "free": []
+    },
+    "level_54": {
+      "premium": [
+        "Retro Revival"
+      ],
+      "free": []
+    },
+    "level_55": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Thistled Hall"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_57": {
+      "premium": [
+        "200 Podium Potential"
+      ],
+      "free": []
+    },
+    "level_58": {
+      "premium": [
+        "Impenetrable"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_59": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_60": {
+      "premium": [
+        "Torch Bearer"
+      ],
+      "free": []
+    }
+  },
+  "split": 1
+}

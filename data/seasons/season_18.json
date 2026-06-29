@@ -1,24 +1,24 @@
 {
-  "season": 12,
+  "season": 18,
   "max_level": 110,
   "rewards": {
     "level_1": {
       "premium": [
-        "Rolling Thunder Modern Primitive Hardcore Heals Kernel Panic XP Boost"
+        "Advanced Reign Blood Rush Bad Blood Vortex Core XP Boost [1]"
       ],
       "free": [
-        "My Sindiket Report"
+        "A Gift to the Outlands"
       ]
     },
     "level_2": {
       "premium": [
-        "Flip Off"
+        "See Ya!"
       ],
       "free": []
     },
     "level_3": {
       "premium": [
-        "Apex Pack"
+        "100"
       ],
       "free": []
     },
@@ -27,12 +27,12 @@
         "120"
       ],
       "free": [
-        "Defiance"
+        "Resurrection"
       ]
     },
     "level_5": {
       "premium": [
-        "100"
+        "Apex Pack"
       ],
       "free": [
         "100"
@@ -40,13 +40,15 @@
     },
     "level_6": {
       "premium": [
-        "XP Boost [ 1 ]"
+        "XP Boost [1]"
       ],
-      "free": []
+      "free": [
+        "Portable Wreckage"
+      ]
     },
     "level_7": {
       "premium": [
-        "Kill Quip : Don't Be So Shocked... That You're Dead"
+        "Apex Pack"
       ],
       "free": [
         "Apex Pack"
@@ -54,362 +56,342 @@
     },
     "level_8": {
       "premium": [
-        "Bad To The Drone"
+        "The Dopple Gang"
       ],
       "free": [
-        "Season 12 Wins"
+        "Season 18 Wins as Revenant"
       ]
     },
     "level_9": {
       "premium": [
-        "Skull Fashion"
+        "Feedback Loop"
       ],
       "free": [
-        "Season 12 Kills"
+        "Season 18 Kills as Revenant"
       ]
     },
     "level_10": {
       "premium": [
-        "Lunar Smoke"
+        "Emote Stare Down"
       ],
       "free": [
-        "Always Watching"
+        "Digital Camouflage"
       ]
     },
     "level_11": {
       "premium": [
-        "Expand Your Network"
+        "Kill Quip: Be Thankful I Only Killed Ya"
       ],
       "free": [
-        "Season 12 Wins"
+        "The Art of Control"
       ]
     },
     "level_12": {
       "premium": [
-        "Broken Toys"
+        "120"
       ],
-      "free": [
-        "Season 12 Kills"
-      ]
+      "free": []
     },
     "level_13": {
       "premium": [
-        "120"
+        "100"
       ],
       "free": [
-        "Make A Connection"
+        "Red Rumble"
       ]
     },
     "level_14": {
       "premium": [
-        "XP Boost [ 1 ]"
+        "XP Boost [1]"
       ],
-      "free": [
-        "Season 12 Wins"
-      ]
+      "free": []
     },
     "level_15": {
       "premium": [
-        "Kill Quip : Take A Note From A Friend Of Mine"
+        "Kills as Mad Maggie"
       ],
       "free": [
-        "Hard Hearted"
+        "Season 18 Wins as Wattson"
       ]
     },
     "level_16": {
       "premium": [
-        "Geared Mayhem"
+        "Wins as Mad Maggie"
       ],
       "free": [
-        "Season 12 Kills"
+        "Season 18 Kills as Wattson"
       ]
     },
     "level_17": {
       "premium": [
-        "Paisley Parade"
+        "Damage Done as Mad Maggie"
       ],
       "free": [
-        "Road Warrior"
+        "Holographic Ember"
       ]
     },
     "level_18": {
       "premium": [
-        "City Lights"
+        "Anarchy Unleashed"
       ],
       "free": [
-        "Season 12 Wins"
+        "Season 18 Wins as Ballistic"
       ]
     },
     "level_19": {
       "premium": [
-        "Take A Shot"
+        "Get a Grip"
       ],
       "free": [
-        "Apex Pack"
+        "Season 18 Kills as Ballistic"
       ]
     },
     "level_20": {
       "premium": [
-        "120"
+        "The Dopple Gang"
       ],
-      "free": [
-        "Season 12 Kills"
-      ]
+      "free": []
     },
     "level_21": {
       "premium": [
-        "100"
-      ],
-      "free": [
-        "Green Striker"
-      ]
-    },
-    "level_22": {
-      "premium": [
-        "XP Boost [ 1 ]"
-      ],
-      "free": [
-        "Season 12 Wins"
-      ]
-    },
-    "level_23": {
-      "premium": [
-        "Wins"
-      ],
-      "free": [
-        "Season 12 Kills"
-      ]
-    },
-    "level_24": {
-      "premium": [
-        "Damage Done"
-      ],
-      "free": [
-        "Season 12 Wins"
-      ]
-    },
-    "level_25": {
-      "premium": [
-        "Aces High"
-      ],
-      "free": [
-        "D.O.C. Audio Log 12.1.0084"
-      ]
-    },
-    "level_26": {
-      "premium": [
-        "Kills"
-      ],
-      "free": [
-        "Season 12 Kills"
-      ]
-    },
-    "level_27": {
-      "premium": [
-        "Buzz Cutter"
-      ],
-      "free": [
-        "Season 12 Wins"
-      ]
-    },
-    "level_28": {
-      "premium": [
         "120"
-      ],
-      "free": [
-        "Season 12 Kills"
-      ]
-    },
-    "level_29": {
-      "premium": [
-        "100"
-      ],
-      "free": [
-        "Links To The Past"
-      ]
-    },
-    "level_30": {
-      "premium": [
-        "XP Boost [ 1 ]"
-      ],
-      "free": [
-        "Season 12 Wins"
-      ]
-    },
-    "level_31": {
-      "premium": [
-        "Unstoppable Force"
-      ],
-      "free": [
-        "Season 12 Kills"
-      ]
-    },
-    "level_32": {
-      "premium": [
-        "Kill Quip : Only Once Have I Failed To Kill A Target"
-      ],
-      "free": [
-        "Season 12 Wins"
-      ]
-    },
-    "level_33": {
-      "premium": [
-        "No Chance"
       ],
       "free": [
         "Apex Pack"
       ]
     },
-    "level_34": {
+    "level_22": {
       "premium": [
-        "Fatal Fuchsia"
+        "XP Boost [1]"
+      ],
+      "free": []
+    },
+    "level_23": {
+      "premium": [
+        "Terror Surge"
       ],
       "free": [
-        "Season 12 Kills"
+        "Season 18 Wins as Mad Maggie"
+      ]
+    },
+    "level_24": {
+      "premium": [
+        "Outlawed Tech"
+      ],
+      "free": [
+        "Season 18 Kills as Mad Maggie"
+      ]
+    },
+    "level_25": {
+      "premium": [
+        "Heart of the Divine"
+      ],
+      "free": [
+        "Face Off"
+      ]
+    },
+    "level_26": {
+      "premium": [
+        "Kill Quip: I Hope You're Buried"
+      ],
+      "free": [
+        "Season 18 Wins as Newcastle"
+      ]
+    },
+    "level_27": {
+      "premium": [
+        "Upgrade Station"
+      ],
+      "free": [
+        "Season 18 Kills as Newcastle"
+      ]
+    },
+    "level_28": {
+      "premium": [
+        "Digital Camouflage"
+      ],
+      "free": []
+    },
+    "level_29": {
+      "premium": [
+        "120"
+      ],
+      "free": [
+        "Hotwire Frame"
+      ]
+    },
+    "level_30": {
+      "premium": [
+        "XP Boost [1]"
+      ],
+      "free": []
+    },
+    "level_31": {
+      "premium": [
+        "Kill Quip: Let Me Help You Get Those Fangs"
+      ],
+      "free": [
+        "Season 18 Wins as Valkyrie"
+      ]
+    },
+    "level_32": {
+      "premium": [
+        "Digital Ascension"
+      ],
+      "free": [
+        "Season 18 Kills as Valkyrie"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "Hellfire Helm"
+      ],
+      "free": [
+        "The Dopple Gang"
+      ]
+    },
+    "level_34": {
+      "premium": [
+        "Digital Camouflage"
+      ],
+      "free": [
+        "Season 18 Wins as Bangalore"
       ]
     },
     "level_35": {
       "premium": [
-        "Borealis Displacement"
+        "Looks Like Reign"
       ],
       "free": [
-        "Season 12 Wins"
+        "Season 18 Kills as Bangalore"
       ]
     },
     "level_36": {
       "premium": [
-        "Meets Immovable Object"
+        "D.O.C. Audio Log 10.15.0103"
       ],
-      "free": [
-        "Season 12 Kills"
-      ]
+      "free": []
     },
     "level_37": {
       "premium": [
         "120"
       ],
       "free": [
-        "Sniper Rogue"
+        "Digital Camouflage"
       ]
     },
     "level_38": {
       "premium": [
-        "XP Boost [ 1 ]"
+        "XP Boost [1]"
       ],
-      "free": [
-        "Season 12 Wins"
-      ]
+      "free": []
     },
     "level_39": {
       "premium": [
-        "Kill Quip : Better To Have Friends At Yuh Side"
-      ],
-      "free": [
-        "Season 12 Kills"
-      ]
-    },
-    "level_40": {
-      "premium": [
-        "Supply Or Die"
-      ],
-      "free": [
-        "Season 12 Wins"
-      ]
-    },
-    "level_41": {
-      "premium": [
-        "Linked Languish"
-      ],
-      "free": [
-        "Pink Ink"
-      ]
-    },
-    "level_42": {
-      "premium": [
-        "Rebel With A Cause"
-      ],
-      "free": [
-        "Season 12 Kills"
-      ]
-    },
-    "level_43": {
-      "premium": [
-        "Double Trouble"
-      ],
-      "free": [
-        "Season 12 Wins"
-      ]
-    },
-    "level_44": {
-      "premium": [
-        "Trouble Double"
-      ],
-      "free": [
-        "Season 12 Kills"
-      ]
-    },
-    "level_45": {
-      "premium": [
-        "100"
+        "Fatal Threat"
       ],
       "free": [
         "Apex Pack"
       ]
     },
-    "level_46": {
+    "level_40": {
       "premium": [
-        "XP Boost [ 1 ]"
+        "Kills as Pathfinder"
       ],
       "free": [
-        "Season 12 Wins"
+        "Season 18 Wins as Octane"
       ]
     },
-    "level_47": {
+    "level_41": {
+      "premium": [
+        "Wins as Pathfinder"
+      ],
+      "free": [
+        "Season 18 Kills as Octane"
+      ]
+    },
+    "level_42": {
+      "premium": [
+        "Damage Done as Pathfinder"
+      ],
+      "free": [
+        "Season 18 Wins as Gibraltar"
+      ]
+    },
+    "level_43": {
+      "premium": [
+        "Kill Quip: Knock - Knock..... I'm Here"
+      ],
+      "free": [
+        "Season 18 Kills as Gibraltar"
+      ]
+    },
+    "level_44": {
+      "premium": [
+        "Face Off"
+      ],
+      "free": []
+    },
+    "level_45": {
       "premium": [
         "120"
       ],
       "free": [
-        "Season 12 Kills"
+        "Shiny and New"
+      ]
+    },
+    "level_46": {
+      "premium": [
+        "XP Boost [1]"
+      ],
+      "free": []
+    },
+    "level_47": {
+      "premium": [
+        "Stolen Souvenir"
+      ],
+      "free": [
+        "Holographic Ember"
       ]
     },
     "level_48": {
       "premium": [
-        "Wins"
+        "Rage Reboot"
       ],
       "free": [
-        "Season 12 Wins"
+        "Season 18 Wins as Pathfinder"
       ]
     },
     "level_49": {
       "premium": [
-        "Kills"
+        "Hi Friend"
       ],
       "free": [
-        "The Capture Of M. Kōhere"
+        "Season 18 Kills as Pathfinder"
       ]
     },
     "level_50": {
       "premium": [
-        "Breaking The Law"
+        "Pathogen"
       ],
       "free": [
-        "Season 12 Kills"
+        "Revenant Reborn"
       ]
     },
     "level_51": {
       "premium": [
-        "Damage Done"
+        "The Dopple Gang"
       ],
       "free": [
-        "Season 12 Wins"
+        "Season 18 Wins as Horizon"
       ]
     },
     "level_52": {
       "premium": [
-        "Ghost Writer"
+        "Kill Quip: Just Because It Is Death"
       ],
       "free": [
-        "Season 12 Kills"
+        "Season 18 Kills as Horizon"
       ]
     },
     "level_53": {
@@ -417,168 +399,174 @@
         "120"
       ],
       "free": [
-        "The Quick And The Quilted"
+        "Red Rumble"
       ]
     },
     "level_54": {
       "premium": [
-        "XP Boost [ 1 ]"
+        "XP Boost [1]"
       ],
-      "free": [
-        "Season 12 Wins"
-      ]
+      "free": []
     },
     "level_55": {
-      "premium": [
-        "Kill Quip : I'll Have To Say No To An Encore"
-      ],
-      "free": [
-        "Season 12 Kills"
-      ]
-    },
-    "level_56": {
-      "premium": [
-        "Outlaw Seal"
-      ],
-      "free": [
-        "Season 12 Wins"
-      ]
-    },
-    "level_57": {
-      "premium": [
-        "Death Maker"
-      ],
-      "free": [
-        "Mad Maggie"
-      ]
-    },
-    "level_58": {
-      "premium": [
-        "Full Throttle"
-      ],
-      "free": [
-        "Season 12 Kills"
-      ]
-    },
-    "level_59": {
-      "premium": [
-        "Strike A Pose"
-      ],
-      "free": [
-        "Season 12 Wins"
-      ]
-    },
-    "level_60": {
-      "premium": [
-        "120"
-      ],
-      "free": [
-        "Season 12 Kills"
-      ]
-    },
-    "level_61": {
-      "premium": [
-        "100"
-      ],
-      "free": [
-        "Deadly Links"
-      ]
-    },
-    "level_62": {
-      "premium": [
-        "XP Boost [ 1 ]"
-      ],
-      "free": [
-        "Season 12 Wins"
-      ]
-    },
-    "level_63": {
       "premium": [
         "Apex Pack"
       ],
       "free": [
-        "Season 12 Kills"
+        "Season 18 Wins as Ash"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "Downtown Dire"
+      ],
+      "free": [
+        "Season 18 Kills as Ash"
+      ]
+    },
+    "level_57": {
+      "premium": [
+        "Holographic Ember"
+      ],
+      "free": [
+        "Jewel Tones"
+      ]
+    },
+    "level_58": {
+      "premium": [
+        "Double Double Toil Trouble"
+      ],
+      "free": [
+        "Season 18 Wins as Mirage"
+      ]
+    },
+    "level_59": {
+      "premium": [
+        "Kill Quip: There Are More Creative Ways to Die"
+      ],
+      "free": [
+        "Season 18 Kills as Mirage"
+      ]
+    },
+    "level_60": {
+      "premium": [
+        "Mask Off"
+      ],
+      "free": []
+    },
+    "level_61": {
+      "premium": [
+        "120"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_62": {
+      "premium": [
+        "XP Boost [1]"
+      ],
+      "free": []
+    },
+    "level_63": {
+      "premium": [
+        "Toxic Roast"
+      ],
+      "free": [
+        "Face Off"
       ]
     },
     "level_64": {
       "premium": [
-        "Flame On"
+        "Kill Quip: Oh, That Looked Like It Hurt"
       ],
-      "free": []
+      "free": [
+        "Season 18 Wins as Crypto"
+      ]
     },
     "level_65": {
       "premium": [
-        "Bottled Fury"
+        "Don't Blink"
       ],
       "free": [
-        "In Session"
+        "Season 18 Kills as Crypto"
       ]
     },
     "level_66": {
       "premium": [
-        "Salvonian Drinking Song"
+        "Red Rumble"
       ],
-      "free": []
+      "free": [
+        "Apex Pack"
+      ]
     },
     "level_67": {
       "premium": [
-        "Kill Quip : I Pulled A Fast One On You, Amigo"
+        "Overstimulated"
       ],
-      "free": []
+      "free": [
+        "Season 18 Wins as Loba"
+      ]
     },
     "level_68": {
       "premium": [
         "120"
       ],
-      "free": []
+      "free": [
+        "Season 18 Kills as Loba"
+      ]
     },
     "level_69": {
       "premium": [
         "100"
       ],
       "free": [
-        "Death Race"
+        "Hotwire Frame"
       ]
     },
     "level_70": {
       "premium": [
-        "XP Boost [ 1 ]"
+        "XP Boost [1]"
       ],
-      "free": [
-        "Legend Impressions: Mad Maggie"
-      ]
+      "free": []
     },
     "level_71": {
       "premium": [
-        "Apex Pack"
+        "Devil's Detail"
       ],
-      "free": []
+      "free": [
+        "Season 18 Wins as Caustic"
+      ]
     },
     "level_72": {
       "premium": [
-        "Riding In The Red"
+        "Hotwire Frame"
       ],
-      "free": []
+      "free": [
+        "Season 18 Kills as Caustic"
+      ]
     },
     "level_73": {
       "premium": [
-        "Stitched Up"
+        "Kill Quip: Did You Enjoy Life"
       ],
-      "free": [
-        "Apex Pack"
-      ]
+      "free": []
     },
     "level_74": {
       "premium": [
-        "Zipping Through"
+        "Beg For Mercy"
       ],
-      "free": []
+      "free": [
+        "Season 18 Wins as Wraith"
+      ]
     },
     "level_75": {
       "premium": [
-        "Emote : Knockout Gas"
+        "No Solace"
       ],
-      "free": []
+      "free": [
+        "Season 18 Kills as Wraith"
+      ]
     },
     "level_76": {
       "premium": [
@@ -591,50 +579,56 @@
         "100"
       ],
       "free": [
-        "Good Catch"
+        "Apex Pack"
       ]
     },
     "level_78": {
       "premium": [
-        "Apex Pack"
+        "100"
       ],
       "free": []
     },
     "level_79": {
       "premium": [
-        "Morning Muffin"
+        "Apex Pack"
       ],
-      "free": []
+      "free": [
+        "Season 18 Wins as Rampart"
+      ]
     },
     "level_80": {
       "premium": [
-        "Piston Punch"
+        "Accelerated Adversary"
       ],
-      "free": []
+      "free": [
+        "Season 18 Kills as Rampart"
+      ]
     },
     "level_81": {
       "premium": [
-        "The Warrior's Feast"
+        "Kill Quip: I'll Need to Do Some Cleansing"
       ],
-      "free": [
-        "Apex Pack"
-      ]
+      "free": []
     },
     "level_82": {
       "premium": [
-        "Mouth of Metal"
+        "Central Silo"
       ],
-      "free": []
+      "free": [
+        "Season 18 Wins as Catalyst"
+      ]
     },
     "level_83": {
       "premium": [
-        "Apex Pack"
+        "Emote Bad Daditude"
       ],
-      "free": []
+      "free": [
+        "Season 18 Kills as Catalyst"
+      ]
     },
     "level_84": {
       "premium": [
-        "Skullcrusher"
+        "Apex Pack"
       ],
       "free": []
     },
@@ -643,102 +637,118 @@
         "100"
       ],
       "free": [
-        "Rebel Nessie"
+        "Apex Pack"
       ]
     },
     "level_86": {
       "premium": [
-        "Apex Pack"
+        "100"
       ],
       "free": []
     },
     "level_87": {
       "premium": [
-        "The Block"
+        "Red Rumble"
       ],
-      "free": []
+      "free": [
+        "Season 18 Wins as Fuse"
+      ]
     },
     "level_88": {
       "premium": [
-        "Warped Impact"
+        "Evil Inside"
       ],
-      "free": []
+      "free": [
+        "Season 18 Kills as Fuse"
+      ]
     },
     "level_89": {
       "premium": [
-        "Road Rash"
+        "Devil's Edge"
       ],
       "free": [
-        "100"
+        "Season 18 Wins as Bloodhound"
       ]
     },
     "level_90": {
       "premium": [
-        "Eulogy For Navidad 'Navi' Silva"
+        "Hat Tip"
       ],
-      "free": []
+      "free": [
+        "Season 18 Kills as Bloodhound"
+      ]
     },
     "level_91": {
       "premium": [
-        "Kill Quip : I Give As Many Craps As Prisoners I Take"
+        "Emote Coping Skills"
       ],
-      "free": []
+      "free": [
+        "Season 18 Wins as Lifeline"
+      ]
     },
     "level_92": {
       "premium": [
-        "Pre-Game Warmup"
+        "Apex Pack"
       ],
-      "free": []
+      "free": [
+        "Season 18 Kills as Lifeline"
+      ]
     },
     "level_93": {
       "premium": [
         "100"
       ],
       "free": [
-        "Kill Quip : Yeah, Naw, Ya Did Good. I Just Did Gooder"
+        "Eyes of the Mona Lisa"
       ]
     },
     "level_94": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": []
-    },
-    "level_95": {
       "premium": [
         "100"
       ],
       "free": []
     },
+    "level_95": {
+      "premium": [
+        "Raven Dash"
+      ],
+      "free": [
+        "Season 18 Wins as Vantage"
+      ]
+    },
     "level_96": {
       "premium": [
-        "Burnt Rubber"
+        "NESS.EXE"
       ],
-      "free": []
+      "free": [
+        "Season 18 Kills as Vantage"
+      ]
     },
     "level_97": {
       "premium": [
-        "Tuesday Nights At Paradise Lounge"
+        "100"
       ],
       "free": [
-        "Apex Pack"
+        "Season 18 Wins as Seer"
       ]
     },
     "level_98": {
       "premium": [
-        "Fire Wire"
+        "Emote Ground Pound"
       ],
-      "free": []
+      "free": [
+        "Season 18 Kills as Seer"
+      ]
     },
     "level_99": {
       "premium": [
-        "Emote : Primal Nature"
+        "Apex Pack"
       ],
       "free": []
     },
     "level_100": {
       "premium": [
-        "Gentleman Baller"
+        "100"
       ],
       "free": [
         "100"
@@ -746,10 +756,10 @@
     },
     "level_110": {
       "premium": [
-        "Scream Machine"
+        "Heart of Brimstone"
       ],
       "free": [
-        "Badge : Defiance Level Season 12"
+        "Badge: Resurrection"
       ]
     }
   }

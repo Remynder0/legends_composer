@@ -1,0 +1,399 @@
+{
+  "season": 25,
+  "max_level": 60,
+  "rewards": {
+    "level_1": {
+      "premium": [
+        "Diamand Standard Aurum Ocean Quiver Couture Don't Get Under Foot XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_2": {
+      "premium": [
+        "Kill Quip: Keep your head out of the clouds"
+      ],
+      "free": [
+        "Two Strays"
+      ]
+    },
+    "level_3": {
+      "premium": [
+        "Emote Staff Spectacle"
+      ],
+      "free": []
+    },
+    "level_4": {
+      "premium": [
+        "It's Called Fashion"
+      ],
+      "free": []
+    },
+    "level_5": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_6": {
+      "premium": [
+        "Killer Threads - Top Killer Threads - Middle Killer Threads - Bottom"
+      ],
+      "free": []
+    },
+    "level_7": {
+      "premium": [
+        "Collector's Case"
+      ],
+      "free": [
+        "Prodigy Split 1"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "Spring Lotus"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_10": {
+      "premium": [
+        "Killer Threads Haute Hunter+"
+      ],
+      "free": []
+    },
+    "level_11": {
+      "premium": [
+        "High Class Supply XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_12": {
+      "premium": [
+        "Ego Trip"
+      ],
+      "free": []
+    },
+    "level_13": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_14": {
+      "premium": [
+        "Boom, Baby"
+      ],
+      "free": []
+    },
+    "level_15": {
+      "premium": [
+        "200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_16": {
+      "premium": [
+        "Ignis Opal"
+      ],
+      "free": []
+    },
+    "level_17": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_18": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_19": {
+      "premium": [
+        "Shining Personality"
+      ],
+      "free": [
+        "Emote Art of the Hunt"
+      ]
+    },
+    "level_20": {
+      "premium": [
+        "Prism Vision 10+"
+      ],
+      "free": []
+    },
+    "level_21": {
+      "premium": [
+        "Leather Craft XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_22": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_23": {
+      "premium": [
+        "Glitter and Gold"
+      ],
+      "free": []
+    },
+    "level_24": {
+      "premium": [
+        "200"
+      ],
+      "free": [
+        "No Way Babes"
+      ]
+    },
+    "level_25": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_26": {
+      "premium": [
+        "GOL!!!"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_27": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_28": {
+      "premium": [
+        "200"
+      ],
+      "free": []
+    },
+    "level_29": {
+      "premium": [
+        "Look Who's Here"
+      ],
+      "free": []
+    },
+    "level_30": {
+      "premium": [
+        "10 Belva Blaster"
+      ],
+      "free": []
+    },
+    "level_31": {
+      "premium": [
+        "100 XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_32": {
+      "premium": [
+        "Emote Airwalk"
+      ],
+      "free": [
+        "Plasma Elite"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "Aerial Superiority - Top Aerial Superiority - Middle Aerial Superiority - Bottom"
+      ],
+      "free": []
+    },
+    "level_34": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Sorellina"
+      ]
+    },
+    "level_35": {
+      "premium": [
+        "Deadly Class"
+      ],
+      "free": []
+    },
+    "level_36": {
+      "premium": [
+        "Upper-Class Arsenal"
+      ],
+      "free": []
+    },
+    "level_37": {
+      "premium": [
+        "Apex Pack When They Take Your Loot"
+      ],
+      "free": []
+    },
+    "level_38": {
+      "premium": [
+        "Sky Fashion"
+      ],
+      "free": []
+    },
+    "level_39": {
+      "premium": [
+        "200"
+      ],
+      "free": []
+    },
+    "level_40": {
+      "premium": [
+        "Aerial Superiority Angel Armor+"
+      ],
+      "free": []
+    },
+    "level_41": {
+      "premium": [
+        "Emote Strongman XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_42": {
+      "premium": [
+        "Kill Quip: I'll find room on my wall"
+      ],
+      "free": [
+        "High Class Hunter"
+      ]
+    },
+    "level_43": {
+      "premium": [
+        "Amethyst Gleam"
+      ],
+      "free": []
+    },
+    "level_44": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_45": {
+      "premium": [
+        "Locked N' Loaded"
+      ],
+      "free": []
+    },
+    "level_46": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_47": {
+      "premium": [
+        "200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_48": {
+      "premium": [
+        "Peak Design"
+      ],
+      "free": []
+    },
+    "level_49": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_50": {
+      "premium": [
+        "Iridescent Demon"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "Dodging Third Parties"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_52": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_53": {
+      "premium": [
+        "Warm Up"
+      ],
+      "free": []
+    },
+    "level_54": {
+      "premium": [
+        "Luxury Stripes"
+      ],
+      "free": []
+    },
+    "level_55": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Hunter's Stand"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_57": {
+      "premium": [
+        "200 Highlight"
+      ],
+      "free": []
+    },
+    "level_58": {
+      "premium": [
+        "Charming Munition"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_59": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_60": {
+      "premium": [
+        "Radiance Burst"
+      ],
+      "free": []
+    }
+  },
+  "split": 1
+}

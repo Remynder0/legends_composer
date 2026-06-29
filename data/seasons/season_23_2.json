@@ -1,0 +1,403 @@
+{
+  "season": 23,
+  "max_level": 60,
+  "rewards": {
+    "level_1": {
+      "premium": [
+        "Bubblegum Flare Star Chomp Happy Valley Adventure XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_2": {
+      "premium": [
+        "Hands Off"
+      ],
+      "free": [
+        "Mirror Mirror"
+      ]
+    },
+    "level_3": {
+      "premium": [
+        "Kill Quip: It's not fair, I know"
+      ],
+      "free": []
+    },
+    "level_4": {
+      "premium": [
+        "Emote Robotic Groove"
+      ],
+      "free": []
+    },
+    "level_5": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_6": {
+      "premium": [
+        "Paw Patroller - Top Paw Patroller - Middle Paw Patroller - Bottom"
+      ],
+      "free": []
+    },
+    "level_7": {
+      "premium": [
+        "Paw Prize"
+      ],
+      "free": [
+        "From the Rift Split 2"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "Paw Powered"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_10": {
+      "premium": [
+        "Paw Patroller Catfinder+"
+      ],
+      "free": []
+    },
+    "level_11": {
+      "premium": [
+        "Nothing Personal XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_12": {
+      "premium": [
+        "Happy Tea Time"
+      ],
+      "free": []
+    },
+    "level_13": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_14": {
+      "premium": [
+        "It's Just You and Me Friend"
+      ],
+      "free": []
+    },
+    "level_15": {
+      "premium": [
+        "200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_16": {
+      "premium": [
+        "Butterfly Beauty"
+      ],
+      "free": []
+    },
+    "level_17": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_18": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_19": {
+      "premium": [
+        "Mecha Mate"
+      ],
+      "free": [
+        "Emote Big Shame"
+      ]
+    },
+    "level_20": {
+      "premium": [
+        "Sherbet Sunset 10+"
+      ],
+      "free": []
+    },
+    "level_21": {
+      "premium": [
+        "Pet Pals XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_22": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_23": {
+      "premium": [
+        "Dino Snacks"
+      ],
+      "free": []
+    },
+    "level_24": {
+      "premium": [
+        "200"
+      ],
+      "free": [
+        "Cheese"
+      ]
+    },
+    "level_25": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_26": {
+      "premium": [
+        "In-flight Misfire"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_27": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_28": {
+      "premium": [
+        "200"
+      ],
+      "free": []
+    },
+    "level_29": {
+      "premium": [
+        "Emote Running Man Mags"
+      ],
+      "free": []
+    },
+    "level_30": {
+      "premium": [
+        "10 Legend's Best Friend"
+      ],
+      "free": []
+    },
+    "level_31": {
+      "premium": [
+        "100 XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_32": {
+      "premium": [
+        "Little E-Reader"
+      ],
+      "free": [
+        "Shark Attack"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "Nighttime Nessie - Top Nighttime Nessie - Middle Nighttime Nessie - Bottom"
+      ],
+      "free": []
+    },
+    "level_34": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Dance Encounter"
+      ]
+    },
+    "level_35": {
+      "premium": [
+        "Nessinator"
+      ],
+      "free": []
+    },
+    "level_36": {
+      "premium": [
+        "Nessie Dreamland"
+      ],
+      "free": []
+    },
+    "level_37": {
+      "premium": [
+        "Luminous Love"
+      ],
+      "free": []
+    },
+    "level_38": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_39": {
+      "premium": [
+        "200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_40": {
+      "premium": [
+        "Nighttime Nessie Heart Signal+"
+      ],
+      "free": []
+    },
+    "level_41": {
+      "premium": [
+        "Emote Higher Devotion XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_42": {
+      "premium": [
+        "Kill Quip: My Task is far from done"
+      ],
+      "free": []
+    },
+    "level_43": {
+      "premium": [
+        "Loch-ed On"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_44": {
+      "premium": [
+        "Come Geta"
+      ],
+      "free": []
+    },
+    "level_45": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Shark Bite"
+      ]
+    },
+    "level_46": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_47": {
+      "premium": [
+        "200"
+      ],
+      "free": []
+    },
+    "level_48": {
+      "premium": [
+        "Spa Day"
+      ],
+      "free": [
+        "Bessie"
+      ]
+    },
+    "level_49": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_50": {
+      "premium": [
+        "Dino Camouflage"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "Let Me Do It For You"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_52": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_53": {
+      "premium": [
+        "Tired Dive"
+      ],
+      "free": []
+    },
+    "level_54": {
+      "premium": [
+        "Outfoxed"
+      ],
+      "free": []
+    },
+    "level_55": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Pixel Pet"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_57": {
+      "premium": [
+        "200 Sweet Merch"
+      ],
+      "free": []
+    },
+    "level_58": {
+      "premium": [
+        "Unexpected Occupant"
+      ],
+      "free": []
+    },
+    "level_59": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_60": {
+      "premium": [
+        "Ol' Nessie"
+      ],
+      "free": []
+    }
+  },
+  "split": 2
+}

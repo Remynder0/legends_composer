@@ -1,37 +1,33 @@
 {
-  "season": 5,
+  "season": 19,
   "max_level": 110,
   "rewards": {
     "level_1": {
       "premium": [
-        "Hemlok Burst AR Skin: Retrofitted Wraith Skin: Silver Specter Revenant Skin: Death Etching Bloodhound Skin: Gilded Claw XP Boost [ note 1 ]"
+        "Copper Conductor Gold Guard Prism Powered Glided Age XP Boost [1]"
       ],
       "free": [
-        "Pathfinder Stat Tracker : Season 5 Wins"
+        "The Last Gleaming"
       ]
     },
     "level_2": {
       "premium": [
-        "Apex Pack"
+        "The Nexus Flip"
       ],
-      "free": [
-        "Gibraltar Stat Tracker : Season 5 Kills"
-      ]
+      "free": []
     },
     "level_3": {
       "premium": [
-        "50"
+        "100"
       ],
-      "free": [
-        "Apex Pack"
-      ]
+      "free": []
     },
     "level_4": {
       "premium": [
-        "Loading Screen : Mean Girls"
+        "120"
       ],
       "free": [
-        "Wraith Stat Tracker : Season 5 Wins"
+        "Ignite"
       ]
     },
     "level_5": {
@@ -39,20 +35,20 @@
         "Apex Pack"
       ],
       "free": [
-        "Crypto Stat Tracker : Season 5 Kills"
+        "100"
       ]
     },
     "level_6": {
       "premium": [
-        "Gibraltar Kill Quip : Gibraltar still loves you"
+        "XP Boost [1]"
       ],
       "free": [
-        "Wraith Kill Quip : There's a void in your heart"
+        "Portable Wreckage"
       ]
     },
     "level_7": {
       "premium": [
-        "Kraber .50-Cal Sniper Skin: Magma Might"
+        "Apex Pack"
       ],
       "free": [
         "Apex Pack"
@@ -60,636 +56,714 @@
     },
     "level_8": {
       "premium": [
-        "120"
+        "Emblematic"
       ],
       "free": [
-        "Bangalore Stat Tracker : Season 5 Wins"
+        "Season 19 Wins as Conduit"
       ]
     },
     "level_9": {
       "premium": [
-        "Loading Screen : Qualified"
+        "Kill Quip: I Saw Another You"
       ],
       "free": [
-        "Wattson Stat Tracker : Season 5 Kills"
+        "Season 19 Kills as Conduit"
       ]
     },
     "level_10": {
       "premium": [
-        "XP Boost [ note 1 ]"
+        "Cozy Doze"
       ],
       "free": [
-        "Revenant Kill Quip : I want your heart"
+        "Squared Away"
       ]
     },
     "level_11": {
       "premium": [
-        "50"
+        "Arturus Maximus"
       ],
       "free": [
-        "Apex Pack"
+        "The Long Road Home"
       ]
     },
     "level_12": {
       "premium": [
-        "Longbow DMR Skin: Desert Dweller"
+        "Emote To Your Strength"
       ],
-      "free": [
-        "Octane Stat Tracker : Season 5 Wins"
-      ]
+      "free": []
     },
     "level_13": {
       "premium": [
-        "Pathfinder Skydive Emote : The Kneeslapper"
+        "120"
       ],
       "free": [
-        "Loba Stat Tracker : Season 5 Kills"
+        "Emblematic"
       ]
     },
     "level_14": {
       "premium": [
-        "Bangalore Kill Quip : I didn't say I mended broken hearts"
+        "XP Boost [1]"
       ],
       "free": [
-        "Lifeline Stat Tracker : Season 5 Wins"
+        "Season 19 Wins as Bangalore"
       ]
     },
     "level_15": {
       "premium": [
-        "G7 Scout Skin: Dragon's Embrace"
+        "Kills as Rampart"
       ],
       "free": [
-        "Mirage Stat Tracker : Season 5 Kills"
+        "Season 19 Wins as Bangalore"
       ]
     },
     "level_16": {
       "premium": [
-        "120"
+        "Wins as Rampart"
       ],
-      "free": [
-        "Caustic Stat Tracker : Season 5 Wins"
-      ]
+      "free": []
     },
     "level_17": {
       "premium": [
-        "Loading Screen : A Declaration of War"
+        "Damage Done as Rampart"
       ],
       "free": [
-        "Apex Pack"
+        "Tessellator"
       ]
     },
     "level_18": {
       "premium": [
-        "100"
+        "A Thousand Cuts"
       ],
-      "free": [
-        "Bloodhound Stat Tracker : Season 5 Kills"
-      ]
+      "free": []
     },
     "level_19": {
       "premium": [
-        "Triple Take Skin: Scarab's Bite"
+        "Long Live The Queen"
       ],
       "free": [
-        "Revenant Stat Tracker : Season 5 Wins"
+        "Season 19 Kills as Gibraltar"
       ]
     },
     "level_20": {
       "premium": [
-        "XP Boost [ note 1 ]"
+        "120"
       ],
       "free": [
-        "Mirage Kill Quip : Mirage à trois"
+        "Season 19 Kills as Gibraltar"
       ]
     },
     "level_21": {
       "premium": [
-        "Octane Banner Frame : Deep Dive"
+        "100"
       ],
       "free": [
-        "Revenant Stat Tracker : Season 5 Kills"
+        "Apex Pack"
       ]
     },
     "level_22": {
       "premium": [
-        "Charge Rifle Skin: Gilded Hunt"
+        "XP Boost [1]"
       ],
-      "free": [
-        "Bloodhound Stat Tracker : Season 5 Wins"
-      ]
+      "free": []
     },
     "level_23": {
       "premium": [
-        "Music Pack : Fortune's Favor"
+        "Kill Quip: You Put Up A Fight"
       ],
       "free": [
-        "Caustic Stat Tracker : Season 5 Kills"
+        "Season 19 Wins as Fuse"
       ]
     },
     "level_24": {
       "premium": [
-        "120"
+        "Cresting Crown"
       ],
       "free": [
-        "Crypto Kill Quip : Most alive when you're in love"
+        "Season 19 Kills as Fuse"
       ]
     },
     "level_25": {
       "premium": [
-        "Mirage Skin: Fool's Gold"
+        "Sly Sovereign"
       ],
       "free": [
-        "Apex Pack"
+        "Wire Cutter"
       ]
     },
     "level_26": {
       "premium": [
-        "Apex Pack"
+        "Emblematic"
       ],
-      "free": [
-        "Mirage Stat Tracker : Season 5 Wins"
-      ]
+      "free": []
     },
     "level_27": {
       "premium": [
-        "Revenant Banner Frame : Ritualistic"
+        "Emote Get It Together"
       ],
       "free": [
-        "Lifeline Stat Tracker : Season 5 Kills"
+        "Season 19 Kills as Vantage"
       ]
     },
     "level_28": {
       "premium": [
-        "Hemlok Burst AR Skin: Spine Chiller"
+        "120"
       ],
       "free": [
-        "Loba Stat Tracker : Season 5 Wins"
+        "Gilded Wings"
       ]
     },
     "level_29": {
       "premium": [
-        "Charm : Keepsake"
+        "100"
       ],
       "free": [
-        "Wattson Kill Quip : A gift of joules"
+        "Gilded Wings"
       ]
     },
     "level_30": {
       "premium": [
-        "XP Boost [ note 1 ]"
+        "XP Boost [1]"
       ],
-      "free": [
-        "Octane Stat Tracker : Season 5 Kills"
-      ]
+      "free": []
     },
     "level_31": {
       "premium": [
-        "VK-47 Flatline Skin: Scarlet Temperament"
+        "Kill Quip: Bon Voyage"
       ],
       "free": [
-        "Wattson Stat Tracker : Season 5 Wins"
+        "Season 19 Wins as Crypto"
       ]
     },
     "level_32": {
       "premium": [
-        "Caustic Kill Quip : Misunderstood intentions"
+        "Powered Paradise"
       ],
       "free": [
-        "Apex Pack"
+        "Season 19 Kills as Crypto"
       ]
     },
     "level_33": {
       "premium": [
-        "120"
+        "Charged Up"
       ],
       "free": [
-        "Bangalore Stat Tracker : Season 5 Kills"
+        "Lilac Defender"
       ]
     },
     "level_34": {
       "premium": [
-        "Loading Screen : Sleep With the Fishes"
+        "Tessellator"
       ],
-      "free": [
-        "Crypto Stat Tracker : Season 5 Wins"
-      ]
+      "free": []
     },
     "level_35": {
       "premium": [
-        "100"
+        "Unveil Your Power"
       ],
       "free": [
-        "Wraith Stat Tracker : Season 5 Kills"
+        "Season 19 Wins as Catalyst"
       ]
     },
     "level_36": {
       "premium": [
-        "R-301 Carbine Skin: Celestial Clockwork"
+        "120"
       ],
       "free": [
-        "Gibraltar Stat Tracker : Season 5 Wins"
+        "Season 19 Kills as Catalyst"
       ]
     },
     "level_37": {
       "premium": [
-        "Lifeline Skydive Emote : Vibing"
+        "100"
       ],
       "free": [
-        "Pathfinder Stat Tracker : Season 5 Kills"
+        "Squared Away"
       ]
     },
     "level_38": {
       "premium": [
-        "Octane Kill Quip : I think I love you friend"
+        "XP Boost [1]"
       ],
       "free": []
     },
     "level_39": {
       "premium": [
-        "HAVOC Rifle Skin: The Head Shrinker"
+        "Token of Protection"
       ],
-      "free": []
+      "free": [
+        "Apex Pack"
+      ]
     },
     "level_40": {
       "premium": [
-        "XP Boost [ note 1 ]"
+        "Kill Quip: We All Fight"
       ],
-      "free": []
+      "free": [
+        "Season 19 Wins as Octane"
+      ]
     },
     "level_41": {
       "premium": [
-        "Loading Screen : Like Father, Like Daughter"
+        "World's Best Defender"
       ],
-      "free": []
+      "free": [
+        "Season 19 Kills as Octane"
+      ]
     },
     "level_42": {
       "premium": [
-        "Loba Skydive Emote : Side Saddle"
+        "Wire Cutter"
       ],
       "free": []
     },
     "level_43": {
       "premium": [
-        "120"
+        "Divine Bridge"
       ],
-      "free": []
+      "free": [
+        "Season 19 Wins as Bloodhound"
+      ]
     },
     "level_44": {
       "premium": [
-        "100"
+        "120"
       ],
-      "free": []
+      "free": [
+        "Season 19 Kills as Bloodhound"
+      ]
     },
     "level_45": {
       "premium": [
-        "Charm : Diamond"
+        "100"
       ],
       "free": [
-        "Apex Pack"
+        "Custom Radia Plating"
       ]
     },
     "level_46": {
       "premium": [
-        "Loba Kill Quip : It's not you, it's me"
+        "XP Boost [1]"
       ],
       "free": []
     },
     "level_47": {
       "premium": [
-        "Devotion LMG Skin: Cartographer"
+        "Kills as Octane"
       ],
-      "free": []
+      "free": [
+        "Squared Away"
+      ]
     },
     "level_48": {
       "premium": [
-        "120"
+        "Wins as Octane"
       ],
-      "free": []
+      "free": [
+        "Season 19 Wins as Rampart"
+      ]
     },
     "level_49": {
       "premium": [
-        "Loading Screen : It Takes a Liar"
+        "Damage Done as Octane"
       ],
-      "free": []
+      "free": [
+        "Season 19 Kills as Rampart"
+      ]
     },
     "level_50": {
       "premium": [
-        "Bangalore Skin: Sky Marshal"
+        "Godly Speed"
       ],
-      "free": []
+      "free": [
+        "Conduit"
+      ]
     },
     "level_51": {
       "premium": [
-        "XP Boost [ note 1 ]"
+        "Avian Wings"
       ],
-      "free": []
+      "free": [
+        "Season 19 Wins as Lifeline"
+      ]
     },
     "level_52": {
       "premium": [
-        "L-STAR EMG Skin: Royal Weave"
+        "Glided Wings"
       ],
-      "free": []
+      "free": [
+        "Season 19 Kills as Lifeline"
+      ]
     },
     "level_53": {
       "premium": [
-        "Crypto Banner Frame : Expedition"
+        "120"
       ],
       "free": [
-        "Loba Skin: Huntswoman"
+        "Emblematic"
       ]
     },
     "level_54": {
       "premium": [
-        "Loba Banner Frame : Alpha Dog"
+        "XP Boost [1]"
       ],
       "free": []
     },
     "level_55": {
       "premium": [
-        "R-99 SMG Skin: Shredder"
+        "Divine Kicks"
       ],
-      "free": []
+      "free": [
+        "Season 19 Wins as Mirage"
+      ]
     },
     "level_56": {
       "premium": [
-        "Apex Pack"
+        "Kill Quip: Out of the Fast Lane"
       ],
-      "free": []
+      "free": [
+        "Season 19 Kills as Mirage"
+      ]
     },
     "level_57": {
       "premium": [
-        "Loading Screen : Felagi Fighters"
+        "Break Through"
       ],
-      "free": []
+      "free": [
+        "Celtic Trouble"
+      ]
     },
     "level_58": {
       "premium": [
-        "Mirage Skydive Emote : Private Dancer"
+        "Tessellator"
       ],
       "free": []
     },
     "level_59": {
       "premium": [
-        "Alternator SMG Skin: Entombed"
+        "Apex Pack"
       ],
-      "free": []
+      "free": [
+        "Season 19 Wins as Caustic"
+      ]
     },
     "level_60": {
       "premium": [
-        "XP Boost [ note 1 ]"
+        "120"
       ],
-      "free": []
+      "free": [
+        "Season 19 Kills as Caustic"
+      ]
     },
     "level_61": {
       "premium": [
-        "Charm : Trusty Whip"
+        "100"
       ],
-      "free": []
+      "free": [
+        "Apex Pack"
+      ]
     },
     "level_62": {
       "premium": [
-        "Mirage Banner Frame : Mapped Out"
+        "XP Boost [1]"
       ],
       "free": []
     },
     "level_63": {
       "premium": [
-        "Prowler Burst PDW Skin: Gnarled Embrace"
+        "Apex Pack"
       ],
-      "free": []
+      "free": [
+        "Tessellator"
+      ]
     },
     "level_64": {
       "premium": [
-        "120"
+        "Emote Can't Stomach This"
       ],
-      "free": []
+      "free": [
+        "Season 19 Wins as Ballistic"
+      ]
     },
     "level_65": {
       "premium": [
-        "Loading Screen : Stalking Prey"
+        "Heroes Past"
       ],
-      "free": []
+      "free": [
+        "Season 19 Kills as Ballistic"
+      ]
     },
     "level_66": {
       "premium": [
-        "100"
+        "Kill Quip: This Was Lovely"
       ],
-      "free": []
+      "free": [
+        "Apex Pack"
+      ]
     },
     "level_67": {
       "premium": [
-        "Music Pack : Loba"
+        "Yggdrasil Portal"
       ],
-      "free": []
+      "free": [
+        "Season 19 Wins as Mad Maggie"
+      ]
     },
     "level_68": {
       "premium": [
-        "Mastiff Shotgun Skin: Gift of Power"
+        "120"
       ],
-      "free": []
+      "free": [
+        "Season 19 Kills as Mad Maggie"
+      ]
     },
     "level_69": {
       "premium": [
-        "Pathfinder Banner Frame : Treasure Trove"
+        "100"
       ],
-      "free": []
+      "free": [
+        "Wire Cutter"
+      ]
     },
     "level_70": {
       "premium": [
-        "XP Boost [ note 1 ]"
+        "XP Boost [1]"
       ],
       "free": []
     },
     "level_71": {
       "premium": [
-        "EVA-8 Auto Skin: Molten Ignition"
+        "Arcade Conduit"
       ],
-      "free": []
+      "free": [
+        "Season 19 Wins as Loba"
+      ]
     },
     "level_72": {
       "premium": [
-        "Lifeline Banner Frame : Tools of the Trade"
+        "Lilac Defender"
       ],
-      "free": []
+      "free": [
+        "Season 19 Kills as Loba"
+      ]
     },
     "level_73": {
       "premium": [
-        "Loading Screen : Take It in Stride"
+        "Kill Quip: One Step Closer to the Champion's Circle"
       ],
-      "free": []
+      "free": [
+        "Season 19 Wins as Revenant"
+      ]
     },
     "level_74": {
       "premium": [
-        "Wraith Banner Frame : Intergalactic"
+        "Don't Hold Back"
       ],
-      "free": []
+      "free": [
+        "Season 19 Kills as Revenant"
+      ]
     },
     "level_75": {
       "premium": [
-        "100"
+        "Ancient Village"
       ],
-      "free": []
+      "free": [
+        "Season 19 Wins as Pathfinder"
+      ]
     },
     "level_76": {
       "premium": [
-        "Peacekeeper Skin: Evolved Flow"
+        "120"
       ],
-      "free": []
+      "free": [
+        "Season 19 Kills as Pathfinder"
+      ]
     },
     "level_77": {
       "premium": [
-        "Charm : Explorer's Hat"
+        "100"
       ],
-      "free": []
+      "free": [
+        "Apex Pack"
+      ]
     },
     "level_78": {
       "premium": [
-        "Bloodhound Banner Frame : Deep Discovery"
+        "Wire Cutter"
       ],
       "free": []
     },
     "level_79": {
       "premium": [
-        "Mozambique Shotgun Skin: Rare Find"
+        "Tumultuous Temple"
       ],
-      "free": []
+      "free": [
+        "Season 19 Wins as Seer"
+      ]
     },
     "level_80": {
       "premium": [
-        "XP Boost [ note 1 ]"
+        "Super Ness"
       ],
-      "free": []
+      "free": [
+        "Season 19 Kills as Seer"
+      ]
     },
     "level_81": {
       "premium": [
-        "Apex Pack"
+        "Death Dealer"
       ],
-      "free": []
+      "free": [
+        "Season 19 Wins as Valkyrie"
+      ]
     },
     "level_82": {
       "premium": [
-        "120"
+        "Emote Strong Brew"
       ],
-      "free": []
+      "free": [
+        "Season 19 Kills as Valkyrie"
+      ]
     },
     "level_83": {
       "premium": [
-        "100"
+        "Kill Quip: A Bomb in the Hand's Worth Two"
       ],
-      "free": []
+      "free": [
+        "Season 19 Wins as Newcastle"
+      ]
     },
     "level_84": {
       "premium": [
-        "Loading Screen : Arms Race"
+        "Apex Pack"
       ],
-      "free": []
+      "free": [
+        "Season 19 Kills as Newcastle"
+      ]
     },
     "level_85": {
       "premium": [
-        "Octane Skydive Emote : Without a Paddle"
+        "100"
       ],
-      "free": []
+      "free": [
+        "Apex Pack"
+      ]
     },
     "level_86": {
       "premium": [
-        "100"
+        "Energy Conservation PSA"
       ],
       "free": []
     },
     "level_87": {
       "premium": [
-        "RE-45 Auto Skin: Woven Future"
+        "Apex Pack"
       ],
-      "free": []
+      "free": [
+        "Season 19 Wins as Ash"
+      ]
     },
     "level_88": {
       "premium": [
-        "Apex Pack"
+        "Sacred Depths"
       ],
-      "free": []
+      "free": [
+        "Season 19 Kills as Ash"
+      ]
     },
     "level_89": {
       "premium": [
-        "120"
+        "Gilded Wings"
       ],
       "free": []
     },
     "level_90": {
       "premium": [
-        "XP Boost [ note 1 ]"
+        "The Cool Mom"
       ],
-      "free": []
+      "free": [
+        "Season 19 Wins as Horizon"
+      ]
     },
     "level_91": {
       "premium": [
-        "Bangalore Banner Frame : Explosive Ordnance"
+        "Kill Quip: You Weren't Really Living, Anyway"
       ],
-      "free": []
+      "free": [
+        "Season 19 Kills as Horizon"
+      ]
     },
     "level_92": {
       "premium": [
-        "P2020 Skin: Emerald Shard"
+        "Jeweled Raven"
       ],
       "free": []
     },
     "level_93": {
       "premium": [
-        "Charm : Frost Bite"
+        "100"
       ],
-      "free": []
+      "free": [
+        "Calling Triple-Kill CHamp"
+      ]
     },
     "level_94": {
       "premium": [
-        "Sentinel Skin: Admonish"
+        "Lilac Defender"
       ],
       "free": []
     },
     "level_95": {
       "premium": [
-        "120"
+        "100"
       ],
-      "free": []
+      "free": [
+        "Season 19 Wins as Wraith"
+      ]
     },
     "level_96": {
       "premium": [
-        "100"
+        "She'll be right"
       ],
-      "free": []
+      "free": [
+        "Season 19 Kills as Wraith"
+      ]
     },
     "level_97": {
       "premium": [
-        "Apex Pack"
+        "Fabled Betrayal"
       ],
       "free": []
     },
     "level_98": {
       "premium": [
-        "100"
+        "Quick Scan"
       ],
-      "free": []
+      "free": [
+        "Season 19 Wins as Wattson"
+      ]
     },
     "level_99": {
       "premium": [
-        "M600 Spitfire Skin: Bad Mojo"
+        "Apex Pack"
       ],
       "free": [
-        "M600 Spitfire Skin: Plunder"
+        "Season 19 Kills as Wattson"
       ]
     },
     "level_100": {
       "premium": [
-        "Wingman Skin: Precision Caliber"
+        "Grace of Odin"
       ],
       "free": [
-        "Wingman Skin: The Keystone"
+        "100"
       ]
     },
     "level_110": {
       "premium": [
-        "Wingman Skin: Attention To Detail"
+        "Wrath of Fenrir"
       ],
       "free": [
-        "Badge : Fortune's Favor Level Season 5 Badge"
+        "Badge: Ignite"
       ]
     }
   }

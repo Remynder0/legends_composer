@@ -1,0 +1,401 @@
+{
+  "season": 27,
+  "max_level": 60,
+  "rewards": {
+    "level_1": {
+      "premium": [
+        "Arachnid Kiss Widow's Bite Toxic Edge Locked In XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_2": {
+      "premium": [
+        "Kill Quip: One small step for me"
+      ],
+      "free": [
+        "Check-In"
+      ]
+    },
+    "level_3": {
+      "premium": [
+        "Luge Groove"
+      ],
+      "free": []
+    },
+    "level_4": {
+      "premium": [
+        "Droppin' Hot"
+      ],
+      "free": []
+    },
+    "level_5": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_6": {
+      "premium": [
+        "Cyber Kitten - Top Cyber Kitten - Middle Cyber Kitten - Bottom"
+      ],
+      "free": []
+    },
+    "level_7": {
+      "premium": [
+        "Triumphant Captain"
+      ],
+      "free": [
+        "Amped Split 2"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "Resonant Wave"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_10": {
+      "premium": [
+        "Cyber Kitten Midnight Lumosity+"
+      ],
+      "free": []
+    },
+    "level_11": {
+      "premium": [
+        "Rock and Roll With It XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_12": {
+      "premium": [
+        "Dormant Stinger"
+      ],
+      "free": []
+    },
+    "level_13": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_14": {
+      "premium": [
+        "True Mastery"
+      ],
+      "free": []
+    },
+    "level_15": {
+      "premium": [
+        "200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_16": {
+      "premium": [
+        "Treacherous Crawl"
+      ],
+      "free": []
+    },
+    "level_17": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_18": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_19": {
+      "premium": [
+        "Sponsored Venom"
+      ],
+      "free": [
+        "Emote A Rose For You"
+      ]
+    },
+    "level_20": {
+      "premium": [
+        "Scorpion Queen 10+"
+      ],
+      "free": []
+    },
+    "level_21": {
+      "premium": [
+        "Wild Vibrance XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_22": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_23": {
+      "premium": [
+        "Fancy Finish"
+      ],
+      "free": []
+    },
+    "level_24": {
+      "premium": [
+        "200"
+      ],
+      "free": [
+        "Eyes to the Sky"
+      ]
+    },
+    "level_25": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_26": {
+      "premium": [
+        "Natural Balance"
+      ],
+      "free": [
+        "Amped Pack"
+      ]
+    },
+    "level_27": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_28": {
+      "premium": [
+        "200"
+      ],
+      "free": []
+    },
+    "level_29": {
+      "premium": [
+        "Ride or Die"
+      ],
+      "free": []
+    },
+    "level_30": {
+      "premium": [
+        "10 Rapid Surge"
+      ],
+      "free": []
+    },
+    "level_31": {
+      "premium": [
+        "100 XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_32": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Tiger Strike"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "Alabaster Champion - Top Alabaster Champion - Middle Alabaster Champion - Bottom"
+      ],
+      "free": []
+    },
+    "level_34": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "A Future Discovery"
+      ]
+    },
+    "level_35": {
+      "premium": [
+        "Dynamic Reflection"
+      ],
+      "free": []
+    },
+    "level_36": {
+      "premium": [
+        "Atmospheric Entry"
+      ],
+      "free": []
+    },
+    "level_37": {
+      "premium": [
+        "Move It or Die"
+      ],
+      "free": []
+    },
+    "level_38": {
+      "premium": [
+        "Top of the Food Chain"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_39": {
+      "premium": [
+        "200"
+      ],
+      "free": []
+    },
+    "level_40": {
+      "premium": [
+        "Alabaster Champion Firestarter+"
+      ],
+      "free": []
+    },
+    "level_41": {
+      "premium": [
+        "Rocket Racer XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_42": {
+      "premium": [
+        "Kill Quip: Every shot matters"
+      ],
+      "free": [
+        "Tiger Byte"
+      ]
+    },
+    "level_43": {
+      "premium": [
+        "Lethal Wing"
+      ],
+      "free": []
+    },
+    "level_44": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_45": {
+      "premium": [
+        "One Step Ahead"
+      ],
+      "free": []
+    },
+    "level_46": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_47": {
+      "premium": [
+        "200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_48": {
+      "premium": [
+        "Winged Whirlwind"
+      ],
+      "free": []
+    },
+    "level_49": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_50": {
+      "premium": [
+        "Faded Wings"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "Goin' Up"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_52": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_53": {
+      "premium": [
+        "Tail Dance"
+      ],
+      "free": []
+    },
+    "level_54": {
+      "premium": [
+        "Serpentine Striker"
+      ],
+      "free": []
+    },
+    "level_55": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Champion's Ride"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_57": {
+      "premium": [
+        "200 Clear Vision"
+      ],
+      "free": []
+    },
+    "level_58": {
+      "premium": [
+        "Dive Speed"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_59": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_60": {
+      "premium": [
+        "Polished Piercer"
+      ],
+      "free": []
+    }
+  },
+  "split": 2
+}

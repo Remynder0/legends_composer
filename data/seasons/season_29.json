@@ -1,0 +1,398 @@
+{
+  "season": 29,
+  "max_level": 60,
+  "rewards": {
+    "level_1": {
+      "premium": [
+        "Cell Signal Live Wire Weapon Rack Time to Improvise XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_2": {
+      "premium": [
+        "Kill Quip: Zapped both of us"
+      ],
+      "free": [
+        "Trash Talk"
+      ]
+    },
+    "level_3": {
+      "premium": [
+        "Somer-Assault"
+      ],
+      "free": []
+    },
+    "level_4": {
+      "premium": [
+        "Grilling Time"
+      ],
+      "free": []
+    },
+    "level_5": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_6": {
+      "premium": [
+        "Shadow Flare - Top Shadow Flare - Middle Shadow Flare - Bottom"
+      ],
+      "free": []
+    },
+    "level_7": {
+      "premium": [
+        "Fractured Forge"
+      ],
+      "free": [
+        "Overclocked Split 1: Axle"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "Celestial Luxe"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_10": {
+      "premium": [
+        "Shadow Flare Genesis+"
+      ],
+      "free": []
+    },
+    "level_11": {
+      "premium": [
+        "Too Tough XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_12": {
+      "premium": [
+        "Shatter Swarm"
+      ],
+      "free": []
+    },
+    "level_13": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_14": {
+      "premium": [
+        "No More Limits"
+      ],
+      "free": []
+    },
+    "level_15": {
+      "premium": [
+        "200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_16": {
+      "premium": [
+        "Morbid Curiosity"
+      ],
+      "free": []
+    },
+    "level_17": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_18": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_19": {
+      "premium": [
+        "Big Hit"
+      ],
+      "free": [
+        "Emote Jam Session"
+      ]
+    },
+    "level_20": {
+      "premium": [
+        "Shadow Network 10+"
+      ],
+      "free": []
+    },
+    "level_21": {
+      "premium": [
+        "Rear View XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_22": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_23": {
+      "premium": [
+        "Red Streak"
+      ],
+      "free": []
+    },
+    "level_24": {
+      "premium": [
+        "200"
+      ],
+      "free": [
+        "Cleared"
+      ]
+    },
+    "level_25": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_26": {
+      "premium": [
+        "Crowd Work"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_27": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_28": {
+      "premium": [
+        "200"
+      ],
+      "free": []
+    },
+    "level_29": {
+      "premium": [
+        "Try and Catch Up"
+      ],
+      "free": []
+    },
+    "level_30": {
+      "premium": [
+        "10 Energy Efficient"
+      ],
+      "free": []
+    },
+    "level_31": {
+      "premium": [
+        "100 XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_32": {
+      "premium": [
+        "Pirouette"
+      ],
+      "free": [
+        "Sweet Escape"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "Dark Web - Top Dark Web - Middle Dark Web - Bottoom"
+      ],
+      "free": []
+    },
+    "level_34": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Letter from Mutti"
+      ]
+    },
+    "level_35": {
+      "premium": [
+        "Turbo Galaxy"
+      ],
+      "free": []
+    },
+    "level_36": {
+      "premium": [
+        "Surveillance"
+      ],
+      "free": []
+    },
+    "level_37": {
+      "premium": [
+        "Five Steps Ahead"
+      ],
+      "free": []
+    },
+    "level_38": {
+      "premium": [
+        "Fresh Paint"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_39": {
+      "premium": [
+        "200"
+      ],
+      "free": []
+    },
+    "level_40": {
+      "premium": [
+        "Dark Web Vapor Runner+"
+      ],
+      "free": []
+    },
+    "level_41": {
+      "premium": [
+        "Emote Shadowboxer XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_42": {
+      "premium": [
+        "Kill Quip: Do not blame yourself"
+      ],
+      "free": [
+        "Cyber Rose"
+      ]
+    },
+    "level_43": {
+      "premium": [
+        "Hyperpink"
+      ],
+      "free": []
+    },
+    "level_44": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_45": {
+      "premium": [
+        "Overclockin"
+      ],
+      "free": []
+    },
+    "level_46": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_47": {
+      "premium": [
+        "200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_48": {
+      "premium": [
+        "Power Coil"
+      ],
+      "free": []
+    },
+    "level_49": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_50": {
+      "premium": [
+        "Electrochem"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "Bringing the Big Guns"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_52": {
+      "premium": [],
+      "free": []
+    },
+    "level_53": {
+      "premium": [
+        "Power Pack"
+      ],
+      "free": []
+    },
+    "level_54": {
+      "premium": [
+        "Hot Wired"
+      ],
+      "free": []
+    },
+    "level_55": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Clear!"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_57": {
+      "premium": [
+        "200 Ultra Upgrades"
+      ],
+      "free": []
+    },
+    "level_58": {
+      "premium": [
+        "Too Cute"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_59": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_60": {
+      "premium": [
+        "Electrification"
+      ],
+      "free": []
+    }
+  }
+}

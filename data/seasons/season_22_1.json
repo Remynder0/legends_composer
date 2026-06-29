@@ -1,0 +1,403 @@
+{
+  "season": 22,
+  "max_level": 60,
+  "rewards": {
+    "level_1": {
+      "premium": [
+        "Vapor Wave Wave Raver Arcade Space XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_2": {
+      "premium": [
+        "The Equalizer"
+      ],
+      "free": [
+        "Transition What's Your E?"
+      ]
+    },
+    "level_3": {
+      "premium": [
+        "200 Pathfinder Pack"
+      ],
+      "free": []
+    },
+    "level_4": {
+      "premium": [
+        "Hot Stuff"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_5": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_6": {
+      "premium": [
+        "Smooth Rider - Top Smooth Rider - Middle Smooth Rider - Bottom"
+      ],
+      "free": []
+    },
+    "level_7": {
+      "premium": [
+        "Emote: Uppercut"
+      ],
+      "free": [
+        "Shockwave Split 1"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "Training Simulator"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_10": {
+      "premium": [
+        "Smooth Rider Neon Demon[+ 1]"
+      ],
+      "free": []
+    },
+    "level_11": {
+      "premium": [
+        "You Got Shredded XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_12": {
+      "premium": [
+        "Arcade Overload"
+      ],
+      "free": []
+    },
+    "level_13": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Kawaii Dangerous"
+      ]
+    },
+    "level_14": {
+      "premium": [
+        "Apex Pack 200"
+      ],
+      "free": []
+    },
+    "level_15": {
+      "premium": [
+        "Retro Reticle"
+      ],
+      "free": []
+    },
+    "level_16": {
+      "premium": [
+        "Shattered Pixels"
+      ],
+      "free": []
+    },
+    "level_17": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_18": {
+      "premium": [
+        "200"
+      ],
+      "free": [
+        "In The Zone"
+      ]
+    },
+    "level_19": {
+      "premium": [
+        "Kill Quip: Have you seen my fanart? 100 Falling For You"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_20": {
+      "premium": [
+        "10[+ 1] Light Show"
+      ],
+      "free": []
+    },
+    "level_21": {
+      "premium": [
+        "Neon Classic XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_22": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_23": {
+      "premium": [
+        "Night Glider"
+      ],
+      "free": []
+    },
+    "level_24": {
+      "premium": [
+        "Smooth Move"
+      ],
+      "free": []
+    },
+    "level_25": {
+      "premium": [
+        "200"
+      ],
+      "free": [
+        "Emote Sheila Shuffle"
+      ]
+    },
+    "level_26": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_27": {
+      "premium": [
+        "200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_28": {
+      "premium": [
+        "Pump It Up"
+      ],
+      "free": []
+    },
+    "level_29": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_30": {
+      "premium": [
+        "10 Turning to Custard"
+      ],
+      "free": []
+    },
+    "level_31": {
+      "premium": [
+        "100 XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_32": {
+      "premium": [
+        "Kill Quip: If this were a beauty contest... well 200"
+      ],
+      "free": [
+        "Neon Sky"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "Cherry Bomb - Top Cherry Bomb - Middle Cherry Bomb - Bottom"
+      ],
+      "free": []
+    },
+    "level_34": {
+      "premium": [
+        "100 Apex Pack"
+      ],
+      "free": []
+    },
+    "level_35": {
+      "premium": [
+        "Personal Touch"
+      ],
+      "free": []
+    },
+    "level_36": {
+      "premium": [
+        "200 Outpace"
+      ],
+      "free": [
+        "Secret Recipe"
+      ]
+    },
+    "level_37": {
+      "premium": [
+        "Emote Curtsy"
+      ],
+      "free": []
+    },
+    "level_38": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_39": {
+      "premium": [
+        "I Don't Miss"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_40": {
+      "premium": [
+        "Demon Claws[+ 1] Cherry Bomb"
+      ],
+      "free": []
+    },
+    "level_41": {
+      "premium": [
+        "Arcade Burst XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_42": {
+      "premium": [
+        "Apex Pack 200"
+      ],
+      "free": []
+    },
+    "level_43": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Acid Reign"
+      ]
+    },
+    "level_44": {
+      "premium": [
+        "In My Lane 200"
+      ],
+      "free": []
+    },
+    "level_45": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Pop Star"
+      ]
+    },
+    "level_46": {
+      "premium": [
+        "100 Alter Pack"
+      ],
+      "free": []
+    },
+    "level_47": {
+      "premium": [
+        "Cherry Kiss 200"
+      ],
+      "free": []
+    },
+    "level_48": {
+      "premium": [
+        "Emote Void Guitar"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_49": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_50": {
+      "premium": [
+        "Void Dipped"
+      ],
+      "free": []
+    },
+    "level_51": {
+      "premium": [
+        "Gamer's Paradise"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_52": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_53": {
+      "premium": [
+        "Spin Cycle 200"
+      ],
+      "free": []
+    },
+    "level_54": {
+      "premium": [
+        "Heat of The Night"
+      ],
+      "free": []
+    },
+    "level_55": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Bubble Champion"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_57": {
+      "premium": [
+        "200"
+      ],
+      "free": []
+    },
+    "level_58": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_59": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_60": {
+      "premium": [
+        "Hunter's Best Friend"
+      ],
+      "free": []
+    }
+  },
+  "split": 1
+}

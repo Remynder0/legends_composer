@@ -1,38 +1,36 @@
 {
-  "season": 10,
+  "season": 20,
   "max_level": 110,
   "rewards": {
     "level_1": {
       "premium": [
-        "30-30 Repeater skin: Winged Sun Gibraltar skin: Hive Minded Wattson skin: Magnetic Mantis Seer skin: Heart of Gold XP Boost [ note 1 ]"
+        "Green Machine Neon Techwear Dead Link Teal Energizer XP Boost [1]"
       ],
       "free": [
-        "Loading Screen : Keep The Flame"
+        "Cheers"
       ]
     },
     "level_2": {
       "premium": [
-        "Seer Banner Frame : Plated Prophecy"
+        "Air Walker"
       ],
       "free": []
     },
     "level_3": {
-      "premium": [
-        "Apex Pack"
-      ],
+      "premium": [],
       "free": []
     },
     "level_4": {
       "premium": [
-        "Seer Kill Quip : Change is inevitable, my friend"
+        "120"
       ],
       "free": [
-        "Music Pack : Emergence"
+        "Breakout"
       ]
     },
     "level_5": {
       "premium": [
-        "100"
+        "Apex Pack"
       ],
       "free": [
         "100"
@@ -40,10 +38,10 @@
     },
     "level_6": {
       "premium": [
-        "XP Boost [ note 1 ]"
+        "XP Boost [1]"
       ],
       "free": [
-        "P2020 skin: Pollenation"
+        "Firey Shuriken"
       ]
     },
     "level_7": {
@@ -51,111 +49,105 @@
         "Apex Pack"
       ],
       "free": [
-        "Bangalore Stat Tracker : Season 10 Wins"
+        "Apex Pack"
       ]
     },
     "level_8": {
       "premium": [
-        "Seer Holo-Spray : See You Soon My Friend"
+        "Dire Attack"
       ],
       "free": [
-        "Fuse Stat Tracker : Season 10 Wins"
+        "Dire Attack"
       ]
     },
     "level_9": {
       "premium": [
-        "Weapon Charm : Outback Snack"
+        "Kill Quip: Wasn't one for the history books"
       ],
-      "free": [
-        "Loba Stat Tracker : Season 10 Wins"
-      ]
+      "free": []
     },
     "level_10": {
       "premium": [
-        "Loading Screen : Deep Dive"
+        "Quiet as a mouse"
       ],
       "free": [
-        "Bangalore Stat Tracker : Season 10 Kills"
+        "Moth to the Spotlight"
       ]
     },
     "level_11": {
       "premium": [
-        "Rampage skin: Gossamer"
+        "Star Struck"
       ],
       "free": [
-        "Fuse Stat Tracker : Season 10 Kills"
+        "Great Minds"
       ]
     },
     "level_12": {
       "premium": [
-        "120"
+        "Emote Dramatic Entrance"
       ],
-      "free": [
-        "Loba Stat Tracker : Season 10 Kills"
-      ]
+      "free": []
     },
     "level_13": {
       "premium": [
-        "100"
+        "120"
       ],
       "free": [
-        "Apex Pack"
+        "Toxic Bite"
       ]
     },
     "level_14": {
       "premium": [
-        "XP Boost [ note 1 ]"
+        "XP Boost [1]"
       ],
       "free": [
-        "Alternator SMG skin: Charged"
+        "Season 20 Wins as Bloodhound"
       ]
     },
     "level_15": {
       "premium": [
-        "Wattson Kill Quip : Your efforts were electroCUTE"
+        "Kills as Bangalore"
       ],
       "free": [
-        "Rampart Stat Tracker : Season 10 Wins"
+        "Season 20 Wins as Bloodhound"
       ]
     },
     "level_16": {
       "premium": [
-        "Weapon Charm : Bug Buddy"
+        "Wins as Bangalore"
       ],
-      "free": [
-        "Bloodhound Stat Tracker : Season 10 Wins"
-      ]
+      "free": []
     },
     "level_17": {
       "premium": [
-        "Apex Pack"
+        "Damage Done as Bangalore"
       ],
       "free": [
-        "Gibraltar Stat Tracker : Season 10 Wins"
+        "CMYK"
       ]
     },
     "level_18": {
       "premium": [
-        "Wattson Banner Frame : Bug Zapper"
+        "Night Prowler"
       ],
       "free": [
-        "Rampart Stat Tracker : Season 10 Kills"
+        "Season 20 Kills as Crypto"
       ]
     },
     "level_19": {
       "premium": [
-        "Wattson Holo-Spray : Spark of Genius"
+        "Smoke's Out"
       ],
       "free": [
-        "Bloodhound Stat Tracker : Season 10 Kills"
+        "Boomtastic"
       ]
     },
     "level_20": {
       "premium": [
-        "Triple Take skin: Warning Colors"
+        "120"
       ],
       "free": [
-        "Gibraltar Stat Tracker : Season 10 Kills"
+        "Boomtastic"
       ]
     },
     "level_21": {
@@ -168,58 +160,54 @@
     },
     "level_22": {
       "premium": [
-        "XP Boost [ note 1 ]"
+        "XP Boost [1]"
       ],
       "free": [
-        "Weapon Charm : Compound Eyes In the Sky"
+        "Season 20 Wins as Bangalore"
       ]
     },
     "level_23": {
       "premium": [
-        "Valkyrie Stat Tracker : Kills"
+        "Kill Quip: Get back to the sidelines"
       ],
       "free": [
-        "Loading Screen : Why Is No One Else Freaking Out?"
+        "Season 20 Kills as Bangalore"
       ]
     },
     "level_24": {
       "premium": [
-        "Valkyrie Stat Tracker : Damage Done"
+        "Scroll's Out"
       ],
-      "free": [
-        "Mirage Stat Tracker : Season 10 Wins"
-      ]
+      "free": []
     },
     "level_25": {
       "premium": [
-        "Valkyrie skin: Aerial Evolution"
+        "Sand and Rust"
       ],
       "free": [
-        "Revenant Stat Tracker : Season 10 Wins"
+        "Feral Fuchsia"
       ]
     },
     "level_26": {
       "premium": [
-        "Valkyrie Stat Tracker : Wins"
+        "Dire Attack"
       ],
-      "free": [
-        "Wraith Stat Tracker : Season 10 Wins"
-      ]
+      "free": []
     },
     "level_27": {
       "premium": [
-        "120"
+        "Emote Dramatic Entrance"
       ],
       "free": [
-        "Caustic Stat Tracker : Season 10 Wins"
+        "Season 20 Kills as Ash"
       ]
     },
     "level_28": {
       "premium": [
-        "VK-47 Flatline skin: Temporal Scale"
+        "120"
       ],
       "free": [
-        "Apex Pack"
+        "Season 20 Wins as Ash"
       ]
     },
     "level_29": {
@@ -227,55 +215,53 @@
         "100"
       ],
       "free": [
-        "Mozambique Shotgun skin: Web Spinner"
+        "Cerulean Fury"
       ]
     },
     "level_30": {
       "premium": [
-        "XP Boost [ note 1 ]"
+        "XP Boost [1]"
       ],
       "free": [
-        "Mirage Stat Tracker : Season 10 Kills"
+        "Bang! Bang! Bang!"
       ]
     },
     "level_31": {
       "premium": [
-        "Loading Screen : A Witty Bunch"
+        "Kill Quip: You Succeeded in disappointing me"
       ],
       "free": [
-        "Revenant Stat Tracker : Season 10 Kills"
+        "Season 20 Wins as Horizon"
       ]
     },
     "level_32": {
       "premium": [
-        "Valkyrie Banner Frame : Aerial Acrobatics"
+        "Electroneural"
       ],
       "free": [
-        "Wraith Stat Tracker : Season 10 Kills"
+        "Season 20 Kills as Horizon"
       ]
     },
     "level_33": {
       "premium": [
-        "Valkyrie Kill Quip : This bloodsport really changes a girl"
+        "Neon Dagger"
       ],
       "free": [
-        "Caustic Stat Tracker : Season 10 Kills"
+        "Toxic Bite"
       ]
     },
     "level_34": {
       "premium": [
-        "Valkyrie Holo-Spray : Swat This!"
+        "Toxic Bite"
       ],
-      "free": [
-        "Horizon Stat Tracker : Season 10 Wins"
-      ]
+      "free": []
     },
     "level_35": {
       "premium": [
-        "Apex Pack"
+        "Leave a Mark"
       ],
       "free": [
-        "Octane Stat Tracker : Season 10 Wins"
+        "Season 20 Kills as Wraith"
       ]
     },
     "level_36": {
@@ -283,7 +269,7 @@
         "120"
       ],
       "free": [
-        "Valkyrie Stat Tracker : Season 10 Wins"
+        "Dire Attack"
       ]
     },
     "level_37": {
@@ -291,55 +277,53 @@
         "100"
       ],
       "free": [
-        "Apex Pack"
+        "Dire Attack"
       ]
     },
     "level_38": {
       "premium": [
-        "XP Boost [ note 1 ]"
+        "XP Boost [1]"
       ],
-      "free": [
-        "EVA-8 Auto skin: Cell Wall"
-      ]
+      "free": []
     },
     "level_39": {
       "premium": [
-        "Bloodhound Holo-Spray : Night Watch"
+        "Smoke Bomb"
       ],
       "free": [
-        "Horizon Stat Tracker : Season 10 Kills"
+        "Apex Pack"
       ]
     },
     "level_40": {
       "premium": [
-        "Bloodhound Banner Frame : Nested"
+        "Kill Quip: I'd call you a hack"
       ],
       "free": [
-        "Octane Stat Tracker : Season 10 Kills"
+        "Televised Revolution"
       ]
     },
     "level_41": {
       "premium": [
-        "R-301 Carbine skin: Eyes and Ears"
+        "Let's Go"
       ],
       "free": [
-        "Valkyrie Stat Tracker : Season 10 Kills"
+        "Season 20 Wins as Newcastle"
       ]
     },
     "level_42": {
       "premium": [
-        "Bloodhound Kill Quip : The hunter will always vinna"
+        "CMYK"
       ],
       "free": [
-        "Seer Stat Tracker : Season 10 Wins"
+        "Season 20 Kills as Newcastle"
       ]
     },
     "level_43": {
       "premium": [
-        "Weapon Charm : Perched"
+        "Lock Breaker"
       ],
       "free": [
-        "Crypto Stat Tracker : Season 10 Wins"
+        "Season 20 Wins as Pathfinder"
       ]
     },
     "level_44": {
@@ -347,7 +331,7 @@
         "120"
       ],
       "free": [
-        "Lifeline Stat Tracker : Season 10 Wins"
+        "Season 20 Kills as Pathfinder"
       ]
     },
     "level_45": {
@@ -355,119 +339,121 @@
         "100"
       ],
       "free": [
-        "Bloodhound skin: Hidden Hive"
+        "Project {Redacted} Terminated"
       ]
     },
     "level_46": {
       "premium": [
-        "Horizon Stat Tracker : Kills"
+        "XP Boost [1]"
       ],
-      "free": [
-        "Apex Pack"
-      ]
+      "free": []
     },
     "level_47": {
       "premium": [
-        "XP Boost [ note 1 ]"
+        "Kills as Lifeline"
       ],
       "free": [
-        "Seer Stat Tracker : Season 10 Kills"
+        "Feral Fuchsia"
       ]
     },
     "level_48": {
       "premium": [
-        "Horizon Stat Tracker : Damage Done"
+        "Wins as Lifeline"
       ],
       "free": [
-        "Crypto Stat Tracker : Season 10  Kills"
+        "Season 20 Wins as Lifeline"
       ]
     },
     "level_49": {
       "premium": [
-        "Rampage skin: Flutter"
+        "Damage Done as Lifeline"
       ],
       "free": [
-        "Lifeline Stat Tracker : Season 10 Kills"
+        "Season 20 Kills as Lifeline"
       ]
     },
     "level_50": {
       "premium": [
-        "Horizon skin: Biotic Luminary"
+        "Code Blue"
       ],
       "free": [
-        "Pathfinder Stat Tracker : Season 10 Wins"
+        "Mine All Mine"
       ]
     },
     "level_51": {
       "premium": [
-        "Horizon Stat Tracker : Wins"
+        "Tanto"
       ],
       "free": [
-        "Wattson Stat Tracker : Season 10 Wins"
+        "Hype"
       ]
     },
     "level_52": {
       "premium": [
-        "120"
+        "Cerulean Fury"
       ],
       "free": []
     },
     "level_53": {
       "premium": [
-        "100"
+        "120"
       ],
       "free": [
-        "RE-45 Auto skin: Heat Burst"
+        "Toxic Bite"
       ]
     },
     "level_54": {
       "premium": [
-        "XP Boost [ note 1 ]"
+        "XP Boost [1]"
       ],
       "free": [
-        "Loading Screen : Disciplinary Action"
+        "Season 20 Wins as Conduit"
       ]
     },
     "level_55": {
       "premium": [
-        "Weapon Charm : Bug Out"
+        "Killer Medicine"
       ],
       "free": [
-        "Pathfinder Stat Tracker : Season 10 Kills"
+        "Season 20 Kills as Conduit"
       ]
     },
     "level_56": {
       "premium": [
-        "Music Pack : Seer"
+        "Kill Quip: Join my squad next time"
       ],
-      "free": [
-        "Wattson Stat Tracker : Season 10 Kills"
-      ]
+      "free": []
     },
     "level_57": {
       "premium": [
-        "Horizon Holo-Spray : Wee Marvel of Science"
+        "Ice Cold"
       ],
-      "free": []
+      "free": [
+        "Electric Stripes"
+      ]
     },
     "level_58": {
       "premium": [
-        "Horizon Banner Frame : Lush Landing"
+        "CMYK"
       ],
-      "free": []
+      "free": [
+        "Season 20 Wins as Catalyst"
+      ]
     },
     "level_59": {
       "premium": [
-        "Horizon Kill Quip : Did ya think you'd be on top forever?"
+        "Apex Pack"
       ],
-      "free": []
+      "free": [
+        "Season 20 Kills as Catalyst"
+      ]
     },
     "level_60": {
       "premium": [
         "120"
       ],
       "free": [
-        "100"
+        "Amazing Aviation"
       ]
     },
     "level_61": {
@@ -475,262 +461,308 @@
         "100"
       ],
       "free": [
-        "120"
+        "Apex Pack"
       ]
     },
     "level_62": {
       "premium": [
-        "XP Boost [ note 1 ]"
+        "XP Boost [1]"
       ],
-      "free": [
-        "Peacekeeper skin: Hive Circuit"
-      ]
+      "free": []
     },
     "level_63": {
       "premium": [
-        "Loading Screen : Eavesdroppin' a Line"
+        "Apex Pack"
       ],
       "free": [
-        "Loading Screen : Lunar Impact Report"
+        "Feral Fuchsia"
       ]
     },
     "level_64": {
       "premium": [
-        "Weapon Charm : Buzzkill"
+        "Emote Great Minds Recline"
       ],
-      "free": []
+      "free": [
+        "Season 20 Wins as Mad Maggie"
+      ]
     },
     "level_65": {
       "premium": [
-        "Apex Pack"
+        "Hazardous"
       ],
-      "free": []
+      "free": [
+        "Season 20 Kills as Mad Maggie"
+      ]
     },
     "level_66": {
       "premium": [
-        "Gibraltar Holo-Spray : Bee Careful"
+        "Kill Quip: I Keep my shields full"
       ],
-      "free": []
+      "free": [
+        "Apex Pack"
+      ]
     },
     "level_67": {
       "premium": [
-        "Gibraltar Banner Frame : Queens Clutch"
+        "Moonlight Ferrocity"
       ],
-      "free": []
+      "free": [
+        "Season 20 Wins as Mirage"
+      ]
     },
     "level_68": {
       "premium": [
-        "Gibraltar Kill Quip : We all change for the better"
+        "120"
       ],
-      "free": []
+      "free": [
+        "Season 20 Kills as Mirage"
+      ]
     },
     "level_69": {
       "premium": [
         "100"
       ],
       "free": [
-        "G7 Scout skin: Altered State"
+        "Cerulean Fury"
       ]
     },
     "level_70": {
       "premium": [
-        "XP Boost [ note 1 ]"
+        "XP Boost [1]"
       ],
       "free": [
-        "Longbow DMR skin: Emissary"
+        "Season 20 Wins as Rampart"
       ]
     },
     "level_71": {
       "premium": [
-        "Lifeline Kill Quip : Change'll do yuh good"
+        "Chopped Cheddar"
       ],
-      "free": []
+      "free": [
+        "Season 20 Kills as Rampart"
+      ]
     },
     "level_72": {
       "premium": [
-        "Lifeline Banner Frame : Heat Treatment"
+        "Wasabi Wolf"
       ],
       "free": [
-        "Apex Pack"
+        "Season 20 Wins as Fuse"
       ]
     },
     "level_73": {
       "premium": [
-        "Lifeline Holo-Spray : Cold Blooded"
+        "Kill Quip: I'd heard you were a hard bastard"
       ],
-      "free": []
+      "free": [
+        "Season 20 Kills as Fuse"
+      ]
     },
     "level_74": {
       "premium": [
-        "Lifeline skin: Data Driven"
+        "Light the Fuse"
       ],
       "free": []
     },
     "level_75": {
       "premium": [
-        "M600 Spitfire skin: Snap Decision"
+        "Digital Ordnance"
       ],
-      "free": []
+      "free": [
+        "Season 20 Wins as Caustic"
+      ]
     },
     "level_76": {
       "premium": [
         "120"
       ],
-      "free": []
+      "free": [
+        "Season 20 Kills as Caustic"
+      ]
     },
     "level_77": {
       "premium": [
         "100"
       ],
       "free": [
-        "Weapon Charm : Tail End"
+        "Apex Pack"
       ]
     },
     "level_78": {
       "premium": [
-        "Pathfinder Holo-Spray : Say Hello To My Feathered Friends"
+        "Wasabi Wolf"
       ],
       "free": [
-        "Apex Pack"
+        "Season 20 Wins as Valkyrie"
       ]
     },
     "level_79": {
       "premium": [
-        "Pathfinder Banner Frame : Flashy"
+        "Smoke and Decoys"
       ],
-      "free": []
+      "free": [
+        "Season 20 Kills as Valkyrie"
+      ]
     },
     "level_80": {
       "premium": [
-        "Pathfinder skin: Iridescent Plumage"
+        "Dummie of the Blade"
       ],
-      "free": []
+      "free": [
+        "Season 20 Wins as Wattson"
+      ]
     },
     "level_81": {
       "premium": [
-        "Weapon Charm : On Display"
+        "Shield Up"
       ],
-      "free": []
+      "free": [
+        "Season 20 Kills as Wattson"
+      ]
     },
     "level_82": {
       "premium": [
-        "Pathfinder Kill Quip : I was a computer, now I'm a Legend"
+        "Emote Gas Giant"
       ],
       "free": []
     },
     "level_83": {
       "premium": [
-        "R-99 SMG skin: Cell Division"
+        "Kill Quip: I seek only victory"
       ],
-      "free": []
+      "free": [
+        "Season 20 Wins as Revenant"
+      ]
     },
     "level_84": {
       "premium": [
-        "HAVOC Rifle skin: Perfect Cell"
+        "Apex Pack"
       ],
-      "free": []
+      "free": [
+        "Season 20 Kills as Revenant"
+      ]
     },
     "level_85": {
       "premium": [
-        "Loading Screen : Biggest Fans"
+        "100"
       ],
       "free": [
-        "L-STAR EMG skin: Power Plating"
+        "Apex Pack"
       ]
     },
     "level_86": {
       "premium": [
-        "Charge Rifle skin: Corrupted Hive"
+        "No Will, No Way"
       ],
       "free": [
-        "Mastiff Shotgun skin: Erosion"
+        "Season 20 Wins as Octane"
       ]
     },
     "level_87": {
       "premium": [
-        "Loading Screen : Not So Far From The Tree"
+        "Apex Pack"
       ],
-      "free": []
+      "free": [
+        "Season 20 Kills as Octane"
+      ]
     },
     "level_88": {
       "premium": [
-        "Weapon Charm : New Beginnings"
+        "Echo of Pain"
       ],
-      "free": []
+      "free": [
+        "Season 20 Wins as Seer"
+      ]
     },
     "level_89": {
       "premium": [
-        "Wingman skin: Invasion"
+        "Toxic Bite"
       ],
-      "free": []
+      "free": [
+        "Season 20 Kills as Seer"
+      ]
     },
     "level_90": {
       "premium": [
-        "Devotion LMG skin: Stacking Evidence"
+        "Emote Time Out"
       ],
       "free": []
     },
     "level_91": {
       "premium": [
-        "Octane Emote: Cerebral Vortex"
+        "Kill Quip: You did good kid"
       ],
-      "free": []
+      "free": [
+        "Season 20 Wins as Gibraltar"
+      ]
     },
     "level_92": {
       "premium": [
-        "Apex Pack"
+        "Glitched Wolf"
       ],
-      "free": []
+      "free": [
+        "Season 20 Kills as Gibraltar"
+      ]
     },
     "level_93": {
       "premium": [
-        "120"
+        "100"
       ],
       "free": [
-        "Prowler Burst PDW skin: Monarch"
+        "An “Unfortunate Accident”"
       ]
     },
     "level_94": {
       "premium": [
-        "Sentinel skin: Substructure"
+        "CMYK"
       ],
       "free": [
-        "Holo-Spray : Mutate"
+        "Season 20 Wins as Ballistic"
       ]
     },
     "level_95": {
       "premium": [
-        "Loading Screen : Dear Diary"
+        "100"
       ],
-      "free": []
+      "free": [
+        "Season 20 Kills as Ballistic"
+      ]
     },
     "level_96": {
       "premium": [
-        "Seer Skydive Emote : Soul Invictus"
+        "Won't See Us Coming"
       ],
-      "free": []
+      "free": [
+        "Season 20 Wins as Loba"
+      ]
     },
     "level_97": {
       "premium": [
-        "Hemlok Burst AR skin: Mimicry Complex"
+        "Homing Bullet"
       ],
-      "free": []
+      "free": [
+        "Season 20 Kills as Loba"
+      ]
     },
     "level_98": {
       "premium": [
-        "120"
+        "Emote Ruck and Roll"
       ],
-      "free": []
+      "free": [
+        "Season 20 Wins as Vantage"
+      ]
     },
     "level_99": {
       "premium": [
         "Apex Pack"
       ],
-      "free": []
+      "free": [
+        "Season 20 Kills as Vantage"
+      ]
     },
     "level_100": {
       "premium": [
-        "Volt SMG skin: Symbiotic Relationship [ note 2 ]"
+        "Buzz Kill"
       ],
       "free": [
         "100"
@@ -738,10 +770,10 @@
     },
     "level_110": {
       "premium": [
-        "Volt SMG skin: Fatal Injection [ note 2 ]"
+        "Kill Joy"
       ],
       "free": [
-        "Badge : Emergence Level Season 10"
+        "Badge: Breakout"
       ]
     }
   }

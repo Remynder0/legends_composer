@@ -1,0 +1,400 @@
+{
+  "season": 28,
+  "max_level": 60,
+  "rewards": {
+    "level_1": {
+      "premium": [
+        "Final Approach Reaper's Weapon Higher Charge Echo Location XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_2": {
+      "premium": [
+        "Kill Quip: You are cursed"
+      ],
+      "free": [
+        "Broken Moon Dev Diary"
+      ]
+    },
+    "level_3": {
+      "premium": [
+        "Smooth Maneuver"
+      ],
+      "free": []
+    },
+    "level_4": {
+      "premium": [
+        "All Eyes Inside"
+      ],
+      "free": []
+    },
+    "level_5": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_6": {
+      "premium": [
+        "Stealthy Operative - Top Stealthy Operative - Middle Stealthy Operative - Bottom"
+      ],
+      "free": []
+    },
+    "level_7": {
+      "premium": [
+        "Trail of Destruction"
+      ],
+      "free": [
+        "Breach Split 1"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "Smoke Signal"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_10": {
+      "premium": [
+        "Stealthy Operative Night Op+"
+      ],
+      "free": []
+    },
+    "level_11": {
+      "premium": [
+        "Midnight Mystique XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_12": {
+      "premium": [
+        "Noxious Escape"
+      ],
+      "free": []
+    },
+    "level_13": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_14": {
+      "premium": [
+        "Fail"
+      ],
+      "free": []
+    },
+    "level_15": {
+      "premium": [
+        "200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_16": {
+      "premium": [
+        "Trigger Warning"
+      ],
+      "free": []
+    },
+    "level_17": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_18": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_19": {
+      "premium": [
+        "Rev-In-The-Box"
+      ],
+      "free": [
+        "Emote Joyful Jig"
+      ]
+    },
+    "level_20": {
+      "premium": [
+        "Lethal Pathogen 10+"
+      ],
+      "free": []
+    },
+    "level_21": {
+      "premium": [
+        "Broken Containment XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_22": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_23": {
+      "premium": [
+        "Dog of War"
+      ],
+      "free": []
+    },
+    "level_24": {
+      "premium": [
+        "200"
+      ],
+      "free": [
+        "She'll Be Right"
+      ]
+    },
+    "level_25": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_26": {
+      "premium": [
+        "Flourish"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_27": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_28": {
+      "premium": [
+        "200"
+      ],
+      "free": []
+    },
+    "level_29": {
+      "premium": [
+        "Found You"
+      ],
+      "free": []
+    },
+    "level_30": {
+      "premium": [
+        "10 Sandbox"
+      ],
+      "free": []
+    },
+    "level_31": {
+      "premium": [
+        "100 XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_32": {
+      "premium": [
+        "Death Deflection"
+      ],
+      "free": [
+        "Nevermore"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "Swift Suit - Top Swift Suit - Middle Swift Suit - Bottom"
+      ],
+      "free": []
+    },
+    "level_34": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "E-District Dev Diary"
+      ]
+    },
+    "level_35": {
+      "premium": [
+        "Static Skull"
+      ],
+      "free": []
+    },
+    "level_36": {
+      "premium": [
+        "Smoked Out"
+      ],
+      "free": []
+    },
+    "level_37": {
+      "premium": [
+        "Breach and Clear! Apex Pack"
+      ],
+      "free": []
+    },
+    "level_38": {
+      "premium": [
+        "This way!"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_39": {
+      "premium": [
+        "200"
+      ],
+      "free": []
+    },
+    "level_40": {
+      "premium": [
+        "Swift Suit Overcharged Velocity+"
+      ],
+      "free": []
+    },
+    "level_41": {
+      "premium": [
+        "XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_42": {
+      "premium": [
+        "Kill Quip: I was bored before you hit the ground"
+      ],
+      "free": [
+        "Flare Rising"
+      ]
+    },
+    "level_43": {
+      "premium": [
+        "15 Down"
+      ],
+      "free": []
+    },
+    "level_44": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_45": {
+      "premium": [
+        "Medic on the Field"
+      ],
+      "free": []
+    },
+    "level_46": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_47": {
+      "premium": [
+        "200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_48": {
+      "premium": [
+        "Medical Mishap"
+      ],
+      "free": []
+    },
+    "level_49": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_50": {
+      "premium": [
+        "Lifestealer"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "Caught In 4K"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_52": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_53": {
+      "premium": [
+        "Untouchable"
+      ],
+      "free": []
+    },
+    "level_54": {
+      "premium": [
+        "Death Metal"
+      ],
+      "free": []
+    },
+    "level_55": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Breach Ball"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_57": {
+      "premium": [
+        "200 Molten Siege"
+      ],
+      "free": []
+    },
+    "level_58": {
+      "premium": [
+        "Clear!"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_59": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_60": {
+      "premium": [
+        "Resonant Draw"
+      ],
+      "free": []
+    }
+  }
+}

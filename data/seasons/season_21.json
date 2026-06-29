@@ -1,0 +1,770 @@
+{
+  "season": 21,
+  "max_level": 110,
+  "rewards": {
+    "level_1": {
+      "premium": [
+        "Chaos' Embrace Corrupted Void Creeping Death Void Touched XP Boost [1]"
+      ],
+      "free": [
+        "Alert: Security Breach"
+      ]
+    },
+    "level_2": {
+      "premium": [
+        "Tailspin"
+      ],
+      "free": []
+    },
+    "level_3": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_4": {
+      "premium": [
+        "120"
+      ],
+      "free": [
+        "Upheaval"
+      ]
+    },
+    "level_5": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_6": {
+      "premium": [
+        "XP Boost [1]"
+      ],
+      "free": [
+        "Ticked Off"
+      ]
+    },
+    "level_7": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "Necrotic Devourer"
+      ],
+      "free": [
+        "Season 21 Wins as Alter"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "Kill Quip: Don't try that weak tea with me"
+      ],
+      "free": [
+        "Season 21 Kills as Alter"
+      ]
+    },
+    "level_10": {
+      "premium": [
+        "Tainted Sight"
+      ],
+      "free": [
+        "Tech Takeover"
+      ]
+    },
+    "level_11": {
+      "premium": [
+        "Speed Trap"
+      ],
+      "free": [
+        "One Last Chance"
+      ]
+    },
+    "level_12": {
+      "premium": [
+        "Emote Blighted Breakdown"
+      ],
+      "free": []
+    },
+    "level_13": {
+      "premium": [
+        "120"
+      ],
+      "free": [
+        "Necrotic Devourer"
+      ]
+    },
+    "level_14": {
+      "premium": [
+        "XP Boost [1]"
+      ],
+      "free": [
+        "Season 21 Wins as Horizon"
+      ]
+    },
+    "level_15": {
+      "premium": [
+        "Season 21 Kills as Seer"
+      ],
+      "free": [
+        "Season 21 Kills as Horizon"
+      ]
+    },
+    "level_16": {
+      "premium": [
+        "Wins as Seer"
+      ],
+      "free": []
+    },
+    "level_17": {
+      "premium": [
+        "Damage Done as Seer"
+      ],
+      "free": [
+        "Tech Takeover"
+      ]
+    },
+    "level_18": {
+      "premium": [
+        "Bleeding Moon"
+      ],
+      "free": []
+    },
+    "level_19": {
+      "premium": [
+        "This Is My Mark"
+      ],
+      "free": [
+        "Season 21 Wins as Gibraltar"
+      ]
+    },
+    "level_20": {
+      "premium": [
+        "120"
+      ],
+      "free": [
+        "Season 21 Kills as Gibraltar"
+      ]
+    },
+    "level_21": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_22": {
+      "premium": [
+        "XP Boost [1]"
+      ],
+      "free": [
+        "Season 21 Wins as Seer"
+      ]
+    },
+    "level_23": {
+      "premium": [
+        "Kill Quip: Art is not a distraction from pain"
+      ],
+      "free": [
+        "Season 21 Kills as Seer"
+      ]
+    },
+    "level_24": {
+      "premium": [
+        "Apex Blight"
+      ],
+      "free": []
+    },
+    "level_25": {
+      "premium": [
+        "Creeping Void"
+      ],
+      "free": [
+        "Necrotic Devourer"
+      ]
+    },
+    "level_26": {
+      "premium": [
+        "Necrotic Devourer"
+      ],
+      "free": []
+    },
+    "level_27": {
+      "premium": [
+        "Emote Dark Hunter"
+      ],
+      "free": [
+        "Season 21 Wins as Fuse"
+      ]
+    },
+    "level_28": {
+      "premium": [
+        "120"
+      ],
+      "free": [
+        "Season 21 Kills as Fuse"
+      ]
+    },
+    "level_29": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Dark Infusion"
+      ]
+    },
+    "level_30": {
+      "premium": [
+        "XP Boost [1]"
+      ],
+      "free": [
+        "Season 21 Wins as Mirage"
+      ]
+    },
+    "level_31": {
+      "premium": [
+        "Kill Quip: Stay home"
+      ],
+      "free": [
+        "Season 21 Kills as Mirage"
+      ]
+    },
+    "level_32": {
+      "premium": [
+        "Dark Experiment"
+      ],
+      "free": []
+    },
+    "level_33": {
+      "premium": [
+        "Nocturnal Nature"
+      ],
+      "free": [
+        "Blighted Gemstone"
+      ]
+    },
+    "level_34": {
+      "premium": [
+        "Tech Takeover"
+      ],
+      "free": []
+    },
+    "level_35": {
+      "premium": [
+        "Think Fast"
+      ],
+      "free": [
+        "Season 21 Wins as Wraith"
+      ]
+    },
+    "level_36": {
+      "premium": [
+        "120"
+      ],
+      "free": [
+        "Season 21 Kills as Wraith"
+      ]
+    },
+    "level_37": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Tech Takeover"
+      ]
+    },
+    "level_38": {
+      "premium": [
+        "XP Boost [1]"
+      ],
+      "free": []
+    },
+    "level_39": {
+      "premium": [
+        "Hacked"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_40": {
+      "premium": [
+        "Kill Quip: What if they won't miss you"
+      ],
+      "free": [
+        "Season 21 Wins as Ash"
+      ]
+    },
+    "level_41": {
+      "premium": [
+        "Born This Way"
+      ],
+      "free": [
+        "Season 21 Kills as Ash"
+      ]
+    },
+    "level_42": {
+      "premium": [
+        "Necrotic Devourer"
+      ],
+      "free": []
+    },
+    "level_43": {
+      "premium": [
+        "Production Corruption"
+      ],
+      "free": []
+    },
+    "level_44": {
+      "premium": [
+        "120"
+      ],
+      "free": []
+    },
+    "level_45": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Loose Threads"
+      ]
+    },
+    "level_46": {
+      "premium": [
+        "XP Boost [1]"
+      ],
+      "free": []
+    },
+    "level_47": {
+      "premium": [
+        "Kills as Catalyst"
+      ],
+      "free": [
+        "Tech Takeover"
+      ]
+    },
+    "level_48": {
+      "premium": [
+        "Wins as Catalyst"
+      ],
+      "free": [
+        "Season 21 Wins as Caustic"
+      ]
+    },
+    "level_49": {
+      "premium": [
+        "Damage Done as Catalyst"
+      ],
+      "free": [
+        "Season 21 Kills as Caustic"
+      ]
+    },
+    "level_50": {
+      "premium": [
+        "Void Witch"
+      ],
+      "free": [
+        "Alter"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "Necro Ness"
+      ],
+      "free": [
+        "Season 21 Wins as Vantage"
+      ]
+    },
+    "level_52": {
+      "premium": [
+        "Dark Infusion"
+      ],
+      "free": [
+        "Season 21 Kills as Vantage"
+      ]
+    },
+    "level_53": {
+      "premium": [
+        "120"
+      ],
+      "free": [
+        "Necrotic Devourer"
+      ]
+    },
+    "level_54": {
+      "premium": [
+        "XP Boost [1]"
+      ],
+      "free": [
+        "Season 21 Wins as Conduit"
+      ]
+    },
+    "level_55": {
+      "premium": [
+        "Cataclysm"
+      ],
+      "free": [
+        "Season 21 Kills as Conduit"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "Kill Quip: You'll want to see a doctor"
+      ],
+      "free": []
+    },
+    "level_57": {
+      "premium": [
+        "Embrace The Dark"
+      ],
+      "free": [
+        "Necrotic Devourer"
+      ]
+    },
+    "level_58": {
+      "premium": [
+        "Tech Takeover"
+      ],
+      "free": []
+    },
+    "level_59": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Season 21 Wins as Lifeline"
+      ]
+    },
+    "level_60": {
+      "premium": [
+        "120"
+      ],
+      "free": [
+        "Season 21 Kills as Lifeline"
+      ]
+    },
+    "level_61": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_62": {
+      "premium": [
+        "XP Boost [1]"
+      ],
+      "free": []
+    },
+    "level_63": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Tech Takeover"
+      ]
+    },
+    "level_64": {
+      "premium": [
+        "Emote Badbraltar"
+      ],
+      "free": [
+        "Season 21 Wins as Mad Maggie"
+      ]
+    },
+    "level_65": {
+      "premium": [
+        "Corrupt Memory"
+      ],
+      "free": [
+        "Season 21 Kills as Mad Maggie"
+      ]
+    },
+    "level_66": {
+      "premium": [
+        "Kill Quip: Pray all you want"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_67": {
+      "premium": [
+        "Black Ice"
+      ],
+      "free": [
+        "Season 21 Wins as Newcastle"
+      ]
+    },
+    "level_68": {
+      "premium": [
+        "120"
+      ],
+      "free": [
+        "Season 21 Kills as Newcastle"
+      ]
+    },
+    "level_69": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Necrotic Devourer"
+      ]
+    },
+    "level_70": {
+      "premium": [
+        "XP Boost [1]"
+      ],
+      "free": []
+    },
+    "level_71": {
+      "premium": [
+        "Wicked Wally"
+      ],
+      "free": [
+        "Season 21 Wins as Valkyrie"
+      ]
+    },
+    "level_72": {
+      "premium": [
+        "Blighted Gemstone"
+      ],
+      "free": [
+        "Season 21 Kills as Valkyrie"
+      ]
+    },
+    "level_73": {
+      "premium": [
+        "Kill Quip: You went out with a bang"
+      ],
+      "free": []
+    },
+    "level_74": {
+      "premium": [
+        "I'll Only Haunt You"
+      ],
+      "free": [
+        "Season 21 Wins as Ballistic"
+      ]
+    },
+    "level_75": {
+      "premium": [
+        "Corrupted Rift"
+      ],
+      "free": [
+        "Season 21 Kills as Ballistic"
+      ]
+    },
+    "level_76": {
+      "premium": [
+        "120"
+      ],
+      "free": []
+    },
+    "level_77": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_78": {
+      "premium": [
+        "Necrotic Devourer"
+      ],
+      "free": [
+        "Season 21 Wins as Bloodhound"
+      ]
+    },
+    "level_79": {
+      "premium": [
+        "Event Horizon"
+      ],
+      "free": [
+        "Season 21 Kills as Bloodhound"
+      ]
+    },
+    "level_80": {
+      "premium": [
+        "Witchy Strut"
+      ],
+      "free": [
+        "Season 21 Wins as Bangalore"
+      ]
+    },
+    "level_81": {
+      "premium": [
+        "Time To Kill, Friends"
+      ],
+      "free": [
+        "Season 21 Kills as Bangalore"
+      ]
+    },
+    "level_82": {
+      "premium": [
+        "Emote Mi-RAGE"
+      ],
+      "free": []
+    },
+    "level_83": {
+      "premium": [
+        "Kill Quip: You see? Plenty of battles left"
+      ],
+      "free": [
+        "Season 21 Wins as Pathfinder"
+      ]
+    },
+    "level_84": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Season 21 Kills as Pathfinder"
+      ]
+    },
+    "level_85": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_86": {
+      "premium": [
+        "Onto the Next"
+      ],
+      "free": [
+        "Season 21 Wins as Loba"
+      ]
+    },
+    "level_87": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Season 21 Kills as Loba"
+      ]
+    },
+    "level_88": {
+      "premium": [
+        "Breached Containment"
+      ],
+      "free": [
+        "Season 21 Wins as Crypto"
+      ]
+    },
+    "level_89": {
+      "premium": [
+        "10"
+      ],
+      "free": [
+        "Season 21 Kills as Crypto"
+      ]
+    },
+    "level_90": {
+      "premium": [
+        "Emote Party Pooper"
+      ],
+      "free": []
+    },
+    "level_91": {
+      "premium": [
+        "Kill Quip: You dIdn't gave to make it so easy"
+      ],
+      "free": [
+        "Season 21 Wins as Revenant"
+      ]
+    },
+    "level_92": {
+      "premium": [
+        "No Loot Here!"
+      ],
+      "free": [
+        "Season 21 Kills as Revenant"
+      ]
+    },
+    "level_93": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Nessie: Unclassified"
+      ]
+    },
+    "level_94": {
+      "premium": [
+        "Blighted Gemstone"
+      ],
+      "free": [
+        "Season 21 Wins as Rampart"
+      ]
+    },
+    "level_95": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Season 21 Kills as Rampart"
+      ]
+    },
+    "level_96": {
+      "premium": [
+        "A New Variable"
+      ],
+      "free": [
+        "Season 21 Wins as Octane"
+      ]
+    },
+    "level_97": {
+      "premium": [
+        "Hometown Horror"
+      ],
+      "free": [
+        "Season 21 Kills as Octane"
+      ]
+    },
+    "level_98": {
+      "premium": [
+        "Coming in Hot"
+      ],
+      "free": [
+        "Season 21 Wins as Catalyst"
+      ]
+    },
+    "level_99": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Season 21 Kills as Catalyst"
+      ]
+    },
+    "level_100": {
+      "premium": [
+        "Void Impulse"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_110": {
+      "premium": [
+        "Reversed Polarity"
+      ],
+      "free": [
+        "Badge: Upheaval"
+      ]
+    }
+  }
+}

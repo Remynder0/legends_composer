@@ -4,7 +4,7 @@
   "rewards": {
     "level_1": {
       "premium": [
-        "Technomancer Hot Drop Sundown Surgeon Pulse Eater XP Boost [ 1 ]"
+        "Technomancer Hot Drop Sundown Surgeon Pulse Eater XP Boost [1]"
       ],
       "free": [
         "Boiling Point"
@@ -40,7 +40,7 @@
     },
     "level_6": {
       "premium": [
-        "XP Boost [ 1 ]"
+        "XP Boost [1]"
       ],
       "free": [
         "Mech Ness Monster"
@@ -56,7 +56,7 @@
     },
     "level_8": {
       "premium": [
-        "Kill Quip : You really thought you belonged"
+        "Kill Quip: You really thought you belonged"
       ],
       "free": [
         "Season 17 Wins as Ballistic"
@@ -102,7 +102,7 @@
     },
     "level_14": {
       "premium": [
-        "XP Boost [ 1 ]"
+        "XP Boost [1]"
       ],
       "free": [
         "Season 17 Wins as Loba"
@@ -138,7 +138,7 @@
     },
     "level_19": {
       "premium": [
-        "Kill Quip : Finish what you started"
+        "Kill Quip: Finish what you started"
       ],
       "free": [
         "Season 17 Wins as Rampart"
@@ -162,7 +162,7 @@
     },
     "level_22": {
       "premium": [
-        "XP Boost [ 1 ]"
+        "XP Boost [1]"
       ],
       "free": []
     },
@@ -222,13 +222,13 @@
     },
     "level_30": {
       "premium": [
-        "XP Boost [ 1 ]"
+        "XP Boost [1]"
       ],
       "free": []
     },
     "level_31": {
       "premium": [
-        "Kill Quip : Blade, bullets, or bare hands"
+        "Kill Quip: Blade, bullets, or bare hands"
       ],
       "free": [
         "Season 17 Wins as Revenant"
@@ -282,13 +282,13 @@
     },
     "level_38": {
       "premium": [
-        "XP Boost [ 1 ]"
+        "XP Boost [1]"
       ],
       "free": []
     },
     "level_39": {
       "premium": [
-        "Kill Quip : Everything ends. It's just your turn"
+        "Kill Quip: Everything ends. It's just your turn"
       ],
       "free": [
         "Apex Pack"
@@ -342,7 +342,7 @@
     },
     "level_46": {
       "premium": [
-        "XP Boost [ 1 ]"
+        "XP Boost [1]"
       ],
       "free": []
     },
@@ -380,7 +380,7 @@
     },
     "level_51": {
       "premium": [
-        "Kill Quip : Oh, dinnae fash yaself, pal"
+        "Kill Quip: Oh, dinnae fash yaself, pal"
       ],
       "free": [
         "Season 17 Wins as Wraith"
@@ -404,7 +404,7 @@
     },
     "level_54": {
       "premium": [
-        "XP Boost [ 1 ]"
+        "XP Boost [1]"
       ],
       "free": []
     },
@@ -464,7 +464,7 @@
     },
     "level_62": {
       "premium": [
-        "XP Boost [ 1 ]"
+        "XP Boost [1]"
       ],
       "free": []
     },
@@ -494,7 +494,7 @@
     },
     "level_66": {
       "premium": [
-        "Kill Quip : Just what the world needs"
+        "Kill Quip: Just what the world needs"
       ],
       "free": [
         "Apex Pack"
@@ -526,13 +526,13 @@
     },
     "level_70": {
       "premium": [
-        "XP Boost [ 1 ]"
+        "XP Boost [1]"
       ],
       "free": []
     },
     "level_71": {
       "premium": [
-        "Kill Quip : Ya came lookin' for trouble"
+        "Kill Quip: Ya came lookin' for trouble"
       ],
       "free": [
         "Season 17 Wins as Lifeline"
@@ -606,7 +606,7 @@
     },
     "level_81": {
       "premium": [
-        "Kill Quip : Add another to the triage pile"
+        "Kill Quip: Add another to the triage pile"
       ],
       "free": [
         "Season 17 Wins as Bangalore"
@@ -726,7 +726,7 @@
     },
     "level_97": {
       "premium": [
-        "Kill Quip : Never try to beat an Oc-train"
+        "Kill Quip: Never try to beat an Oc-train"
       ],
       "free": []
     },
@@ -759,7 +759,7 @@
         "Outlands Obliterator"
       ],
       "free": [
-        "Badge : Arsenal Level Season 17"
+        "Badge: Arsenal Level Season 17"
       ]
     }
   }

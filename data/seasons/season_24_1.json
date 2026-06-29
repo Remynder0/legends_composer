@@ -1,0 +1,401 @@
+{
+  "season": 24,
+  "max_level": 60,
+  "rewards": {
+    "level_1": {
+      "premium": [
+        "Violet Delight Air Traffic Controller Legend Locked In WELCOME TO THE GUN SHOW XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_2": {
+      "premium": [
+        "Kill Quip: Everyone Saw That"
+      ],
+      "free": [
+        "Vamos"
+      ]
+    },
+    "level_3": {
+      "premium": [
+        "Emote Hype Man"
+      ],
+      "free": []
+    },
+    "level_4": {
+      "premium": [
+        "I Got This"
+      ],
+      "free": []
+    },
+    "level_5": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_6": {
+      "premium": [
+        "Workout Gear - Top Workout Gear - Middle Workout Gear - Bottom"
+      ],
+      "free": []
+    },
+    "level_7": {
+      "premium": [
+        "Call the Shots"
+      ],
+      "free": [
+        "Takeover Split 1"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "Fortified Might"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_10": {
+      "premium": [
+        "Workout Gear Holographic Knight+"
+      ],
+      "free": []
+    },
+    "level_11": {
+      "premium": [
+        "Locker-Ness Monster XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_12": {
+      "premium": [
+        "Eyes on Target"
+      ],
+      "free": []
+    },
+    "level_13": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_14": {
+      "premium": [
+        "Stay Ready"
+      ],
+      "free": []
+    },
+    "level_15": {
+      "premium": [
+        "200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_16": {
+      "premium": [
+        "First Blush"
+      ],
+      "free": []
+    },
+    "level_17": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_18": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_19": {
+      "premium": [
+        "Dashing Smashing"
+      ],
+      "free": [
+        "Emote Windswept Waltz"
+      ]
+    },
+    "level_20": {
+      "premium": [
+        "Hot Pink Cold Stare 10+"
+      ],
+      "free": []
+    },
+    "level_21": {
+      "premium": [
+        "Rage Gaze XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_22": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_23": {
+      "premium": [
+        "Gecko Glazer"
+      ],
+      "free": []
+    },
+    "level_24": {
+      "premium": [
+        "200"
+      ],
+      "free": [
+        "Challenge Accepted"
+      ]
+    },
+    "level_25": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_26": {
+      "premium": [
+        "Live Lasso"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_27": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_28": {
+      "premium": [
+        "200"
+      ],
+      "free": []
+    },
+    "level_29": {
+      "premium": [
+        "Stay Cool"
+      ],
+      "free": []
+    },
+    "level_30": {
+      "premium": [
+        "10 Brass Bolter"
+      ],
+      "free": []
+    },
+    "level_31": {
+      "premium": [
+        "100 XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_32": {
+      "premium": [
+        "Emote Kiss Cam"
+      ],
+      "free": [
+        "Limelight"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "Power Play - Top Power Play - Middle Power Play - Bottom"
+      ],
+      "free": []
+    },
+    "level_34": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Your Second Favorite"
+      ]
+    },
+    "level_35": {
+      "premium": [
+        "Pink Blitz"
+      ],
+      "free": []
+    },
+    "level_36": {
+      "premium": [
+        "Hype Traning"
+      ],
+      "free": []
+    },
+    "level_37": {
+      "premium": [
+        "Apex Pack LIKE AND SUBSCRIBE"
+      ],
+      "free": []
+    },
+    "level_38": {
+      "premium": [
+        "Refueling"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_39": {
+      "premium": [
+        "200"
+      ],
+      "free": []
+    },
+    "level_40": {
+      "premium": [
+        "Power Player Grand Slam Hologram+"
+      ],
+      "free": []
+    },
+    "level_41": {
+      "premium": [
+        "Emote My Turf XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_42": {
+      "premium": [
+        "Kill Quip: Dont let my badges fool ya"
+      ],
+      "free": [
+        "Sublime Lime"
+      ]
+    },
+    "level_43": {
+      "premium": [
+        "Sun Spots"
+      ],
+      "free": []
+    },
+    "level_44": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_45": {
+      "premium": [
+        "MEET ME IN THE RING"
+      ],
+      "free": []
+    },
+    "level_46": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_47": {
+      "premium": [
+        "200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_48": {
+      "premium": [
+        "Smoke Alarm"
+      ],
+      "free": []
+    },
+    "level_49": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_50": {
+      "premium": [
+        "Oil Slick"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "RISE AND GRIND"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_52": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_53": {
+      "premium": [
+        "Big Fun Gun"
+      ],
+      "free": []
+    },
+    "level_54": {
+      "premium": [
+        "Hot Stove"
+      ],
+      "free": []
+    },
+    "level_55": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Triple Threat"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_57": {
+      "premium": [
+        "200 Carry On"
+      ],
+      "free": []
+    },
+    "level_58": {
+      "premium": [
+        "Sport Loot"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_59": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_60": {
+      "premium": [
+        "Slithering Strike"
+      ],
+      "free": []
+    }
+  },
+  "split": 1
+}

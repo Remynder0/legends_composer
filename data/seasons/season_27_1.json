@@ -1,0 +1,401 @@
+{
+  "season": 27,
+  "max_level": 60,
+  "rewards": {
+    "level_1": {
+      "premium": [
+        "Prismatic Heart Prism Pop Stage Presence Big Regrets XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_2": {
+      "premium": [
+        "Kill Quip: Pour One Down"
+      ],
+      "free": [
+        "A Bit of Research"
+      ]
+    },
+    "level_3": {
+      "premium": [
+        "Pour One Down"
+      ],
+      "free": []
+    },
+    "level_4": {
+      "premium": [
+        "Feeling the Love"
+      ],
+      "free": []
+    },
+    "level_5": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_6": {
+      "premium": [
+        "Static Trance - Top Static Trance - Middle Static Trance - Bottom"
+      ],
+      "free": []
+    },
+    "level_7": {
+      "premium": [
+        "Lovely Myth"
+      ],
+      "free": [
+        "Amped Split 1"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "Passionate Burn"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_10": {
+      "premium": [
+        "Static Trance Shocking Aura+"
+      ],
+      "free": []
+    },
+    "level_11": {
+      "premium": [
+        "Killer Instinct XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_12": {
+      "premium": [
+        "Midnight Love"
+      ],
+      "free": []
+    },
+    "level_13": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_14": {
+      "premium": [
+        "Cheering for You"
+      ],
+      "free": []
+    },
+    "level_15": {
+      "premium": [
+        "200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_16": {
+      "premium": [
+        "Heart Flutter"
+      ],
+      "free": []
+    },
+    "level_17": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_18": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_19": {
+      "premium": [
+        "Rock the Mic"
+      ],
+      "free": [
+        "Emote Cool Down"
+      ]
+    },
+    "level_20": {
+      "premium": [
+        "Heart Attack 10+"
+      ],
+      "free": []
+    },
+    "level_21": {
+      "premium": [
+        "Heart Beats XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_22": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_23": {
+      "premium": [
+        "Love Pulse"
+      ],
+      "free": []
+    },
+    "level_24": {
+      "premium": [
+        "200"
+      ],
+      "free": [
+        "I Made It Look Easy"
+      ]
+    },
+    "level_25": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_26": {
+      "premium": [
+        "Crowd Killer"
+      ],
+      "free": [
+        "Amped Pack"
+      ]
+    },
+    "level_27": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_28": {
+      "premium": [
+        "200"
+      ],
+      "free": []
+    },
+    "level_29": {
+      "premium": [
+        "Emotional Support"
+      ],
+      "free": []
+    },
+    "level_30": {
+      "premium": [
+        "10 K-Love"
+      ],
+      "free": []
+    },
+    "level_31": {
+      "premium": [
+        "100 XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_32": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Fox's Aura"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "Streamline Glider - Top Streamline Glider - Middle Streamline Glider - Bottom"
+      ],
+      "free": []
+    },
+    "level_34": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Business Purpose"
+      ]
+    },
+    "level_35": {
+      "premium": [
+        "Fatal Attraction"
+      ],
+      "free": []
+    },
+    "level_36": {
+      "premium": [
+        "Dragon Heart"
+      ],
+      "free": []
+    },
+    "level_37": {
+      "premium": [
+        "Denied"
+      ],
+      "free": []
+    },
+    "level_38": {
+      "premium": [
+        "Retro Hits"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_39": {
+      "premium": [
+        "200"
+      ],
+      "free": []
+    },
+    "level_40": {
+      "premium": [
+        "Streamline Glider Oni Aura+"
+      ],
+      "free": []
+    },
+    "level_41": {
+      "premium": [
+        "Rocket Boosted XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_42": {
+      "premium": [
+        "Kill Quip: Be Like Me"
+      ],
+      "free": [
+        "Speed Diva"
+      ]
+    },
+    "level_43": {
+      "premium": [
+        "Heartache"
+      ],
+      "free": []
+    },
+    "level_44": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_45": {
+      "premium": [
+        "Congratu-bloody-lations"
+      ],
+      "free": []
+    },
+    "level_46": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_47": {
+      "premium": [
+        "200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_48": {
+      "premium": [
+        "Sleek Rocker"
+      ],
+      "free": []
+    },
+    "level_49": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_50": {
+      "premium": [
+        "Old Flame"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "Killin' It."
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_52": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_53": {
+      "premium": [
+        "Amped Up"
+      ],
+      "free": []
+    },
+    "level_54": {
+      "premium": [
+        "Star-crossed"
+      ],
+      "free": []
+    },
+    "level_55": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Chrome Couture"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_57": {
+      "premium": [
+        "200 Going Platinum"
+      ],
+      "free": []
+    },
+    "level_58": {
+      "premium": [
+        "Big Shipper"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_59": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_60": {
+      "premium": [
+        "Heart Piercer"
+      ],
+      "free": []
+    }
+  },
+  "split": 1
+}

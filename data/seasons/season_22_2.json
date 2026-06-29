@@ -1,0 +1,403 @@
+{
+  "season": 22,
+  "max_level": 60,
+  "rewards": {
+    "level_1": {
+      "premium": [
+        "Pumpkin Pilot Midnight Scrapper Night Beasts XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_2": {
+      "premium": [
+        "You're Cooked"
+      ],
+      "free": [
+        "Game Time"
+      ]
+    },
+    "level_3": {
+      "premium": [
+        "Jumpstart"
+      ],
+      "free": []
+    },
+    "level_4": {
+      "premium": [
+        "Emote Jetpack Jack-O-LanternForever Family"
+      ],
+      "free": []
+    },
+    "level_5": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_6": {
+      "premium": [
+        "Jazz It Up - Top Jazz It Up - Middle Jazz It Up - Bottom"
+      ],
+      "free": []
+    },
+    "level_7": {
+      "premium": [
+        "Kill Quip: I'm here for one thing"
+      ],
+      "free": [
+        "Shockwave Split 2"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "Plasma Bolt"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_10": {
+      "premium": [
+        "Jazz It Up Neonymous[U+ 1]"
+      ],
+      "free": []
+    },
+    "level_11": {
+      "premium": [
+        "Pumped Up XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_12": {
+      "premium": [
+        "Late-Night Terror"
+      ],
+      "free": []
+    },
+    "level_13": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Go Into The Light."
+      ]
+    },
+    "level_14": {
+      "premium": [
+        "Mischief Maker"
+      ],
+      "free": []
+    },
+    "level_15": {
+      "premium": [
+        "200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_16": {
+      "premium": [
+        "Headless Hunter"
+      ],
+      "free": []
+    },
+    "level_17": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_18": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_19": {
+      "premium": [
+        "Emote Ferro Queen"
+      ],
+      "free": []
+    },
+    "level_20": {
+      "premium": [
+        "Scarecrow Enchantress 10[U+ 1]"
+      ],
+      "free": []
+    },
+    "level_21": {
+      "premium": [
+        "Body Exchange XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_22": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_23": {
+      "premium": [
+        "Abyssal Gaze"
+      ],
+      "free": []
+    },
+    "level_24": {
+      "premium": [
+        "200"
+      ],
+      "free": [
+        "Emote Thriller Killer"
+      ]
+    },
+    "level_25": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_26": {
+      "premium": [
+        "Strings Attached"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_27": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_28": {
+      "premium": [
+        "200"
+      ],
+      "free": []
+    },
+    "level_29": {
+      "premium": [
+        "Bound by Death"
+      ],
+      "free": []
+    },
+    "level_30": {
+      "premium": [
+        "10 Cassette Closer"
+      ],
+      "free": []
+    },
+    "level_31": {
+      "premium": [
+        "100 XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_32": {
+      "premium": [
+        "200"
+      ],
+      "free": [
+        "Honey Drip"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "Gravity Cat - Top Gravity Cat - Middle Gravity Cat - Bottom"
+      ],
+      "free": []
+    },
+    "level_34": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Dangerous Driving"
+      ]
+    },
+    "level_35": {
+      "premium": [
+        "Guiding Moonlight"
+      ],
+      "free": []
+    },
+    "level_36": {
+      "premium": [
+        "City Stray"
+      ],
+      "free": []
+    },
+    "level_37": {
+      "premium": [
+        "Carried Away"
+      ],
+      "free": []
+    },
+    "level_38": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_39": {
+      "premium": [
+        "RAWR!"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_40": {
+      "premium": [
+        "Gravity Cat"
+      ],
+      "free": []
+    },
+    "level_41": {
+      "premium": [
+        "Long Forgotten XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_42": {
+      "premium": [
+        "Kill Quip: Zero miles an hour"
+      ],
+      "free": []
+    },
+    "level_43": {
+      "premium": [
+        "Raptor Rage"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_44": {
+      "premium": [
+        "Ready To Burn"
+      ],
+      "free": []
+    },
+    "level_45": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Jester Queen"
+      ]
+    },
+    "level_46": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_47": {
+      "premium": [
+        "200"
+      ],
+      "free": []
+    },
+    "level_48": {
+      "premium": [
+        "Emote Join the Club"
+      ],
+      "free": [
+        "Hypno Clown"
+      ]
+    },
+    "level_49": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_50": {
+      "premium": [
+        "Green Gremlin"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "Castlemania"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_52": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_53": {
+      "premium": [
+        "Cutthroat"
+      ],
+      "free": []
+    },
+    "level_54": {
+      "premium": [
+        "Steady Beat"
+      ],
+      "free": []
+    },
+    "level_55": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Tick or Treat"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_57": {
+      "premium": [
+        "200 Looking Good"
+      ],
+      "free": []
+    },
+    "level_58": {
+      "premium": [
+        "Treasured Trim"
+      ],
+      "free": []
+    },
+    "level_59": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_60": {
+      "premium": [
+        "Pink Purr Golden Screamer[U+ 1]"
+      ],
+      "free": []
+    }
+  },
+  "split": 2
+}

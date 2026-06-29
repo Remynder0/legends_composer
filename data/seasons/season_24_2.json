@@ -1,0 +1,359 @@
+{
+  "season": 24,
+  "max_level": 60,
+  "rewards": {
+    "level_2": {
+      "premium": [
+        "Kill Quip: I couldn't let you win"
+      ],
+      "free": [
+        "Grounded"
+      ]
+    },
+    "level_4": {
+      "premium": [
+        "Never Miss"
+      ],
+      "free": []
+    },
+    "level_5": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_7": {
+      "premium": [
+        "Apex Essentials"
+      ],
+      "free": [
+        "Takeover Split 2"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "Stable Matrix"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_10": {
+      "premium": [
+        "Chill DadFire Distinguisher+"
+      ],
+      "free": []
+    },
+    "level_11": {
+      "premium": [
+        "Sporty Nessie XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_12": {
+      "premium": [
+        "Void Training"
+      ],
+      "free": []
+    },
+    "level_13": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_14": {
+      "premium": [
+        "Be Ready"
+      ],
+      "free": []
+    },
+    "level_15": {
+      "premium": [
+        "200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_16": {
+      "premium": [
+        "Overheater"
+      ],
+      "free": []
+    },
+    "level_17": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_18": {
+      "premium": [
+        "Emote Flipping Out"
+      ],
+      "free": []
+    },
+    "level_19": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Emote Exceptional Victory"
+      ]
+    },
+    "level_20": {
+      "premium": [
+        "Ripple Effect 10+"
+      ],
+      "free": []
+    },
+    "level_21": {
+      "premium": [
+        "New Kicks XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_22": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_24": {
+      "premium": [
+        "200"
+      ],
+      "free": [
+        "Stronger Than Ever"
+      ]
+    },
+    "level_25": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_26": {
+      "premium": [
+        "Hover Unit"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_27": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_28": {
+      "premium": [
+        "200"
+      ],
+      "free": []
+    },
+    "level_29": {
+      "premium": [
+        "Stay Hydrated"
+      ],
+      "free": []
+    },
+    "level_30": {
+      "premium": [
+        "Zero Stopper 10"
+      ],
+      "free": []
+    },
+    "level_32": {
+      "premium": [
+        "Emote Revelry"
+      ],
+      "free": [
+        "Neon Jungle"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "Speedsuit - Top Speedsuit - Middle Speedsuit - Bottom"
+      ],
+      "free": []
+    },
+    "level_34": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_35": {
+      "premium": [
+        "Red Cell"
+      ],
+      "free": [
+        "Talk-Talk"
+      ]
+    },
+    "level_36": {
+      "premium": [
+        "Killer Competitor"
+      ],
+      "free": []
+    },
+    "level_37": {
+      "premium": [
+        "Apex Pack Cross the Finish Line"
+      ],
+      "free": []
+    },
+    "level_38": {
+      "premium": [
+        "Clawed Killer"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_39": {
+      "premium": [
+        "200"
+      ],
+      "free": []
+    },
+    "level_40": {
+      "premium": [
+        "SpeedsuitDevil's Work+"
+      ],
+      "free": []
+    },
+    "level_41": {
+      "premium": [
+        "Emote Zeal Appeal XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_42": {
+      "premium": [
+        "Kill Quip: Think of it this way"
+      ],
+      "free": [
+        "Construct Killer"
+      ]
+    },
+    "level_43": {
+      "premium": [
+        "Static Discharge"
+      ],
+      "free": []
+    },
+    "level_44": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_45": {
+      "premium": [
+        "Smoking Guns"
+      ],
+      "free": []
+    },
+    "level_46": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_47": {
+      "premium": [
+        "200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_48": {
+      "premium": [
+        "Locker Legacy"
+      ],
+      "free": []
+    },
+    "level_49": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_50": {
+      "premium": [
+        "Noxious Neon"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "Slam Dunk"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_52": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_53": {
+      "premium": [
+        "Monster Mount"
+      ],
+      "free": []
+    },
+    "level_55": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Rodent Ripose"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_57": {
+      "premium": [
+        "200 On Target"
+      ],
+      "free": []
+    },
+    "level_58": {
+      "premium": [
+        "Tee-Tick"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_59": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    }
+  },
+  "split": 2
+}

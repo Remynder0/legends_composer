@@ -1,0 +1,403 @@
+{
+  "season": 23,
+  "max_level": 60,
+  "rewards": {
+    "level_1": {
+      "premium": [
+        "Tundra Tracker Cold Catastrophe Under the Ice XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_2": {
+      "premium": [
+        "Emote Compelling Threat"
+      ],
+      "free": [
+        "Starving Dog"
+      ]
+    },
+    "level_3": {
+      "premium": [
+        "Toxic Following"
+      ],
+      "free": []
+    },
+    "level_4": {
+      "premium": [
+        "Certain Death"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_5": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_6": {
+      "premium": [
+        "Frigid Gaze - Top Frigid Gaze - Middle Frigid Gaze - Bottom"
+      ],
+      "free": []
+    },
+    "level_7": {
+      "premium": [
+        "Plasma Imprint"
+      ],
+      "free": [
+        "From the Rift Split 1"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "Gas Leak"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_10": {
+      "premium": [
+        "Toxic Alchemist Astral Anomaly+"
+      ],
+      "free": []
+    },
+    "level_11": {
+      "premium": [
+        "Whatever It Takes XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_12": {
+      "premium": [
+        "Anomolous Ending"
+      ],
+      "free": []
+    },
+    "level_13": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "How Yuh Feelin'?"
+      ]
+    },
+    "level_14": {
+      "premium": [
+        "Frostfire"
+      ],
+      "free": []
+    },
+    "level_15": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_16": {
+      "premium": [
+        "200"
+      ],
+      "free": []
+    },
+    "level_17": {
+      "premium": [
+        "Emote Infectious Fight"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_18": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_19": {
+      "premium": [
+        "Kill Quip: Light years from yer best"
+      ],
+      "free": []
+    },
+    "level_20": {
+      "premium": [
+        "Dark Voyager 10+"
+      ],
+      "free": []
+    },
+    "level_21": {
+      "premium": [
+        "Mortal Fumes XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_22": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Emote On the Flipside"
+      ]
+    },
+    "level_23": {
+      "premium": [
+        "Devoted Flow"
+      ],
+      "free": []
+    },
+    "level_24": {
+      "premium": [
+        "200"
+      ],
+      "free": []
+    },
+    "level_25": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_26": {
+      "premium": [
+        "Cold Stare"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_27": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_28": {
+      "premium": [
+        "Sugar Glider"
+      ],
+      "free": []
+    },
+    "level_29": {
+      "premium": [
+        "Go On Without Me"
+      ],
+      "free": []
+    },
+    "level_30": {
+      "premium": [
+        "10 Lethal Dose"
+      ],
+      "free": []
+    },
+    "level_31": {
+      "premium": [
+        "100 XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_32": {
+      "premium": [
+        "Kill Quip: Did you expect a different outcome"
+      ],
+      "free": [
+        "Ectoplasmic Reductor"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "200 Emote Body Hack"
+      ],
+      "free": []
+    },
+    "level_34": {
+      "premium": [
+        "Toxic Alchemist Toxic Alchemist Toxic Alchemist"
+      ],
+      "free": []
+    },
+    "level_35": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Brainiac"
+      ]
+    },
+    "level_36": {
+      "premium": [
+        "Glacial Shatter"
+      ],
+      "free": []
+    },
+    "level_37": {
+      "premium": [
+        "Global Icebreak"
+      ],
+      "free": []
+    },
+    "level_38": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_39": {
+      "premium": [
+        "Sad Little Creature"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_40": {
+      "premium": [
+        "Frigid Gaze Space Cluster+"
+      ],
+      "free": []
+    },
+    "level_41": {
+      "premium": [
+        "Toxic Infuser XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_42": {
+      "premium": [
+        "200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_43": {
+      "premium": [
+        "Work of Art"
+      ],
+      "free": []
+    },
+    "level_44": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Corrupt Plasma"
+      ]
+    },
+    "level_45": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_46": {
+      "premium": [
+        "Artistic Recovery"
+      ],
+      "free": []
+    },
+    "level_47": {
+      "premium": [
+        "200"
+      ],
+      "free": []
+    },
+    "level_48": {
+      "premium": [
+        "Emote Heartbeat Remix"
+      ],
+      "free": [
+        "Bedside Manner"
+      ]
+    },
+    "level_49": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_50": {
+      "premium": [
+        "Alternative Artist"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_52": {
+      "premium": [
+        "Tune Up"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_53": {
+      "premium": [
+        "Code Breaker"
+      ],
+      "free": []
+    },
+    "level_54": {
+      "premium": [
+        "Void Scout"
+      ],
+      "free": []
+    },
+    "level_55": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_56": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Transformative Essence"
+      ]
+    },
+    "level_57": {
+      "premium": [
+        "200 Madness"
+      ],
+      "free": []
+    },
+    "level_58": {
+      "premium": [
+        "Flying Flicker"
+      ],
+      "free": []
+    },
+    "level_59": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_60": {
+      "premium": [
+        "Phase Crusher"
+      ],
+      "free": []
+    }
+  },
+  "split": 1
+}

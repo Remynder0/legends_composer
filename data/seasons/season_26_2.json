@@ -1,0 +1,401 @@
+{
+  "season": 26,
+  "max_level": 60,
+  "rewards": {
+    "level_1": {
+      "premium": [
+        "Break the Mold Mortal Membrane Nature's Will Thorn in Your Side XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_2": {
+      "premium": [
+        "Kill Quip: Power is peculiar"
+      ],
+      "free": [
+        "Shaky Engagement"
+      ]
+    },
+    "level_3": {
+      "premium": [
+        "Emote Static Snack"
+      ],
+      "free": []
+    },
+    "level_4": {
+      "premium": [
+        "Always Lurking"
+      ],
+      "free": []
+    },
+    "level_5": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_6": {
+      "premium": [
+        "State of the Art - Top State of the Art - Middle State of the Art - Bottom"
+      ],
+      "free": []
+    },
+    "level_7": {
+      "premium": [
+        "Fresh Air"
+      ],
+      "free": [
+        "Showdown Split 2"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "Lethal Exposure"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_10": {
+      "premium": [
+        "State of the Art Inorganic Mechanic+"
+      ],
+      "free": []
+    },
+    "level_11": {
+      "premium": [
+        "Development Branch XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_12": {
+      "premium": [
+        "Primal Perch"
+      ],
+      "free": []
+    },
+    "level_13": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_14": {
+      "premium": [
+        "My Team and Me"
+      ],
+      "free": []
+    },
+    "level_15": {
+      "premium": [
+        "200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_16": {
+      "premium": [
+        "Hex Shot"
+      ],
+      "free": []
+    },
+    "level_17": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_18": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_19": {
+      "premium": [
+        "Wither Away"
+      ],
+      "free": [
+        "Emote Not Entertained"
+      ]
+    },
+    "level_20": {
+      "premium": [
+        "Blue Collar 10+"
+      ],
+      "free": []
+    },
+    "level_21": {
+      "premium": [
+        "Root Cause XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_22": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_23": {
+      "premium": [
+        "Ecto Core"
+      ],
+      "free": []
+    },
+    "level_24": {
+      "premium": [
+        "200"
+      ],
+      "free": [
+        "Leave Your Mark"
+      ]
+    },
+    "level_25": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_26": {
+      "premium": [
+        "Emergency Maneuvers"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_27": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_28": {
+      "premium": [
+        "200"
+      ],
+      "free": []
+    },
+    "level_29": {
+      "premium": [
+        "Safe Space"
+      ],
+      "free": []
+    },
+    "level_30": {
+      "premium": [
+        "10 Ravenous Rose"
+      ],
+      "free": []
+    },
+    "level_31": {
+      "premium": [
+        "100 XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_32": {
+      "premium": [
+        "Emote Motor Massage"
+      ],
+      "free": [
+        "Corrupted Core"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "Deathcap - Top Deathcap - Middle Deathcap - Bottom"
+      ],
+      "free": []
+    },
+    "level_34": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Suotamo Select"
+      ]
+    },
+    "level_35": {
+      "premium": [
+        "Nocturnal"
+      ],
+      "free": []
+    },
+    "level_36": {
+      "premium": [
+        "Mycelia Maze"
+      ],
+      "free": []
+    },
+    "level_37": {
+      "premium": [
+        "Apex Pack Light It Up!"
+      ],
+      "free": []
+    },
+    "level_38": {
+      "premium": [
+        "Toadstool Tranquility"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_39": {
+      "premium": [
+        "200"
+      ],
+      "free": []
+    },
+    "level_40": {
+      "premium": [
+        "Deathcap Blood O'War+"
+      ],
+      "free": []
+    },
+    "level_41": {
+      "premium": [
+        "Emote Throwdown XP Boost [xp 1]"
+      ],
+      "free": []
+    },
+    "level_42": {
+      "premium": [
+        "Kill Quip: Rise again"
+      ],
+      "free": [
+        "Circuit Breaker"
+      ]
+    },
+    "level_43": {
+      "premium": [
+        "Ice Breaker"
+      ],
+      "free": []
+    },
+    "level_44": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_45": {
+      "premium": [
+        "You're Washed"
+      ],
+      "free": []
+    },
+    "level_46": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_47": {
+      "premium": [
+        "200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_48": {
+      "premium": [
+        "Get Kraken"
+      ],
+      "free": []
+    },
+    "level_49": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_50": {
+      "premium": [
+        "Deadly Depths"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "Killer Activated"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_52": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_53": {
+      "premium": [
+        "Glitch Glide"
+      ],
+      "free": []
+    },
+    "level_54": {
+      "premium": [
+        "Proton Piercer"
+      ],
+      "free": []
+    },
+    "level_55": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Flutter Figure"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_57": {
+      "premium": [
+        "200 Secret Garden"
+      ],
+      "free": []
+    },
+    "level_58": {
+      "premium": [
+        "Take Root"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_59": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_60": {
+      "premium": [
+        "Fatal Flower"
+      ],
+      "free": []
+    }
+  },
+  "split": 2
+}
