@@ -2,63 +2,627 @@
   "season": 12,
   "max_level": 110,
   "rewards": {
+    "level_1": {
+      "premium": [
+        "Rolling Thunder Modern Primitive Hardcore Heals Kernel Panic XP Boost"
+      ],
+      "free": [
+        "My Sindiket Report"
+      ]
+    },
     "level_2": {
-      "premium": [],
+      "premium": [
+        "Flip Off"
+      ],
+      "free": []
+    },
+    "level_3": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_4": {
+      "premium": [
+        "120"
+      ],
+      "free": [
+        "Defiance"
+      ]
+    },
+    "level_5": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_6": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_7": {
+      "premium": [
+        "Kill Quip : Don't Be So Shocked... That You're Dead"
+      ],
       "free": [
         "Apex Pack"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "Bad To The Drone"
+      ],
+      "free": [
+        "Season 12 Wins"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "Skull Fashion"
+      ],
+      "free": [
+        "Season 12 Kills"
+      ]
+    },
+    "level_10": {
+      "premium": [
+        "Lunar Smoke"
+      ],
+      "free": [
+        "Always Watching"
+      ]
+    },
+    "level_11": {
+      "premium": [
+        "Expand Your Network"
+      ],
+      "free": [
+        "Season 12 Wins"
       ]
     },
     "level_12": {
-      "premium": [],
+      "premium": [
+        "Broken Toys"
+      ],
+      "free": [
+        "Season 12 Kills"
+      ]
+    },
+    "level_13": {
+      "premium": [
+        "120"
+      ],
+      "free": [
+        "Make A Connection"
+      ]
+    },
+    "level_14": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Season 12 Wins"
+      ]
+    },
+    "level_15": {
+      "premium": [
+        "Kill Quip : Take A Note From A Friend Of Mine"
+      ],
+      "free": [
+        "Hard Hearted"
+      ]
+    },
+    "level_16": {
+      "premium": [
+        "Geared Mayhem"
+      ],
+      "free": [
+        "Season 12 Kills"
+      ]
+    },
+    "level_17": {
+      "premium": [
+        "Paisley Parade"
+      ],
+      "free": [
+        "Road Warrior"
+      ]
+    },
+    "level_18": {
+      "premium": [
+        "City Lights"
+      ],
+      "free": [
+        "Season 12 Wins"
+      ]
+    },
+    "level_19": {
+      "premium": [
+        "Take A Shot"
+      ],
       "free": [
         "Apex Pack"
       ]
     },
-    "level_24": {
-      "premium": [],
+    "level_20": {
+      "premium": [
+        "120"
+      ],
       "free": [
-        "Apex Pack"
+        "Season 12 Kills"
+      ]
+    },
+    "level_21": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Green Striker"
+      ]
+    },
+    "level_22": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Season 12 Wins"
+      ]
+    },
+    "level_23": {
+      "premium": [
+        "Wins"
+      ],
+      "free": [
+        "Season 12 Kills"
+      ]
+    },
+    "level_24": {
+      "premium": [
+        "Damage Done"
+      ],
+      "free": [
+        "Season 12 Wins"
+      ]
+    },
+    "level_25": {
+      "premium": [
+        "Aces High"
+      ],
+      "free": [
+        "D.O.C. Audio Log 12.1.0084"
       ]
     },
     "level_26": {
       "premium": [
-        "Apex Pack"
+        "Kills"
       ],
-      "free": []
+      "free": [
+        "Season 12 Kills"
+      ]
     },
-    "level_34": {
-      "premium": [],
+    "level_27": {
+      "premium": [
+        "Buzz Cutter"
+      ],
+      "free": [
+        "Season 12 Wins"
+      ]
+    },
+    "level_28": {
+      "premium": [
+        "120"
+      ],
+      "free": [
+        "Season 12 Kills"
+      ]
+    },
+    "level_29": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Links To The Past"
+      ]
+    },
+    "level_30": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Season 12 Wins"
+      ]
+    },
+    "level_31": {
+      "premium": [
+        "Unstoppable Force"
+      ],
+      "free": [
+        "Season 12 Kills"
+      ]
+    },
+    "level_32": {
+      "premium": [
+        "Kill Quip : Only Once Have I Failed To Kill A Target"
+      ],
+      "free": [
+        "Season 12 Wins"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "No Chance"
+      ],
       "free": [
         "Apex Pack"
+      ]
+    },
+    "level_34": {
+      "premium": [
+        "Fatal Fuchsia"
+      ],
+      "free": [
+        "Season 12 Kills"
+      ]
+    },
+    "level_35": {
+      "premium": [
+        "Borealis Displacement"
+      ],
+      "free": [
+        "Season 12 Wins"
+      ]
+    },
+    "level_36": {
+      "premium": [
+        "Meets Immovable Object"
+      ],
+      "free": [
+        "Season 12 Kills"
+      ]
+    },
+    "level_37": {
+      "premium": [
+        "120"
+      ],
+      "free": [
+        "Sniper Rogue"
+      ]
+    },
+    "level_38": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Season 12 Wins"
+      ]
+    },
+    "level_39": {
+      "premium": [
+        "Kill Quip : Better To Have Friends At Yuh Side"
+      ],
+      "free": [
+        "Season 12 Kills"
+      ]
+    },
+    "level_40": {
+      "premium": [
+        "Supply Or Die"
+      ],
+      "free": [
+        "Season 12 Wins"
+      ]
+    },
+    "level_41": {
+      "premium": [
+        "Linked Languish"
+      ],
+      "free": [
+        "Pink Ink"
+      ]
+    },
+    "level_42": {
+      "premium": [
+        "Rebel With A Cause"
+      ],
+      "free": [
+        "Season 12 Kills"
       ]
     },
     "level_43": {
       "premium": [
-        "Apex Pack"
+        "Double Trouble"
       ],
-      "free": []
+      "free": [
+        "Season 12 Wins"
+      ]
     },
     "level_44": {
-      "premium": [],
+      "premium": [
+        "Trouble Double"
+      ],
+      "free": [
+        "Season 12 Kills"
+      ]
+    },
+    "level_45": {
+      "premium": [
+        "100"
+      ],
       "free": [
         "Apex Pack"
       ]
     },
+    "level_46": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Season 12 Wins"
+      ]
+    },
+    "level_47": {
+      "premium": [
+        "120"
+      ],
+      "free": [
+        "Season 12 Kills"
+      ]
+    },
+    "level_48": {
+      "premium": [
+        "Wins"
+      ],
+      "free": [
+        "Season 12 Wins"
+      ]
+    },
+    "level_49": {
+      "premium": [
+        "Kills"
+      ],
+      "free": [
+        "The Capture Of M. Kōhere"
+      ]
+    },
+    "level_50": {
+      "premium": [
+        "Breaking The Law"
+      ],
+      "free": [
+        "Season 12 Kills"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "Damage Done"
+      ],
+      "free": [
+        "Season 12 Wins"
+      ]
+    },
+    "level_52": {
+      "premium": [
+        "Ghost Writer"
+      ],
+      "free": [
+        "Season 12 Kills"
+      ]
+    },
     "level_53": {
       "premium": [
-        "Apex Pack"
+        "120"
       ],
-      "free": []
+      "free": [
+        "The Quick And The Quilted"
+      ]
+    },
+    "level_54": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Season 12 Wins"
+      ]
+    },
+    "level_55": {
+      "premium": [
+        "Kill Quip : I'll Have To Say No To An Encore"
+      ],
+      "free": [
+        "Season 12 Kills"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "Outlaw Seal"
+      ],
+      "free": [
+        "Season 12 Wins"
+      ]
+    },
+    "level_57": {
+      "premium": [
+        "Death Maker"
+      ],
+      "free": [
+        "Mad Maggie"
+      ]
+    },
+    "level_58": {
+      "premium": [
+        "Full Throttle"
+      ],
+      "free": [
+        "Season 12 Kills"
+      ]
+    },
+    "level_59": {
+      "premium": [
+        "Strike A Pose"
+      ],
+      "free": [
+        "Season 12 Wins"
+      ]
+    },
+    "level_60": {
+      "premium": [
+        "120"
+      ],
+      "free": [
+        "Season 12 Kills"
+      ]
+    },
+    "level_61": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Deadly Links"
+      ]
+    },
+    "level_62": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Season 12 Wins"
+      ]
     },
     "level_63": {
       "premium": [
         "Apex Pack"
       ],
+      "free": [
+        "Season 12 Kills"
+      ]
+    },
+    "level_64": {
+      "premium": [
+        "Flame On"
+      ],
+      "free": []
+    },
+    "level_65": {
+      "premium": [
+        "Bottled Fury"
+      ],
+      "free": [
+        "In Session"
+      ]
+    },
+    "level_66": {
+      "premium": [
+        "Salvonian Drinking Song"
+      ],
+      "free": []
+    },
+    "level_67": {
+      "premium": [
+        "Kill Quip : I Pulled A Fast One On You, Amigo"
+      ],
+      "free": []
+    },
+    "level_68": {
+      "premium": [
+        "120"
+      ],
+      "free": []
+    },
+    "level_69": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Death Race"
+      ]
+    },
+    "level_70": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Legend Impressions: Mad Maggie"
+      ]
+    },
+    "level_71": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_72": {
+      "premium": [
+        "Riding In The Red"
+      ],
       "free": []
     },
     "level_73": {
       "premium": [
+        "Stitched Up"
+      ],
+      "free": [
         "Apex Pack"
+      ]
+    },
+    "level_74": {
+      "premium": [
+        "Zipping Through"
+      ],
+      "free": []
+    },
+    "level_75": {
+      "premium": [
+        "Emote : Knockout Gas"
+      ],
+      "free": []
+    },
+    "level_76": {
+      "premium": [
+        "120"
+      ],
+      "free": []
+    },
+    "level_77": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Good Catch"
+      ]
+    },
+    "level_78": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_79": {
+      "premium": [
+        "Morning Muffin"
+      ],
+      "free": []
+    },
+    "level_80": {
+      "premium": [
+        "Piston Punch"
+      ],
+      "free": []
+    },
+    "level_81": {
+      "premium": [
+        "The Warrior's Feast"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_82": {
+      "premium": [
+        "Mouth of Metal"
       ],
       "free": []
     },
@@ -68,11 +632,125 @@
       ],
       "free": []
     },
-    "level_86": {
+    "level_84": {
       "premium": [
-        "Epic Apex Pack"
+        "Skullcrusher"
       ],
       "free": []
+    },
+    "level_85": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Rebel Nessie"
+      ]
+    },
+    "level_86": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_87": {
+      "premium": [
+        "The Block"
+      ],
+      "free": []
+    },
+    "level_88": {
+      "premium": [
+        "Warped Impact"
+      ],
+      "free": []
+    },
+    "level_89": {
+      "premium": [
+        "Road Rash"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_90": {
+      "premium": [
+        "Eulogy For Navidad 'Navi' Silva"
+      ],
+      "free": []
+    },
+    "level_91": {
+      "premium": [
+        "Kill Quip : I Give As Many Craps As Prisoners I Take"
+      ],
+      "free": []
+    },
+    "level_92": {
+      "premium": [
+        "Pre-Game Warmup"
+      ],
+      "free": []
+    },
+    "level_93": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Kill Quip : Yeah, Naw, Ya Did Good. I Just Did Gooder"
+      ]
+    },
+    "level_94": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_95": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_96": {
+      "premium": [
+        "Burnt Rubber"
+      ],
+      "free": []
+    },
+    "level_97": {
+      "premium": [
+        "Tuesday Nights At Paradise Lounge"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_98": {
+      "premium": [
+        "Fire Wire"
+      ],
+      "free": []
+    },
+    "level_99": {
+      "premium": [
+        "Emote : Primal Nature"
+      ],
+      "free": []
+    },
+    "level_100": {
+      "premium": [
+        "Gentleman Baller"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_110": {
+      "premium": [
+        "Scream Machine"
+      ],
+      "free": [
+        "Badge : Defiance Level Season 12"
+      ]
     }
   }
 }

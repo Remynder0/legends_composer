@@ -2,53 +2,473 @@
   "season": 15,
   "max_level": 110,
   "rewards": {
+    "level_1": {
+      "premium": [
+        "Obsidian Night Archon Shadow Sorcerer Astral Treasure XP Boost [ 1 ]"
+      ],
+      "free": [
+        "A Deleted Message"
+      ]
+    },
     "level_2": {
-      "premium": [],
+      "premium": [
+        "Over the Moon"
+      ],
+      "free": []
+    },
+    "level_3": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_4": {
+      "premium": [
+        "120"
+      ],
+      "free": [
+        "Eclipse"
+      ]
+    },
+    "level_5": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_6": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Crypt Keepsake"
+      ]
+    },
+    "level_7": {
+      "premium": [
+        "Apex Pack"
+      ],
       "free": [
         "Apex Pack"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "Training Day"
+      ],
+      "free": [
+        "Season 15 Wins"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "Kill Quip : What can I say, kid - the future is fuse"
+      ],
+      "free": [
+        "Season 15 Kills"
+      ]
+    },
+    "level_10": {
+      "premium": [
+        "Nocturnal by Nature, Predator by Choice"
+      ],
+      "free": []
+    },
+    "level_11": {
+      "premium": [
+        "Digital Intervention"
+      ],
+      "free": [
+        "Hallowed Prestige"
       ]
     },
     "level_12": {
-      "premium": [],
+      "premium": [
+        "Emote Oh Behave"
+      ],
+      "free": [
+        "Calibtration Complete"
+      ]
+    },
+    "level_13": {
+      "premium": [
+        "120"
+      ],
+      "free": [
+        "Vampiric Buddies"
+      ]
+    },
+    "level_14": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_15": {
+      "premium": [
+        "Kills"
+      ],
+      "free": [
+        "Season 15 Wins"
+      ]
+    },
+    "level_16": {
+      "premium": [
+        "Wins"
+      ],
+      "free": [
+        "Season 15 Kills"
+      ]
+    },
+    "level_17": {
+      "premium": [
+        "Deception, Deceit, Delusion"
+      ],
+      "free": [
+        "Season 15 Wins"
+      ]
+    },
+    "level_18": {
+      "premium": [
+        "Cirque du Ash"
+      ],
+      "free": [
+        "Season 15 Kills"
+      ]
+    },
+    "level_19": {
+      "premium": [
+        "Damage Done"
+      ],
+      "free": []
+    },
+    "level_20": {
+      "premium": [
+        "120"
+      ],
+      "free": []
+    },
+    "level_21": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Silver Bullet"
+      ]
+    },
+    "level_22": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
       "free": [
         "Apex Pack"
       ]
     },
-    "level_24": {
-      "premium": [],
+    "level_23": {
+      "premium": [
+        "Kill Quip : Your mind should be as sharp as your blade"
+      ],
       "free": [
-        "Apex Pack"
+        "Season 15 Wins"
+      ]
+    },
+    "level_24": {
+      "premium": [
+        "Robodent"
+      ],
+      "free": [
+        "Season 15 Kills"
+      ]
+    },
+    "level_25": {
+      "premium": [
+        "Imperial Assailant"
+      ],
+      "free": [
+        "Bloodstained Glass"
       ]
     },
     "level_26": {
       "premium": [
-        "Apex Pack"
+        "Sealed Fate"
+      ],
+      "free": [
+        "Season 15 Wins"
+      ]
+    },
+    "level_27": {
+      "premium": [
+        "The Folly of Youth"
+      ],
+      "free": [
+        "Season 15 Kills"
+      ]
+    },
+    "level_28": {
+      "premium": [
+        "120"
       ],
       "free": []
     },
-    "level_34": {
-      "premium": [],
+    "level_29": {
+      "premium": [
+        "100"
+      ],
       "free": [
-        "Apex Pack"
+        "Ruby Rundown"
+      ]
+    },
+    "level_30": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Star Burster"
+      ]
+    },
+    "level_31": {
+      "premium": [
+        "Kill Quip : Well wasn't that illuminating?"
+      ],
+      "free": []
+    },
+    "level_32": {
+      "premium": [
+        "Crystal Cored"
+      ],
+      "free": [
+        "Season 15 Wins"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "Spell Book"
+      ],
+      "free": [
+        "Season 15 Kills"
+      ]
+    },
+    "level_34": {
+      "premium": [
+        "Knives Out"
+      ],
+      "free": [
+        "Season 15 Wins"
+      ]
+    },
+    "level_35": {
+      "premium": [
+        "Let's see what the crystals say"
+      ],
+      "free": [
+        "Season 15 Kills"
+      ]
+    },
+    "level_36": {
+      "premium": [
+        "120"
+      ],
+      "free": []
+    },
+    "level_37": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Bound in Bone"
+      ]
+    },
+    "level_38": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Coven Chat"
+      ]
+    },
+    "level_39": {
+      "premium": [
+        "Totemic"
+      ],
+      "free": []
+    },
+    "level_40": {
+      "premium": [
+        "Kill Quip : ' Dying is a small price for living"
+      ],
+      "free": [
+        "Season 15 Wins"
+      ]
+    },
+    "level_41": {
+      "premium": [
+        "Charmed I'm sure"
+      ],
+      "free": [
+        "Season 15 Kills"
+      ]
+    },
+    "level_42": {
+      "premium": [
+        "Illumination"
+      ],
+      "free": [
+        "Season 15 Wins"
       ]
     },
     "level_43": {
       "premium": [
-        "Apex Pack"
+        "Happy Haunts"
+      ],
+      "free": [
+        "Season 15 Kills"
+      ]
+    },
+    "level_44": {
+      "premium": [
+        "120"
       ],
       "free": []
     },
-    "level_44": {
-      "premium": [],
+    "level_45": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Bottled Rage"
+      ]
+    },
+    "level_46": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
       "free": [
         "Apex Pack"
       ]
     },
+    "level_47": {
+      "premium": [
+        "Close Shave"
+      ],
+      "free": [
+        "Season 15 Wins"
+      ]
+    },
+    "level_48": {
+      "premium": [
+        "Kills"
+      ],
+      "free": [
+        "Season 15 Kills"
+      ]
+    },
+    "level_49": {
+      "premium": [
+        "Wins"
+      ],
+      "free": []
+    },
+    "level_50": {
+      "premium": [
+        "Nail Order Monster"
+      ],
+      "free": [
+        "Catalyst"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "Damage Done"
+      ],
+      "free": [
+        "Season 15 Wins"
+      ]
+    },
+    "level_52": {
+      "premium": [
+        "Pristine Power"
+      ],
+      "free": [
+        "Season 15 Kills"
+      ]
+    },
     "level_53": {
+      "premium": [
+        "120"
+      ],
+      "free": []
+    },
+    "level_54": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "High Class Blast"
+      ]
+    },
+    "level_55": {
+      "premium": [
+        "Night Terrors"
+      ],
+      "free": [
+        "Season 15 Wins"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "Kill Quip : That terror in your soul"
+      ],
+      "free": [
+        "Season 15 Kills"
+      ]
+    },
+    "level_57": {
+      "premium": [
+        "And for my next trick"
+      ],
+      "free": [
+        "Doom and Gloom"
+      ]
+    },
+    "level_58": {
       "premium": [
         "Apex Pack"
       ],
+      "free": [
+        "Season 15 Wins"
+      ]
+    },
+    "level_59": {
+      "premium": [
+        "Crimson Gaze"
+      ],
+      "free": [
+        "Season 15 Kills"
+      ]
+    },
+    "level_60": {
+      "premium": [
+        "120"
+      ],
       "free": []
+    },
+    "level_61": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_62": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Ghost Gun"
+      ]
     },
     "level_63": {
       "premium": [
@@ -56,23 +476,287 @@
       ],
       "free": []
     },
+    "level_64": {
+      "premium": [
+        "Ornate Relic"
+      ],
+      "free": [
+        "Season 15 Wins"
+      ]
+    },
+    "level_65": {
+      "premium": [
+        "Emote Sweaty"
+      ],
+      "free": [
+        "Season 15 Kills"
+      ]
+    },
+    "level_66": {
+      "premium": [
+        "Kill Quip : You remind me of that song"
+      ],
+      "free": [
+        "Season 15 Wins"
+      ]
+    },
+    "level_67": {
+      "premium": [
+        "Dracu-Ness"
+      ],
+      "free": [
+        "Season 15 Kills"
+      ]
+    },
+    "level_68": {
+      "premium": [
+        "120"
+      ],
+      "free": []
+    },
+    "level_69": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_70": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "The Big Picture"
+      ]
+    },
+    "level_71": {
+      "premium": [
+        "Alpha Dog"
+      ],
+      "free": []
+    },
+    "level_72": {
+      "premium": [
+        "All Eyes on Me"
+      ],
+      "free": [
+        "Season 15 Wins"
+      ]
+    },
     "level_73": {
+      "premium": [
+        "Kill Quip : I always get what catches my eye"
+      ],
+      "free": [
+        "Season 15 Kills"
+      ]
+    },
+    "level_74": {
+      "premium": [
+        "You're a gem"
+      ],
+      "free": [
+        "Season 15 Wins"
+      ]
+    },
+    "level_75": {
+      "premium": [
+        "Den of Desire"
+      ],
+      "free": [
+        "Season 15 Kills"
+      ]
+    },
+    "level_76": {
+      "premium": [
+        "120"
+      ],
+      "free": []
+    },
+    "level_77": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_78": {
+      "premium": [
+        "CRC Memo: Addressing Rumors"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_79": {
+      "premium": [
+        "Fear and Loathing"
+      ],
+      "free": []
+    },
+    "level_80": {
+      "premium": [
+        "Web of Lies"
+      ],
+      "free": [
+        "Season 15 Wins"
+      ]
+    },
+    "level_81": {
+      "premium": [
+        "Say the Magic Word"
+      ],
+      "free": [
+        "Season 15 Kills"
+      ]
+    },
+    "level_82": {
+      "premium": [
+        "Regal Charm"
+      ],
+      "free": [
+        "Season 15 Wins"
+      ]
+    },
+    "level_83": {
+      "premium": [
+        "Kill Quip : Be proud, mate - I'm a big bloody deal"
+      ],
+      "free": [
+        "Season 15 Kills"
+      ]
+    },
+    "level_84": {
       "premium": [
         "Apex Pack"
       ],
       "free": []
     },
-    "level_83": {
+    "level_85": {
       "premium": [
-        "Apex Pack"
+        "100"
       ],
       "free": []
     },
     "level_86": {
       "premium": [
-        "Epic Apex Pack"
+        "Dream Homes for Dreamers"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_87": {
+      "premium": [
+        "Center Stage"
       ],
       "free": []
+    },
+    "level_88": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Season 15 Wins"
+      ]
+    },
+    "level_89": {
+      "premium": [
+        "Cosmic Guardian"
+      ],
+      "free": [
+        "Season 15 Kills"
+      ]
+    },
+    "level_90": {
+      "premium": [
+        "Mystic Spiral"
+      ],
+      "free": [
+        "Season 15 Wins"
+      ]
+    },
+    "level_91": {
+      "premium": [
+        "Kill Quip : Take comfort, this is gentler"
+      ],
+      "free": [
+        "Season 15 Kills"
+      ]
+    },
+    "level_92": {
+      "premium": [
+        "Meet Cute"
+      ],
+      "free": []
+    },
+    "level_93": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_94": {
+      "premium": [
+        "Rage Chain"
+      ],
+      "free": [
+        "Season 15 Wins"
+      ]
+    },
+    "level_95": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Season 15 Kills"
+      ]
+    },
+    "level_96": {
+      "premium": [
+        "Do You See From On High?"
+      ],
+      "free": [
+        "Season 15 Wins"
+      ]
+    },
+    "level_97": {
+      "premium": [
+        "Boogie Down"
+      ],
+      "free": [
+        "Season 15 Kills"
+      ]
+    },
+    "level_98": {
+      "premium": [
+        "Dodge This"
+      ],
+      "free": []
+    },
+    "level_99": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Reflection"
+      ]
+    },
+    "level_100": {
+      "premium": [
+        "Laser Eviscerator"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_110": {
+      "premium": [
+        "Cosmic Cannon"
+      ],
+      "free": [
+        "Eclipse Level Season 15 | Badge"
+      ]
     }
   }
 }

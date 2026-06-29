@@ -2,53 +2,473 @@
   "season": 16,
   "max_level": 110,
   "rewards": {
+    "level_1": {
+      "premium": [
+        "Frenzied Frequency Night Raver Bamboogie Amped Up Armorer XP Boost [ 1 ]"
+      ],
+      "free": [
+        "The Modder's Corner"
+      ]
+    },
     "level_2": {
-      "premium": [],
+      "premium": [
+        "Falling for Me"
+      ],
+      "free": []
+    },
+    "level_3": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_4": {
+      "premium": [
+        "120"
+      ],
+      "free": [
+        "Celebration By DRUM TAO"
+      ]
+    },
+    "level_5": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_6": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Starry Eyed"
+      ]
+    },
+    "level_7": {
+      "premium": [
+        "Apex Pack"
+      ],
       "free": [
         "Apex Pack"
       ]
     },
-    "level_12": {
-      "premium": [],
+    "level_8": {
+      "premium": [
+        "Laser Lightshow"
+      ],
       "free": [
-        "Apex Pack"
+        "Season 16 Wins as Mad Maggie"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "Kill Quip : This game really is a death sentence"
+      ],
+      "free": [
+        "Season 16 Kills as Mad Maggie"
+      ]
+    },
+    "level_10": {
+      "premium": [
+        "Major Party Minor Chill"
+      ],
+      "free": []
+    },
+    "level_11": {
+      "premium": [
+        "Festival Frenzy"
+      ],
+      "free": []
+    },
+    "level_12": {
+      "premium": [
+        "Emote XOXO"
+      ],
+      "free": [
+        "Shooting Stars"
+      ]
+    },
+    "level_13": {
+      "premium": [
+        "120"
+      ],
+      "free": [
+        "Important Secret Intel"
+      ]
+    },
+    "level_14": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Party Popper"
+      ]
+    },
+    "level_15": {
+      "premium": [
+        "Kills as Crypto"
+      ],
+      "free": []
+    },
+    "level_16": {
+      "premium": [
+        "Wins as Crytpo"
+      ],
+      "free": [
+        "Season 16 Wins as Fuse"
+      ]
+    },
+    "level_17": {
+      "premium": [
+        "Damage Done as Crypto"
+      ],
+      "free": [
+        "Season 16 Kills as Fuse"
+      ]
+    },
+    "level_18": {
+      "premium": [
+        "Headlining"
+      ],
+      "free": [
+        "Season 16 Wins as Wattson"
+      ]
+    },
+    "level_19": {
+      "premium": [
+        "Night Gig"
+      ],
+      "free": [
+        "Season 16 Kills as Wattson"
+      ]
+    },
+    "level_20": {
+      "premium": [
+        "120"
+      ],
+      "free": []
+    },
+    "level_21": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Disco Sazzler"
+      ]
+    },
+    "level_22": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Season 16 Wins as Crypto"
+      ]
+    },
+    "level_23": {
+      "premium": [
+        "Kill Quip : It's a simple calculation"
+      ],
+      "free": [
+        "Season 16 Kills as Crypto"
       ]
     },
     "level_24": {
-      "premium": [],
+      "premium": [
+        "Drone Deployed"
+      ],
       "free": [
         "Apex Pack"
+      ]
+    },
+    "level_25": {
+      "premium": [
+        "Technocrat"
+      ],
+      "free": [
+        "Polygonal"
       ]
     },
     "level_26": {
       "premium": [
-        "Apex Pack"
+        "Little Legends"
+      ],
+      "free": [
+        "Season 16 Wins as Vantage"
+      ]
+    },
+    "level_27": {
+      "premium": [
+        "Emote Jerky Break"
+      ],
+      "free": [
+        "Season 16 Kills as Vantage"
+      ]
+    },
+    "level_28": {
+      "premium": [
+        "120"
       ],
       "free": []
     },
+    "level_29": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Sunset Threat"
+      ]
+    },
+    "level_30": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Sonic Sequencer"
+      ]
+    },
+    "level_31": {
+      "premium": [
+        "Kill Quip : You'll never become a legend"
+      ],
+      "free": []
+    },
+    "level_32": {
+      "premium": [
+        "Party Starter"
+      ],
+      "free": [
+        "Season 16 Wins as Vantage"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "Roller Kicks"
+      ],
+      "free": [
+        "Season 16 Kills as Vantage"
+      ]
+    },
     "level_34": {
-      "premium": [],
+      "premium": [
+        "Aural Energy"
+      ],
+      "free": [
+        "Season 16 Wins as Loba"
+      ]
+    },
+    "level_35": {
+      "premium": [
+        "Bring The Party"
+      ],
+      "free": [
+        "Season 16 Kills as Loba"
+      ]
+    },
+    "level_36": {
+      "premium": [
+        "120"
+      ],
+      "free": []
+    },
+    "level_37": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Cosmic Overload"
+      ]
+    },
+    "level_38": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
       "free": [
         "Apex Pack"
+      ]
+    },
+    "level_39": {
+      "premium": [
+        "Tune In"
+      ],
+      "free": []
+    },
+    "level_40": {
+      "premium": [
+        "Kill Quip : Looks like the only true legend"
+      ],
+      "free": [
+        "Season 16 Wins as Mirage"
+      ]
+    },
+    "level_41": {
+      "premium": [
+        "I Am The Party"
+      ],
+      "free": [
+        "Season 16 Kills as Mirage"
+      ]
+    },
+    "level_42": {
+      "premium": [
+        "DJ Nessie"
+      ],
+      "free": [
+        "Season 16 Wins as Gibraltar"
       ]
     },
     "level_43": {
       "premium": [
-        "Apex Pack"
+        "Merch Madness"
+      ],
+      "free": [
+        "Season 16 Kills as Gibraltar"
+      ]
+    },
+    "level_44": {
+      "premium": [
+        "120"
       ],
       "free": []
     },
-    "level_44": {
-      "premium": [],
+    "level_45": {
+      "premium": [
+        "100"
+      ],
       "free": [
-        "Apex Pack"
+        "S.A.R.A.S. Fan Mail"
+      ]
+    },
+    "level_46": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Vibe Check"
+      ]
+    },
+    "level_47": {
+      "premium": [
+        "Kills as Valkyrie"
+      ],
+      "free": []
+    },
+    "level_48": {
+      "premium": [
+        "Wins as Valkyrie"
+      ],
+      "free": [
+        "Season 16 Wins as Valkyrie"
+      ]
+    },
+    "level_49": {
+      "premium": [
+        "Damage Done as Valkyrie"
+      ],
+      "free": [
+        "Season 16 Wins as Valkyrie"
+      ]
+    },
+    "level_50": {
+      "premium": [
+        "Heartbeat Harmonizer"
+      ],
+      "free": [
+        "Festival"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "Heart Stomper"
+      ],
+      "free": [
+        "Season 16 Wins as Caustic"
+      ]
+    },
+    "level_52": {
+      "premium": [
+        "Triangular"
+      ],
+      "free": [
+        "Season 16 Kills as Caustic"
       ]
     },
     "level_53": {
       "premium": [
-        "Apex Pack"
+        "120"
       ],
       "free": []
+    },
+    "level_54": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Sonic Frequency"
+      ]
+    },
+    "level_55": {
+      "premium": [
+        "Stadium Beats"
+      ],
+      "free": [
+        "Season 16 Wins as Seer"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "Kill Quip : It's not losing. It's an opportunity"
+      ],
+      "free": [
+        "Season 16 Kills as Seer"
+      ]
+    },
+    "level_57": {
+      "premium": [
+        "Good Vibes"
+      ],
+      "free": [
+        "Visualizer"
+      ]
+    },
+    "level_58": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Season 16 Wins as Newcastle"
+      ]
+    },
+    "level_59": {
+      "premium": [
+        "Retro Soundsystem"
+      ],
+      "free": [
+        "Season 16 Kills as Newcastle"
+      ]
+    },
+    "level_60": {
+      "premium": [
+        "120"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_61": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_62": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Pixel Perfect"
+      ]
     },
     "level_63": {
       "premium": [
@@ -56,23 +476,287 @@
       ],
       "free": []
     },
+    "level_64": {
+      "premium": [
+        "Tagged"
+      ],
+      "free": [
+        "Season 16 Wins as Ash"
+      ]
+    },
+    "level_65": {
+      "premium": [
+        "It's My Party Now"
+      ],
+      "free": [
+        "Season 16 Kills as Ash"
+      ]
+    },
+    "level_66": {
+      "premium": [
+        "Emote Light Show"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_67": {
+      "premium": [
+        "B Side"
+      ],
+      "free": [
+        "Season 16 Wins as Catalyst"
+      ]
+    },
+    "level_68": {
+      "premium": [
+        "120"
+      ],
+      "free": [
+        "Season 16 Kills as Catalyst"
+      ]
+    },
+    "level_69": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_70": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Heartfelt Holos"
+      ]
+    },
+    "level_71": {
+      "premium": [
+        "Hack The Beat"
+      ],
+      "free": [
+        "Season 16 Wins as Bloodhound"
+      ]
+    },
+    "level_72": {
+      "premium": [
+        "Rock the Night"
+      ],
+      "free": [
+        "Season 16 Kills as Bloodhound"
+      ]
+    },
     "level_73": {
+      "premium": [
+        "Kill Quip : The fervor grows"
+      ],
+      "free": [
+        "Season 16 Wins as Wraith"
+      ]
+    },
+    "level_74": {
+      "premium": [
+        "Bloth's Beat"
+      ],
+      "free": [
+        "Season 16 Kills as Wraith"
+      ]
+    },
+    "level_75": {
+      "premium": [
+        "Predator's Percussion"
+      ],
+      "free": []
+    },
+    "level_76": {
+      "premium": [
+        "120"
+      ],
+      "free": []
+    },
+    "level_77": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_78": {
+      "premium": [
+        "Deadly Decals"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_79": {
+      "premium": [
+        "Celestial Beatdown"
+      ],
+      "free": []
+    },
+    "level_80": {
+      "premium": [
+        "Cluster Bombs"
+      ],
+      "free": [
+        "Season 16 Wins as Octane"
+      ]
+    },
+    "level_81": {
+      "premium": [
+        "Still Got The Moves"
+      ],
+      "free": [
+        "Season 16 Kills as Octane"
+      ]
+    },
+    "level_82": {
+      "premium": [
+        "Emote Brush It Off"
+      ],
+      "free": [
+        "Season 16 Wins as Lifeline"
+      ]
+    },
+    "level_83": {
+      "premium": [
+        "Kill Quip : If your life was a song"
+      ],
+      "free": [
+        "Afterparty"
+      ]
+    },
+    "level_84": {
       "premium": [
         "Apex Pack"
       ],
       "free": []
     },
-    "level_83": {
+    "level_85": {
       "premium": [
-        "Apex Pack"
+        "100"
       ],
       "free": []
     },
     "level_86": {
       "premium": [
-        "Epic Apex Pack"
+        "Research Report - Subject_Cross"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_87": {
+      "premium": [
+        "Apex Pack"
       ],
       "free": []
+    },
+    "level_88": {
+      "premium": [
+        "Hear the Echo"
+      ],
+      "free": [
+        "Season 16 Wins as Bangalore"
+      ]
+    },
+    "level_89": {
+      "premium": [
+        "3.5mm"
+      ],
+      "free": [
+        "Season 16 Kills as Bangalore"
+      ]
+    },
+    "level_90": {
+      "premium": [
+        "Flying Flex"
+      ],
+      "free": [
+        "Season 16 Wins as Pathfinder"
+      ]
+    },
+    "level_91": {
+      "premium": [
+        "Kill Quip : The moon is a harsh mistress"
+      ],
+      "free": [
+        "Season 16 Kills as Pathfinder"
+      ]
+    },
+    "level_92": {
+      "premium": [
+        "Party Mix v301"
+      ],
+      "free": []
+    },
+    "level_93": {
+      "premium": [
+        "100"
+      ],
+      "free": []
+    },
+    "level_94": {
+      "premium": [
+        "Cosmic Vectors"
+      ],
+      "free": [
+        "Season 16 Wins as Revenant"
+      ]
+    },
+    "level_95": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Season 16 Kills as Revenant"
+      ]
+    },
+    "level_96": {
+      "premium": [
+        "Meet Me In The Pit"
+      ],
+      "free": [
+        "Season 16 Wins as Horizon"
+      ]
+    },
+    "level_97": {
+      "premium": [
+        "Gravity Grooves"
+      ],
+      "free": [
+        "Season 16 Kills as Horizon"
+      ]
+    },
+    "level_98": {
+      "premium": [
+        "Kill Quip : Sorry, slick. I have a reputation"
+      ],
+      "free": [
+        "1000 Impossible Ideas"
+      ]
+    },
+    "level_99": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_100": {
+      "premium": [
+        "Headliner"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_110": {
+      "premium": [
+        "Afterparty"
+      ],
+      "free": [
+        "Badge : Revelry Level Season 16"
+      ]
     }
   }
 }

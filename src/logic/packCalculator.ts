@@ -46,24 +46,35 @@ export interface SeasonData {
     weaponSkin: string;
 }
 
+export function getParsedSeasonData(seasonId: string): any {
+    const seasonNum = parseInt(seasonId.replace('s', ''), 10);
+    if (isNaN(seasonNum)) return null;
+    const jsonPath = `../../data/season_pass/season_${seasonNum}.json`;
+    return seasonDataFiles[jsonPath]?.default || seasonDataFiles[jsonPath];
+}
+
 export function generateSeasons(): SeasonData[] {
     const seasons: SeasonData[] = [];
     
-    const weapons1to21 = [
-        "Havoc", "R-301", "Peacekeeper", "Flatline", "Wingman", "G7 Scout", 
-        "R-99", "Longbow", "Devotion", "Volt", "Prowler", "Hemlok", 
-        "Spitfire", "Triple Take", "Charge Rifle", "Mastiff", "C.A.R. SMG", 
-        "EVA-8", "Rampage", "R-99", "30-30 Repeater"
-    ];
-
     for (let i = 1; i <= 21; i++) {
+        const id = `s${i}`;
+        const data = getParsedSeasonData(id);
+        let weaponSkin = "Skin: Inconnu";
+        
+        if (data && data.rewards && data.rewards['level_1'] && data.rewards['level_1'].premium) {
+            const premiumRewards = data.rewards['level_1'].premium;
+            if (premiumRewards.length > 0) {
+                weaponSkin = premiumRewards[0];
+            }
+        }
+
         seasons.push({
-            id: `s${i}`,
+            id,
             name: `Saison ${i}`,
             level: 0,
             maxLevel: 110,
             purchased: false,
-            weaponSkin: `Skin: ${weapons1to21[i - 1]}`
+            weaponSkin
         });
     }
 

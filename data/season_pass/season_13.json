@@ -2,77 +2,755 @@
   "season": 13,
   "max_level": 110,
   "rewards": {
+    "level_1": {
+      "premium": [
+        "Wyrmborn Gilded Grappler Lava Queen Firewall XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Pre-Orders Now Open!"
+      ]
+    },
     "level_2": {
-      "premium": [],
-      "free": [
-        "Apex Pack"
-      ]
+      "premium": [
+        "Three, Two, One"
+      ],
+      "free": []
     },
-    "level_12": {
-      "premium": [],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_24": {
-      "premium": [],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_26": {
+    "level_3": {
       "premium": [
         "Apex Pack"
       ],
       "free": []
     },
-    "level_34": {
-      "premium": [],
+    "level_4": {
+      "premium": [
+        "120"
+      ],
+      "free": [
+        "Savior"
+      ]
+    },
+    "level_5": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_6": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_7": {
+      "premium": [
+        "Kill Quip : You were all sizzle and no steak"
+      ],
+      "free": [
+        "Shedding the Dead"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "Lava Drill"
+      ],
+      "free": [
+        "Season 13 Wins"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "Scaled Tapestry"
+      ],
+      "free": [
+        "Season 13 Wins"
+      ]
+    },
+    "level_10": {
+      "premium": [
+        "Burning Embrace"
+      ],
+      "free": [
+        "Season 13 Wins"
+      ]
+    },
+    "level_11": {
+      "premium": [
+        "Eat this, Eggs!"
+      ],
       "free": [
         "Apex Pack"
+      ]
+    },
+    "level_12": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_13": {
+      "premium": [
+        "120"
+      ],
+      "free": [
+        "Lion Tamer"
+      ]
+    },
+    "level_14": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_15": {
+      "premium": [
+        "Inside the Outlands: Episode 1082.5"
+      ],
+      "free": [
+        "Scales and Stripes"
+      ]
+    },
+    "level_16": {
+      "premium": [
+        "Brudda in Arms"
+      ],
+      "free": []
+    },
+    "level_17": {
+      "premium": [
+        "Saint's End"
+      ],
+      "free": [
+        "Season 13 Wins"
+      ]
+    },
+    "level_18": {
+      "premium": [
+        "All the Tales are True"
+      ],
+      "free": [
+        "Season 13 Wins"
+      ]
+    },
+    "level_19": {
+      "premium": [
+        "Emote Side Hustle"
+      ],
+      "free": [
+        "Season 13 Wins"
+      ]
+    },
+    "level_20": {
+      "premium": [
+        "120"
+      ],
+      "free": []
+    },
+    "level_21": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Fate Sealer"
+      ]
+    },
+    "level_22": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_23": {
+      "premium": [
+        "Wins"
+      ],
+      "free": [
+        "Season 13 Wins"
+      ]
+    },
+    "level_24": {
+      "premium": [
+        "Damage Done"
+      ],
+      "free": []
+    },
+    "level_25": {
+      "premium": [
+        "Sir Fitzroy"
+      ],
+      "free": [
+        "Season 13 Wins"
+      ]
+    },
+    "level_26": {
+      "premium": [
+        "Kills"
+      ],
+      "free": [
+        "Season 13 Kills"
+      ]
+    },
+    "level_27": {
+      "premium": [
+        "Regal Seals"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_28": {
+      "premium": [
+        "120"
+      ],
+      "free": []
+    },
+    "level_29": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Guardian's Battlecrest"
+      ]
+    },
+    "level_30": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_31": {
+      "premium": [
+        "Kill Quip : By your hand, through me"
+      ],
+      "free": [
+        "Season 13 Wins"
+      ]
+    },
+    "level_32": {
+      "premium": [
+        "Charm of Nature"
+      ],
+      "free": []
+    },
+    "level_33": {
+      "premium": [
+        "Fantastic Trails"
+      ],
+      "free": [
+        "Season 13 Wins"
+      ]
+    },
+    "level_34": {
+      "premium": [
+        "Cold Sparks"
+      ],
+      "free": [
+        "Season 13 Wins"
+      ]
+    },
+    "level_35": {
+      "premium": [
+        "Fire At Will"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_36": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_37": {
+      "premium": [
+        "120"
+      ],
+      "free": [
+        "Singed Sight"
+      ]
+    },
+    "level_38": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_39": {
+      "premium": [
+        "Kill Quip : Real Heroes Get Back Up"
+      ],
+      "free": [
+        "Season 13 Wins"
+      ]
+    },
+    "level_40": {
+      "premium": [
+        "Crest Ascension"
+      ],
+      "free": []
+    },
+    "level_41": {
+      "premium": [
+        "Retro Ball"
+      ],
+      "free": [
+        "Season 13 Wins"
+      ]
+    },
+    "level_42": {
+      "premium": [
+        "The Hot Seat"
+      ],
+      "free": [
+        "Season 13 Wins"
       ]
     },
     "level_43": {
       "premium": [
         "Apex Pack"
       ],
-      "free": []
+      "free": [
+        "You Can't Choose Your Family"
+      ]
     },
     "level_44": {
-      "premium": [],
+      "premium": [
+        "120"
+      ],
+      "free": []
+    },
+    "level_45": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Scaled Silhouette"
+      ]
+    },
+    "level_46": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_47": {
+      "premium": [
+        "Imbued Fury"
+      ],
+      "free": [
+        "Season 13 Wins"
+      ]
+    },
+    "level_48": {
+      "premium": [
+        "Wins"
+      ],
+      "free": [
+        "Season 13 Wins"
+      ]
+    },
+    "level_49": {
+      "premium": [
+        "Kills"
+      ],
+      "free": [
+        "Season 13 Wins"
+      ]
+    },
+    "level_50": {
+      "premium": [
+        "Feral's Future"
+      ],
+      "free": [
+        "Season 13 Wins"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "Damage Done"
+      ],
       "free": [
         "Apex Pack"
       ]
     },
+    "level_52": {
+      "premium": [
+        "Margaret Kōhere's Lessons"
+      ],
+      "free": []
+    },
     "level_53": {
       "premium": [
-        "Apex Pack"
+        "120"
+      ],
+      "free": [
+        "Royal Crest"
+      ]
+    },
+    "level_54": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_55": {
+      "premium": [
+        "ApexGamesDaily Presents..."
+      ],
+      "free": [
+        "Season 13 Wins"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "Kill Quip : We're Not Here To Shag Spiders"
+      ],
+      "free": [
+        "Season 13 Kills"
+      ]
+    },
+    "level_57": {
+      "premium": [
+        "Lordly Helm"
+      ],
+      "free": [
+        "Season 13 Kills"
+      ]
+    },
+    "level_58": {
+      "premium": [
+        "Gilded Lineage"
+      ],
+      "free": [
+        "Season 13 Kills"
+      ]
+    },
+    "level_59": {
+      "premium": [
+        "Tower Defense"
+      ],
+      "free": [
+        "Blue Dragon"
+      ]
+    },
+    "level_60": {
+      "premium": [
+        "Roger That Boss"
+      ],
+      "free": []
+    },
+    "level_61": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Serpent's Blood"
+      ]
+    },
+    "level_62": {
+      "premium": [
+        "XP Boost [ 1 ]"
       ],
       "free": []
     },
     "level_63": {
       "premium": [
+        "Defender Axe"
+      ],
+      "free": [
+        "Season 13 Kills"
+      ]
+    },
+    "level_64": {
+      "premium": [
+        "Highborn"
+      ],
+      "free": [
+        "Season 13 Kills"
+      ]
+    },
+    "level_65": {
+      "premium": [
+        "Ancient Infusion"
+      ],
+      "free": [
+        "Season 13 Kills"
+      ]
+    },
+    "level_66": {
+      "premium": [
+        "Kill Quip : I Stick A Fork In You, You're Done"
+      ],
+      "free": [
+        "Season 13 Kills"
+      ]
+    },
+    "level_67": {
+      "premium": [
         "Apex Pack"
       ],
+      "free": [
+        "Selfish Mistakes"
+      ]
+    },
+    "level_68": {
+      "premium": [
+        "The Dragon's Clutch"
+      ],
       "free": []
+    },
+    "level_69": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Quicksilver"
+      ]
+    },
+    "level_70": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_71": {
+      "premium": [
+        "Kill Quip : Look On The Brightside - I Won"
+      ],
+      "free": [
+        "Season 13 Kills"
+      ]
+    },
+    "level_72": {
+      "premium": [
+        "I Call Dibs"
+      ],
+      "free": [
+        "Season 13 Kills"
+      ]
     },
     "level_73": {
       "premium": [
+        "Rare Throwback"
+      ],
+      "free": [
+        "Season 13 Kills"
+      ]
+    },
+    "level_74": {
+      "premium": [
+        "Return to Sender"
+      ],
+      "free": [
+        "Season 13 Kills"
+      ]
+    },
+    "level_75": {
+      "premium": [
+        "Zip It!"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_76": {
+      "premium": [
+        "120"
+      ],
+      "free": []
+    },
+    "level_77": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Newcastle"
+      ]
+    },
+    "level_78": {
+      "premium": [
         "Apex Pack"
       ],
       "free": []
+    },
+    "level_79": {
+      "premium": [
+        "Virtual Hero"
+      ],
+      "free": [
+        "Season 13 Wins"
+      ]
+    },
+    "level_80": {
+      "premium": [
+        "Mighty Incisor"
+      ],
+      "free": [
+        "Season 13 Kills"
+      ]
+    },
+    "level_81": {
+      "premium": [
+        "No One Looks Up"
+      ],
+      "free": [
+        "Season 13 Kills"
+      ]
+    },
+    "level_82": {
+      "premium": [
+        "Out With the Old, In With the New"
+      ],
+      "free": [
+        "Season 13 Kills"
+      ]
     },
     "level_83": {
       "premium": [
+        "Circling Back"
+      ],
+      "free": [
+        "Nothing Personal"
+      ]
+    },
+    "level_84": {
+      "premium": [
+        "120"
+      ],
+      "free": []
+    },
+    "level_85": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Dragon Crest"
+      ]
+    },
+    "level_86": {
+      "premium": [
         "Apex Pack"
       ],
       "free": []
     },
-    "level_86": {
+    "level_87": {
       "premium": [
-        "Epic Apex Pack"
+        "Battle Crested"
+      ],
+      "free": [
+        "Season 13 Kills"
+      ]
+    },
+    "level_88": {
+      "premium": [
+        "Contained Corruption"
+      ],
+      "free": [
+        "Season 13 Kills"
+      ]
+    },
+    "level_89": {
+      "premium": [
+        "Venom Eggs"
+      ],
+      "free": [
+        "Season 13 Kills"
+      ]
+    },
+    "level_90": {
+      "premium": [
+        "You Can Choose Your Friends"
+      ],
+      "free": [
+        "Season 13 Kills"
+      ]
+    },
+    "level_91": {
+      "premium": [
+        "Air Defense"
+      ],
+      "free": [
+        "Spinal Double Tap"
+      ]
+    },
+    "level_92": {
+      "premium": [
+        "120"
       ],
       "free": []
+    },
+    "level_93": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_94": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_95": {
+      "premium": [
+        "100"
+      ],
+      "free": [
+        "Kill Quip : You Seem A Bit Dense"
+      ]
+    },
+    "level_96": {
+      "premium": [
+        "Finders Keepers"
+      ],
+      "free": [
+        "Season 13 Kills"
+      ]
+    },
+    "level_97": {
+      "premium": [
+        "Emote Terrible Twos"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_98": {
+      "premium": [
+        "Wings of Wrath"
+      ],
+      "free": [
+        "Season 13 Kills"
+      ]
+    },
+    "level_99": {
+      "premium": [
+        "Kill Quip : I Thought You Were Someone Else"
+      ],
+      "free": [
+        "Season 13 Kills"
+      ]
+    },
+    "level_100": {
+      "premium": [
+        "Winter Soul"
+      ],
+      "free": [
+        "100"
+      ]
+    },
+    "level_110": {
+      "premium": [
+        "Molten Soul"
+      ],
+      "free": [
+        "Badge : Saviors Level Season 13"
+      ]
     }
   }
 }
