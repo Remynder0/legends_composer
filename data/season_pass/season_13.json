@@ -1,0 +1,78 @@
+{
+  "season": 13,
+  "max_level": 110,
+  "rewards": {
+    "level_2": {
+      "premium": [],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_12": {
+      "premium": [],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_24": {
+      "premium": [],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_26": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_34": {
+      "premium": [],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_43": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_44": {
+      "premium": [],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_53": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_63": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_73": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_83": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_86": {
+      "premium": [
+        "Epic Apex Pack"
+      ],
+      "free": []
+    }
+  }
+}

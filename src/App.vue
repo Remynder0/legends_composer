@@ -3,6 +3,7 @@ import { ref, onMounted } from 'vue'
 import { loadGameData, isLoaded } from './logic/store'
 
 import TabTeamGen from './components/tabs/TabTeamGen.vue'
+import TabPackCalculator from './components/tabs/TabPackCalculator.vue'
 import TabProbabilities from './components/tabs/TabProbabilities.vue'
 import TabSimulation from './components/tabs/TabSimulation.vue'
 import TabStats from './components/tabs/TabStats.vue'
@@ -12,6 +13,7 @@ const currentTab = ref('TeamGen')
 
 const tabs = [
   { id: 'TeamGen', name: 'Liaison & Déploie.', component: TabTeamGen },
+  { id: 'PackCalculator', name: 'Heirloom Tracker', component: TabPackCalculator },
   { id: 'Probabilities', name: 'Analyse Prédic.', component: TabProbabilities },
   { id: 'Simulation', name: 'Simulation', component: TabSimulation },
   { id: 'Stats', name: 'Data Logs', component: TabStats },
