@@ -1,0 +1,27 @@
+{
+  "name": "Catalyst",
+  "lore": {
+    "real_name": "Tressa Crystal Smith",
+    "age": "30",
+    "home_world": "Boreas",
+    "gender": "Female",
+    "bio": ""
+  },
+  "abilities": {
+    "passive": {
+      "name": "Barricade",
+      "description": ""
+    },
+    "tactical": {
+      "name": "Piercing Spikes",
+      "description": "",
+      "cooldown": ""
+    },
+    "ultimate": {
+      "name": "Dark Veil",
+      "description": "",
+      "cooldown": ""
+    }
+  },
+  "patch_history": []
+}

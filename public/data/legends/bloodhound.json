@@ -1,0 +1,27 @@
+{
+  "name": "Bloodhound",
+  "lore": {
+    "real_name": "Blóðhundr",
+    "age": "40",
+    "home_world": "Talos",
+    "gender": "Non-binary",
+    "bio": ""
+  },
+  "abilities": {
+    "passive": {
+      "name": "Tracker",
+      "description": ""
+    },
+    "tactical": {
+      "name": "Eye of the Allfather",
+      "description": "",
+      "cooldown": ""
+    },
+    "ultimate": {
+      "name": "Beast of the Hunt",
+      "description": "",
+      "cooldown": ""
+    }
+  },
+  "patch_history": []
+}

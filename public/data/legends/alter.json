@@ -1,0 +1,27 @@
+{
+  "name": "Alter",
+  "lore": {
+    "real_name": "YingLing Lui (雷盈灵)",
+    "age": "Unknown",
+    "home_world": "Unknown",
+    "gender": "Female",
+    "bio": ""
+  },
+  "abilities": {
+    "passive": {
+      "name": "Gift From The Rift",
+      "description": ""
+    },
+    "tactical": {
+      "name": "Void Passage",
+      "description": "",
+      "cooldown": ""
+    },
+    "ultimate": {
+      "name": "Void Nexus",
+      "description": "",
+      "cooldown": ""
+    }
+  },
+  "patch_history": []
+}

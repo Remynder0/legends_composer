@@ -1,0 +1,27 @@
+{
+  "name": "Horizon",
+  "lore": {
+    "real_name": "Dr. Mary Somers",
+    "age": "39 (Give or take another 87 years...)",
+    "home_world": "Psamathe",
+    "gender": "Female",
+    "bio": ""
+  },
+  "abilities": {
+    "passive": {
+      "name": "Spacewalk",
+      "description": ""
+    },
+    "tactical": {
+      "name": "Gravity Lift",
+      "description": "",
+      "cooldown": ""
+    },
+    "ultimate": {
+      "name": "Black Hole",
+      "description": "",
+      "cooldown": ""
+    }
+  },
+  "patch_history": []
+}

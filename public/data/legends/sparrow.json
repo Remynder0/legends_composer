@@ -1,0 +1,27 @@
+{
+  "name": "Sparrow",
+  "lore": {
+    "real_name": "Enea Davide Guarino",
+    "age": "20",
+    "home_world": "Psamathe",
+    "gender": "Male",
+    "bio": ""
+  },
+  "abilities": {
+    "passive": {
+      "name": "Double Jump",
+      "description": ""
+    },
+    "tactical": {
+      "name": "Tracker Dart",
+      "description": "",
+      "cooldown": ""
+    },
+    "ultimate": {
+      "name": "Stinger Bolt",
+      "description": "",
+      "cooldown": ""
+    }
+  },
+  "patch_history": []
+}

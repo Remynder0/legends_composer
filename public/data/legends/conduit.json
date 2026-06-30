@@ -1,0 +1,27 @@
+{
+  "name": "Conduit",
+  "lore": {
+    "real_name": "Rowenna Valentina Coffey Divina",
+    "age": "27",
+    "home_world": "Nexus",
+    "gender": "Female",
+    "bio": ""
+  },
+  "abilities": {
+    "passive": {
+      "name": "Savior's Speed",
+      "description": ""
+    },
+    "tactical": {
+      "name": "Radiant Transfer",
+      "description": "",
+      "cooldown": ""
+    },
+    "ultimate": {
+      "name": "Energy Barricade",
+      "description": "",
+      "cooldown": ""
+    }
+  },
+  "patch_history": []
+}

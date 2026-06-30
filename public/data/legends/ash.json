@@ -1,0 +1,27 @@
+{
+  "name": "Ash",
+  "lore": {
+    "real_name": "Dr. Ashleigh Reid",
+    "age": "~46 (as a human)~76 (as a simulacrum)~122 (total age)",
+    "home_world": "Unknown",
+    "gender": "Female",
+    "bio": ""
+  },
+  "abilities": {
+    "passive": {
+      "name": "Predator's Pursuit",
+      "description": ""
+    },
+    "tactical": {
+      "name": "Arc Snare",
+      "description": "",
+      "cooldown": ""
+    },
+    "ultimate": {
+      "name": "Phase Breach",
+      "description": "",
+      "cooldown": ""
+    }
+  },
+  "patch_history": []
+}

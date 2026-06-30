@@ -1,0 +1,27 @@
+{
+  "name": "Bangalore",
+  "lore": {
+    "real_name": "Anita Williams",
+    "age": "40",
+    "home_world": "Gridiron",
+    "gender": "Female",
+    "bio": ""
+  },
+  "abilities": {
+    "passive": {
+      "name": "Double Time",
+      "description": ""
+    },
+    "tactical": {
+      "name": "Smoke Launcher",
+      "description": "",
+      "cooldown": ""
+    },
+    "ultimate": {
+      "name": "Rolling Thunder",
+      "description": "",
+      "cooldown": ""
+    }
+  },
+  "patch_history": []
+}

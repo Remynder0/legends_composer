@@ -1,0 +1,27 @@
+{
+  "name": "Mirage",
+  "lore": {
+    "real_name": "Elliott Rodger Witt",
+    "age": "32",
+    "home_world": "Solace",
+    "gender": "Male",
+    "bio": ""
+  },
+  "abilities": {
+    "passive": {
+      "name": "Now You See Me...",
+      "description": ""
+    },
+    "tactical": {
+      "name": "Psyche Out",
+      "description": "",
+      "cooldown": ""
+    },
+    "ultimate": {
+      "name": "Life of the Party",
+      "description": "",
+      "cooldown": ""
+    }
+  },
+  "patch_history": []
+}

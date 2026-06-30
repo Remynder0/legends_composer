@@ -1,0 +1,27 @@
+{
+  "name": "Revenant",
+  "lore": {
+    "real_name": "Kaleb Cross[1]",
+    "age": "44 (as a human)[1]315 (as a simulacrum)359 (total)",
+    "home_world": "Unknown",
+    "gender": "Male",
+    "bio": ""
+  },
+  "abilities": {
+    "passive": {
+      "name": "Assassin's Instinct",
+      "description": ""
+    },
+    "tactical": {
+      "name": "Shadow Pounce",
+      "description": "",
+      "cooldown": ""
+    },
+    "ultimate": {
+      "name": "Forged Shadows",
+      "description": "",
+      "cooldown": ""
+    }
+  },
+  "patch_history": []
+}

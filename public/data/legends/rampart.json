@@ -1,0 +1,27 @@
+{
+  "name": "Rampart",
+  "lore": {
+    "real_name": "Ramya Parekh",
+    "age": "23",
+    "home_world": "Gaea",
+    "gender": "Female",
+    "bio": ""
+  },
+  "abilities": {
+    "passive": {
+      "name": "Modded Loader",
+      "description": ""
+    },
+    "tactical": {
+      "name": "Amped Cover",
+      "description": "",
+      "cooldown": ""
+    },
+    "ultimate": {
+      "name": "Mobile Minigun \"Sheila\"",
+      "description": "",
+      "cooldown": ""
+    }
+  },
+  "patch_history": []
+}

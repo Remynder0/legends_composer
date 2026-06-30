@@ -1,0 +1,27 @@
+{
+  "name": "Loba",
+  "lore": {
+    "real_name": "Loba Andrade",
+    "age": "36",
+    "home_world": "None",
+    "gender": "Female",
+    "bio": ""
+  },
+  "abilities": {
+    "passive": {
+      "name": "Eye for Quality",
+      "description": ""
+    },
+    "tactical": {
+      "name": "Burglar's Best Friend",
+      "description": "",
+      "cooldown": ""
+    },
+    "ultimate": {
+      "name": "Black Market Boutique",
+      "description": "",
+      "cooldown": ""
+    }
+  },
+  "patch_history": []
+}

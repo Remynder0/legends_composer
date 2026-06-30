@@ -1,0 +1,27 @@
+{
+  "name": "Vantage",
+  "lore": {
+    "real_name": "Xiomara Contreras[1]",
+    "age": "19",
+    "home_world": "Págos",
+    "gender": "Female",
+    "bio": ""
+  },
+  "abilities": {
+    "passive": {
+      "name": "Spotter's Lens",
+      "description": ""
+    },
+    "tactical": {
+      "name": "Echo Relocation",
+      "description": "",
+      "cooldown": ""
+    },
+    "ultimate": {
+      "name": "Sniper's Mark",
+      "description": "",
+      "cooldown": ""
+    }
+  },
+  "patch_history": []
+}

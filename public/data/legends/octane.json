@@ -1,0 +1,27 @@
+{
+  "name": "Octane",
+  "lore": {
+    "real_name": "Octavio Silva",
+    "age": "26",
+    "home_world": "Psamathe",
+    "gender": "Male",
+    "bio": ""
+  },
+  "abilities": {
+    "passive": {
+      "name": "Swift Mend",
+      "description": ""
+    },
+    "tactical": {
+      "name": "Stim",
+      "description": "",
+      "cooldown": ""
+    },
+    "ultimate": {
+      "name": "Launch Pad",
+      "description": "",
+      "cooldown": ""
+    }
+  },
+  "patch_history": []
+}

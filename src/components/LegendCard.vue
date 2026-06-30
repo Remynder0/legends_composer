@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, ref } from 'vue'
 import type { Legend } from '../logic/composer'
 
 const props = defineProps<{
@@ -12,6 +12,12 @@ const topStats = computed(() => {
     .sort((a, b) => b[1] - a[1])
     .slice(0, 5) // Show top 5 stats
 })
+
+const formattedName = computed(() => props.legend.Name.toLowerCase().replace(/ /g, '_'))
+const formattedClass = computed(() => props.legend.Class.toLowerCase().replace(/ /g, '_'))
+
+const iconError = ref(false)
+const classIconError = ref(false)
 </script>
 
 <template>
@@ -19,12 +25,31 @@ const topStats = computed(() => {
     <div class="absolute top-0 left-0 w-1 h-full bg-titan-border group-hover:bg-titan-cyan transition-colors"></div>
     <div class="pl-2">
       <div class="flex justify-between items-start mb-4">
-        <div>
-          <h2 class="text-2xl font-black text-white font-sans uppercase tracking-wider">{{ legend.Name }}</h2>
+        
+        <div class="flex items-center gap-3">
+          <div class="w-12 h-12 bg-black/40 border border-titan-border flex-shrink-0 flex items-center justify-center overflow-hidden">
+            <img 
+              v-show="!iconError"
+              :src="`/images/legends/icons/${formattedName}.png`" 
+              :alt="legend.Name"
+              @error="iconError = true"
+              class="w-full h-full object-cover"
+            />
+            <span v-if="iconError" class="text-gray-600 font-bold font-mono text-xl">?</span>
+          </div>
+          <h2 class="text-xl md:text-2xl font-black text-white font-sans uppercase tracking-wider">{{ legend.Name }}</h2>
         </div>
-        <span class="px-2 py-1 bg-black/50 text-[10px] font-mono text-titan-cyan uppercase border border-titan-border">
-          {{ legend.Class }}
-        </span>
+        
+        <div class="flex-shrink-0 flex items-center justify-center bg-black/50 border border-titan-border w-8 h-8 relative group/class" :title="legend.Class">
+          <img 
+              v-show="!classIconError"
+              :src="`/images/legends/classes/${formattedClass}_class.svg`" 
+              :alt="legend.Class"
+              @error="classIconError = true"
+              class="w-5 h-5 opacity-80"
+          />
+          <span v-if="classIconError" class="text-[10px] font-mono text-titan-cyan uppercase px-1">{{ legend.Class.substring(0,3) }}</span>
+        </div>
       </div>
 
       <div class="space-y-2 mt-6">

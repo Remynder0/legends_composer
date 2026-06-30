@@ -1,0 +1,27 @@
+{
+  "name": "Seer",
+  "lore": {
+    "real_name": "Obi Edolasim",
+    "age": "27",
+    "home_world": "Boreas",
+    "gender": "Male",
+    "bio": ""
+  },
+  "abilities": {
+    "passive": {
+      "name": "Heart Seeker",
+      "description": ""
+    },
+    "tactical": {
+      "name": "Focus of Attention",
+      "description": "",
+      "cooldown": ""
+    },
+    "ultimate": {
+      "name": "Exhibit",
+      "description": "",
+      "cooldown": ""
+    }
+  },
+  "patch_history": []
+}

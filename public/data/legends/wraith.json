@@ -1,0 +1,27 @@
+{
+  "name": "Wraith",
+  "lore": {
+    "real_name": "Renee Hope Blasey[1]",
+    "age": "34",
+    "home_world": "Typhon[2]",
+    "gender": "Female",
+    "bio": ""
+  },
+  "abilities": {
+    "passive": {
+      "name": "Voices from the Void",
+      "description": ""
+    },
+    "tactical": {
+      "name": "Into the Void",
+      "description": "",
+      "cooldown": ""
+    },
+    "ultimate": {
+      "name": "Dimensional Rift",
+      "description": "",
+      "cooldown": ""
+    }
+  },
+  "patch_history": []
+}

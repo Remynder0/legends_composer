@@ -1,0 +1,27 @@
+{
+  "name": "Ballistic",
+  "lore": {
+    "real_name": "August Montgomery Brinkman",
+    "age": "63",
+    "home_world": "Gaea",
+    "gender": "Male",
+    "bio": ""
+  },
+  "abilities": {
+    "passive": {
+      "name": "Sling",
+      "description": ""
+    },
+    "tactical": {
+      "name": "Whistler",
+      "description": "",
+      "cooldown": ""
+    },
+    "ultimate": {
+      "name": "Tempest",
+      "description": "",
+      "cooldown": ""
+    }
+  },
+  "patch_history": []
+}

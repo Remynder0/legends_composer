@@ -1,0 +1,27 @@
+{
+  "name": "Wattson",
+  "lore": {
+    "real_name": "Natalie Paquette",
+    "age": "24",
+    "home_world": "Solace",
+    "gender": "Female",
+    "bio": ""
+  },
+  "abilities": {
+    "passive": {
+      "name": "Spark of Genius",
+      "description": ""
+    },
+    "tactical": {
+      "name": "Perimeter Security",
+      "description": "",
+      "cooldown": ""
+    },
+    "ultimate": {
+      "name": "Interception Pylon",
+      "description": "",
+      "cooldown": ""
+    }
+  },
+  "patch_history": []
+}

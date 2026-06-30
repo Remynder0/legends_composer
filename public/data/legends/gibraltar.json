@@ -1,0 +1,27 @@
+{
+  "name": "Gibraltar",
+  "lore": {
+    "real_name": "Makoa Gibraltar",
+    "age": "32",
+    "home_world": "Solace",
+    "gender": "Male",
+    "bio": ""
+  },
+  "abilities": {
+    "passive": {
+      "name": "Gun Shield",
+      "description": ""
+    },
+    "tactical": {
+      "name": "Dome of Protection",
+      "description": "",
+      "cooldown": ""
+    },
+    "ultimate": {
+      "name": "Defensive Bombardment",
+      "description": "",
+      "cooldown": ""
+    }
+  },
+  "patch_history": []
+}

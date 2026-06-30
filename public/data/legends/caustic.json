@@ -1,0 +1,27 @@
+{
+  "name": "Caustic",
+  "lore": {
+    "real_name": "Alexander Maxwell Nox",
+    "age": "50",
+    "home_world": "Gaea",
+    "gender": "Male",
+    "bio": ""
+  },
+  "abilities": {
+    "passive": {
+      "name": "Nox Vision",
+      "description": ""
+    },
+    "tactical": {
+      "name": "Nox Gas Trap",
+      "description": "",
+      "cooldown": ""
+    },
+    "ultimate": {
+      "name": "Nox Gas Grenade",
+      "description": "",
+      "cooldown": ""
+    }
+  },
+  "patch_history": []
+}

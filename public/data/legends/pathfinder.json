@@ -1,0 +1,27 @@
+{
+  "name": "Pathfinder",
+  "lore": {
+    "real_name": "MRVN",
+    "age": "77",
+    "home_world": "Psamathe",
+    "gender": "Male",
+    "bio": ""
+  },
+  "abilities": {
+    "passive": {
+      "name": "Insider Knowledge",
+      "description": ""
+    },
+    "tactical": {
+      "name": "Grappling Hook",
+      "description": "",
+      "cooldown": ""
+    },
+    "ultimate": {
+      "name": "Zipline Gun",
+      "description": "",
+      "cooldown": ""
+    }
+  },
+  "patch_history": []
+}

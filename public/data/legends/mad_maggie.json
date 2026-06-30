@@ -1,0 +1,27 @@
+{
+  "name": "Mad Maggie",
+  "lore": {
+    "real_name": "Margaret Kōhere",
+    "age": "56[1]",
+    "home_world": "Salvo",
+    "gender": "Female",
+    "bio": ""
+  },
+  "abilities": {
+    "passive": {
+      "name": "Warlord's Ire",
+      "description": ""
+    },
+    "tactical": {
+      "name": "Riot Drill",
+      "description": "",
+      "cooldown": ""
+    },
+    "ultimate": {
+      "name": "Wrecking Ball",
+      "description": "",
+      "cooldown": ""
+    }
+  },
+  "patch_history": []
+}

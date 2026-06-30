@@ -47,3 +47,42 @@ export function saveMatchResult(teamNames: string[], placement: number) {
     localStorage.setItem('apex_composer_history', JSON.stringify(historyData.value));
     syncToCloud();
 }
+
+export interface LegendDetails {
+    name: string;
+    lore: {
+        real_name: string;
+        age: string;
+        home_world: string;
+        gender: string;
+        bio: string;
+    };
+    abilities: {
+        passive: { name: string; description: string; };
+        tactical: { name: string; description: string; cooldown: string; };
+        ultimate: { name: string; description: string; cooldown: string; };
+    };
+    patch_history: any[];
+}
+
+export const currentLegendDetails = ref<LegendDetails | null>(null);
+export const isLoadingLegendDetails = ref(false);
+
+export async function loadLegendDetails(legendName: string) {
+    isLoadingLegendDetails.value = true;
+    currentLegendDetails.value = null;
+    
+    const formattedName = legendName.toLowerCase().replace(/ /g, '_');
+    try {
+        const response = await fetch(`/data/legends/${formattedName}.json`);
+        if (response.ok) {
+            currentLegendDetails.value = await response.json();
+        } else {
+            console.error(`Failed to load details for ${legendName}`);
+        }
+    } catch (e) {
+        console.error(`Error loading details for ${legendName}`, e);
+    } finally {
+        isLoadingLegendDetails.value = false;
+    }
+}

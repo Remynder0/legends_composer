@@ -1,0 +1,27 @@
+{
+  "name": "Lifeline",
+  "lore": {
+    "real_name": "Ajay Che",
+    "age": "26",
+    "home_world": "Psamathe",
+    "gender": "Female",
+    "bio": ""
+  },
+  "abilities": {
+    "passive": {
+      "name": "Combat Glide",
+      "description": ""
+    },
+    "tactical": {
+      "name": "D.O.C. Heal Drone",
+      "description": "",
+      "cooldown": ""
+    },
+    "ultimate": {
+      "name": "D.O.C. Halo",
+      "description": "",
+      "cooldown": ""
+    }
+  },
+  "patch_history": []
+}

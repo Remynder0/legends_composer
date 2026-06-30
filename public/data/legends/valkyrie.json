@@ -1,0 +1,27 @@
+{
+  "name": "Valkyrie",
+  "lore": {
+    "real_name": "Kairi Imahara (今原カイリ)",
+    "age": "31",
+    "home_world": "Angelia",
+    "gender": "Female",
+    "bio": ""
+  },
+  "abilities": {
+    "passive": {
+      "name": "VTOL Jets",
+      "description": ""
+    },
+    "tactical": {
+      "name": "Missile Swarm",
+      "description": "",
+      "cooldown": ""
+    },
+    "ultimate": {
+      "name": "Skyward Dive",
+      "description": "",
+      "cooldown": ""
+    }
+  },
+  "patch_history": []
+}

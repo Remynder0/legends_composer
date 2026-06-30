@@ -1,0 +1,27 @@
+{
+  "name": "Fuse",
+  "lore": {
+    "real_name": "Walter Fitzroy Jr.[1]",
+    "age": "55",
+    "home_world": "Salvo",
+    "gender": "Male",
+    "bio": ""
+  },
+  "abilities": {
+    "passive": {
+      "name": "Grenadier",
+      "description": ""
+    },
+    "tactical": {
+      "name": "Knuckle Cluster",
+      "description": "",
+      "cooldown": ""
+    },
+    "ultimate": {
+      "name": "The Motherlode",
+      "description": "",
+      "cooldown": ""
+    }
+  },
+  "patch_history": []
+}

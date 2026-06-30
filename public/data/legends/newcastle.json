@@ -1,0 +1,27 @@
+{
+  "name": "Newcastle",
+  "lore": {
+    "real_name": "Jackson Williams",
+    "age": "41",
+    "home_world": "Gridiron",
+    "gender": "Male",
+    "bio": ""
+  },
+  "abilities": {
+    "passive": {
+      "name": "Retrieve the Wounded",
+      "description": ""
+    },
+    "tactical": {
+      "name": "Mobile Shield",
+      "description": "",
+      "cooldown": ""
+    },
+    "ultimate": {
+      "name": "Castle Wall",
+      "description": "",
+      "cooldown": ""
+    }
+  },
+  "patch_history": []
+}

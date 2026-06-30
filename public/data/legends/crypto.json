@@ -1,0 +1,27 @@
+{
+  "name": "Crypto",
+  "lore": {
+    "real_name": "Tae Joon Park (박태준)",
+    "age": "24",
+    "home_world": "Gaea",
+    "gender": "Male",
+    "bio": ""
+  },
+  "abilities": {
+    "passive": {
+      "name": "Neurolink",
+      "description": ""
+    },
+    "tactical": {
+      "name": "Surveillance Drone",
+      "description": "",
+      "cooldown": ""
+    },
+    "ultimate": {
+      "name": "Drone EMP",
+      "description": "",
+      "cooldown": ""
+    }
+  },
+  "patch_history": []
+}
