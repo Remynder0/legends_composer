@@ -18,6 +18,16 @@ const formattedClass = computed(() => props.legend.Class.toLowerCase().replace(/
 
 const iconError = ref(false)
 const classIconError = ref(false)
+
+const classBgColor = computed(() => {
+  const c = props.legend.Class.toLowerCase()
+  if (c.includes('assault')) return 'bg-red-600'
+  if (c.includes('recon')) return 'bg-purple-600'
+  if (c.includes('skirmish')) return 'bg-yellow-500'
+  if (c.includes('control')) return 'bg-green-600'
+  if (c.includes('support')) return 'bg-blue-500'
+  return 'bg-titan-border'
+})
 </script>
 
 <template>
@@ -40,15 +50,19 @@ const classIconError = ref(false)
           <h2 class="text-xl md:text-2xl font-black text-white font-sans uppercase tracking-wider">{{ legend.Name }}</h2>
         </div>
         
-        <div class="flex-shrink-0 flex items-center justify-center bg-black/50 border border-titan-border w-8 h-8 relative group/class" :title="legend.Class">
+        <div 
+          class="flex-shrink-0 flex items-center justify-center border border-black/50 w-8 h-8 relative group/class shadow-lg" 
+          :class="classBgColor"
+          :title="legend.Class"
+        >
           <img 
               v-show="!classIconError"
               :src="`/images/legends/classes/${formattedClass}_class.svg`" 
               :alt="legend.Class"
               @error="classIconError = true"
-              class="w-5 h-5 opacity-80"
+              class="w-5 h-5 opacity-90 invert drop-shadow"
           />
-          <span v-if="classIconError" class="text-[10px] font-mono text-titan-cyan uppercase px-1">{{ legend.Class.substring(0,3) }}</span>
+          <span v-if="classIconError" class="text-[10px] font-mono text-white uppercase px-1">{{ legend.Class.substring(0,3) }}</span>
         </div>
       </div>
 

@@ -42,7 +42,7 @@
                 "map_info": 2,
                 "control": 0,
                 "repositioning": 6,
-                "mobility": 8,
+                "mobility": 9,
                 "damage": 0,
                 "shield": 0,
                 "healing": 0,
@@ -189,7 +189,7 @@
         },
         {
             "Name": "Rampart",
-            "Class": "controler",
+            "Class": "controller",
             "stats": {
                 "scanning": 0,
                 "map_info": 2,
@@ -312,7 +312,7 @@
             "stats": {
                 "scanning": 6,
                 "map_info": 2,
-                "control": 4,
+                "control": 6,
                 "repositioning": 0,
                 "mobility": 1,
                 "damage": 0,
@@ -342,7 +342,7 @@
         },
         {
             "Name": "Wattson",
-            "Class": "controler",
+            "Class": "controller",
             "stats": {
                 "scanning": 0,
                 "map_info": 3,
@@ -359,7 +359,7 @@
         },
         {
             "Name": "Catalyst",
-            "Class": "controler",
+            "Class": "controller",
             "stats": {
                 "scanning": 0,
                 "map_info": 3,
@@ -376,7 +376,7 @@
         },
         {
             "Name": "Caustic",
-            "Class": "controler",
+            "Class": "controller",
             "stats": {
                 "scanning": 0,
                 "map_info": 3,
@@ -426,14 +426,14 @@
             }
         },
         {
-            "Name": "Axel",
+            "Name": "Axle",
             "Class": "skirmisher",
             "stats": {
                 "scanning": 0,
                 "map_info": 0,
-                "control": 7,
+                "control": 6,
                 "repositioning": 4,
-                "mobility": 8,
+                "mobility": 7,
                 "damage": 0,
                 "shield": 0,
                 "healing": 0,
