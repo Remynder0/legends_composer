@@ -65,6 +65,33 @@ def clean_text(text):
     text = re.sub(r'\s+', ' ', text).strip()
     return text
 
+def extract_rich_text(cell):
+    items = []
+    current_parts = []
+    
+    for elem in cell.descendants:
+        if getattr(elem, 'name', None) in ['br', 'hr', 'li', 'p']:
+            if current_parts:
+                items.append(clean_text(" ".join(current_parts)))
+                current_parts = []
+        elif type(elem).__name__ == 'NavigableString':
+            text = str(elem).strip()
+            if text and text not in current_parts:
+                current_parts.append(text)
+        elif getattr(elem, 'name', None) == 'a' and elem.has_attr('title'):
+            title = elem['title'].strip()
+            if title and title not in current_parts:
+                current_parts.append(title)
+        elif getattr(elem, 'name', None) == 'img' and elem.has_attr('alt'):
+            alt = elem['alt'].strip()
+            if alt == 'Apex Pack' and 'Apex Pack' not in current_parts:
+                current_parts.append('Apex Pack')
+                
+    if current_parts:
+        items.append(clean_text(" ".join(current_parts)))
+        
+    return items
+
 def parse_battle_pass_tables(html):
     """Finds and parses all battle pass tables in the HTML page."""
     soup = BeautifulSoup(html, 'html.parser')
@@ -118,8 +145,8 @@ def parse_battle_pass_tables(html):
             if not re.match(r'^\d+$', level_text):
                 continue
                 
-            premium_text = clean_text(cells[premium_idx].text) if premium_idx < len(cells) else ""
-            free_text = clean_text(cells[free_idx].text) if free_idx < len(cells) else ""
+            premium_text = extract_rich_text(cells[premium_idx]) if premium_idx < len(cells) else ""
+            free_text = extract_rich_text(cells[free_idx]) if free_idx < len(cells) else ""
             
             rewards.append({
                 "Level": level_text,

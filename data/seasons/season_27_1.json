@@ -1,36 +1,40 @@
 {
-  "season": 27,
+  "season": "27_1",
   "max_level": 60,
   "rewards": {
     "level_1": {
       "premium": [
-        "Prismatic Heart Prism Pop Stage Presence Big Regrets XP Boost [xp 1]"
+        "Bangalore Prismatic Heart",
+        "HAVOC Rifle Prism Pop",
+        "Banner Frame Stage Presence",
+        "Holospray Big Regrets",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
     "level_2": {
       "premium": [
-        "Kill Quip: Pour One Down"
+        "Wattson Quip Kill Quip : Pour One Down"
       ],
       "free": [
-        "A Bit of Research"
+        "Transition A Bit of Research"
       ]
     },
     "level_3": {
       "premium": [
-        "Pour One Down"
+        "Bangalore Skydive Emote Pour One Down"
       ],
       "free": []
     },
     "level_4": {
       "premium": [
-        "Feeling the Love"
+        "Holospray Feeling the Love"
       ],
       "free": []
     },
     "level_5": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
         "Apex Pack"
@@ -38,24 +42,26 @@
     },
     "level_6": {
       "premium": [
-        "Static Trance - Top Static Trance - Middle Static Trance - Bottom"
+        "Stat Tracker Static Trance - Top",
+        "Stat Tracker Static Trance - Middle",
+        "Stat Tracker Static Trance - Bottom"
       ],
       "free": []
     },
     "level_7": {
       "premium": [
-        "Lovely Myth"
+        "Banner Frame Lovely Myth"
       ],
       "free": [
-        "Amped Split 1"
+        "Music Pack Amped Split 1"
       ]
     },
     "level_8": {
       "premium": [
-        "Passionate Burn"
+        "Rampage LMG Passionate Burn"
       ],
       "free": [
-        "100"
+        "Apex Coins 100"
       ]
     },
     "level_9": {
@@ -66,37 +72,39 @@
     },
     "level_10": {
       "premium": [
-        "Static Trance Shocking Aura+"
+        "Wattson Static Trance",
+        "Wattson Shocking Aura +"
       ],
       "free": []
     },
     "level_11": {
       "premium": [
-        "Killer Instinct XP Boost [xp 1]"
+        "Sticker Killer Instinct",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
     "level_12": {
       "premium": [
-        "Midnight Love"
+        "Banner Frame Midnight Love"
       ],
       "free": []
     },
     "level_13": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_14": {
       "premium": [
-        "Cheering for You"
+        "Holospray Cheering for You"
       ],
       "free": []
     },
     "level_15": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": [
         "Apex Pack"
@@ -104,7 +112,7 @@
     },
     "level_16": {
       "premium": [
-        "Heart Flutter"
+        "RE-45 Heart Flutter"
       ],
       "free": []
     },
@@ -116,27 +124,29 @@
     },
     "level_18": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_19": {
       "premium": [
-        "Rock the Mic"
+        "Sticker Rock the Mic"
       ],
       "free": [
-        "Emote Cool Down"
+        "Octane Cosmetic Emote Cool Down"
       ]
     },
     "level_20": {
       "premium": [
-        "Heart Attack 10+"
+        "Vantage Heart Attack",
+        "Exotic Shards 10 +"
       ],
       "free": []
     },
     "level_21": {
       "premium": [
-        "Heart Beats XP Boost [xp 1]"
+        "Banner Frame Heart Beats",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
@@ -148,30 +158,30 @@
     },
     "level_23": {
       "premium": [
-        "Love Pulse"
+        "VK-47 Flatline Love Pulse"
       ],
       "free": []
     },
     "level_24": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": [
-        "I Made It Look Easy"
+        "Holospray I Made It Look Easy"
       ]
     },
     "level_25": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_26": {
       "premium": [
-        "Crowd Killer"
+        "Loba Skydive Emote Crowd Killer"
       ],
       "free": [
-        "Amped Pack"
+        "Amped Seasonal Collection Amped Pack"
       ]
     },
     "level_27": {
@@ -182,25 +192,27 @@
     },
     "level_28": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": []
     },
     "level_29": {
       "premium": [
-        "Emotional Support"
+        "Holospray Emotional Support"
       ],
       "free": []
     },
     "level_30": {
       "premium": [
-        "10 K-Love"
+        "Exotic Shards 10",
+        "M600 Spitfire K-Love"
       ],
       "free": []
     },
     "level_31": {
       "premium": [
-        "100 XP Boost [xp 1]"
+        "Apex Coins 100",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
@@ -209,44 +221,46 @@
         "Apex Pack"
       ],
       "free": [
-        "Fox's Aura"
+        "Nemesis Burst AR Fox's Aura"
       ]
     },
     "level_33": {
       "premium": [
-        "Streamline Glider - Top Streamline Glider - Middle Streamline Glider - Bottom"
+        "Stat Tracker Streamline Glider - Top",
+        "Stat Tracker Streamline Glider - Middle",
+        "Stat Tracker Streamline Glider - Bottom"
       ],
       "free": []
     },
     "level_34": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "Business Purpose"
+        "Transition Business Purpose"
       ]
     },
     "level_35": {
       "premium": [
-        "Fatal Attraction"
+        "30-30 Repeater Fatal Attraction"
       ],
       "free": []
     },
     "level_36": {
       "premium": [
-        "Dragon Heart"
+        "Banner Frame Dragon Heart"
       ],
       "free": []
     },
     "level_37": {
       "premium": [
-        "Denied"
+        "Holospray Denied"
       ],
       "free": []
     },
     "level_38": {
       "premium": [
-        "Retro Hits"
+        "Sticker Retro Hits"
       ],
       "free": [
         "Apex Pack"
@@ -254,33 +268,35 @@
     },
     "level_39": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": []
     },
     "level_40": {
       "premium": [
-        "Streamline Glider Oni Aura+"
+        "Valkyrie Streamline Glider",
+        "Valkyrie Oni Aura +"
       ],
       "free": []
     },
     "level_41": {
       "premium": [
-        "Rocket Boosted XP Boost [xp 1]"
+        "Fuse Skydive Emote Rocket Boosted",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
     "level_42": {
       "premium": [
-        "Kill Quip: Be Like Me"
+        "Valkyrie Quip Kill Quip : Be Like Me"
       ],
       "free": [
-        "Speed Diva"
+        "Loba Speed Diva"
       ]
     },
     "level_43": {
       "premium": [
-        "Heartache"
+        "Longbow DMR Heartache"
       ],
       "free": []
     },
@@ -292,19 +308,19 @@
     },
     "level_45": {
       "premium": [
-        "Congratu-bloody-lations"
+        "Holospray Congratu-bloody-lations"
       ],
       "free": []
     },
     "level_46": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_47": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": [
         "Apex Pack"
@@ -312,27 +328,27 @@
     },
     "level_48": {
       "premium": [
-        "Sleek Rocker"
+        "Banner Frame Sleek Rocker"
       ],
       "free": []
     },
     "level_49": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_50": {
       "premium": [
-        "Old Flame"
+        "Fuse Old Flame"
       ],
       "free": [
-        "100"
+        "Apex Coins 100"
       ]
     },
     "level_51": {
       "premium": [
-        "Killin' It."
+        "Holospray Killin' It."
       ],
       "free": [
         "Apex Pack"
@@ -340,19 +356,19 @@
     },
     "level_52": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_53": {
       "premium": [
-        "Amped Up"
+        "Wraith Skydive Emote Amped Up"
       ],
       "free": []
     },
     "level_54": {
       "premium": [
-        "Star-crossed"
+        "Kraber .50-Cal Sniper Star-crossed"
       ],
       "free": []
     },
@@ -361,24 +377,25 @@
         "Apex Pack"
       ],
       "free": [
-        "Chrome Couture"
+        "Banner Frame Chrome Couture"
       ]
     },
     "level_56": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_57": {
       "premium": [
-        "200 Going Platinum"
+        "Crafting Metals 200",
+        "Banner Frame Going Platinum"
       ],
       "free": []
     },
     "level_58": {
       "premium": [
-        "Big Shipper"
+        "Sticker Big Shipper"
       ],
       "free": [
         "Apex Pack"
@@ -386,16 +403,15 @@
     },
     "level_59": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_60": {
       "premium": [
-        "Heart Piercer"
+        "Sentinel Heart Piercer"
       ],
       "free": []
     }
-  },
-  "split": 1
+  }
 }

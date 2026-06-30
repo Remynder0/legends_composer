@@ -46,59 +46,76 @@ export interface SeasonData {
     weaponSkin: string;
 }
 
+const seasonDataFiles: Record<string, any> = import.meta.glob('../../data/seasons/*.json', { eager: true });
+
 export function getParsedSeasonData(seasonId: string): any {
     const cleanId = seasonId.replace('s', '');
     const jsonPath = `../../data/seasons/season_${cleanId}.json`;
     return seasonDataFiles[jsonPath]?.default || seasonDataFiles[jsonPath];
 }
 
-const LEVEL_1_WEAPON_SKINS: Record<string, string> = {
-    "1": "R-301: Honored Prey",
-    "2": "Spitfire: The Intimidator",
-    "3": "Longbow: Reckoner",
-    "4": "R-99: Zero Point",
-    "5": "Hemlok: Retrofitted",
-    "6": "Sentinel: Rollcage",
-    "7": "Prowler: Polished Perfection",
-    "8": "Flatline: Chained Beast",
-    "9": "Spitfire: Way of the Serpent",
-    "10": "30-30: Winged Sun",
-    "11": "Triple Take: Compound Fracture",
-    "12": "EVA-8: Rolling Thunder",
-    "13": "Spitfire: Wyrmborn",
-    "14": "Triple Take: Lucky Draw",
-    "15": "Havoc: Obsidian Night",
-    "16": "R-301: Frenzied Frequency",
-    "17": "Devotion: Technomancer",
-    "18": "L-STAR: Advanced Reign",
-    "19": "Triple Take: Copper Conductor",
-    "20": "Triple Take: Teal Energizer",
-    "21": "Volt: Void Touched",
-    "22_1": "Devotion: Arcade Space",
-    "22_2": "Prowler: Night Beasts",
-    "23_1": "Spitfire: Under the Ice",
-    "23_2": "R-301: Happy Valley Adventure",
-    "24_1": "Havoc: WELCOME TO THE GUN SHOW",
-    "24_2": "Inconnu",
-    "25_1": "Mastiff: Don't Get Under Foot",
-    "25_2": "Havoc: Here Comes the Heat",
-    "26_1": "L-Star: Let's Go",
-    "26_2": "Peacekeeper: Thorn in Your Side",
-    "27_1": "P2020: Big Regrets",
-    "27_2": "Alternator: Locked In",
-    "28_1": "Bocek: Final Approach",
-    "28_2": "Bocek: Echo Location",
-    "29_1": "RE-45: Cell Signal",
-    "29_2": "RE-45: Time to Improvise"
-};
+const WEAPONS = ['R-301', 'R-99', 'Flatline', 'Hemlok', 'Havoc', 'HAVOC', 'Nemesis', 'Alternator', 'Prowler', 'Volt', 'C.A.R.', 'Devotion', 'L-STAR', 'Spitfire', 'Rampage', 'G7 Scout', 'Triple Take', '30-30', 'Bocek', 'Charge Rifle', 'Longbow', 'Kraber', 'Sentinel', 'EVA-8', 'Mastiff', 'Peacekeeper', 'Mozambique', 'RE-45', 'P2020', 'Wingman'];
+
+function extractWeaponSkin(items: string[], fallbackId: string): string {
+    // Some seasons on the wiki lack the weapon name entirely. We keep a mini fallback for those known exceptions.
+    const fallbacks: Record<string, string> = {
+        "14": "Triple Take : Lucky Draw",
+        "24_2": "Inconnu"
+    };
+    if (fallbacks[fallbackId]) return fallbacks[fallbackId];
+
+    for (const item of items) {
+        if (item.includes('XP Boost') || item.includes('Apex Coin') || item.includes('Crafting') || item.includes('Apex Pack') || item.includes('Banner Frame') || item.includes('Holospray') || item.includes('Tracker')) continue;
+        
+        for (const w of WEAPONS) {
+            if (item.toUpperCase().includes(w.toUpperCase())) {
+                let skinStr = item;
+                // Clean up prefixes and suffixes
+                skinStr = skinStr.replace(/Legendary Hunt Themed Event /i, '');
+                skinStr = skinStr.replace(/M600 /i, '').replace(/ Burst AR/i, '').replace(/ SMG/i, '').replace(/ LMG/i, '').replace(/ Auto/i, '').replace(/ Carbine/i, '').replace(/ DMR/i, '').replace(/ EMG/i, '').replace(/ PDW/i, '').replace(/ Compound Bow/i, '').replace(/ .50-Cal Sniper/i, '').replace(/ Rifle/i, '').replace(/ Repeater/i, '').replace(/ VK-47/i, '');
+                
+                // Format the colon properly
+                if (skinStr.toLowerCase().includes('skin:')) {
+                    skinStr = skinStr.replace(/skin:\s*/i, ' : ');
+                } else if (!skinStr.includes(':')) {
+                    const regex = new RegExp(`(${w})\\s+(.*)`, 'i');
+                    skinStr = skinStr.replace(regex, '$1 : $2');
+                }
+                
+                return skinStr.trim();
+            }
+        }
+    }
+    
+    // If no explicit weapon found, find the first item that is not a known legend and not garbage
+    const LEGENDS = ['Bloodhound', 'Gibraltar', 'Lifeline', 'Pathfinder', 'Wraith', 'Bangalore', 'Caustic', 'Mirage', 'Octane', 'Wattson', 'Crypto', 'Revenant', 'Loba', 'Rampart', 'Horizon', 'Fuse', 'Valkyrie', 'Seer', 'Ash', 'Mad Maggie', 'Newcastle', 'Vantage', 'Catalyst', 'Ballistic', 'Conduit', 'Alter', 'Axle'];
+    for (const item of items) {
+        if (item.includes('XP Boost') || item.includes('Apex Coin') || item.includes('Crafting') || item.includes('Apex Pack') || item.includes('Banner') || item.includes('Holospray') || item.includes('Tracker')) continue;
+        
+        let isLegend = false;
+        for (const l of LEGENDS) {
+            if (item.toUpperCase().includes(l.toUpperCase())) isLegend = true;
+        }
+        if (!isLegend) {
+            return item;
+        }
+    }
+
+    return "Inconnu";
+}
 
 export function generateSeasons(): SeasonData[] {
     const seasons: SeasonData[] = [];
     
     for (let i = 1; i <= 21; i++) {
         const id = `s${i}`;
-        const skinName = LEVEL_1_WEAPON_SKINS[`${i}`] || "Inconnu";
-        const weaponSkin = `Skin: ${skinName}`;
+        const data = getParsedSeasonData(id);
+        let skinName = "Inconnu";
+        
+        if (data?.rewards?.level_1?.premium) {
+            skinName = extractWeaponSkin(data.rewards.level_1.premium, `${i}`);
+        }
+        const weaponSkin = `${skinName}`;
 
         seasons.push({
             id,
@@ -114,8 +131,13 @@ export function generateSeasons(): SeasonData[] {
         for (let split = 1; split <= 2; split++) {
             const id = `s${i}_${split}`;
             const key = `${i}_${split}`;
-            const skinName = LEVEL_1_WEAPON_SKINS[key] || "Arme Premium";
-            const weaponSkin = `Skin: ${skinName}`;
+            const data = getParsedSeasonData(id);
+            let skinName = "Inconnu";
+            
+            if (data?.rewards?.level_1?.premium) {
+                skinName = extractWeaponSkin(data.rewards.level_1.premium, key);
+            }
+            const weaponSkin = `${skinName}`;
 
             seasons.push({
                 id: id,
@@ -130,8 +152,6 @@ export function generateSeasons(): SeasonData[] {
     
     return seasons;
 }
-
-const seasonDataFiles: Record<string, any> = import.meta.glob('../../data/seasons/*.json', { eager: true });
 
 export function calculateSeasonPacks(seasonId: string, level: number, purchased: boolean, maxLevel: number): number {
     const cleanId = seasonId.replace('s', '');

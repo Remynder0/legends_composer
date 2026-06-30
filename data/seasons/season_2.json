@@ -1,19 +1,23 @@
 {
-  "season": 2,
+  "season": "2",
   "max_level": 110,
   "rewards": {
     "level_1": {
       "premium": [
-        "M600 Spitfire Skin: The Intimidator Gibraltar Skin: Gilded Bangalore Skin: Valor Pathfinder Skin: Dreadnought XP Boost[note 1]"
+        "M600 Spitfire Skin: The Intimidator",
+        "Gibraltar Skin: Gilded",
+        "Bangalore Skin: Valor",
+        "Pathfinder Skin: Dreadnought",
+        "XP Boost [ note 1 ]"
       ],
       "free": []
     },
     "level_2": {
       "premium": [
-        "Music Pack: Wattson"
+        "Music Pack : Wattson"
       ],
       "free": [
-        "Octane Stat Tracker: Season 2 Wins"
+        "Octane Stat Tracker : Season 2 Wins"
       ]
     },
     "level_3": {
@@ -21,15 +25,15 @@
         "Prowler Burst PDW Skin: Stargate"
       ],
       "free": [
-        "Wattson Stat Tracker: Season 2 Wins"
+        "Wattson Stat Tracker : Season 2 Wins"
       ]
     },
     "level_4": {
       "premium": [
-        "Loading Screen: Tip of the Spear"
+        "Loading Screen : Tip of the Spear"
       ],
       "free": [
-        "Pathfinder Stat Tracker: Season 2 Wins"
+        "Pathfinder Stat Tracker : Season 2 Wins"
       ]
     },
     "level_5": {
@@ -37,7 +41,7 @@
         "Apex Pack"
       ],
       "free": [
-        "Bangalore Stat Tracker: Season 2 Wins"
+        "Bangalore Stat Tracker : Season 2 Wins"
       ]
     },
     "level_6": {
@@ -45,47 +49,47 @@
         "P2020 Skin: Hot Shot"
       ],
       "free": [
-        "Mirage Stat Tracker: Season 2 Wins"
+        "Mirage Stat Tracker : Season 2 Wins"
       ]
     },
     "level_7": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "Caustic Stat Tracker: Season 2 Wins"
+        "Caustic Stat Tracker : Season 2 Wins"
       ]
     },
     "level_8": {
       "premium": [
-        "Octane Banner Frame: Never Jaded"
+        "Octane Banner Frame : Never Jaded"
       ],
       "free": [
-        "Wraith Stat Tracker: Season 2 Wins"
+        "Wraith Stat Tracker : Season 2 Wins"
       ]
     },
     "level_9": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": [
-        "Gibraltar Stat Tracker: Season 2 Wins"
+        "Gibraltar Stat Tracker : Season 2 Wins"
       ]
     },
     "level_10": {
       "premium": [
-        "Bangalore Skydive Emote: Salute"
+        "Bangalore Skydive Emote : Salute"
       ],
       "free": [
-        "Bloodhound Stat Tracker: Season 2 Wins"
+        "Bloodhound Stat Tracker : Season 2 Wins"
       ]
     },
     "level_11": {
       "premium": [
-        "XP Boost[note 1]"
+        "XP Boost [ note 1 ]"
       ],
       "free": [
-        "Lifeline Stat Tracker: Season 2 Wins"
+        "Lifeline Stat Tracker : Season 2 Wins"
       ]
     },
     "level_12": {
@@ -104,7 +108,7 @@
     },
     "level_14": {
       "premium": [
-        "Loading Screen: Ravenous"
+        "Loading Screen : Ravenous"
       ],
       "free": [
         "Apex Pack"
@@ -112,7 +116,7 @@
     },
     "level_15": {
       "premium": [
-        "Music Pack: Octane"
+        "Music Pack : Octane"
       ],
       "free": []
     },
@@ -126,13 +130,13 @@
     },
     "level_17": {
       "premium": [
-        "50"
+        "Apex Coins 50"
       ],
       "free": []
     },
     "level_18": {
       "premium": [
-        "Lifeline Banner Frame: Perfect Execution"
+        "Lifeline Banner Frame : Perfect Execution"
       ],
       "free": [
         "Apex Pack"
@@ -140,13 +144,13 @@
     },
     "level_19": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_20": {
       "premium": [
-        "Bloodhound Skydive Emote: Stoic Stance"
+        "Bloodhound Skydive Emote : Stoic Stance"
       ],
       "free": [
         "Apex Pack"
@@ -154,7 +158,7 @@
     },
     "level_21": {
       "premium": [
-        "XP Boost[note 1]"
+        "XP Boost [ note 1 ]"
       ],
       "free": []
     },
@@ -172,7 +176,7 @@
     },
     "level_24": {
       "premium": [
-        "Loading Screen: Me, Myself and I"
+        "Loading Screen : Me, Myself and I"
       ],
       "free": []
     },
@@ -190,25 +194,25 @@
     },
     "level_27": {
       "premium": [
-        "50"
+        "Apex Coins 50"
       ],
       "free": []
     },
     "level_28": {
       "premium": [
-        "Wraith Banner Frame: Dragon Scales"
+        "Wraith Banner Frame : Dragon Scales"
       ],
       "free": []
     },
     "level_29": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_30": {
       "premium": [
-        "Caustic Skydive Emote: Feel the Power"
+        "Caustic Skydive Emote : Feel the Power"
       ],
       "free": [
         "Wattson Skin: Hot Rod"
@@ -216,7 +220,7 @@
     },
     "level_31": {
       "premium": [
-        "XP Boost[note 1]"
+        "XP Boost [ note 1 ]"
       ],
       "free": []
     },
@@ -234,13 +238,13 @@
     },
     "level_34": {
       "premium": [
-        "Loading Screen: Blackheart's Rage"
+        "Loading Screen : Blackheart's Rage"
       ],
       "free": []
     },
     "level_35": {
       "premium": [
-        "Music Pack: Bangalore"
+        "Music Pack : Bangalore"
       ],
       "free": []
     },
@@ -252,37 +256,37 @@
     },
     "level_37": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_38": {
       "premium": [
-        "Mirage Banner Frame: Pirate Patch"
+        "Mirage Banner Frame : Pirate Patch"
       ],
       "free": []
     },
     "level_39": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_40": {
       "premium": [
-        "Gibraltar Skydive Emote: Front Row Seat"
+        "Gibraltar Skydive Emote : Front Row Seat"
       ],
       "free": []
     },
     "level_41": {
       "premium": [
-        "XP Boost[note 1]"
+        "XP Boost [ note 1 ]"
       ],
       "free": []
     },
     "level_42": {
       "premium": [
-        "50"
+        "Apex Coins 50"
       ],
       "free": []
     },
@@ -294,13 +298,13 @@
     },
     "level_44": {
       "premium": [
-        "Loading Screen: Liberation"
+        "Loading Screen : Liberation"
       ],
       "free": []
     },
     "level_45": {
       "premium": [
-        "Lifeline Skydive Emote: Peace Out"
+        "Lifeline Skydive Emote : Peace Out"
       ],
       "free": []
     },
@@ -312,19 +316,19 @@
     },
     "level_47": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_48": {
       "premium": [
-        "Bloodhound Banner Frame: Full Gear"
+        "Bloodhound Banner Frame : Full Gear"
       ],
       "free": []
     },
     "level_49": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
@@ -336,13 +340,13 @@
     },
     "level_51": {
       "premium": [
-        "XP Boost[note 1]"
+        "XP Boost [ note 1 ]"
       ],
       "free": []
     },
     "level_52": {
       "premium": [
-        "50"
+        "Apex Coins 50"
       ],
       "free": []
     },
@@ -354,13 +358,13 @@
     },
     "level_54": {
       "premium": [
-        "Loading Screen: Inventive Spirit"
+        "Loading Screen : Inventive Spirit"
       ],
       "free": []
     },
     "level_55": {
       "premium": [
-        "Music Pack: Mirage"
+        "Music Pack : Mirage"
       ],
       "free": []
     },
@@ -372,31 +376,31 @@
     },
     "level_57": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_58": {
       "premium": [
-        "Caustic Banner Frame: Battle Royalty"
+        "Caustic Banner Frame : Battle Royalty"
       ],
       "free": []
     },
     "level_59": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_60": {
       "premium": [
-        "Mirage Skydive Emote: Curtain Call"
+        "Mirage Skydive Emote : Curtain Call"
       ],
       "free": []
     },
     "level_61": {
       "premium": [
-        "XP Boost[note 1]"
+        "XP Boost [ note 1 ]"
       ],
       "free": []
     },
@@ -414,13 +418,13 @@
     },
     "level_64": {
       "premium": [
-        "Loading Screen: Seeking the Creator"
+        "Loading Screen : Seeking the Creator"
       ],
       "free": []
     },
     "level_65": {
       "premium": [
-        "Music Pack: Bloodhound"
+        "Music Pack : Bloodhound"
       ],
       "free": []
     },
@@ -432,31 +436,31 @@
     },
     "level_67": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_68": {
       "premium": [
-        "Bangalore Banner Frame: Taking the Crown"
+        "Bangalore Banner Frame : Taking the Crown"
       ],
       "free": []
     },
     "level_69": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_70": {
       "premium": [
-        "Octane Skydive Emote: Full Circle"
+        "Octane Skydive Emote : Full Circle"
       ],
       "free": []
     },
     "level_71": {
       "premium": [
-        "XP Boost[note 1]"
+        "XP Boost [ note 1 ]"
       ],
       "free": []
     },
@@ -474,7 +478,7 @@
     },
     "level_74": {
       "premium": [
-        "Loading Screen: A Hero's Fall"
+        "Loading Screen : A Hero's Fall"
       ],
       "free": []
     },
@@ -492,31 +496,31 @@
     },
     "level_77": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_78": {
       "premium": [
-        "Wattson Banner Frame: Light the Way"
+        "Wattson Banner Frame : Light the Way"
       ],
       "free": []
     },
     "level_79": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_80": {
       "premium": [
-        "Pathfinder Skydive Emote: Hi, Friends"
+        "Pathfinder Skydive Emote : Hi, Friends"
       ],
       "free": []
     },
     "level_81": {
       "premium": [
-        "XP Boost[note 1]"
+        "XP Boost [ note 1 ]"
       ],
       "free": []
     },
@@ -534,13 +538,13 @@
     },
     "level_84": {
       "premium": [
-        "Loading Screen: Paying Forward"
+        "Loading Screen : Paying Forward"
       ],
       "free": []
     },
     "level_85": {
       "premium": [
-        "Music Pack: Caustic"
+        "Music Pack : Caustic"
       ],
       "free": []
     },
@@ -552,31 +556,31 @@
     },
     "level_87": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_88": {
       "premium": [
-        "Pathfinder Banner Frame: Sword in the Stone"
+        "Pathfinder Banner Frame : Sword in the Stone"
       ],
       "free": []
     },
     "level_89": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_90": {
       "premium": [
-        "Wattson Skydive Emote: Grace Fall"
+        "Wattson Skydive Emote : Grace Fall"
       ],
       "free": []
     },
     "level_91": {
       "premium": [
-        "XP Boost[note 1]"
+        "XP Boost [ note 1 ]"
       ],
       "free": []
     },
@@ -594,13 +598,13 @@
     },
     "level_94": {
       "premium": [
-        "Loading Screen: Record Breaker"
+        "Loading Screen : Record Breaker"
       ],
       "free": []
     },
     "level_95": {
       "premium": [
-        "Wraith Skydive Emote: Flip the Rift"
+        "Wraith Skydive Emote : Flip the Rift"
       ],
       "free": []
     },
@@ -612,19 +616,19 @@
     },
     "level_97": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_98": {
       "premium": [
-        "Gibraltar Banner Frame: Coat of Arms"
+        "Gibraltar Banner Frame : Coat of Arms"
       ],
       "free": []
     },
     "level_99": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
@@ -639,7 +643,7 @@
         "R-301 Carbine Skin: The Golden Rampage"
       ],
       "free": [
-        "Badge: Battle Charge Level Season 2 Badge"
+        "Badge : Battle Charge Level Season 2 Badge"
       ]
     }
   }

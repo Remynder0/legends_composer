@@ -1,36 +1,40 @@
 {
-  "season": 26,
+  "season": "26_2",
   "max_level": 60,
   "rewards": {
     "level_1": {
       "premium": [
-        "Break the Mold Mortal Membrane Nature's Will Thorn in Your Side XP Boost [xp 1]"
+        "Wattson Break the Mold",
+        "Devotion LMG Mortal Membrane",
+        "Banner Frame Nature's Will",
+        "Holospray Thorn in Your Side",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
     "level_2": {
       "premium": [
-        "Kill Quip: Power is peculiar"
+        "Wattson Quip Kill Quip : Power is peculiar"
       ],
       "free": [
-        "Shaky Engagement"
+        "Transition Shaky Engagement"
       ]
     },
     "level_3": {
       "premium": [
-        "Emote Static Snack"
+        "Wattson Cosmetic Emote Static Snack"
       ],
       "free": []
     },
     "level_4": {
       "premium": [
-        "Always Lurking"
+        "Holospray Always Lurking"
       ],
       "free": []
     },
     "level_5": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
         "Apex Pack"
@@ -38,24 +42,26 @@
     },
     "level_6": {
       "premium": [
-        "State of the Art - Top State of the Art - Middle State of the Art - Bottom"
+        "Stat Tracker State of the Art - Top",
+        "Stat Tracker State of the Art - Middle",
+        "Stat Tracker State of the Art - Bottom"
       ],
       "free": []
     },
     "level_7": {
       "premium": [
-        "Fresh Air"
+        "Banner Frame Fresh Air"
       ],
       "free": [
-        "Showdown Split 2"
+        "Music Pack Showdown Split 2"
       ]
     },
     "level_8": {
       "premium": [
-        "Lethal Exposure"
+        "Volt SMG Lethal Exposure"
       ],
       "free": [
-        "100"
+        "Apex Coins 100"
       ]
     },
     "level_9": {
@@ -66,37 +72,39 @@
     },
     "level_10": {
       "premium": [
-        "State of the Art Inorganic Mechanic+"
+        "Rampart State of the Art",
+        "Rampart Inorganic Mechanic +"
       ],
       "free": []
     },
     "level_11": {
       "premium": [
-        "Development Branch XP Boost [xp 1]"
+        "Development Branch",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
     "level_12": {
       "premium": [
-        "Primal Perch"
+        "Banner Frame Primal Perch"
       ],
       "free": []
     },
     "level_13": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_14": {
       "premium": [
-        "My Team and Me"
+        "Holospray My Team and Me"
       ],
       "free": []
     },
     "level_15": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": [
         "Apex Pack"
@@ -104,7 +112,7 @@
     },
     "level_16": {
       "premium": [
-        "Hex Shot"
+        "Prowler Burst PDW Hex Shot"
       ],
       "free": []
     },
@@ -116,27 +124,29 @@
     },
     "level_18": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_19": {
       "premium": [
-        "Wither Away"
+        "Sticker Wither Away"
       ],
       "free": [
-        "Emote Not Entertained"
+        "Seer Cosmetic Emote Not Entertained"
       ]
     },
     "level_20": {
       "premium": [
-        "Blue Collar 10+"
+        "Ballistic Blue Collar",
+        "Exotic Shards 10 +"
       ],
       "free": []
     },
     "level_21": {
       "premium": [
-        "Root Cause XP Boost [xp 1]"
+        "Banner Frame Root Cause",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
@@ -148,27 +158,27 @@
     },
     "level_23": {
       "premium": [
-        "Ecto Core"
+        "Sentinel Ecto Core"
       ],
       "free": []
     },
     "level_24": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": [
-        "Leave Your Mark"
+        "Holospray Leave Your Mark"
       ]
     },
     "level_25": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_26": {
       "premium": [
-        "Emergency Maneuvers"
+        "Vantage Skydive Emote Emergency Maneuvers"
       ],
       "free": [
         "Apex Pack"
@@ -182,71 +192,76 @@
     },
     "level_28": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": []
     },
     "level_29": {
       "premium": [
-        "Safe Space"
+        "Holospray Safe Space"
       ],
       "free": []
     },
     "level_30": {
       "premium": [
-        "10 Ravenous Rose"
+        "Exotic Shards 10",
+        "Charge Rifle Ravenous Rose"
       ],
       "free": []
     },
     "level_31": {
       "premium": [
-        "100 XP Boost [xp 1]"
+        "Apex Coins 100",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
     "level_32": {
       "premium": [
-        "Emote Motor Massage"
+        "Lifeline Cosmetic Emote Motor Massage"
       ],
       "free": [
-        "Corrupted Core"
+        "Mozambique Shotgun Corrupted Core"
       ]
     },
     "level_33": {
       "premium": [
-        "Deathcap - Top Deathcap - Middle Deathcap - Bottom"
+        "Stat Tracker Deathcap - Top",
+        "Stat Tracker Deathcap - Middle",
+        "Stat Tracker Deathcap - Bottom"
       ],
       "free": []
     },
     "level_34": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "Suotamo Select"
+        "Transition Suotamo Select"
       ]
     },
     "level_35": {
       "premium": [
-        "Nocturnal"
+        "Hemlok Burst AR Nocturnal"
       ],
       "free": []
     },
     "level_36": {
       "premium": [
-        "Mycelia Maze"
+        "Banner Frame Mycelia Maze"
       ],
       "free": []
     },
     "level_37": {
       "premium": [
-        "Apex Pack Light It Up!"
+        "Apex Pack",
+        "Holospray Light It Up!"
       ],
       "free": []
     },
     "level_38": {
       "premium": [
-        "Toadstool Tranquility"
+        "Sticker Toadstool Tranquility"
       ],
       "free": [
         "Apex Pack"
@@ -254,33 +269,35 @@
     },
     "level_39": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": []
     },
     "level_40": {
       "premium": [
-        "Deathcap Blood O'War+"
+        "Bloodhound Deathcap",
+        "Bloodhound Blood O'War +"
       ],
       "free": []
     },
     "level_41": {
       "premium": [
-        "Emote Throwdown XP Boost [xp 1]"
+        "Gibraltar Cosmetic Emote Throwdown",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
     "level_42": {
       "premium": [
-        "Kill Quip: Rise again"
+        "Bloodhound Quip Kill Quip : Rise again"
       ],
       "free": [
-        "Circuit Breaker"
+        "Seer Circuit Breaker"
       ]
     },
     "level_43": {
       "premium": [
-        "Ice Breaker"
+        "Bocek Compound Bow Ice Breaker"
       ],
       "free": []
     },
@@ -292,19 +309,19 @@
     },
     "level_45": {
       "premium": [
-        "You're Washed"
+        "Holospray You're Washed"
       ],
       "free": []
     },
     "level_46": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_47": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": [
         "Apex Pack"
@@ -312,27 +329,27 @@
     },
     "level_48": {
       "premium": [
-        "Get Kraken"
+        "Banner Frame Get Kraken"
       ],
       "free": []
     },
     "level_49": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_50": {
       "premium": [
-        "Deadly Depths"
+        "Gibraltar Deadly Depths"
       ],
       "free": [
-        "100"
+        "Apex Coins 100"
       ]
     },
     "level_51": {
       "premium": [
-        "Killer Activated"
+        "Holospray Killer Activated"
       ],
       "free": [
         "Apex Pack"
@@ -340,19 +357,19 @@
     },
     "level_52": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_53": {
       "premium": [
-        "Glitch Glide"
+        "Revenant Skydive Emote Glitch Glide"
       ],
       "free": []
     },
     "level_54": {
       "premium": [
-        "Proton Piercer"
+        "Wingman Proton Piercer"
       ],
       "free": []
     },
@@ -361,18 +378,19 @@
         "Apex Pack"
       ],
       "free": [
-        "Flutter Figure"
+        "Banner Frame Flutter Figure"
       ]
     },
     "level_56": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_57": {
       "premium": [
-        "200 Secret Garden"
+        "Crafting Metals 200",
+        "Banner Frame Secret Garden"
       ],
       "free": []
     },
@@ -386,16 +404,15 @@
     },
     "level_59": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_60": {
       "premium": [
-        "Fatal Flower"
+        "L-STAR EMG Fatal Flower"
       ],
       "free": []
     }
-  },
-  "split": 2
+  }
 }

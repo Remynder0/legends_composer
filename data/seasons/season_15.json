@@ -1,33 +1,37 @@
 {
-  "season": 15,
+  "season": "15",
   "max_level": 110,
   "rewards": {
     "level_1": {
       "premium": [
-        "Obsidian Night Archon Shadow Sorcerer Astral Treasure XP Boost [1]"
+        "HAVOC Rifle Obsidian Night",
+        "Catalyst Archon",
+        "Seer Shadow Sorcerer",
+        "Loba Astral Treasure",
+        "XP Boost [ 1 ]"
       ],
       "free": [
-        "A Deleted Message"
+        "Loading Screen A Deleted Message"
       ]
     },
     "level_2": {
       "premium": [
-        "Over the Moon"
+        "Catalyst Skydive Emote Over the Moon"
       ],
       "free": []
     },
     "level_3": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_4": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": [
-        "Eclipse"
+        "Music Pack Eclipse"
       ]
     },
     "level_5": {
@@ -35,15 +39,15 @@
         "Apex Pack"
       ],
       "free": [
-        "100"
+        "Apex Coins 100"
       ]
     },
     "level_6": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": [
-        "Crypt Keepsake"
+        "Charm Crypt Keepsake"
       ]
     },
     "level_7": {
@@ -56,111 +60,111 @@
     },
     "level_8": {
       "premium": [
-        "Training Day"
+        "RE-45 Auto Training Day"
       ],
       "free": [
-        "Season 15 Wins"
+        "Vantage Stat Tracker Season 15 Wins"
       ]
     },
     "level_9": {
       "premium": [
-        "Kill Quip: What can I say, kid - the future is fuse"
+        "Fuse Quip Kill Quip : What can I say, kid - the future is fuse"
       ],
       "free": [
-        "Season 15 Kills"
+        "Vantage Stat Tracker Season 15 Kills"
       ]
     },
     "level_10": {
       "premium": [
-        "Nocturnal by Nature, Predator by Choice"
+        "Vantage Holo-Spray Nocturnal by Nature, Predator by Choice"
       ],
       "free": []
     },
     "level_11": {
       "premium": [
-        "Digital Intervention"
+        "Crypto Banner Frame Digital Intervention"
       ],
       "free": [
-        "Hallowed Prestige"
+        "Volt SMG Hallowed Prestige"
       ]
     },
     "level_12": {
       "premium": [
-        "Emote Oh Behave"
+        "Horizon Cosmetic Emote Oh Behave"
       ],
       "free": [
-        "Calibtration Complete"
+        "Loading Screen Calibtration Complete"
       ]
     },
     "level_13": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": [
-        "Vampiric Buddies"
+        "Sentinel Vampiric Buddies"
       ]
     },
     "level_14": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": []
     },
     "level_15": {
       "premium": [
-        "Kills"
+        "Ash Stat Tracker Kills"
       ],
       "free": [
-        "Season 15 Wins"
+        "Ash Stat Tracker Season 15 Wins"
       ]
     },
     "level_16": {
       "premium": [
-        "Wins"
+        "Ash Stat Tracker Wins"
       ],
       "free": [
-        "Season 15 Kills"
+        "Ash Stat Tracker Season 15 Kills"
       ]
     },
     "level_17": {
       "premium": [
-        "Deception, Deceit, Delusion"
+        "Ash Holo-Spray Deception, Deceit, Delusion"
       ],
       "free": [
-        "Season 15 Wins"
+        "Pathfinder Stat Tracker Season 15 Wins"
       ]
     },
     "level_18": {
       "premium": [
-        "Cirque du Ash"
+        "Ash Banner Frame Cirque du Ash"
       ],
       "free": [
-        "Season 15 Kills"
+        "Pathfinder Stat Tracker Season 15 Kills"
       ]
     },
     "level_19": {
       "premium": [
-        "Damage Done"
+        "Ash Stat Tracker Damage Done"
       ],
       "free": []
     },
     "level_20": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_21": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "Silver Bullet"
+        "P2020 Silver Bullet"
       ]
     },
     "level_22": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": [
         "Apex Pack"
@@ -168,10 +172,10 @@
     },
     "level_23": {
       "premium": [
-        "Kill Quip: Your mind should be as sharp as your blade"
+        "Ash Quip Kill Quip : Your mind should be as sharp as your blade"
       ],
       "free": [
-        "Season 15 Wins"
+        "Bangalore Stat Tracker Season 15 Wins"
       ]
     },
     "level_24": {
@@ -179,67 +183,67 @@
         "Robodent"
       ],
       "free": [
-        "Season 15 Kills"
+        "Bangalore Stat Tracker Season 15 Kills"
       ]
     },
     "level_25": {
       "premium": [
-        "Imperial Assailant"
+        "Ash Imperial Assailant"
       ],
       "free": [
-        "Bloodstained Glass"
+        "Flatline Bloodstained Glass"
       ]
     },
     "level_26": {
       "premium": [
-        "Sealed Fate"
+        "R-99 SMG Sealed Fate"
       ],
       "free": [
-        "Season 15 Wins"
+        "Octane Stat Tracker Season 15 Wins"
       ]
     },
     "level_27": {
       "premium": [
-        "The Folly of Youth"
+        "Loading Screen The Folly of Youth"
       ],
       "free": [
-        "Season 15 Kills"
+        "Octane Stat Tracker Season 15 Kills"
       ]
     },
     "level_28": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_29": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "Ruby Rundown"
+        "Mastiff Shotgun Ruby Rundown"
       ]
     },
     "level_30": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": [
-        "Star Burster"
+        "L-STAR EMG Star Burster"
       ]
     },
     "level_31": {
       "premium": [
-        "Kill Quip: Well wasn't that illuminating?"
+        "Catalyst Quip Kill Quip : Well wasn't that illuminating?"
       ],
       "free": []
     },
     "level_32": {
       "premium": [
-        "Crystal Cored"
+        "Catalyst Banner Frame Crystal Cored"
       ],
       "free": [
-        "Season 15 Wins"
+        "Catalyst Stat Tracker Season 15 Wins"
       ]
     },
     "level_33": {
@@ -247,45 +251,45 @@
         "Spell Book"
       ],
       "free": [
-        "Season 15 Kills"
+        "Catalyst Stat Tracker Season 15 Kills"
       ]
     },
     "level_34": {
       "premium": [
-        "Knives Out"
+        "M600 Spitfire Knives Out"
       ],
       "free": [
-        "Season 15 Wins"
+        "Mad Maggie Stat Tracker Season 15 Wins"
       ]
     },
     "level_35": {
       "premium": [
-        "Let's see what the crystals say"
+        "Catalyst Holo-Spray Let's see what the crystals say"
       ],
       "free": [
-        "Season 15 Kills"
+        "Mad Maggie Stat Tracker Season 15 Kills"
       ]
     },
     "level_36": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_37": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "Bound in Bone"
+        "Alternator SMG Bound in Bone"
       ]
     },
     "level_38": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": [
-        "Coven Chat"
+        "Loading Screen Coven Chat"
       ]
     },
     "level_39": {
@@ -296,53 +300,53 @@
     },
     "level_40": {
       "premium": [
-        "Kill Quip: 'Dying is a small price for living"
+        "Seer Quip Kill Quip : ' Dying is a small price for living"
       ],
       "free": [
-        "Season 15 Wins"
+        "Seer Stat Tracker Season 15 Wins"
       ]
     },
     "level_41": {
       "premium": [
-        "Charmed I'm sure"
+        "Seer Holo-Spray Charmed I'm sure"
       ],
       "free": [
-        "Season 15 Kills"
+        "Seer Stat Tracker Season 15 Kills"
       ]
     },
     "level_42": {
       "premium": [
-        "Illumination"
+        "EVA-8 Auto Illumination"
       ],
       "free": [
-        "Season 15 Wins"
+        "Horizon Stat Tracker Season 15 Wins"
       ]
     },
     "level_43": {
       "premium": [
-        "Happy Haunts"
+        "Seer Banner Frame Happy Haunts"
       ],
       "free": [
-        "Season 15 Kills"
+        "Horizon Stat Tracker Season 15 Kills"
       ]
     },
     "level_44": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_45": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "Bottled Rage"
+        "Longbow DMR Bottled Rage"
       ]
     },
     "level_46": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": [
         "Apex Pack"
@@ -353,83 +357,83 @@
         "Close Shave"
       ],
       "free": [
-        "Season 15 Wins"
+        "Valkyrie Stat Tracker Season 15 Wins"
       ]
     },
     "level_48": {
       "premium": [
-        "Kills"
+        "Revenant Stat Tracker Kills"
       ],
       "free": [
-        "Season 15 Kills"
+        "Valkyrie Stat Tracker Season 15 Kills"
       ]
     },
     "level_49": {
       "premium": [
-        "Wins"
+        "Revenant Stat Tracker Wins"
       ],
       "free": []
     },
     "level_50": {
       "premium": [
-        "Nail Order Monster"
+        "Revenant Nail Order Monster"
       ],
       "free": [
-        "Catalyst"
+        "Music Pack Catalyst"
       ]
     },
     "level_51": {
       "premium": [
-        "Damage Done"
+        "Revenant Stat Tracker Damage Done"
       ],
       "free": [
-        "Season 15 Wins"
+        "Revenant Stat Tracker Season 15 Wins"
       ]
     },
     "level_52": {
       "premium": [
-        "Pristine Power"
+        "30-30 Repeater Pristine Power"
       ],
       "free": [
-        "Season 15 Kills"
+        "Revenant Stat Tracker Season 15 Kills"
       ]
     },
     "level_53": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_54": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": [
-        "High Class Blast"
+        "G7 Scout High Class Blast"
       ]
     },
     "level_55": {
       "premium": [
-        "Night Terrors"
+        "Revenant Banner Frame Night Terrors"
       ],
       "free": [
-        "Season 15 Wins"
+        "Fuse Stat Tracker Season 15 Wins"
       ]
     },
     "level_56": {
       "premium": [
-        "Kill Quip: That terror in your soul"
+        "Revenant Quip Kill Quip : That terror in your soul"
       ],
       "free": [
-        "Season 15 Kills"
+        "Fuse Stat Tracker Season 15 Kills"
       ]
     },
     "level_57": {
       "premium": [
-        "And for my next trick"
+        "Revenant Holo-Spray And for my next trick"
       ],
       "free": [
-        "Doom and Gloom"
+        "Gibraltar Doom and Gloom"
       ]
     },
     "level_58": {
@@ -437,26 +441,26 @@
         "Apex Pack"
       ],
       "free": [
-        "Season 15 Wins"
+        "Caustic Stat Tracker Season 15 Wins"
       ]
     },
     "level_59": {
       "premium": [
-        "Crimson Gaze"
+        "Wingman Crimson Gaze"
       ],
       "free": [
-        "Season 15 Kills"
+        "Caustic Stat Tracker Season 15 Kills"
       ]
     },
     "level_60": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_61": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
         "Apex Pack"
@@ -464,10 +468,10 @@
     },
     "level_62": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": [
-        "Ghost Gun"
+        "C.A.R. SMG Ghost Gun"
       ]
     },
     "level_63": {
@@ -478,45 +482,45 @@
     },
     "level_64": {
       "premium": [
-        "Ornate Relic"
+        "Peacekeeper Ornate Relic"
       ],
       "free": [
-        "Season 15 Wins"
+        "Wraith Stat Tracker Season 15 Wins"
       ]
     },
     "level_65": {
       "premium": [
-        "Emote Sweaty"
+        "Wraith Cosmetic Emote Sweaty"
       ],
       "free": [
-        "Season 15 Kills"
+        "Wraith Stat Tracker Season 15 Kills"
       ]
     },
     "level_66": {
       "premium": [
-        "Kill Quip: You remind me of that song"
+        "Vantage Quip Kill Quip : You remind me of that song"
       ],
       "free": [
-        "Season 15 Wins"
+        "Wattson Stat Tracker Season 15 Wins"
       ]
     },
     "level_67": {
       "premium": [
-        "Dracu-Ness"
+        "Wattson Banner Frame Dracu-Ness"
       ],
       "free": [
-        "Season 15 Kills"
+        "Wattson Stat Tracker Season 15 Kills"
       ]
     },
     "level_68": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_69": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
         "Apex Pack"
@@ -524,10 +528,10 @@
     },
     "level_70": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": [
-        "The Big Picture"
+        "Triple Take The Big Picture"
       ]
     },
     "level_71": {
@@ -538,51 +542,51 @@
     },
     "level_72": {
       "premium": [
-        "All Eyes on Me"
+        "Rampage LMG All Eyes on Me"
       ],
       "free": [
-        "Season 15 Wins"
+        "Loba Stat Tracker Season 15 Wins"
       ]
     },
     "level_73": {
       "premium": [
-        "Kill Quip: I always get what catches my eye"
+        "Loba Quip Kill Quip : I always get what catches my eye"
       ],
       "free": [
-        "Season 15 Kills"
+        "Loba Stat Tracker Season 15 Kills"
       ]
     },
     "level_74": {
       "premium": [
-        "You're a gem"
+        "Loba Holo-Spray You're a gem"
       ],
       "free": [
-        "Season 15 Wins"
+        "Gibraltar Stat Tracker Season 15 Wins"
       ]
     },
     "level_75": {
       "premium": [
-        "Den of Desire"
+        "Loba Banner Frame Den of Desire"
       ],
       "free": [
-        "Season 15 Kills"
+        "Gibraltar Stat Tracker Season 15 Kills"
       ]
     },
     "level_76": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_77": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_78": {
       "premium": [
-        "CRC Memo: Addressing Rumors"
+        "Loading Screen CRC Memo: Addressing Rumors"
       ],
       "free": [
         "Apex Pack"
@@ -590,24 +594,24 @@
     },
     "level_79": {
       "premium": [
-        "Fear and Loathing"
+        "Lifeline Banner Frame Fear and Loathing"
       ],
       "free": []
     },
     "level_80": {
       "premium": [
-        "Web of Lies"
+        "Prowler Burst PDW Web of Lies"
       ],
       "free": [
-        "Season 15 Wins"
+        "Lifeline Stat Tracker Season 15 Wins"
       ]
     },
     "level_81": {
       "premium": [
-        "Say the Magic Word"
+        "Seer Holo-Spray Say the Magic Word"
       ],
       "free": [
-        "Season 15 Kills"
+        "Lifeline Stat Tracker Season 15 Kills"
       ]
     },
     "level_82": {
@@ -615,15 +619,15 @@
         "Regal Charm"
       ],
       "free": [
-        "Season 15 Wins"
+        "Rampart Stat Tracker Season 15 Wins"
       ]
     },
     "level_83": {
       "premium": [
-        "Kill Quip: Be proud, mate - I'm a big bloody deal"
+        "Rampart Quip Kill Quip : Be proud, mate - I'm a big bloody deal"
       ],
       "free": [
-        "Season 15 Kills"
+        "Rampart Stat Tracker Season 15 Kills"
       ]
     },
     "level_84": {
@@ -634,13 +638,13 @@
     },
     "level_85": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_86": {
       "premium": [
-        "Dream Homes for Dreamers"
+        "Loading Screen Dream Homes for Dreamers"
       ],
       "free": [
         "Apex Pack"
@@ -648,7 +652,7 @@
     },
     "level_87": {
       "premium": [
-        "Center Stage"
+        "Mirage Banner Frame Center Stage"
       ],
       "free": []
     },
@@ -657,80 +661,80 @@
         "Apex Pack"
       ],
       "free": [
-        "Season 15 Wins"
+        "Mirage Stat Tracker Season 15 Wins"
       ]
     },
     "level_89": {
       "premium": [
-        "Cosmic Guardian"
+        "R-301 Cosmic Guardian"
       ],
       "free": [
-        "Season 15 Kills"
+        "Mirage Stat Tracker Season 15 Kills"
       ]
     },
     "level_90": {
       "premium": [
-        "Mystic Spiral"
+        "Catalyst Skydive Emote Mystic Spiral"
       ],
       "free": [
-        "Season 15 Wins"
+        "Crypto Stat Tracker Season 15 Wins"
       ]
     },
     "level_91": {
       "premium": [
-        "Kill Quip: Take comfort, this is gentler"
+        "Bloodhound Quip Kill Quip : Take comfort, this is gentler"
       ],
       "free": [
-        "Season 15 Kills"
+        "Crypto Stat Tracker Season 15 Kills"
       ]
     },
     "level_92": {
       "premium": [
-        "Meet Cute"
+        "Rampart Holo-Spray Meet Cute"
       ],
       "free": []
     },
     "level_93": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_94": {
       "premium": [
-        "Rage Chain"
+        "Hemlok Burst AR Rage Chain"
       ],
       "free": [
-        "Season 15 Wins"
+        "Bloodhound Stat Tracker Season 15 Wins"
       ]
     },
     "level_95": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "Season 15 Kills"
+        "Bloodhound Stat Tracker Season 15 Kills"
       ]
     },
     "level_96": {
       "premium": [
-        "Do You See From On High?"
+        "Bloodhound Holo-Spray Do You See From On High?"
       ],
       "free": [
-        "Season 15 Wins"
+        "Newcastle Stat Tracker Season 15 Wins"
       ]
     },
     "level_97": {
       "premium": [
-        "Boogie Down"
+        "Newcastle Banner Frame Boogie Down"
       ],
       "free": [
-        "Season 15 Kills"
+        "Newcastle Stat Tracker Season 15 Kills"
       ]
     },
     "level_98": {
       "premium": [
-        "Dodge This"
+        "Ash Skydive Emote Dodge This"
       ],
       "free": []
     },
@@ -739,20 +743,20 @@
         "Apex Pack"
       ],
       "free": [
-        "Reflection"
+        "Loading Screen Reflection"
       ]
     },
     "level_100": {
       "premium": [
-        "Laser Eviscerator"
+        "Charge Rifle Laser Eviscerator"
       ],
       "free": [
-        "100"
+        "Apex Coins 100"
       ]
     },
     "level_110": {
       "premium": [
-        "Cosmic Cannon"
+        "Charge Rifle Cosmic Cannon"
       ],
       "free": [
         "Eclipse Level Season 15 | Badge"

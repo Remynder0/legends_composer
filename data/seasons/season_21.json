@@ -1,33 +1,37 @@
 {
-  "season": 21,
+  "season": "21",
   "max_level": 110,
   "rewards": {
     "level_1": {
       "premium": [
-        "Chaos' Embrace Corrupted Void Creeping Death Void Touched XP Boost [1]"
+        "Alter Chaos' Embrace",
+        "Wraith Corrupted Void",
+        "Revenant Creeping Death",
+        "Volt SMG Void Touched",
+        "XP Boost [ 1 ]"
       ],
       "free": [
-        "Alert: Security Breach"
+        "Transition Alert: Security Breach"
       ]
     },
     "level_2": {
       "premium": [
-        "Tailspin"
+        "Alter Skydive Emote Tailspin"
       ],
       "free": []
     },
     "level_3": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_4": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": [
-        "Upheaval"
+        "Music Pack Upheaval"
       ]
     },
     "level_5": {
@@ -35,12 +39,12 @@
         "Apex Pack"
       ],
       "free": [
-        "100"
+        "Apex Coins 100"
       ]
     },
     "level_6": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": [
         "Ticked Off"
@@ -56,105 +60,105 @@
     },
     "level_8": {
       "premium": [
-        "Necrotic Devourer"
+        "Longbow DMR Necrotic Devourer"
       ],
       "free": [
-        "Season 21 Wins as Alter"
+        "Alter Stat Tracker Season 21 Wins as Alter"
       ]
     },
     "level_9": {
       "premium": [
-        "Kill Quip: Don't try that weak tea with me"
+        "Mad Maggie Quip Kill Quip : Don't try that weak tea with me"
       ],
       "free": [
-        "Season 21 Kills as Alter"
+        "Alter Stat Tracker Season 21 Kills as Alter"
       ]
     },
     "level_10": {
       "premium": [
-        "Tainted Sight"
+        "Sticker Tainted Sight"
       ],
       "free": [
-        "Tech Takeover"
+        "M600 Spitfire Tech Takeover"
       ]
     },
     "level_11": {
       "premium": [
-        "Speed Trap"
+        "Gibraltar Banner Frame Speed Trap"
       ],
       "free": [
-        "One Last Chance"
+        "Transition One Last Chance"
       ]
     },
     "level_12": {
       "premium": [
-        "Emote Blighted Breakdown"
+        "Lifeline Cosmetic Emote Blighted Breakdown"
       ],
       "free": []
     },
     "level_13": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": [
-        "Necrotic Devourer"
+        "RE-45 Auto Necrotic Devourer"
       ]
     },
     "level_14": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": [
-        "Season 21 Wins as Horizon"
+        "Horizon Stat Tracker Season 21 Wins as Horizon"
       ]
     },
     "level_15": {
       "premium": [
-        "Season 21 Kills as Seer"
+        "Seer Stat Tracker Season 21 Kills as Seer"
       ],
       "free": [
-        "Season 21 Kills as Horizon"
+        "Horizon Stat Tracker Season 21 Kills as Horizon"
       ]
     },
     "level_16": {
       "premium": [
-        "Wins as Seer"
+        "Seer Stat Tracker Wins as Seer"
       ],
       "free": []
     },
     "level_17": {
       "premium": [
-        "Damage Done as Seer"
+        "Seer Stat Tracker Damage Done as Seer"
       ],
       "free": [
-        "Tech Takeover"
+        "Charge Rifle Tech Takeover"
       ]
     },
     "level_18": {
       "premium": [
-        "Bleeding Moon"
+        "Seer Banner Frame Bleeding Moon"
       ],
       "free": []
     },
     "level_19": {
       "premium": [
-        "This Is My Mark"
+        "Seer Holospray This Is My Mark"
       ],
       "free": [
-        "Season 21 Wins as Gibraltar"
+        "Gibraltar Stat Tracker Season 21 Wins as Gibraltar"
       ]
     },
     "level_20": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": [
-        "Season 21 Kills as Gibraltar"
+        "Gibraltar Stat Tracker Season 21 Kills as Gibraltar"
       ]
     },
     "level_21": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
         "Apex Pack"
@@ -162,18 +166,18 @@
     },
     "level_22": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": [
-        "Season 21 Wins as Seer"
+        "Seer Stat Tracker Season 21 Wins as Seer"
       ]
     },
     "level_23": {
       "premium": [
-        "Kill Quip: Art is not a distraction from pain"
+        "Seer Quip Kill Quip : Art is not a distraction from pain"
       ],
       "free": [
-        "Season 21 Kills as Seer"
+        "Seer Stat Tracker Season 21 Kills as Seer"
       ]
     },
     "level_24": {
@@ -184,61 +188,61 @@
     },
     "level_25": {
       "premium": [
-        "Creeping Void"
+        "Seer Creeping Void"
       ],
       "free": [
-        "Necrotic Devourer"
+        "30-30 Repeater Necrotic Devourer"
       ]
     },
     "level_26": {
       "premium": [
-        "Necrotic Devourer"
+        "Alternator SMG Necrotic Devourer"
       ],
       "free": []
     },
     "level_27": {
       "premium": [
-        "Emote Dark Hunter"
+        "Bloodhound Cosmetic Emote Dark Hunter"
       ],
       "free": [
-        "Season 21 Wins as Fuse"
+        "Fuse Stat Tracker Season 21 Wins as Fuse"
       ]
     },
     "level_28": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": [
-        "Season 21 Kills as Fuse"
+        "Fuse Stat Tracker Season 21 Kills as Fuse"
       ]
     },
     "level_29": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "Dark Infusion"
+        "Nemesis Burst AR Dark Infusion"
       ]
     },
     "level_30": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": [
-        "Season 21 Wins as Mirage"
+        "Mirage Stat Tracker Season 21 Wins as Mirage"
       ]
     },
     "level_31": {
       "premium": [
-        "Kill Quip: Stay home"
+        "Wraith Quip Kill Quip : Stay home"
       ],
       "free": [
-        "Season 21 Kills as Mirage"
+        "Mirage Stat Tracker Season 21 Kills as Mirage"
       ]
     },
     "level_32": {
       "premium": [
-        "Dark Experiment"
+        "Wraith Banner Frame Dark Experiment"
       ],
       "free": []
     },
@@ -247,42 +251,42 @@
         "Nocturnal Nature"
       ],
       "free": [
-        "Blighted Gemstone"
+        "R-301 Carbine Blighted Gemstone"
       ]
     },
     "level_34": {
       "premium": [
-        "Tech Takeover"
+        "R-99 SMG Tech Takeover"
       ],
       "free": []
     },
     "level_35": {
       "premium": [
-        "Think Fast"
+        "Wraith Holospray Think Fast"
       ],
       "free": [
-        "Season 21 Wins as Wraith"
+        "Wraith Stat Tracker Season 21 Wins as Wraith"
       ]
     },
     "level_36": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": [
-        "Season 21 Kills as Wraith"
+        "Wraith Stat Tracker Season 21 Kills as Wraith"
       ]
     },
     "level_37": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "Tech Takeover"
+        "Rampage LMG Tech Takeover"
       ]
     },
     "level_38": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": []
     },
@@ -296,82 +300,82 @@
     },
     "level_40": {
       "premium": [
-        "Kill Quip: What if they won't miss you"
+        "Revenant Quip Kill Quip : What if they won't miss you"
       ],
       "free": [
-        "Season 21 Wins as Ash"
+        "Ash Stat Tracker Season 21 Wins as Ash"
       ]
     },
     "level_41": {
       "premium": [
-        "Born This Way"
+        "Revenant Holospray Born This Way"
       ],
       "free": [
-        "Season 21 Kills as Ash"
+        "Ash Stat Tracker Season 21 Kills as Ash"
       ]
     },
     "level_42": {
       "premium": [
-        "Necrotic Devourer"
+        "Triple Take Necrotic Devourer"
       ],
       "free": []
     },
     "level_43": {
       "premium": [
-        "Production Corruption"
+        "Revenant Banner Frame Production Corruption"
       ],
       "free": []
     },
     "level_44": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_45": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "Loose Threads"
+        "Transition Loose Threads"
       ]
     },
     "level_46": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": []
     },
     "level_47": {
       "premium": [
-        "Kills as Catalyst"
+        "Catalyst Stat Tracker Kills as Catalyst"
       ],
       "free": [
-        "Tech Takeover"
+        "Hemlok Burst AR Tech Takeover"
       ]
     },
     "level_48": {
       "premium": [
-        "Wins as Catalyst"
+        "Catalyst Stat Tracker Wins as Catalyst"
       ],
       "free": [
-        "Season 21 Wins as Caustic"
+        "Caustic Stat Tracker Season 21 Wins as Caustic"
       ]
     },
     "level_49": {
       "premium": [
-        "Damage Done as Catalyst"
+        "Catalyst Stat Tracker Damage Done as Catalyst"
       ],
       "free": [
-        "Season 21 Kills as Caustic"
+        "Caustic Stat Tracker Season 21 Kills as Caustic"
       ]
     },
     "level_50": {
       "premium": [
-        "Void Witch"
+        "Catalyst Void Witch"
       ],
       "free": [
-        "Alter"
+        "Music Pack Alter"
       ]
     },
     "level_51": {
@@ -379,58 +383,58 @@
         "Necro Ness"
       ],
       "free": [
-        "Season 21 Wins as Vantage"
+        "Vantage Stat Tracker Season 21 Wins as Vantage"
       ]
     },
     "level_52": {
       "premium": [
-        "Dark Infusion"
+        "Devotion LMG Dark Infusion"
       ],
       "free": [
-        "Season 21 Kills as Vantage"
+        "Vantage Stat Tracker Season 21 Kills as Vantage"
       ]
     },
     "level_53": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": [
-        "Necrotic Devourer"
+        "Bocek Compound Bow Necrotic Devourer"
       ]
     },
     "level_54": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": [
-        "Season 21 Wins as Conduit"
+        "Conduit Stat Tracker Season 21 Wins as Conduit"
       ]
     },
     "level_55": {
       "premium": [
-        "Cataclysm"
+        "Catalyst Banner Frame Cataclysm"
       ],
       "free": [
-        "Season 21 Kills as Conduit"
+        "Conduit Stat Tracker Season 21 Kills as Conduit"
       ]
     },
     "level_56": {
       "premium": [
-        "Kill Quip: You'll want to see a doctor"
+        "Catalyst Quip Kill Quip : You'll want to see a doctor"
       ],
       "free": []
     },
     "level_57": {
       "premium": [
-        "Embrace The Dark"
+        "Catalyst Holospray Embrace The Dark"
       ],
       "free": [
-        "Necrotic Devourer"
+        "Valkyrie Necrotic Devourer"
       ]
     },
     "level_58": {
       "premium": [
-        "Tech Takeover"
+        "Prowler Burst PDW Tech Takeover"
       ],
       "free": []
     },
@@ -439,20 +443,20 @@
         "Apex Pack"
       ],
       "free": [
-        "Season 21 Wins as Lifeline"
+        "Lifeline Stat Tracker Season 21 Wins as Lifeline"
       ]
     },
     "level_60": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": [
-        "Season 21 Kills as Lifeline"
+        "Lifeline Stat Tracker Season 21 Kills as Lifeline"
       ]
     },
     "level_61": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
         "Apex Pack"
@@ -460,7 +464,7 @@
     },
     "level_62": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": []
     },
@@ -469,28 +473,28 @@
         "Apex Pack"
       ],
       "free": [
-        "Tech Takeover"
+        "G7 Scout Tech Takeover"
       ]
     },
     "level_64": {
       "premium": [
-        "Emote Badbraltar"
+        "Gibraltar Cosmetic Emote Badbraltar"
       ],
       "free": [
-        "Season 21 Wins as Mad Maggie"
+        "Mad Maggie Stat Tracker Season 21 Wins as Mad Maggie"
       ]
     },
     "level_65": {
       "premium": [
-        "Corrupt Memory"
+        "L-STAR EMG Corrupt Memory"
       ],
       "free": [
-        "Season 21 Kills as Mad Maggie"
+        "Mad Maggie Stat Tracker Season 21 Kills as Mad Maggie"
       ]
     },
     "level_66": {
       "premium": [
-        "Kill Quip: Pray all you want"
+        "Caustic Quip Kill Quip : Pray all you want"
       ],
       "free": [
         "Apex Pack"
@@ -498,31 +502,31 @@
     },
     "level_67": {
       "premium": [
-        "Black Ice"
+        "Vantage Banner Frame Black Ice"
       ],
       "free": [
-        "Season 21 Wins as Newcastle"
+        "Newcastle Stat Tracker Season 21 Wins as Newcastle"
       ]
     },
     "level_68": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": [
-        "Season 21 Kills as Newcastle"
+        "Newcastle Stat Tracker Season 21 Kills as Newcastle"
       ]
     },
     "level_69": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "Necrotic Devourer"
+        "C.A.R SMG Necrotic Devourer"
       ]
     },
     "level_70": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": []
     },
@@ -531,48 +535,48 @@
         "Wicked Wally"
       ],
       "free": [
-        "Season 21 Wins as Valkyrie"
+        "Valkyrie Stat Tracker Season 21 Wins as Valkyrie"
       ]
     },
     "level_72": {
       "premium": [
-        "Blighted Gemstone"
+        "Flatline Blighted Gemstone"
       ],
       "free": [
-        "Season 21 Kills as Valkyrie"
+        "Valkyrie Stat Tracker Season 21 Kills as Valkyrie"
       ]
     },
     "level_73": {
       "premium": [
-        "Kill Quip: You went out with a bang"
+        "Alter Quip Kill Quip : You went out with a bang"
       ],
       "free": []
     },
     "level_74": {
       "premium": [
-        "I'll Only Haunt You"
+        "Alter Holospray I'll Only Haunt You"
       ],
       "free": [
-        "Season 21 Wins as Ballistic"
+        "Ballistic Stat Tracker Season 21 Wins as Ballistic"
       ]
     },
     "level_75": {
       "premium": [
-        "Corrupted Rift"
+        "Alter Banner Frame Corrupted Rift"
       ],
       "free": [
-        "Season 21 Kills as Ballistic"
+        "Ballistic Stat Tracker Season 21 Kills as Ballistic"
       ]
     },
     "level_76": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_77": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
         "Apex Pack"
@@ -580,48 +584,48 @@
     },
     "level_78": {
       "premium": [
-        "Necrotic Devourer"
+        "Peacekeeper Necrotic Devourer"
       ],
       "free": [
-        "Season 21 Wins as Bloodhound"
+        "Bloodhound Stat Tracker Season 21 Wins as Bloodhound"
       ]
     },
     "level_79": {
       "premium": [
-        "Event Horizon"
+        "Horizon Banner Frame Event Horizon"
       ],
       "free": [
-        "Season 21 Kills as Bloodhound"
+        "Bloodhound Stat Tracker Season 21 Kills as Bloodhound"
       ]
     },
     "level_80": {
       "premium": [
-        "Witchy Strut"
+        "Sticker Witchy Strut"
       ],
       "free": [
-        "Season 21 Wins as Bangalore"
+        "Bangalore Stat Tracker Season 21 Wins as Bangalore"
       ]
     },
     "level_81": {
       "premium": [
-        "Time To Kill, Friends"
+        "Pathfinder Holospray Time To Kill, Friends"
       ],
       "free": [
-        "Season 21 Kills as Bangalore"
+        "Bangalore Stat Tracker Season 21 Kills as Bangalore"
       ]
     },
     "level_82": {
       "premium": [
-        "Emote Mi-RAGE"
+        "Mirage Cosmetic Emote Mi-RAGE"
       ],
       "free": []
     },
     "level_83": {
       "premium": [
-        "Kill Quip: You see? Plenty of battles left"
+        "Ballistic Quip Kill Quip : You see? Plenty of battles left"
       ],
       "free": [
-        "Season 21 Wins as Pathfinder"
+        "Pathfinder Stat Tracker Season 21 Wins as Pathfinder"
       ]
     },
     "level_84": {
@@ -629,12 +633,12 @@
         "Apex Pack"
       ],
       "free": [
-        "Season 21 Kills as Pathfinder"
+        "Pathfinder Stat Tracker Season 21 Kills as Pathfinder"
       ]
     },
     "level_85": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
         "Apex Pack"
@@ -642,10 +646,10 @@
     },
     "level_86": {
       "premium": [
-        "Onto the Next"
+        "Transition Onto the Next"
       ],
       "free": [
-        "Season 21 Wins as Loba"
+        "Loba Stat Tracker Season 21 Wins as Loba"
       ]
     },
     "level_87": {
@@ -653,37 +657,37 @@
         "Apex Pack"
       ],
       "free": [
-        "Season 21 Kills as Loba"
+        "Loba Stat Tracker Season 21 Kills as Loba"
       ]
     },
     "level_88": {
       "premium": [
-        "Breached Containment"
+        "Loba Banner Frame Breached Containment"
       ],
       "free": [
-        "Season 21 Wins as Crypto"
+        "Crypto Stat Tracker Season 21 Wins as Crypto"
       ]
     },
     "level_89": {
       "premium": [
-        "10"
+        "Exotic Shards 10"
       ],
       "free": [
-        "Season 21 Kills as Crypto"
+        "Crypto Stat Tracker Season 21 Kills as Crypto"
       ]
     },
     "level_90": {
       "premium": [
-        "Emote Party Pooper"
+        "Revenant Cosmetic Emote Party Pooper"
       ],
       "free": []
     },
     "level_91": {
       "premium": [
-        "Kill Quip: You dIdn't gave to make it so easy"
+        "Crypto Quip Kill Quip : You dIdn't gave to make it so easy"
       ],
       "free": [
-        "Season 21 Wins as Revenant"
+        "Revenant Stat Tracker Season 21 Wins as Revenant"
       ]
     },
     "level_92": {
@@ -691,55 +695,55 @@
         "No Loot Here!"
       ],
       "free": [
-        "Season 21 Kills as Revenant"
+        "Revenant Stat Tracker Season 21 Kills as Revenant"
       ]
     },
     "level_93": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "Nessie: Unclassified"
+        "Transition Nessie: Unclassified"
       ]
     },
     "level_94": {
       "premium": [
-        "Blighted Gemstone"
+        "Sentinel Blighted Gemstone"
       ],
       "free": [
-        "Season 21 Wins as Rampart"
+        "Rampart Stat Tracker Season 21 Wins as Rampart"
       ]
     },
     "level_95": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "Season 21 Kills as Rampart"
+        "Rampart Stat Tracker Season 21 Kills as Rampart"
       ]
     },
     "level_96": {
       "premium": [
-        "A New Variable"
+        "Caustic Holospray A New Variable"
       ],
       "free": [
-        "Season 21 Wins as Octane"
+        "Octane Stat Tracker Season 21 Wins as Octane"
       ]
     },
     "level_97": {
       "premium": [
-        "Hometown Horror"
+        "Newcastle Banner Frame Hometown Horror"
       ],
       "free": [
-        "Season 21 Kills as Octane"
+        "Octane Stat Tracker Season 21 Kills as Octane"
       ]
     },
     "level_98": {
       "premium": [
-        "Coming in Hot"
+        "Alter Skydive Emote Coming in Hot"
       ],
       "free": [
-        "Season 21 Wins as Catalyst"
+        "Catalyst Stat Tracker Season 21 Wins as Catalyst"
       ]
     },
     "level_99": {
@@ -747,23 +751,23 @@
         "Apex Pack"
       ],
       "free": [
-        "Season 21 Kills as Catalyst"
+        "Catalyst Stat Tracker Season 21 Kills as Catalyst"
       ]
     },
     "level_100": {
       "premium": [
-        "Void Impulse"
+        "30-30 Repeater Void Impulse"
       ],
       "free": [
-        "100"
+        "Apex Coins 100"
       ]
     },
     "level_110": {
       "premium": [
-        "Reversed Polarity"
+        "30-30 Repeater Icon Reversed Polarity"
       ],
       "free": [
-        "Badge: Upheaval"
+        "Badge : Upheaval"
       ]
     }
   }

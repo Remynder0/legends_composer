@@ -1,36 +1,40 @@
 {
-  "season": 25,
+  "season": "25_2",
   "max_level": 60,
   "rewards": {
     "level_1": {
       "premium": [
-        "Fresh Install Self-Expression Target Practice Here Comes the Heat XP Boost [xp 1]"
+        "Pathfinder Fresh Install",
+        "Rampage LMG Self-Expression",
+        "Banner Frame Target Practice",
+        "Holospray Here Comes the Heat",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
     "level_2": {
       "premium": [
-        "Kill Quip: Time to face the truth"
+        "Wraith Quip Kill Quip : Time to face the truth"
       ],
       "free": [
-        "Nonna's Special Recipe"
+        "Transition Nonna's Special Recipe"
       ]
     },
     "level_3": {
       "premium": [
-        "Emote Hydraulics Test"
+        "Pathfinder Cosmetic Emote Hydraulics Test"
       ],
       "free": []
     },
     "level_4": {
       "premium": [
-        "Running Late"
+        "Holospray Running Late"
       ],
       "free": []
     },
     "level_5": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
         "Apex Pack"
@@ -38,24 +42,26 @@
     },
     "level_6": {
       "premium": [
-        "Problem Child - Top Problem Child - Middle Problem Child - Bottom"
+        "Stat Tracker Problem Child - Top",
+        "Stat Tracker Problem Child - Middle",
+        "Stat Tracker Problem Child - Bottom"
       ],
       "free": []
     },
     "level_7": {
       "premium": [
-        "Quick Study"
+        "Banner Frame Quick Study"
       ],
       "free": [
-        "Prodigy Split 2"
+        "Music Pack Prodigy Split 2"
       ]
     },
     "level_8": {
       "premium": [
-        "Artistic License"
+        "Flatline Artistic License"
       ],
       "free": [
-        "100"
+        "Apex Coins 100"
       ]
     },
     "level_9": {
@@ -66,37 +72,39 @@
     },
     "level_10": {
       "premium": [
-        "Problem Child Not a Phase+"
+        "Wraith Problem Child",
+        "Wraith Not a Phase +"
       ],
       "free": []
     },
     "level_11": {
       "premium": [
-        "New Grad XP Boost [xp 1]"
+        "New Grad",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
     "level_12": {
       "premium": [
-        "Extracurricular"
+        "Banner Frame Extracurricular"
       ],
       "free": []
     },
     "level_13": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_14": {
       "premium": [
-        "Listen Up"
+        "Holospray Listen Up"
       ],
       "free": []
     },
     "level_15": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": [
         "Apex Pack"
@@ -104,7 +112,7 @@
     },
     "level_16": {
       "premium": [
-        "Rise and Grind"
+        "Longbow DMR Rise and Grind"
       ],
       "free": []
     },
@@ -116,27 +124,29 @@
     },
     "level_18": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_19": {
       "premium": [
-        "Blue Thunder"
+        "Sticker Blue Thunder"
       ],
       "free": [
-        "Emote Hitting the Cell"
+        "Wraith Cosmetic Emote Hitting the Cell"
       ]
     },
     "level_20": {
       "premium": [
-        "Top of the Class 10+"
+        "Conduit Top of the Class",
+        "Exotic Shards 10 +"
       ],
       "free": []
     },
     "level_21": {
       "premium": [
-        "Troublemaker XP Boost [xp 1]"
+        "Banner Frame Troublemaker",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
@@ -148,27 +158,27 @@
     },
     "level_23": {
       "premium": [
-        "ANessihilator"
+        "G7 Scout ANessihilator"
       ],
       "free": []
     },
     "level_24": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": [
-        "Not My Vibe"
+        "Holospray Not My Vibe"
       ]
     },
     "level_25": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_26": {
       "premium": [
-        "Anti Gravity"
+        "Conduit Skydive Emote Anti Gravity"
       ],
       "free": [
         "Apex Pack"
@@ -182,103 +192,110 @@
     },
     "level_28": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": []
     },
     "level_29": {
       "premium": [
-        "Actually..."
+        "Holospray Actually..."
       ],
       "free": []
     },
     "level_30": {
       "premium": [
-        "10 Peaches and Cream"
+        "Exotic Shards 10",
+        "Mastiff Shotgun Peaches and Cream"
       ],
       "free": []
     },
     "level_31": {
       "premium": [
-        "100 XP Boost [xp 1]"
+        "Apex Coins 100",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
     "level_32": {
       "premium": [
-        "Emote Natural Advantage"
+        "Alter Cosmetic Emote Natural Advantage"
       ],
       "free": [
-        "Alterior Motives"
+        "RE-45 Auto Alterior Motives"
       ]
     },
     "level_33": {
       "premium": [
-        "Varsity Blues - Top Varsity Blues - Middle Varsity Blues - Bottom"
+        "Stat Tracker Varsity Blues - Top",
+        "Stat Tracker Varsity Blues - Middle",
+        "Stat Tracker Varsity Blues - Bottom"
       ],
       "free": []
     },
     "level_34": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "Operation: Return Sparrow to the Nest"
+        "Transition Operation: Return Sparrow to the Nest"
       ]
     },
     "level_35": {
       "premium": [
-        "Scratchpad"
+        "Peacekeeper Scratchpad"
       ],
       "free": []
     },
     "level_36": {
       "premium": [
-        "Beautiful Game"
+        "Banner Frame Beautiful Game"
       ],
       "free": []
     },
     "level_37": {
       "premium": [
-        "Apex Pack You Got It, Bruddah"
+        "Apex Pack",
+        "Holospray You Got It, Bruddah"
       ],
       "free": []
     },
     "level_38": {
       "premium": [
-        "Red-Handed"
+        "Sticker Red-Handed"
       ],
       "free": []
     },
     "level_39": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": []
     },
     "level_40": {
       "premium": [
-        "Varsity Blues Gold Star+"
+        "Gibraltar Varsity Blues",
+        "Gibraltar Gold Star +"
       ],
       "free": []
     },
     "level_41": {
       "premium": [
-        "Emote Pumped and Ready XP Boost [xp 1]"
+        "Newcastle Cosmetic Emote Pumped and Ready",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
     "level_42": {
       "premium": [
-        "Kill Quip: You've gonna learn more"
+        "Newcastle Quip Kill Quip : You've gonna learn more"
       ],
       "free": [
-        "Rule Breaker"
+        "Alter Rule Breaker"
       ]
     },
     "level_43": {
       "premium": [
-        "Sticker Shock"
+        "Alternator SMG Sticker Shock"
       ],
       "free": []
     },
@@ -290,19 +307,19 @@
     },
     "level_45": {
       "premium": [
-        "Send It!"
+        "Holospray Send It!"
       ],
       "free": []
     },
     "level_46": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_47": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": [
         "Apex Pack"
@@ -310,27 +327,27 @@
     },
     "level_48": {
       "premium": [
-        "Late Night"
+        "Banner Frame Late Night"
       ],
       "free": []
     },
     "level_49": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_50": {
       "premium": [
-        "Overachiever"
+        "Newcastle Overachiever"
       ],
       "free": [
-        "100"
+        "Apex Coins 100"
       ]
     },
     "level_51": {
       "premium": [
-        "Fluffball"
+        "Holospray Fluffball"
       ],
       "free": [
         "Apex Pack"
@@ -338,19 +355,19 @@
     },
     "level_52": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_53": {
       "premium": [
-        "Return To Sender"
+        "Bloodhound Skydive Emote Return To Sender"
       ],
       "free": []
     },
     "level_54": {
       "premium": [
-        "Loud and Proud"
+        "Devotion LMG Loud and Proud"
       ],
       "free": []
     },
@@ -359,18 +376,19 @@
         "Apex Pack"
       ],
       "free": [
-        "Alternative Studies"
+        "Banner Frame Alternative Studies"
       ]
     },
     "level_56": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_57": {
       "premium": [
-        "200 Doodle Dreams"
+        "Crafting Metals 200",
+        "Banner Frame Doodle Dreams"
       ],
       "free": []
     },
@@ -384,16 +402,15 @@
     },
     "level_59": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_60": {
       "premium": [
-        "Shatter Core"
+        "Nemesis Burst AR Shatter Core"
       ],
       "free": []
     }
-  },
-  "split": 2
+  }
 }

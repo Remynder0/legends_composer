@@ -1,36 +1,39 @@
 {
-  "season": 23,
+  "season": "23_2",
   "max_level": 60,
   "rewards": {
     "level_1": {
       "premium": [
-        "Bubblegum Flare Star Chomp Happy Valley Adventure XP Boost [xp 1]"
+        "Mad Maggie Bubblegum Flare",
+        "HAVOC Rifle Star Chomp",
+        "Banner Frame Happy Valley Adventure",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
     "level_2": {
       "premium": [
-        "Hands Off"
+        "Holospray Hands Off"
       ],
       "free": [
-        "Mirror Mirror"
+        "Transition Mirror Mirror"
       ]
     },
     "level_3": {
       "premium": [
-        "Kill Quip: It's not fair, I know"
+        "Wattson Quip Kill Quip : It's not fair, I know"
       ],
       "free": []
     },
     "level_4": {
       "premium": [
-        "Emote Robotic Groove"
+        "Pathfinder Cosmetic Emote Robotic Groove"
       ],
       "free": []
     },
     "level_5": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
         "Apex Pack"
@@ -38,24 +41,26 @@
     },
     "level_6": {
       "premium": [
-        "Paw Patroller - Top Paw Patroller - Middle Paw Patroller - Bottom"
+        "Stat Tracker Paw Patroller - Top",
+        "Stat Tracker Paw Patroller - Middle",
+        "Stat Tracker Paw Patroller - Bottom"
       ],
       "free": []
     },
     "level_7": {
       "premium": [
-        "Paw Prize"
+        "Banner Frame Paw Prize"
       ],
       "free": [
-        "From the Rift Split 2"
+        "Music Pack From the Rift Split 2"
       ]
     },
     "level_8": {
       "premium": [
-        "Paw Powered"
+        "Mastiff Shotgun Paw Powered"
       ],
       "free": [
-        "100"
+        "Apex Coins 100"
       ]
     },
     "level_9": {
@@ -66,37 +71,39 @@
     },
     "level_10": {
       "premium": [
-        "Paw Patroller Catfinder+"
+        "Pathfinder Paw Patroller",
+        "Pathfinder Catfinder +"
       ],
       "free": []
     },
     "level_11": {
       "premium": [
-        "Nothing Personal XP Boost [xp 1]"
+        "Holospray Nothing Personal",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
     "level_12": {
       "premium": [
-        "Happy Tea Time"
+        "Banner Frame Happy Tea Time"
       ],
       "free": []
     },
     "level_13": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_14": {
       "premium": [
-        "It's Just You and Me Friend"
+        "Holospray It's Just You and Me Friend"
       ],
       "free": []
     },
     "level_15": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": [
         "Apex Pack"
@@ -104,7 +111,7 @@
     },
     "level_16": {
       "premium": [
-        "Butterfly Beauty"
+        "Longbow DMR Butterfly Beauty"
       ],
       "free": []
     },
@@ -116,27 +123,29 @@
     },
     "level_18": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_19": {
       "premium": [
-        "Mecha Mate"
+        "Sticker Mecha Mate"
       ],
       "free": [
-        "Emote Big Shame"
+        "Gibraltar Cosmetic Emote Big Shame"
       ]
     },
     "level_20": {
       "premium": [
-        "Sherbet Sunset 10+"
+        "Loba Sherbet Sunset",
+        "Exotic Shards 10 +"
       ],
       "free": []
     },
     "level_21": {
       "premium": [
-        "Pet Pals XP Boost [xp 1]"
+        "Banner Frame Pet Pals",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
@@ -148,27 +157,27 @@
     },
     "level_23": {
       "premium": [
-        "Dino Snacks"
+        "P2020 Dino Snacks"
       ],
       "free": []
     },
     "level_24": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": [
-        "Cheese"
+        "Holospray Cheese"
       ]
     },
     "level_25": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_26": {
       "premium": [
-        "In-flight Misfire"
+        "Crypto Skydive Emote In-flight Misfire"
       ],
       "free": [
         "Apex Pack"
@@ -182,25 +191,27 @@
     },
     "level_28": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": []
     },
     "level_29": {
       "premium": [
-        "Emote Running Man Mags"
+        "Mad Maggie Cosmetic Emote Running Man Mags"
       ],
       "free": []
     },
     "level_30": {
       "premium": [
-        "10 Legend's Best Friend"
+        "Exotic Shards 10",
+        "C.A.R. SMG Legend's Best Friend"
       ],
       "free": []
     },
     "level_31": {
       "premium": [
-        "100 XP Boost [xp 1]"
+        "Apex Coins 100",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
@@ -209,38 +220,40 @@
         "Little E-Reader"
       ],
       "free": [
-        "Shark Attack"
+        "Rampage LMG Shark Attack"
       ]
     },
     "level_33": {
       "premium": [
-        "Nighttime Nessie - Top Nighttime Nessie - Middle Nighttime Nessie - Bottom"
+        "Stat Tracker Nighttime Nessie - Top",
+        "Stat Tracker Nighttime Nessie - Middle",
+        "Stat Tracker Nighttime Nessie - Bottom"
       ],
       "free": []
     },
     "level_34": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "Dance Encounter"
+        "Transition Dance Encounter"
       ]
     },
     "level_35": {
       "premium": [
-        "Nessinator"
+        "Alternator SMG Nessinator"
       ],
       "free": []
     },
     "level_36": {
       "premium": [
-        "Nessie Dreamland"
+        "Banner Frame Nessie Dreamland"
       ],
       "free": []
     },
     "level_37": {
       "premium": [
-        "Luminous Love"
+        "Sticker Luminous Love"
       ],
       "free": []
     },
@@ -252,7 +265,7 @@
     },
     "level_39": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": [
         "Apex Pack"
@@ -260,25 +273,27 @@
     },
     "level_40": {
       "premium": [
-        "Nighttime Nessie Heart Signal+"
+        "Wattson Nighttime Nessie",
+        "Wattson Heart Signal +"
       ],
       "free": []
     },
     "level_41": {
       "premium": [
-        "Emote Higher Devotion XP Boost [xp 1]"
+        "Bloodhound Cosmetic Emote Higher Devotion",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
     "level_42": {
       "premium": [
-        "Kill Quip: My Task is far from done"
+        "Bloodhound Quip Kill Quip : My Task is far from done"
       ],
       "free": []
     },
     "level_43": {
       "premium": [
-        "Loch-ed On"
+        "Bocek Compound Bow Loch-ed On"
       ],
       "free": [
         "Apex Pack"
@@ -286,7 +301,7 @@
     },
     "level_44": {
       "premium": [
-        "Come Geta"
+        "Holospray Come Geta"
       ],
       "free": []
     },
@@ -295,24 +310,24 @@
         "Apex Pack"
       ],
       "free": [
-        "Shark Bite"
+        "Gibraltar Shark Bite"
       ]
     },
     "level_46": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_47": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": []
     },
     "level_48": {
       "premium": [
-        "Spa Day"
+        "Banner Frame Spa Day"
       ],
       "free": [
         "Bessie"
@@ -320,21 +335,21 @@
     },
     "level_49": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_50": {
       "premium": [
-        "Dino Camouflage"
+        "Bloodhound Dino Camouflage"
       ],
       "free": [
-        "100"
+        "Apex Coins 100"
       ]
     },
     "level_51": {
       "premium": [
-        "Let Me Do It For You"
+        "Holospray Let Me Do It For You"
       ],
       "free": [
         "Apex Pack"
@@ -342,19 +357,19 @@
     },
     "level_52": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_53": {
       "premium": [
-        "Tired Dive"
+        "Wraith Skydive Emote Tired Dive"
       ],
       "free": []
     },
     "level_54": {
       "premium": [
-        "Outfoxed"
+        "Flatline Outfoxed"
       ],
       "free": []
     },
@@ -363,18 +378,19 @@
         "Apex Pack"
       ],
       "free": [
-        "Pixel Pet"
+        "Gibraltar Banner Frame Pixel Pet"
       ]
     },
     "level_56": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_57": {
       "premium": [
-        "200 Sweet Merch"
+        "Crafting Metals 200",
+        "Banner Frame Sweet Merch"
       ],
       "free": []
     },
@@ -394,10 +410,9 @@
     },
     "level_60": {
       "premium": [
-        "Ol' Nessie"
+        "Mozambique Shotgun Ol' Nessie"
       ],
       "free": []
     }
-  },
-  "split": 2
+  }
 }

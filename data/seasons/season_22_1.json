@@ -1,16 +1,19 @@
 {
-  "season": 22,
+  "season": "22_1",
   "max_level": 60,
   "rewards": {
     "level_1": {
       "premium": [
-        "Vapor Wave Wave Raver Arcade Space XP Boost [xp 1]"
+        "Pathfinder Vapor Wave",
+        "Volt SMG Wave Raver",
+        "Banner Frame Arcade Space",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
     "level_2": {
       "premium": [
-        "The Equalizer"
+        "Mastiff Shotgun The Equalizer"
       ],
       "free": [
         "Transition What's Your E?"
@@ -18,13 +21,14 @@
     },
     "level_3": {
       "premium": [
-        "200 Pathfinder Pack"
+        "Crafting Metals 200",
+        "Pathfinder Apex Pack Pathfinder Pack"
       ],
       "free": []
     },
     "level_4": {
       "premium": [
-        "Hot Stuff"
+        "Fuse Holospray Hot Stuff"
       ],
       "free": [
         "Apex Pack"
@@ -32,30 +36,32 @@
     },
     "level_5": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_6": {
       "premium": [
-        "Smooth Rider - Top Smooth Rider - Middle Smooth Rider - Bottom"
+        "Stat Tracker Smooth Rider - Top",
+        "Stat Tracker Smooth Rider - Middle",
+        "Stat Tracker Smooth Rider - Bottom"
       ],
       "free": []
     },
     "level_7": {
       "premium": [
-        "Emote: Uppercut"
+        "Fuse Emote : Uppercut"
       ],
       "free": [
-        "Shockwave Split 1"
+        "Music Pack Shockwave Split 1"
       ]
     },
     "level_8": {
       "premium": [
-        "Training Simulator"
+        "Banner Frame Training Simulator"
       ],
       "free": [
-        "100"
+        "Apex Coins 100"
       ]
     },
     "level_9": {
@@ -66,25 +72,27 @@
     },
     "level_10": {
       "premium": [
-        "Smooth Rider Neon Demon[+ 1]"
+        "Fuse Smooth Rider",
+        "Fuse Neon Demon [ + 1 ]"
       ],
       "free": []
     },
     "level_11": {
       "premium": [
-        "You Got Shredded XP Boost [xp 1]"
+        "Holospray You Got Shredded",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
     "level_12": {
       "premium": [
-        "Arcade Overload"
+        "Banner Frame Arcade Overload"
       ],
       "free": []
     },
     "level_13": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
         "Kawaii Dangerous"
@@ -92,7 +100,8 @@
     },
     "level_14": {
       "premium": [
-        "Apex Pack 200"
+        "Apex Pack",
+        "Crafting Metals 200"
       ],
       "free": []
     },
@@ -104,7 +113,7 @@
     },
     "level_16": {
       "premium": [
-        "Shattered Pixels"
+        "Wingman Shattered Pixels"
       ],
       "free": []
     },
@@ -116,15 +125,17 @@
     },
     "level_18": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": [
-        "In The Zone"
+        "Rampart Holospray In The Zone"
       ]
     },
     "level_19": {
       "premium": [
-        "Kill Quip: Have you seen my fanart? 100 Falling For You"
+        "Mirage Quip Kill Quip : Have you seen my fanart?",
+        "Apex Coins 100",
+        "Mirage Skydive Emote Falling For You"
       ],
       "free": [
         "Apex Pack"
@@ -132,13 +143,15 @@
     },
     "level_20": {
       "premium": [
-        "10[+ 1] Light Show"
+        "Exotic Shards 10 [ + 1 ]",
+        "Mirage Light Show"
       ],
       "free": []
     },
     "level_21": {
       "premium": [
-        "Neon Classic XP Boost [xp 1]"
+        "Banner Frame Neon Classic",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
@@ -150,33 +163,33 @@
     },
     "level_23": {
       "premium": [
-        "Night Glider"
+        "Alternator SMG Night Glider"
       ],
       "free": []
     },
     "level_24": {
       "premium": [
-        "Smooth Move"
+        "Sticker Smooth Move"
       ],
       "free": []
     },
     "level_25": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": [
-        "Emote Sheila Shuffle"
+        "Rampart Cosmetic Emote Sheila Shuffle"
       ]
     },
     "level_26": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_27": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": [
         "Apex Pack"
@@ -184,7 +197,7 @@
     },
     "level_28": {
       "premium": [
-        "Pump It Up"
+        "Holospray Pump It Up"
       ],
       "free": []
     },
@@ -196,53 +209,60 @@
     },
     "level_30": {
       "premium": [
-        "10 Turning to Custard"
+        "Exotic Shards 10",
+        "Peacekeeper Turning to Custard"
       ],
       "free": []
     },
     "level_31": {
       "premium": [
-        "100 XP Boost [xp 1]"
+        "Apex Coins 100",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
     "level_32": {
       "premium": [
-        "Kill Quip: If this were a beauty contest... well 200"
+        "Loba Quip Kill Quip : If this were a beauty contest... well",
+        "Crafting Metals 200"
       ],
       "free": [
-        "Neon Sky"
+        "Triple Take Neon Sky"
       ]
     },
     "level_33": {
       "premium": [
-        "Cherry Bomb - Top Cherry Bomb - Middle Cherry Bomb - Bottom"
+        "Stat Tracker Cherry Bomb - Top",
+        "Stat Tracker Cherry Bomb - Middle",
+        "Stat Tracker Cherry Bomb - Bottom"
       ],
       "free": []
     },
     "level_34": {
       "premium": [
-        "100 Apex Pack"
+        "Apex Coins 100",
+        "Apex Pack"
       ],
       "free": []
     },
     "level_35": {
       "premium": [
-        "Personal Touch"
+        "Flatline Personal Touch"
       ],
       "free": []
     },
     "level_36": {
       "premium": [
-        "200 Outpace"
+        "Crafting Metals 200",
+        "Banner Frame Outpace"
       ],
       "free": [
-        "Secret Recipe"
+        "Transition Secret Recipe"
       ]
     },
     "level_37": {
       "premium": [
-        "Emote Curtsy"
+        "Loba Cosmetic Emote Curtsy"
       ],
       "free": []
     },
@@ -254,7 +274,7 @@
     },
     "level_39": {
       "premium": [
-        "I Don't Miss"
+        "Holospray I Don't Miss"
       ],
       "free": [
         "Apex Pack"
@@ -262,19 +282,22 @@
     },
     "level_40": {
       "premium": [
-        "Demon Claws[+ 1] Cherry Bomb"
+        "Loba Demon Claws [ + 1 ]",
+        "Loba Cherry Bomb"
       ],
       "free": []
     },
     "level_41": {
       "premium": [
-        "Arcade Burst XP Boost [xp 1]"
+        "Banner Frame Arcade Burst",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
     "level_42": {
       "premium": [
-        "Apex Pack 200"
+        "Apex Pack",
+        "Crafting Metals 200"
       ],
       "free": []
     },
@@ -283,12 +306,13 @@
         "Apex Pack"
       ],
       "free": [
-        "Acid Reign"
+        "EVA-8 Auto Acid Reign"
       ]
     },
     "level_44": {
       "premium": [
-        "In My Lane 200"
+        "Holospray In My Lane",
+        "Crafting Metals 200"
       ],
       "free": []
     },
@@ -297,44 +321,46 @@
         "Apex Pack"
       ],
       "free": [
-        "Pop Star"
+        "Rampart Pop Star"
       ]
     },
     "level_46": {
       "premium": [
-        "100 Alter Pack"
+        "Apex Coins 100",
+        "Alter Apex Pack Alter Pack"
       ],
       "free": []
     },
     "level_47": {
       "premium": [
-        "Cherry Kiss 200"
+        "Sticker Cherry Kiss",
+        "Crafting Metals 200"
       ],
       "free": []
     },
     "level_48": {
       "premium": [
-        "Emote Void Guitar"
+        "Alter Cosmetic Emote Void Guitar"
       ],
       "free": [
-        "100"
+        "Apex Coins 100"
       ]
     },
     "level_49": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_50": {
       "premium": [
-        "Void Dipped"
+        "Alter Void Dipped"
       ],
       "free": []
     },
     "level_51": {
       "premium": [
-        "Gamer's Paradise"
+        "Banner Frame Gamer's Paradise"
       ],
       "free": [
         "Apex Pack"
@@ -342,19 +368,20 @@
     },
     "level_52": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_53": {
       "premium": [
-        "Spin Cycle 200"
+        "Bangalore Skydive Emote Spin Cycle",
+        "Crafting Metals 200"
       ],
       "free": []
     },
     "level_54": {
       "premium": [
-        "Heat of The Night"
+        "M600 Spitfire Heat of The Night"
       ],
       "free": []
     },
@@ -363,18 +390,18 @@
         "Apex Pack"
       ],
       "free": [
-        "Bubble Champion"
+        "Banner Frame Bubble Champion"
       ]
     },
     "level_56": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_57": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": []
     },
@@ -386,7 +413,7 @@
     },
     "level_59": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
         "Apex Pack"
@@ -394,10 +421,9 @@
     },
     "level_60": {
       "premium": [
-        "Hunter's Best Friend"
+        "P2020 Hunter's Best Friend"
       ],
       "free": []
     }
-  },
-  "split": 1
+  }
 }

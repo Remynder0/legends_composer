@@ -8,12 +8,14 @@ import TabProbabilities from './components/tabs/TabProbabilities.vue'
 import TabSimulation from './components/tabs/TabSimulation.vue'
 import TabStats from './components/tabs/TabStats.vue'
 import TabSort from './components/tabs/TabSort.vue'
+import TabBattlePass from './components/tabs/TabBattlePass.vue'
 
 const currentTab = ref('TeamGen')
 
 const tabs = [
   { id: 'TeamGen', name: 'Liaison & Déploie.', component: TabTeamGen },
   { id: 'PackCalculator', name: 'Heirloom Tracker', component: TabPackCalculator },
+  { id: 'BattlePass', name: 'Battle Pass', component: TabBattlePass },
   { id: 'Probabilities', name: 'Analyse Prédic.', component: TabProbabilities },
   { id: 'Simulation', name: 'Simulation', component: TabSimulation },
   { id: 'Stats', name: 'Data Logs', component: TabStats },
@@ -64,10 +66,17 @@ onMounted(async () => {
         </div>
       </div>
       
-      <div v-else class="flex-1 p-8 overflow-hidden h-full">
-        <KeepAlive>
-            <component :is="tabs.find(t => t.id === currentTab)?.component" />
-        </KeepAlive>
+      <div v-else class="flex-1 p-8 overflow-hidden h-full flex flex-col">
+        <div class="flex-1 min-h-0 relative">
+          <KeepAlive>
+              <component :is="tabs.find(t => t.id === currentTab)?.component" />
+          </KeepAlive>
+        </div>
+        
+        <footer class="mt-4 pt-2 border-t border-titan-border/30 text-center text-gray-500/70 text-[10px] font-mono leading-tight shrink-0">
+          Ce site est un projet communautaire non officiel et n'est ni affilié, ni sponsorisé, ni approuvé par Electronic Arts Inc. ou Respawn Entertainment.<br/>
+          Apex Legends et tous les éléments liés sont des marques déposées de leurs propriétaires respectifs.
+        </footer>
       </div>
     </main>
 

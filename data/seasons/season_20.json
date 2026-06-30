@@ -1,31 +1,37 @@
 {
-  "season": 20,
+  "season": "20",
   "max_level": 110,
   "rewards": {
     "level_1": {
       "premium": [
-        "Green Machine Neon Techwear Dead Link Teal Energizer XP Boost [1]"
+        "Fuse Green Machine",
+        "Crypto Neon Techwear",
+        "Ash Dead Link",
+        "Triple Take Teal Energizer",
+        "XP Boost [ 1 ]"
       ],
       "free": [
-        "Cheers"
+        "Transition Cheers"
       ]
     },
     "level_2": {
       "premium": [
-        "Air Walker"
+        "Wraith Skydive Emote Air Walker"
       ],
       "free": []
     },
     "level_3": {
-      "premium": [],
+      "premium": [
+        "Apex Coins"
+      ],
       "free": []
     },
     "level_4": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": [
-        "Breakout"
+        "Music Pack Breakout"
       ]
     },
     "level_5": {
@@ -33,12 +39,12 @@
         "Apex Pack"
       ],
       "free": [
-        "100"
+        "Apex Coins 100"
       ]
     },
     "level_6": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": [
         "Firey Shuriken"
@@ -54,105 +60,105 @@
     },
     "level_8": {
       "premium": [
-        "Dire Attack"
+        "30-30 Repeater Dire Attack"
       ],
       "free": [
-        "Dire Attack"
+        "Mozambique Shotgun Dire Attack"
       ]
     },
     "level_9": {
       "premium": [
-        "Kill Quip: Wasn't one for the history books"
+        "Horizon Quip Kill Quip : Wasn't one for the history books"
       ],
       "free": []
     },
     "level_10": {
       "premium": [
-        "Quiet as a mouse"
+        "Sticker Quiet as a mouse"
       ],
       "free": [
-        "Moth to the Spotlight"
+        "Seer Banner Frame Moth to the Spotlight"
       ]
     },
     "level_11": {
       "premium": [
-        "Star Struck"
+        "Horizon Banner Frame Star Struck"
       ],
       "free": [
-        "Great Minds"
+        "Transition Great Minds"
       ]
     },
     "level_12": {
       "premium": [
-        "Emote Dramatic Entrance"
+        "Conduit Cosmetic Emote Dramatic Entrance"
       ],
       "free": []
     },
     "level_13": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": [
-        "Toxic Bite"
+        "Nemesis Burst AR Toxic Bite"
       ]
     },
     "level_14": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": [
-        "Season 20 Wins as Bloodhound"
+        "Bloodhound Stat Tracker Season 20 Wins as Bloodhound"
       ]
     },
     "level_15": {
       "premium": [
-        "Kills as Bangalore"
+        "Bangalore Stat Tracker Kills as Bangalore"
       ],
       "free": [
-        "Season 20 Wins as Bloodhound"
+        "Bloodhound Stat Tracker Season 20 Wins as Bloodhound"
       ]
     },
     "level_16": {
       "premium": [
-        "Wins as Bangalore"
+        "Bangalore Stat Tracker Wins as Bangalore"
       ],
       "free": []
     },
     "level_17": {
       "premium": [
-        "Damage Done as Bangalore"
+        "Bangalore Stat Tracker Damage Done as Bangalore"
       ],
       "free": [
-        "CMYK"
+        "Alternator SMG CMYK"
       ]
     },
     "level_18": {
       "premium": [
-        "Night Prowler"
+        "Bangalore Banner Frame Night Prowler"
       ],
       "free": [
-        "Season 20 Kills as Crypto"
+        "Crypto Stat Tracker Season 20 Kills as Crypto"
       ]
     },
     "level_19": {
       "premium": [
-        "Smoke's Out"
+        "Bangalore Holospray Smoke's Out"
       ],
       "free": [
-        "Boomtastic"
+        "Crypto Stat Tracker Boomtastic"
       ]
     },
     "level_20": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": [
-        "Boomtastic"
+        "Fuse Banner Frame Boomtastic"
       ]
     },
     "level_21": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
         "Apex Pack"
@@ -160,18 +166,18 @@
     },
     "level_22": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": [
-        "Season 20 Wins as Bangalore"
+        "Bangalore Stat Tracker Season 20 Wins as Bangalore"
       ]
     },
     "level_23": {
       "premium": [
-        "Kill Quip: Get back to the sidelines"
+        "Bangalore Quip Kill Quip : Get back to the sidelines"
       ],
       "free": [
-        "Season 20 Kills as Bangalore"
+        "Bangalore Stat Tracker Season 20 Kills as Bangalore"
       ]
     },
     "level_24": {
@@ -182,64 +188,64 @@
     },
     "level_25": {
       "premium": [
-        "Sand and Rust"
+        "Bangalore Sand and Rust"
       ],
       "free": [
-        "Feral Fuchsia"
+        "Volt SMG Feral Fuchsia"
       ]
     },
     "level_26": {
       "premium": [
-        "Dire Attack"
+        "M600 Spitfire Dire Attack"
       ],
       "free": []
     },
     "level_27": {
       "premium": [
-        "Emote Dramatic Entrance"
+        "Octane Cosmetic Emote Dramatic Entrance"
       ],
       "free": [
-        "Season 20 Kills as Ash"
+        "Ash Stat Tracker Season 20 Kills as Ash"
       ]
     },
     "level_28": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": [
-        "Season 20 Wins as Ash"
+        "Ash Stat Tracker Season 20 Wins as Ash"
       ]
     },
     "level_29": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "Cerulean Fury"
+        "HAVOC Rifle Cerulean Fury"
       ]
     },
     "level_30": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": [
-        "Bang! Bang! Bang!"
+        "Rampart Banner Frame Bang! Bang! Bang!"
       ]
     },
     "level_31": {
       "premium": [
-        "Kill Quip: You Succeeded in disappointing me"
+        "Ash Quip Kill Quip : You Succeeded in disappointing me"
       ],
       "free": [
-        "Season 20 Wins as Horizon"
+        "Horizon Stat Tracker Season 20 Wins as Horizon"
       ]
     },
     "level_32": {
       "premium": [
-        "Electroneural"
+        "Ash Banner Frame Electroneural"
       ],
       "free": [
-        "Season 20 Kills as Horizon"
+        "Horizon Stat Tracker Season 20 Kills as Horizon"
       ]
     },
     "level_33": {
@@ -247,42 +253,42 @@
         "Neon Dagger"
       ],
       "free": [
-        "Toxic Bite"
+        "RE-45 Auto Toxic Bite"
       ]
     },
     "level_34": {
       "premium": [
-        "Toxic Bite"
+        "C.A.R. SMG Toxic Bite"
       ],
       "free": []
     },
     "level_35": {
       "premium": [
-        "Leave a Mark"
+        "Holospray Leave a Mark"
       ],
       "free": [
-        "Season 20 Kills as Wraith"
+        "Wraith Stat Tracker Season 20 Kills as Wraith"
       ]
     },
     "level_36": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": [
-        "Dire Attack"
+        "Wraith Stat Tracker Dire Attack"
       ]
     },
     "level_37": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "Dire Attack"
+        "Hemlok Burst AR Dire Attack"
       ]
     },
     "level_38": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": []
     },
@@ -296,88 +302,88 @@
     },
     "level_40": {
       "premium": [
-        "Kill Quip: I'd call you a hack"
+        "Crypto Quip Kill Quip : I'd call you a hack"
       ],
       "free": [
-        "Televised Revolution"
+        "Mad Maggie Banner Frame Televised Revolution"
       ]
     },
     "level_41": {
       "premium": [
-        "Let's Go"
+        "Crypto Holospray Let's Go"
       ],
       "free": [
-        "Season 20 Wins as Newcastle"
+        "Newcastle Stat Tracker Season 20 Wins as Newcastle"
       ]
     },
     "level_42": {
       "premium": [
-        "CMYK"
+        "Sentinel CMYK"
       ],
       "free": [
-        "Season 20 Kills as Newcastle"
+        "Newcastle Stat Tracker Season 20 Kills as Newcastle"
       ]
     },
     "level_43": {
       "premium": [
-        "Lock Breaker"
+        "Crypto Banner Frame Lock Breaker"
       ],
       "free": [
-        "Season 20 Wins as Pathfinder"
+        "Pathfinder Stat Tracker Season 20 Wins as Pathfinder"
       ]
     },
     "level_44": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": [
-        "Season 20 Kills as Pathfinder"
+        "Pathfinder Stat Tracker Season 20 Kills as Pathfinder"
       ]
     },
     "level_45": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "Project {Redacted} Terminated"
+        "Transition Project {Redacted} Terminated"
       ]
     },
     "level_46": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": []
     },
     "level_47": {
       "premium": [
-        "Kills as Lifeline"
+        "Lifeline Stat Tracker Kills as Lifeline"
       ],
       "free": [
-        "Feral Fuchsia"
+        "Mastiff Shotgun Feral Fuchsia"
       ]
     },
     "level_48": {
       "premium": [
-        "Wins as Lifeline"
+        "Lifeline Stat Tracker Wins as Lifeline"
       ],
       "free": [
-        "Season 20 Wins as Lifeline"
+        "Lifeline Stat Tracker Season 20 Wins as Lifeline"
       ]
     },
     "level_49": {
       "premium": [
-        "Damage Done as Lifeline"
+        "Lifeline Stat Tracker Damage Done as Lifeline"
       ],
       "free": [
-        "Season 20 Kills as Lifeline"
+        "Lifeline Stat Tracker Season 20 Kills as Lifeline"
       ]
     },
     "level_50": {
       "premium": [
-        "Code Blue"
+        "Lifeline Code Blue"
       ],
       "free": [
-        "Mine All Mine"
+        "Loba Banner Frame Mine All Mine"
       ]
     },
     "level_51": {
@@ -385,59 +391,59 @@
         "Tanto"
       ],
       "free": [
-        "Hype"
+        "Music Pack Hype"
       ]
     },
     "level_52": {
       "premium": [
-        "Cerulean Fury"
+        "G7 Scout Cerulean Fury"
       ],
       "free": []
     },
     "level_53": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": [
-        "Toxic Bite"
+        "Charge Rifle Toxic Bite"
       ]
     },
     "level_54": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": [
-        "Season 20 Wins as Conduit"
+        "Conduit Stat Tracker Season 20 Wins as Conduit"
       ]
     },
     "level_55": {
       "premium": [
-        "Killer Medicine"
+        "Lifeline Banner Frame Killer Medicine"
       ],
       "free": [
-        "Season 20 Kills as Conduit"
+        "Conduit Stat Tracker Season 20 Kills as Conduit"
       ]
     },
     "level_56": {
       "premium": [
-        "Kill Quip: Join my squad next time"
+        "Lifeline Quip Kill Quip : Join my squad next time"
       ],
       "free": []
     },
     "level_57": {
       "premium": [
-        "Ice Cold"
+        "Lifeline Holospray Ice Cold"
       ],
       "free": [
-        "Electric Stripes"
+        "Pathfinder Electric Stripes"
       ]
     },
     "level_58": {
       "premium": [
-        "CMYK"
+        "Wingman CMYK"
       ],
       "free": [
-        "Season 20 Wins as Catalyst"
+        "Catalyst Stat Tracker Season 20 Wins as Catalyst"
       ]
     },
     "level_59": {
@@ -445,20 +451,20 @@
         "Apex Pack"
       ],
       "free": [
-        "Season 20 Kills as Catalyst"
+        "Catalyst Stat Tracker Season 20 Kills as Catalyst"
       ]
     },
     "level_60": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": [
-        "Amazing Aviation"
+        "Valkyrie Banner Frame Amazing Aviation"
       ]
     },
     "level_61": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
         "Apex Pack"
@@ -466,7 +472,7 @@
     },
     "level_62": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": []
     },
@@ -475,28 +481,28 @@
         "Apex Pack"
       ],
       "free": [
-        "Feral Fuchsia"
+        "EVA-8 Auto Feral Fuchsia"
       ]
     },
     "level_64": {
       "premium": [
-        "Emote Great Minds Recline"
+        "Horizon Cosmetic Emote Great Minds Recline"
       ],
       "free": [
-        "Season 20 Wins as Mad Maggie"
+        "Mad Maggie Stat Tracker Season 20 Wins as Mad Maggie"
       ]
     },
     "level_65": {
       "premium": [
-        "Hazardous"
+        "R-99 SMG Hazardous"
       ],
       "free": [
-        "Season 20 Kills as Mad Maggie"
+        "Mad Maggie Stat Tracker Season 20 Kills as Mad Maggie"
       ]
     },
     "level_66": {
       "premium": [
-        "Kill Quip: I Keep my shields full"
+        "Conduit Quip Kill Quip : I Keep my shields full"
       ],
       "free": [
         "Apex Pack"
@@ -504,34 +510,34 @@
     },
     "level_67": {
       "premium": [
-        "Moonlight Ferrocity"
+        "Catalyst Banner Frame Moonlight Ferrocity"
       ],
       "free": [
-        "Season 20 Wins as Mirage"
+        "Mirage Stat Tracker Season 20 Wins as Mirage"
       ]
     },
     "level_68": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": [
-        "Season 20 Kills as Mirage"
+        "Mirage Stat Tracker Season 20 Kills as Mirage"
       ]
     },
     "level_69": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "Cerulean Fury"
+        "L-STAR EMG Cerulean Fury"
       ]
     },
     "level_70": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": [
-        "Season 20 Wins as Rampart"
+        "Rampart Stat Tracker Season 20 Wins as Rampart"
       ]
     },
     "level_71": {
@@ -539,50 +545,50 @@
         "Chopped Cheddar"
       ],
       "free": [
-        "Season 20 Kills as Rampart"
+        "Rampart Stat Tracker Season 20 Kills as Rampart"
       ]
     },
     "level_72": {
       "premium": [
-        "Wasabi Wolf"
+        "Rampage LMG Wasabi Wolf"
       ],
       "free": [
-        "Season 20 Wins as Fuse"
+        "Fuse Stat Tracker Season 20 Wins as Fuse"
       ]
     },
     "level_73": {
       "premium": [
-        "Kill Quip: I'd heard you were a hard bastard"
+        "Fuse Quip Kill Quip : I'd heard you were a hard bastard"
       ],
       "free": [
-        "Season 20 Kills as Fuse"
+        "Fuse Stat Tracker Season 20 Kills as Fuse"
       ]
     },
     "level_74": {
       "premium": [
-        "Light the Fuse"
+        "Fuse Holospray Light the Fuse"
       ],
       "free": []
     },
     "level_75": {
       "premium": [
-        "Digital Ordnance"
+        "Fuse Banner Frame Digital Ordnance"
       ],
       "free": [
-        "Season 20 Wins as Caustic"
+        "Caustic Stat Tracker Season 20 Wins as Caustic"
       ]
     },
     "level_76": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": [
-        "Season 20 Kills as Caustic"
+        "Caustic Stat Tracker Season 20 Kills as Caustic"
       ]
     },
     "level_77": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
         "Apex Pack"
@@ -590,48 +596,48 @@
     },
     "level_78": {
       "premium": [
-        "Wasabi Wolf"
+        "R-99 SMG Wasabi Wolf"
       ],
       "free": [
-        "Season 20 Wins as Valkyrie"
+        "Valkyrie Stat Tracker Season 20 Wins as Valkyrie"
       ]
     },
     "level_79": {
       "premium": [
-        "Smoke and Decoys"
+        "Mirage Banner Frame Smoke and Decoys"
       ],
       "free": [
-        "Season 20 Kills as Valkyrie"
+        "Valkyrie Stat Tracker Season 20 Kills as Valkyrie"
       ]
     },
     "level_80": {
       "premium": [
-        "Dummie of the Blade"
+        "Sticker Dummie of the Blade"
       ],
       "free": [
-        "Season 20 Wins as Wattson"
+        "Wattson Stat Tracker Season 20 Wins as Wattson"
       ]
     },
     "level_81": {
       "premium": [
-        "Shield Up"
+        "Holospray Shield Up"
       ],
       "free": [
-        "Season 20 Kills as Wattson"
+        "Wattson Stat Tracker Season 20 Kills as Wattson"
       ]
     },
     "level_82": {
       "premium": [
-        "Emote Gas Giant"
+        "Caustic Cosmetic Emote Gas Giant"
       ],
       "free": []
     },
     "level_83": {
       "premium": [
-        "Kill Quip: I seek only victory"
+        "Bloodhound Quip Kill Quip : I seek only victory"
       ],
       "free": [
-        "Season 20 Wins as Revenant"
+        "Revenant Stat Tracker Season 20 Wins as Revenant"
       ]
     },
     "level_84": {
@@ -639,12 +645,12 @@
         "Apex Pack"
       ],
       "free": [
-        "Season 20 Kills as Revenant"
+        "Revenant Stat Tracker Season 20 Kills as Revenant"
       ]
     },
     "level_85": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
         "Apex Pack"
@@ -652,10 +658,10 @@
     },
     "level_86": {
       "premium": [
-        "No Will, No Way"
+        "Transition No Will, No Way"
       ],
       "free": [
-        "Season 20 Wins as Octane"
+        "Octane Stat Tracker Season 20 Wins as Octane"
       ]
     },
     "level_87": {
@@ -663,37 +669,37 @@
         "Apex Pack"
       ],
       "free": [
-        "Season 20 Kills as Octane"
+        "Octane Stat Tracker Season 20 Kills as Octane"
       ]
     },
     "level_88": {
       "premium": [
-        "Echo of Pain"
+        "Vantage Banner Frame Echo of Pain"
       ],
       "free": [
-        "Season 20 Wins as Seer"
+        "Seer Stat Tracker Season 20 Wins as Seer"
       ]
     },
     "level_89": {
       "premium": [
-        "Toxic Bite"
+        "Kraber .50-Cal Sniper Toxic Bite"
       ],
       "free": [
-        "Season 20 Kills as Seer"
+        "Seer Stat Tracker Season 20 Kills as Seer"
       ]
     },
     "level_90": {
       "premium": [
-        "Emote Time Out"
+        "Fuse Cosmetic Emote Time Out"
       ],
       "free": []
     },
     "level_91": {
       "premium": [
-        "Kill Quip: You did good kid"
+        "Mirage Quip Kill Quip : You did good kid"
       ],
       "free": [
-        "Season 20 Wins as Gibraltar"
+        "Gibraltar Stat Tracker Season 20 Wins as Gibraltar"
       ]
     },
     "level_92": {
@@ -701,55 +707,55 @@
         "Glitched Wolf"
       ],
       "free": [
-        "Season 20 Kills as Gibraltar"
+        "Gibraltar Stat Tracker Season 20 Kills as Gibraltar"
       ]
     },
     "level_93": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "An “Unfortunate Accident”"
+        "Transition An “Unfortunate Accident”"
       ]
     },
     "level_94": {
       "premium": [
-        "CMYK"
+        "R-301 Carbine CMYK"
       ],
       "free": [
-        "Season 20 Wins as Ballistic"
+        "Ballistic Stat Tracker Season 20 Wins as Ballistic"
       ]
     },
     "level_95": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "Season 20 Kills as Ballistic"
+        "Ballistic Stat Tracker Season 20 Kills as Ballistic"
       ]
     },
     "level_96": {
       "premium": [
-        "Won't See Us Coming"
+        "Holospray Won't See Us Coming"
       ],
       "free": [
-        "Season 20 Wins as Loba"
+        "Loba Stat Tracker Season 20 Wins as Loba"
       ]
     },
     "level_97": {
       "premium": [
-        "Homing Bullet"
+        "Ballistic Banner Frame Homing Bullet"
       ],
       "free": [
-        "Season 20 Kills as Loba"
+        "Loba Stat Tracker Season 20 Kills as Loba"
       ]
     },
     "level_98": {
       "premium": [
-        "Emote Ruck and Roll"
+        "Mad Maggie Cosmetic Emote Ruck and Roll"
       ],
       "free": [
-        "Season 20 Wins as Vantage"
+        "Vantage Stat Tracker Season 20 Wins as Vantage"
       ]
     },
     "level_99": {
@@ -757,23 +763,23 @@
         "Apex Pack"
       ],
       "free": [
-        "Season 20 Kills as Vantage"
+        "Vantage Stat Tracker Season 20 Kills as Vantage"
       ]
     },
     "level_100": {
       "premium": [
-        "Buzz Kill"
+        "R-99 SMG Buzz Kill"
       ],
       "free": [
-        "100"
+        "Apex Coins 100"
       ]
     },
     "level_110": {
       "premium": [
-        "Kill Joy"
+        "R-99 SMG Kill Joy"
       ],
       "free": [
-        "Badge: Breakout"
+        "Badge : Breakout"
       ]
     }
   }

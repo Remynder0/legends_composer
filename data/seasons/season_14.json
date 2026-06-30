@@ -1,13 +1,17 @@
 {
-  "season": 14,
+  "season": "14",
   "max_level": 110,
   "rewards": {
     "level_1": {
       "premium": [
-        "Lucky Draw Sandswept Survival Sharp Anya's Armor XP Boost [1]"
+        "Lucky Draw",
+        "Sandswept",
+        "Survival Sharp",
+        "Anya's Armor",
+        "XP Boost [ 1 ]"
       ],
       "free": [
-        "Psych Evaluation of T-0323"
+        "Loading Screen Psych Evaluation of T-0323"
       ]
     },
     "level_2": {
@@ -24,23 +28,23 @@
     },
     "level_4": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": [
-        "Hunted"
+        "Music Pack Hunted"
       ]
     },
     "level_5": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "100"
+        "Apex Coins 100"
       ]
     },
     "level_6": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": [
         "Big Game"
@@ -56,7 +60,7 @@
     },
     "level_8": {
       "premium": [
-        "Upstanding Animal"
+        "R-99 SMG Upstanding Animal"
       ],
       "free": [
         "Season 14 Wins as Pathfinder | Pathfinder Tracker"
@@ -83,7 +87,7 @@
         "Jurassic Nessie | Wattson Frame"
       ],
       "free": [
-        "Happy Birthday, Mara"
+        "Loading Screen Happy Birthday, Mara"
       ]
     },
     "level_12": {
@@ -96,13 +100,13 @@
     },
     "level_13": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_14": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": []
     },
@@ -148,7 +152,7 @@
     },
     "level_20": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": [
         "Jade Tiger"
@@ -156,13 +160,13 @@
     },
     "level_21": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_22": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": []
     },
@@ -192,7 +196,7 @@
     },
     "level_26": {
       "premium": [
-        "Sunset Scavenger"
+        "R-99 SMG Sunset Scavenger"
       ],
       "free": [
         "Season 14 Wins as Octane | Octane Tracker"
@@ -208,13 +212,13 @@
     },
     "level_28": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_29": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
         "Cinder Scales"
@@ -222,7 +226,7 @@
     },
     "level_30": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": []
     },
@@ -268,13 +272,13 @@
     },
     "level_36": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_37": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": [
         "Prints"
@@ -282,7 +286,7 @@
     },
     "level_38": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": []
     },
@@ -328,21 +332,21 @@
     },
     "level_44": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_45": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "Reenactment Revolution"
+        "Loading Screen Reenactment Revolution"
       ]
     },
     "level_46": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": []
     },
@@ -383,7 +387,7 @@
         "Damage Done as Caustic | Caustic Tracker"
       ],
       "free": [
-        "Hunted"
+        "Music Pack Hunted"
       ]
     },
     "level_52": {
@@ -396,13 +400,13 @@
     },
     "level_53": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_54": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": []
     },
@@ -411,12 +415,12 @@
         "Chaos Theory | Caustic Frame"
       ],
       "free": [
-        "Shortsighted"
+        "R-99 SMG Shortsighted"
       ]
     },
     "level_56": {
       "premium": [
-        "Desert Rattler"
+        "R-99 SMG Desert Rattler"
       ],
       "free": [
         "Season 14 Kills as Caustic | Caustic Tracker"
@@ -432,7 +436,7 @@
     },
     "level_58": {
       "premium": [
-        "Intake Eval for X. Contreras"
+        "Loading Screen Intake Eval for X. Contreras"
       ],
       "free": [
         "Electric Camo | Wattson Skin"
@@ -448,7 +452,7 @@
     },
     "level_60": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": [
         "Apex Pack"
@@ -456,13 +460,13 @@
     },
     "level_61": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_62": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": []
     },
@@ -508,7 +512,7 @@
     },
     "level_68": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": [
         "Season 14 Kills as Lifeline | Lifeline Tracker"
@@ -516,19 +520,19 @@
     },
     "level_69": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_70": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": []
     },
     "level_71": {
       "premium": [
-        "Buckle Up"
+        "R-99 SMG Buckle Up"
       ],
       "free": [
         "Season 14 Kills as Wraith | Wraith Tracker"
@@ -547,7 +551,7 @@
         "Trapper's Trophy"
       ],
       "free": [
-        "Knockdown Rounds"
+        "R-99 SMG Knockdown Rounds"
       ]
     },
     "level_74": {
@@ -568,19 +572,19 @@
     },
     "level_76": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_77": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_78": {
       "premium": [
-        "A Canyon Built for Kings"
+        "Loading Screen A Canyon Built for Kings"
       ],
       "free": [
         "Apex Pack"
@@ -610,7 +614,7 @@
     },
     "level_82": {
       "premium": [
-        "Serpentine"
+        "R-99 SMG Serpentine"
       ],
       "free": [
         "Season 14 Kills as Loba | Loba Tracker"
@@ -632,7 +636,7 @@
     },
     "level_85": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
@@ -660,7 +664,7 @@
     },
     "level_89": {
       "premium": [
-        "Only a Mum"
+        "Loading Screen Only a Mum"
       ],
       "free": [
         "Season 14 Kills as Seer | Seer Tracker"
@@ -690,7 +694,7 @@
     },
     "level_93": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
@@ -702,7 +706,7 @@
     },
     "level_95": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
         "Season 14 Kills as Gibraltar | Gibraltar Tracker"
@@ -729,7 +733,7 @@
         "Apex Pack"
       ],
       "free": [
-        "An Adequate Reflection"
+        "Loading Screen An Adequate Reflection"
       ]
     },
     "level_99": {
@@ -740,15 +744,15 @@
     },
     "level_100": {
       "premium": [
-        "Fortune Hunter"
+        "M600 Spitfire Fortune Hunter"
       ],
       "free": [
-        "100"
+        "Apex Coins 100"
       ]
     },
     "level_110": {
       "premium": [
-        "Trophy Taker"
+        "M600 Spitfire Trophy Taker"
       ],
       "free": [
         "Hunted Level Season 14 | Badge"

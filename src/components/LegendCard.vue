@@ -4,7 +4,6 @@ import type { Legend } from '../logic/composer'
 
 const props = defineProps<{
   legend: Legend
-  role: string
 }>()
 
 const topStats = computed(() => {
@@ -21,8 +20,7 @@ const topStats = computed(() => {
     <div class="pl-2">
       <div class="flex justify-between items-start mb-4">
         <div>
-          <h2 class="text-[10px] uppercase tracking-widest text-titan-orange font-mono font-bold mb-1">{{ role }}</h2>
-          <h3 class="text-2xl font-black text-white font-sans uppercase tracking-wider">{{ legend.Name }}</h3>
+          <h2 class="text-2xl font-black text-white font-sans uppercase tracking-wider">{{ legend.Name }}</h2>
         </div>
         <span class="px-2 py-1 bg-black/50 text-[10px] font-mono text-titan-cyan uppercase border border-titan-border">
           {{ legend.Class }}

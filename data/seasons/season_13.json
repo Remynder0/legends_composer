@@ -1,18 +1,22 @@
 {
-  "season": 13,
+  "season": "13",
   "max_level": 110,
   "rewards": {
     "level_1": {
       "premium": [
-        "Wyrmborn Gilded Grappler Lava Queen Firewall XP Boost [1]"
+        "C.A.R. SMG Wyrmborn",
+        "Pathfinder Gilded Grappler",
+        "Mad Maggie Lava Queen",
+        "Newcastle Firewall",
+        "XP Boost [ 1 ]"
       ],
       "free": [
-        "Pre-Orders Now Open!"
+        "Loading Screen Pre-Orders Now Open!"
       ]
     },
     "level_2": {
       "premium": [
-        "Three, Two, One"
+        "Newcastle Skydive Emote Three, Two, One"
       ],
       "free": []
     },
@@ -24,61 +28,61 @@
     },
     "level_4": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": [
-        "Savior"
+        "Music Pack Savior"
       ]
     },
     "level_5": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "100"
+        "Apex Coins 100"
       ]
     },
     "level_6": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": []
     },
     "level_7": {
       "premium": [
-        "Kill Quip: You were all sizzle and no steak"
+        "Mad Maggie Quip Kill Quip : You were all sizzle and no steak"
       ],
       "free": [
-        "Shedding the Dead"
+        "Sentinel Shedding the Dead"
       ]
     },
     "level_8": {
       "premium": [
-        "Lava Drill"
+        "Charm Lava Drill"
       ],
       "free": [
-        "Season 13 Wins"
+        "Mad Maggie Stat Tracker Season 13 Wins"
       ]
     },
     "level_9": {
       "premium": [
-        "Scaled Tapestry"
+        "HAVOC Rifle Scaled Tapestry"
       ],
       "free": [
-        "Season 13 Wins"
+        "Gibraltar Stat Tracker Season 13 Wins"
       ]
     },
     "level_10": {
       "premium": [
-        "Burning Embrace"
+        "Mad Maggie Banner Frame Burning Embrace"
       ],
       "free": [
-        "Season 13 Wins"
+        "Wraith Stat Tracker Season 13 Wins"
       ]
     },
     "level_11": {
       "premium": [
-        "Eat this, Eggs!"
+        "Mad Maggie Holo-Spray Eat this, Eggs!"
       ],
       "free": [
         "Apex Pack"
@@ -92,109 +96,109 @@
     },
     "level_13": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": [
-        "Lion Tamer"
+        "Mozambique Shotgun Lion Tamer"
       ]
     },
     "level_14": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": []
     },
     "level_15": {
       "premium": [
-        "Inside the Outlands: Episode 1082.5"
+        "Loading Screen Inside the Outlands: Episode 1082.5"
       ],
       "free": [
-        "Scales and Stripes"
+        "Charge Rifle Scales and Stripes"
       ]
     },
     "level_16": {
       "premium": [
-        "Brudda in Arms"
+        "Gibraltar Banner Frame Brudda in Arms"
       ],
       "free": []
     },
     "level_17": {
       "premium": [
-        "Saint's End"
+        "R-301 Carbine Saint's End"
       ],
       "free": [
-        "Season 13 Wins"
+        "Fuse Stat Tracker Season 13 Wins"
       ]
     },
     "level_18": {
       "premium": [
-        "All the Tales are True"
+        "Wraith Holo-Spray All the Tales are True"
       ],
       "free": [
-        "Season 13 Wins"
+        "Mirage Stat Tracker Season 13 Wins"
       ]
     },
     "level_19": {
       "premium": [
-        "Emote Side Hustle"
+        "Gibraltar Cosmetic Emote Side Hustle"
       ],
       "free": [
-        "Season 13 Wins"
+        "Revenant Stat Tracker Season 13 Wins"
       ]
     },
     "level_20": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_21": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "Fate Sealer"
+        "Bocek Compound Bow Fate Sealer"
       ]
     },
     "level_22": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": []
     },
     "level_23": {
       "premium": [
-        "Wins"
+        "Fuse Stat Tracker Wins"
       ],
       "free": [
-        "Season 13 Wins"
+        "Bloodhound Stat Tracker Season 13 Wins"
       ]
     },
     "level_24": {
       "premium": [
-        "Damage Done"
+        "Fuse Stat Tracker Damage Done"
       ],
       "free": []
     },
     "level_25": {
       "premium": [
-        "Sir Fitzroy"
+        "Fuse Sir Fitzroy"
       ],
       "free": [
-        "Season 13 Wins"
+        "Lifeline Stat Tracker Season 13 Wins"
       ]
     },
     "level_26": {
       "premium": [
-        "Kills"
+        "Fuse Stat Tracker Kills"
       ],
       "free": [
-        "Season 13 Kills"
+        "Newcastle Stat Tracker Season 13 Kills"
       ]
     },
     "level_27": {
       "premium": [
-        "Regal Seals"
+        "Kraber .50-Cal Sniper Regal Seals"
       ],
       "free": [
         "Apex Pack"
@@ -202,57 +206,57 @@
     },
     "level_28": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_29": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "Guardian's Battlecrest"
+        "RE-45 Auto Guardian's Battlecrest"
       ]
     },
     "level_30": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": []
     },
     "level_31": {
       "premium": [
-        "Kill Quip: By your hand, through me"
+        "Bloodhound Quip Kill Quip : By your hand, through me"
       ],
       "free": [
-        "Season 13 Wins"
+        "Seer Stat Tracker Season 13 Wins"
       ]
     },
     "level_32": {
       "premium": [
-        "Charm of Nature"
+        "Charm Charm of Nature"
       ],
       "free": []
     },
     "level_33": {
       "premium": [
-        "Fantastic Trails"
+        "Triple Take Fantastic Trails"
       ],
       "free": [
-        "Season 13 Wins"
+        "Ash Stat Tracker Season 13 Wins"
       ]
     },
     "level_34": {
       "premium": [
-        "Cold Sparks"
+        "Bloodhound Banner Frame Cold Sparks"
       ],
       "free": [
-        "Season 13 Wins"
+        "Horizon Stat Tracker Season 13 Wins"
       ]
     },
     "level_35": {
       "premium": [
-        "Fire At Will"
+        "Bloodhound Holo-Spray Fire At Will"
       ],
       "free": [
         "Apex Pack"
@@ -260,34 +264,34 @@
     },
     "level_37": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": [
-        "Singed Sight"
+        "30-30 Repeater Singed Sight"
       ]
     },
     "level_39": {
       "premium": [
-        "Kill Quip: Real Heroes Get Back Up"
+        "Newcastle Quip Kill Quip : Real Heroes Get Back Up"
       ],
       "free": [
-        "Season 13 Wins"
+        "Octane Stat Tracker Season 13 Wins"
       ]
     },
     "level_41": {
       "premium": [
-        "Retro Ball"
+        "Volt SMG Retro Ball"
       ],
       "free": [
-        "Season 13 Wins"
+        "Wattson Stat Tracker Season 13 Wins"
       ]
     },
     "level_42": {
       "premium": [
-        "The Hot Seat"
+        "Newcastle Banner Frame The Hot Seat"
       ],
       "free": [
-        "Season 13 Wins"
+        "Pathfinder Stat Tracker Season 13 Wins"
       ]
     },
     "level_43": {
@@ -295,52 +299,52 @@
         "Apex Pack"
       ],
       "free": [
-        "You Can't Choose Your Family"
+        "Newcastle Holo-Spray You Can't Choose Your Family"
       ]
     },
     "level_45": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "Scaled Silhouette"
+        "Peacekeeper Scaled Silhouette"
       ]
     },
     "level_47": {
       "premium": [
-        "Imbued Fury"
+        "Wingman Imbued Fury"
       ],
       "free": [
-        "Season 13 Wins"
+        "Loba Stat Tracker Season 13 Wins"
       ]
     },
     "level_48": {
       "premium": [
-        "Wins"
+        "Bloodhound Stat Tracker Wins"
       ],
       "free": [
-        "Season 13 Wins"
+        "Valkyrie Stat Tracker Season 13 Wins"
       ]
     },
     "level_49": {
       "premium": [
-        "Kills"
+        "Bloodhound Stat Tracker Kills"
       ],
       "free": [
-        "Season 13 Wins"
+        "Crypto Stat Tracker Season 13 Wins"
       ]
     },
     "level_50": {
       "premium": [
-        "Feral's Future"
+        "Bloodhound Feral's Future"
       ],
       "free": [
-        "Season 13 Wins"
+        "Castic Stat Tracker Season 13 Wins"
       ]
     },
     "level_51": {
       "premium": [
-        "Damage Done"
+        "Bloodhound Stat Tracker Damage Done"
       ],
       "free": [
         "Apex Pack"
@@ -348,102 +352,102 @@
     },
     "level_53": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": [
-        "Royal Crest"
+        "Charm Royal Crest"
       ]
     },
     "level_55": {
       "premium": [
-        "ApexGamesDaily Presents..."
+        "Loading Screen ApexGamesDaily Presents..."
       ],
       "free": [
-        "Season 13 Wins"
+        "Bangalore Stat Tracker Season 13 Wins"
       ]
     },
     "level_56": {
       "premium": [
-        "Kill Quip: We're Not Here To Shag Spiders"
+        "Fuse Quip Kill Quip : We're Not Here To Shag Spiders"
       ],
       "free": [
-        "Season 13 Kills"
+        "Bangalore Stat Tracker Season 13 Kills"
       ]
     },
     "level_57": {
       "premium": [
-        "Lordly Helm"
+        "Charm Lordly Helm"
       ],
       "free": [
-        "Season 13 Kills"
+        "Caustic Stat Tracker Season 13 Kills"
       ]
     },
     "level_58": {
       "premium": [
-        "Gilded Lineage"
+        "VK-47 Flatline Gilded Lineage"
       ],
       "free": [
-        "Season 13 Kills"
+        "Crypto Stat Tracker Season 13 Kills"
       ]
     },
     "level_59": {
       "premium": [
-        "Tower Defense"
+        "Fuse Banner Frame Tower Defense"
       ],
       "free": [
-        "Blue Dragon"
+        "Crypto Blue Dragon"
       ]
     },
     "level_60": {
       "premium": [
-        "Roger That Boss"
+        "Fuse Holo-Spray Roger That Boss"
       ],
       "free": []
     },
     "level_61": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "Serpent's Blood"
+        "Devotion LMG Serpent's Blood"
       ]
     },
     "level_62": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": []
     },
     "level_63": {
       "premium": [
-        "Defender Axe"
+        "Charm Defender Axe"
       ],
       "free": [
-        "Season 13 Kills"
+        "Valkyrie Stat Tracker Season 13 Kills"
       ]
     },
     "level_64": {
       "premium": [
-        "Highborn"
+        "L-STAR EMG Highborn"
       ],
       "free": [
-        "Season 13 Kills"
+        "Pathfinder Stat Tracker Season 13 Kills"
       ]
     },
     "level_65": {
       "premium": [
-        "Ancient Infusion"
+        "Fuse Banner Frame Ancient Infusion"
       ],
       "free": [
-        "Season 13 Kills"
+        "Loba Stat Tracker Season 13 Kills"
       ]
     },
     "level_66": {
       "premium": [
-        "Kill Quip: I Stick A Fork In You, You're Done"
+        "Valkyrie Quip Kill Quip : I Stick A Fork In You, You're Done"
       ],
       "free": [
-        "Season 13 Kills"
+        "Wattson Stat Tracker Season 13 Kills"
       ]
     },
     "level_67": {
@@ -451,64 +455,64 @@
         "Apex Pack"
       ],
       "free": [
-        "Selfish Mistakes"
+        "Loading Screen Selfish Mistakes"
       ]
     },
     "level_68": {
       "premium": [
-        "The Dragon's Clutch"
+        "Rampage LMG The Dragon's Clutch"
       ],
       "free": []
     },
     "level_69": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "Quicksilver"
+        "G7 Scout Quicksilver"
       ]
     },
     "level_70": {
       "premium": [
-        "XP Boost [1]"
+        "XP Boost [ 1 ]"
       ],
       "free": []
     },
     "level_71": {
       "premium": [
-        "Kill Quip: Look On The Brightside - I Won"
+        "Pathfinder Quip Kill Quip : Look On The Brightside - I Won"
       ],
       "free": [
-        "Season 13 Kills"
+        "Octane Stat Tracker Season 13 Kills"
       ]
     },
     "level_72": {
       "premium": [
-        "I Call Dibs"
+        "Charm I Call Dibs"
       ],
       "free": [
-        "Season 13 Kills"
+        "Horizon Stat Tracker Season 13 Kills"
       ]
     },
     "level_73": {
       "premium": [
-        "Rare Throwback"
+        "Hemlok Burst AR Rare Throwback"
       ],
       "free": [
-        "Season 13 Kills"
+        "Ash Stat Tracker Season 13 Kills"
       ]
     },
     "level_74": {
       "premium": [
-        "Return to Sender"
+        "Pathfinder Banner Frame Return to Sender"
       ],
       "free": [
-        "Season 13 Kills"
+        "Rampart Stat Tracker Season 13 Kills"
       ]
     },
     "level_75": {
       "premium": [
-        "Zip It!"
+        "Pathfinder Holo-Spray Zip It!"
       ],
       "free": [
         "Apex Pack"
@@ -516,16 +520,16 @@
     },
     "level_76": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_77": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "Newcastle"
+        "Music Pack Newcastle"
       ]
     },
     "level_78": {
@@ -536,56 +540,56 @@
     },
     "level_79": {
       "premium": [
-        "Virtual Hero"
+        "Alternator SMG Virtual Hero"
       ],
       "free": [
-        "Season 13 Wins"
+        "Rampart Stat Tracker Season 13 Wins"
       ]
     },
     "level_80": {
       "premium": [
-        "Mighty Incisor"
+        "Charm Mighty Incisor"
       ],
       "free": [
-        "Season 13 Kills"
+        "Seer Stat Tracker Season 13 Kills"
       ]
     },
     "level_81": {
       "premium": [
-        "No One Looks Up"
+        "Valkyrie Holo-Spray No One Looks Up"
       ],
       "free": [
-        "Season 13 Kills"
+        "Newcastle Stat Tracker Season 13 Kills"
       ]
     },
     "level_82": {
       "premium": [
-        "Out With the Old, In With the New"
+        "Loading Screen Out With the Old, In With the New"
       ],
       "free": [
-        "Season 13 Kills"
+        "Lifeline Stat Tracker Season 13 Kills"
       ]
     },
     "level_83": {
       "premium": [
-        "Circling Back"
+        "Crypto Skydive Emote Circling Back"
       ],
       "free": [
-        "Nothing Personal"
+        "Loading Screen Nothing Personal"
       ]
     },
     "level_84": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_85": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "Dragon Crest"
+        "Prowler Burst PDW Dragon Crest"
       ]
     },
     "level_86": {
@@ -596,56 +600,56 @@
     },
     "level_87": {
       "premium": [
-        "Battle Crested"
+        "Charm Battle Crested"
       ],
       "free": [
-        "Season 13 Kills"
+        "Bloodhound Stat Tracker Season 13 Kills"
       ]
     },
     "level_88": {
       "premium": [
-        "Contained Corruption"
+        "R-99 SMG Contained Corruption"
       ],
       "free": [
-        "Season 13 Kills"
+        "Revenant Stat Tracker Season 13 Kills"
       ]
     },
     "level_89": {
       "premium": [
-        "Venom Eggs"
+        "Caustic Banner Frame Venom Eggs"
       ],
       "free": [
-        "Season 13 Kills"
+        "Mirage Stat Tracker Season 13 Kills"
       ]
     },
     "level_90": {
       "premium": [
-        "You Can Choose Your Friends"
+        "Bangalore Holo-Spray You Can Choose Your Friends"
       ],
       "free": [
-        "Season 13 Kills"
+        "Fuse Stat Tracker Season 13 Kills"
       ]
     },
     "level_91": {
       "premium": [
-        "Air Defense"
+        "Newcastle Skydive Emote Air Defense"
       ],
       "free": [
-        "Spinal Double Tap"
+        "P2020 Spinal Double Tap"
       ]
     },
     "level_92": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_93": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "100"
+        "Apex Coins 100"
       ]
     },
     "level_94": {
@@ -656,23 +660,23 @@
     },
     "level_95": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "Kill Quip: You Seem A Bit Dense"
+        "Horizon Quip Kill Quip : You Seem A Bit Dense"
       ]
     },
     "level_96": {
       "premium": [
-        "Finders Keepers"
+        "Charm Finders Keepers"
       ],
       "free": [
-        "Season 13 Kills"
+        "Wraith Stat Tracker Season 13 Kills"
       ]
     },
     "level_97": {
       "premium": [
-        "Emote Terrible Twos"
+        "Mirage Cosmetic Emote Terrible Twos"
       ],
       "free": [
         "Apex Pack"
@@ -680,34 +684,34 @@
     },
     "level_98": {
       "premium": [
-        "Wings of Wrath"
+        "Longbow DMR Wings of Wrath"
       ],
       "free": [
-        "Season 13 Kills"
+        "Gibraltar Stat Tracker Season 13 Kills"
       ]
     },
     "level_99": {
       "premium": [
-        "Kill Quip: I Thought You Were Someone Else"
+        "Mirage Quip Kill Quip : I Thought You Were Someone Else"
       ],
       "free": [
-        "Season 13 Kills"
+        "Mad Maggie Stat Tracker Season 13 Kills"
       ]
     },
     "level_100": {
       "premium": [
-        "Winter Soul"
+        "M600 Spitfire Winter Soul"
       ],
       "free": [
-        "100"
+        "Apex Coins 100"
       ]
     },
     "level_110": {
       "premium": [
-        "Molten Soul"
+        "M600 Spitfire Molten Soul"
       ],
       "free": [
-        "Badge: Saviors Level Season 13"
+        "Badge : Saviors Level Season 13"
       ]
     }
   }

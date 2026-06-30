@@ -1,24 +1,24 @@
 {
-  "season": 24,
-  "max_level": 60,
+  "season": "24_2",
+  "max_level": 59,
   "rewards": {
     "level_2": {
       "premium": [
-        "Kill Quip: I couldn't let you win"
+        "Catalyst Quip Kill Quip : I couldn't let you win"
       ],
       "free": [
-        "Grounded"
+        "Transition Grounded"
       ]
     },
     "level_4": {
       "premium": [
-        "Never Miss"
+        "Holospray Never Miss"
       ],
       "free": []
     },
     "level_5": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
         "Apex Pack"
@@ -26,18 +26,18 @@
     },
     "level_7": {
       "premium": [
-        "Apex Essentials"
+        "Banner Frame Apex Essentials"
       ],
       "free": [
-        "Takeover Split 2"
+        "Music Pack Takeover Split 2"
       ]
     },
     "level_8": {
       "premium": [
-        "Stable Matrix"
+        "Peacekeeper Stable Matrix"
       ],
       "free": [
-        "100"
+        "Apex Coins 100"
       ]
     },
     "level_9": {
@@ -48,37 +48,39 @@
     },
     "level_10": {
       "premium": [
-        "Chill DadFire Distinguisher+"
+        "Ballistic Chill Dad",
+        "Ballistic Fire Distinguisher +"
       ],
       "free": []
     },
     "level_11": {
       "premium": [
-        "Sporty Nessie XP Boost [xp 1]"
+        "Charm Sporty Nessie",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
     "level_12": {
       "premium": [
-        "Void Training"
+        "Banner Frame Void Training"
       ],
       "free": []
     },
     "level_13": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_14": {
       "premium": [
-        "Be Ready"
+        "Holospray Be Ready"
       ],
       "free": []
     },
     "level_15": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": [
         "Apex Pack"
@@ -86,7 +88,7 @@
     },
     "level_16": {
       "premium": [
-        "Overheater"
+        "M600 Spitfire Overheater"
       ],
       "free": []
     },
@@ -98,27 +100,29 @@
     },
     "level_18": {
       "premium": [
-        "Emote Flipping Out"
+        "Wraith Cosmetic Emote Flipping Out"
       ],
       "free": []
     },
     "level_19": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "Emote Exceptional Victory"
+        "Ash Cosmetic Emote Exceptional Victory"
       ]
     },
     "level_20": {
       "premium": [
-        "Ripple Effect 10+"
+        "Wraith Ripple Effect",
+        "Exotic Shards 10 +"
       ],
       "free": []
     },
     "level_21": {
       "premium": [
-        "New Kicks XP Boost [xp 1]"
+        "Banner Frame New Kicks",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
@@ -130,21 +134,21 @@
     },
     "level_24": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": [
-        "Stronger Than Ever"
+        "Holospray Stronger Than Ever"
       ]
     },
     "level_25": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_26": {
       "premium": [
-        "Hover Unit"
+        "Ash Skydive Emote Hover Unit"
       ],
       "free": [
         "Apex Pack"
@@ -158,65 +162,69 @@
     },
     "level_28": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": []
     },
     "level_29": {
       "premium": [
-        "Stay Hydrated"
+        "Holospray Stay Hydrated"
       ],
       "free": []
     },
     "level_30": {
       "premium": [
-        "Zero Stopper 10"
+        "Kraber .50-Cal Sniper Zero Stopper",
+        "Exotic Shards 10"
       ],
       "free": []
     },
     "level_32": {
       "premium": [
-        "Emote Revelry"
+        "Revenant Cosmetic Emote Revelry"
       ],
       "free": [
-        "Neon Jungle"
+        "Sentinel Neon Jungle"
       ]
     },
     "level_33": {
       "premium": [
-        "Speedsuit - Top Speedsuit - Middle Speedsuit - Bottom"
+        "Stat Tracker Speedsuit - Top",
+        "Stat Tracker Speedsuit - Middle",
+        "Stat Tracker Speedsuit - Bottom"
       ],
       "free": []
     },
     "level_34": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_35": {
       "premium": [
-        "Red Cell"
+        "R-99 SMG Red Cell"
       ],
       "free": [
-        "Talk-Talk"
+        "Transition Talk-Talk"
       ]
     },
     "level_36": {
       "premium": [
-        "Killer Competitor"
+        "Banner Frame Killer Competitor"
       ],
       "free": []
     },
     "level_37": {
       "premium": [
-        "Apex Pack Cross the Finish Line"
+        "Apex Pack",
+        "Holospray Cross the Finish Line"
       ],
       "free": []
     },
     "level_38": {
       "premium": [
-        "Clawed Killer"
+        "Sticker Clawed Killer"
       ],
       "free": [
         "Apex Pack"
@@ -224,33 +232,35 @@
     },
     "level_39": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": []
     },
     "level_40": {
       "premium": [
-        "SpeedsuitDevil's Work+"
+        "Revenant Speedsuit",
+        "Revenant Devil's Work +"
       ],
       "free": []
     },
     "level_41": {
       "premium": [
-        "Emote Zeal Appeal XP Boost [xp 1]"
+        "Caustic Cosmetic Emote Zeal Appeal",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
     "level_42": {
       "premium": [
-        "Kill Quip: Think of it this way"
+        "Revenant Quip Kill Quip : Think of it this way"
       ],
       "free": [
-        "Construct Killer"
+        "Ash Construct Killer"
       ]
     },
     "level_43": {
       "premium": [
-        "Static Discharge"
+        "Mozambique Static Discharge"
       ],
       "free": []
     },
@@ -262,19 +272,19 @@
     },
     "level_45": {
       "premium": [
-        "Smoking Guns"
+        "Holospray Smoking Guns"
       ],
       "free": []
     },
     "level_46": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_47": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": [
         "Apex Pack"
@@ -282,27 +292,27 @@
     },
     "level_48": {
       "premium": [
-        "Locker Legacy"
+        "Banner Frame Locker Legacy"
       ],
       "free": []
     },
     "level_49": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_50": {
       "premium": [
-        "Noxious Neon"
+        "Caustic Noxious Neon"
       ],
       "free": [
-        "100"
+        "Apex Coins 100"
       ]
     },
     "level_51": {
       "premium": [
-        "Slam Dunk"
+        "Holospray Slam Dunk"
       ],
       "free": [
         "Apex Pack"
@@ -310,13 +320,13 @@
     },
     "level_52": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_53": {
       "premium": [
-        "Monster Mount"
+        "Wattson Skydive Emote Monster Mount"
       ],
       "free": []
     },
@@ -325,24 +335,25 @@
         "Apex Pack"
       ],
       "free": [
-        "Rodent Ripose"
+        "Ash Banner Frame Rodent Ripose"
       ]
     },
     "level_56": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_57": {
       "premium": [
-        "200 On Target"
+        "Crafting Metals 200",
+        "Banner Frame On Target"
       ],
       "free": []
     },
     "level_58": {
       "premium": [
-        "Tee-Tick"
+        "Charm Tee-Tick"
       ],
       "free": [
         "Apex Pack"
@@ -350,10 +361,9 @@
     },
     "level_59": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     }
-  },
-  "split": 2
+  }
 }

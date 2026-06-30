@@ -71,7 +71,6 @@ onMounted(() => {
           v-for="(legend, index) in currentTeam" 
           :key="legend.Name" 
           :legend="legend" 
-          :role="index === 0 ? 'Leader' : index === 1 ? 'Soutien' : 'Flex'" 
           :class="teamSize === 2 && index === 1 ? 'md:col-start-2' : ''"
         />
       </div>

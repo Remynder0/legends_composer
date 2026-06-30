@@ -1,36 +1,40 @@
 {
-  "season": 27,
+  "season": "27_2",
   "max_level": 60,
   "rewards": {
     "level_1": {
       "premium": [
-        "Arachnid Kiss Widow's Bite Toxic Edge Locked In XP Boost [xp 1]"
+        "Catalyst Arachnid Kiss",
+        "EVA-8 Auto Widow's Bite",
+        "Banner Frame Toxic Edge",
+        "Holospray Locked In",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
     "level_2": {
       "premium": [
-        "Kill Quip: One small step for me"
+        "Catalyst Quip Kill Quip : One small step for me"
       ],
       "free": [
-        "Check-In"
+        "Transition Check-In"
       ]
     },
     "level_3": {
       "premium": [
-        "Luge Groove"
+        "Lifeline Skydive Emote Luge Groove"
       ],
       "free": []
     },
     "level_4": {
       "premium": [
-        "Droppin' Hot"
+        "Holospray Droppin' Hot"
       ],
       "free": []
     },
     "level_5": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
         "Apex Pack"
@@ -38,24 +42,26 @@
     },
     "level_6": {
       "premium": [
-        "Cyber Kitten - Top Cyber Kitten - Middle Cyber Kitten - Bottom"
+        "Stat Tracker Cyber Kitten - Top",
+        "Stat Tracker Cyber Kitten - Middle",
+        "Stat Tracker Cyber Kitten - Bottom"
       ],
       "free": []
     },
     "level_7": {
       "premium": [
-        "Triumphant Captain"
+        "Banner Frame Triumphant Captain"
       ],
       "free": [
-        "Amped Split 2"
+        "Music Pack Amped Split 2"
       ]
     },
     "level_8": {
       "premium": [
-        "Resonant Wave"
+        "L-STAR EMG Resonant Wave"
       ],
       "free": [
-        "100"
+        "Apex Coins 100"
       ]
     },
     "level_9": {
@@ -66,37 +72,39 @@
     },
     "level_10": {
       "premium": [
-        "Cyber Kitten Midnight Lumosity+"
+        "Lifeline Cyber Kitten",
+        "Lifeline Midnight Lumosity +"
       ],
       "free": []
     },
     "level_11": {
       "premium": [
-        "Rock and Roll With It XP Boost [xp 1]"
+        "Sticker Rock and Roll With It",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
     "level_12": {
       "premium": [
-        "Dormant Stinger"
+        "Banner Frame Dormant Stinger"
       ],
       "free": []
     },
     "level_13": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_14": {
       "premium": [
-        "True Mastery"
+        "Holospray True Mastery"
       ],
       "free": []
     },
     "level_15": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": [
         "Apex Pack"
@@ -104,7 +112,7 @@
     },
     "level_16": {
       "premium": [
-        "Treacherous Crawl"
+        "P2020 Treacherous Crawl"
       ],
       "free": []
     },
@@ -116,27 +124,29 @@
     },
     "level_18": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_19": {
       "premium": [
-        "Sponsored Venom"
+        "Sticker Sponsored Venom"
       ],
       "free": [
-        "Emote A Rose For You"
+        "Seer Emote A Rose For You"
       ]
     },
     "level_20": {
       "premium": [
-        "Scorpion Queen 10+"
+        "Ash Scorpion Queen",
+        "Exotic Shards 10 +"
       ],
       "free": []
     },
     "level_21": {
       "premium": [
-        "Wild Vibrance XP Boost [xp 1]"
+        "Banner Frame Wild Vibrance",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
@@ -148,30 +158,30 @@
     },
     "level_23": {
       "premium": [
-        "Fancy Finish"
+        "C.A.R. SMG Fancy Finish"
       ],
       "free": []
     },
     "level_24": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": [
-        "Eyes to the Sky"
+        "Holospray Eyes to the Sky"
       ]
     },
     "level_25": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_26": {
       "premium": [
-        "Natural Balance"
+        "Bloodhound Skydive Emote Natural Balance"
       ],
       "free": [
-        "Amped Pack"
+        "Amped Seasonal Collection Amped Pack"
       ]
     },
     "level_27": {
@@ -182,25 +192,27 @@
     },
     "level_28": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": []
     },
     "level_29": {
       "premium": [
-        "Ride or Die"
+        "Holospray Ride or Die"
       ],
       "free": []
     },
     "level_30": {
       "premium": [
-        "10 Rapid Surge"
+        "Exotic Shards 10",
+        "Hemlok Burst AR Rapid Surge"
       ],
       "free": []
     },
     "level_31": {
       "premium": [
-        "100 XP Boost [xp 1]"
+        "Apex Coins 100",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
@@ -209,44 +221,46 @@
         "Apex Pack"
       ],
       "free": [
-        "Tiger Strike"
+        "R-99 SMG Tiger Strike"
       ]
     },
     "level_33": {
       "premium": [
-        "Alabaster Champion - Top Alabaster Champion - Middle Alabaster Champion - Bottom"
+        "Stat Tracker Alabaster Champion - Top",
+        "Stat Tracker Alabaster Champion - Middle",
+        "Stat Tracker Alabaster Champion - Bottom"
       ],
       "free": []
     },
     "level_34": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "A Future Discovery"
+        "Transition A Future Discovery"
       ]
     },
     "level_35": {
       "premium": [
-        "Dynamic Reflection"
+        "R-301 Carbine Dynamic Reflection"
       ],
       "free": []
     },
     "level_36": {
       "premium": [
-        "Atmospheric Entry"
+        "Banner Frame Atmospheric Entry"
       ],
       "free": []
     },
     "level_37": {
       "premium": [
-        "Move It or Die"
+        "Holospray Move It or Die"
       ],
       "free": []
     },
     "level_38": {
       "premium": [
-        "Top of the Food Chain"
+        "Sticker Top of the Food Chain"
       ],
       "free": [
         "Apex Pack"
@@ -254,33 +268,35 @@
     },
     "level_39": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": []
     },
     "level_40": {
       "premium": [
-        "Alabaster Champion Firestarter+"
+        "Bangalore Alabaster Champion",
+        "Bangalore Firestarter +"
       ],
       "free": []
     },
     "level_41": {
       "premium": [
-        "Rocket Racer XP Boost [xp 1]"
+        "Wraith Skydive Emote Rocket Racer",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
     "level_42": {
       "premium": [
-        "Kill Quip: Every shot matters"
+        "Bangalore Quip Kill Quip : Every shot matters"
       ],
       "free": [
-        "Tiger Byte"
+        "Crypto Tiger Byte"
       ]
     },
     "level_43": {
       "premium": [
-        "Lethal Wing"
+        "Triple Take Lethal Wing"
       ],
       "free": []
     },
@@ -292,19 +308,19 @@
     },
     "level_45": {
       "premium": [
-        "One Step Ahead"
+        "Holospray One Step Ahead"
       ],
       "free": []
     },
     "level_46": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_47": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": [
         "Apex Pack"
@@ -312,27 +328,27 @@
     },
     "level_48": {
       "premium": [
-        "Winged Whirlwind"
+        "Banner Frame Winged Whirlwind"
       ],
       "free": []
     },
     "level_49": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_50": {
       "premium": [
-        "Faded Wings"
+        "Wraith Faded Wings"
       ],
       "free": [
-        "100"
+        "Apex Coins 100"
       ]
     },
     "level_51": {
       "premium": [
-        "Goin' Up"
+        "Holospray Goin' Up"
       ],
       "free": [
         "Apex Pack"
@@ -340,19 +356,19 @@
     },
     "level_52": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_53": {
       "premium": [
-        "Tail Dance"
+        "Alter Skydive Emote Tail Dance"
       ],
       "free": []
     },
     "level_54": {
       "premium": [
-        "Serpentine Striker"
+        "Alternator SMG Serpentine Striker"
       ],
       "free": []
     },
@@ -361,24 +377,25 @@
         "Apex Pack"
       ],
       "free": [
-        "Champion's Ride"
+        "Banner Frame Champion's Ride"
       ]
     },
     "level_56": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_57": {
       "premium": [
-        "200 Clear Vision"
+        "Crafting Metals 200",
+        "Banner Frame Clear Vision"
       ],
       "free": []
     },
     "level_58": {
       "premium": [
-        "Dive Speed"
+        "Sticker Dive Speed"
       ],
       "free": [
         "Apex Pack"
@@ -386,16 +403,15 @@
     },
     "level_59": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_60": {
       "premium": [
-        "Polished Piercer"
+        "Sentinel Polished Piercer"
       ],
       "free": []
     }
-  },
-  "split": 2
+  }
 }

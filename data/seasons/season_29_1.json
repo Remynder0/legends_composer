@@ -1,36 +1,40 @@
 {
-  "season": 28,
+  "season": "29",
   "max_level": 60,
   "rewards": {
     "level_1": {
       "premium": [
-        "Final Approach Reaper's Weapon Higher Charge Echo Location XP Boost [xp 1]"
+        "Axle Cell Signal",
+        "VK-47 Flatline Live Wire",
+        "Banner Frame Weapon Rack",
+        "Holospray Time to Improvise",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
     "level_2": {
       "premium": [
-        "Kill Quip: You are cursed"
+        "Conduit Quip Kill Quip : Zapped both of us"
       ],
       "free": [
-        "Broken Moon Dev Diary"
+        "Transition Trash Talk"
       ]
     },
     "level_3": {
       "premium": [
-        "Smooth Maneuver"
+        "Conduit Skydive Emote Somer-Assault"
       ],
       "free": []
     },
     "level_4": {
       "premium": [
-        "All Eyes Inside"
+        "Holospray Grilling Time"
       ],
       "free": []
     },
     "level_5": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
         "Apex Pack"
@@ -38,24 +42,26 @@
     },
     "level_6": {
       "premium": [
-        "Stealthy Operative - Top Stealthy Operative - Middle Stealthy Operative - Bottom"
+        "Stat Tracker Shadow Flare - Top",
+        "Stat Tracker Shadow Flare - Middle",
+        "Stat Tracker Shadow Flare - Bottom"
       ],
       "free": []
     },
     "level_7": {
       "premium": [
-        "Trail of Destruction"
+        "Banner Frame Fractured Forge"
       ],
       "free": [
-        "Breach Split 1"
+        "Music Pack Overclocked Split 1: Axle"
       ]
     },
     "level_8": {
       "premium": [
-        "Smoke Signal"
+        "R-99 SMG Celestial Luxe"
       ],
       "free": [
-        "100"
+        "Apex Coins 100"
       ]
     },
     "level_9": {
@@ -66,37 +72,39 @@
     },
     "level_10": {
       "premium": [
-        "Stealthy Operative Night Op+"
+        "Conduit Shadow Flare",
+        "Conduit Genesis +"
       ],
       "free": []
     },
     "level_11": {
       "premium": [
-        "Midnight Mystique XP Boost [xp 1]"
+        "Sticker Too Tough",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
     "level_12": {
       "premium": [
-        "Noxious Escape"
+        "Banner Frame Shatter Swarm"
       ],
       "free": []
     },
     "level_13": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_14": {
       "premium": [
-        "Fail"
+        "Holospray No More Limits"
       ],
       "free": []
     },
     "level_15": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": [
         "Apex Pack"
@@ -104,7 +112,7 @@
     },
     "level_16": {
       "premium": [
-        "Trigger Warning"
+        "Mozambique Shotgun Morbid Curiosity"
       ],
       "free": []
     },
@@ -116,27 +124,29 @@
     },
     "level_18": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_19": {
       "premium": [
-        "Rev-In-The-Box"
+        "Sticker Big Hit"
       ],
       "free": [
-        "Emote Joyful Jig"
+        "Vantage Cosmetic Emote Jam Session"
       ]
     },
     "level_20": {
       "premium": [
-        "Lethal Pathogen 10+"
+        "Seer Shadow Network",
+        "Exotic Shards 10 +"
       ],
       "free": []
     },
     "level_21": {
       "premium": [
-        "Broken Containment XP Boost [xp 1]"
+        "Banner Frame Rear View",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
@@ -148,27 +158,27 @@
     },
     "level_23": {
       "premium": [
-        "Dog of War"
+        "30-30 Repeater Red Streak"
       ],
       "free": []
     },
     "level_24": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": [
-        "She'll Be Right"
+        "Holospray Cleared"
       ]
     },
     "level_25": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_26": {
       "premium": [
-        "Flourish"
+        "Axle Skydive Emote Crowd Work"
       ],
       "free": [
         "Apex Pack"
@@ -182,71 +192,75 @@
     },
     "level_28": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": []
     },
     "level_29": {
       "premium": [
-        "Found You"
+        "Holospray Try and Catch Up"
       ],
       "free": []
     },
     "level_30": {
       "premium": [
-        "10 Sandbox"
+        "Exotic Shards 10",
+        "Nemesis Burst AR Energy Efficient"
       ],
       "free": []
     },
     "level_31": {
       "premium": [
-        "100 XP Boost [xp 1]"
+        "Apex Coins 100",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
     "level_32": {
       "premium": [
-        "Death Deflection"
+        "Seer Skydive Emote Pirouette"
       ],
       "free": [
-        "Nevermore"
+        "Bocek Compound Bow Sweet Escape"
       ]
     },
     "level_33": {
       "premium": [
-        "Swift Suit - Top Swift Suit - Middle Swift Suit - Bottom"
+        "Stat Tracker Dark Web - Top",
+        "Stat Tracker Dark Web - Middle",
+        "Stat Tracker Dark Web - Bottoom"
       ],
       "free": []
     },
     "level_34": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "E-District Dev Diary"
+        "Transition Letter from Mutti"
       ]
     },
     "level_35": {
       "premium": [
-        "Static Skull"
+        "Kraber .50-Cal Sniper Turbo Galaxy"
       ],
       "free": []
     },
     "level_36": {
       "premium": [
-        "Smoked Out"
+        "Banner Frame Surveillance"
       ],
       "free": []
     },
     "level_37": {
       "premium": [
-        "Breach and Clear! Apex Pack"
+        "Holospray Five Steps Ahead"
       ],
       "free": []
     },
     "level_38": {
       "premium": [
-        "This way!"
+        "Sticker Fresh Paint"
       ],
       "free": [
         "Apex Pack"
@@ -254,33 +268,35 @@
     },
     "level_39": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": []
     },
     "level_40": {
       "premium": [
-        "Swift Suit Overcharged Velocity+"
+        "Crypto Dark Web",
+        "Crypto Vapor Runner +"
       ],
       "free": []
     },
     "level_41": {
       "premium": [
-        "XP Boost [xp 1]"
+        "Newcastle Cosmetic Emote Shadowboxer",
+        "XP Boost [ xp 1 ]"
       ],
       "free": []
     },
     "level_42": {
       "premium": [
-        "Kill Quip: I was bored before you hit the ground"
+        "Crypto Quip Kill Quip : Do not blame yourself"
       ],
       "free": [
-        "Flare Rising"
+        "Lifeline Cyber Rose"
       ]
     },
     "level_43": {
       "premium": [
-        "15 Down"
+        "L-STAR EMG Hyperpink"
       ],
       "free": []
     },
@@ -292,19 +308,19 @@
     },
     "level_45": {
       "premium": [
-        "Medic on the Field"
+        "Holospray Overclockin"
       ],
       "free": []
     },
     "level_46": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_47": {
       "premium": [
-        "200"
+        "Crafting Metals 200"
       ],
       "free": [
         "Apex Pack"
@@ -312,27 +328,27 @@
     },
     "level_48": {
       "premium": [
-        "Medical Mishap"
+        "Banner Frame Power Coil"
       ],
       "free": []
     },
     "level_49": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_50": {
       "premium": [
-        "Lifestealer"
+        "Wattson Electrochem"
       ],
       "free": [
-        "100"
+        "Apex Coins 100"
       ]
     },
     "level_51": {
       "premium": [
-        "Caught In 4K"
+        "Holospray Bringing the Big Guns"
       ],
       "free": [
         "Apex Pack"
@@ -340,19 +356,19 @@
     },
     "level_52": {
       "premium": [
-        "100"
+        "Apex Coins"
       ],
       "free": []
     },
     "level_53": {
       "premium": [
-        "Untouchable"
+        "Ballistic Skydive Emote Power Pack"
       ],
       "free": []
     },
     "level_54": {
       "premium": [
-        "Death Metal"
+        "Peacekeeper Hot Wired"
       ],
       "free": []
     },
@@ -361,24 +377,25 @@
         "Apex Pack"
       ],
       "free": [
-        "Breach Ball"
+        "Banner Frame Clear!"
       ]
     },
     "level_56": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_57": {
       "premium": [
-        "200 Molten Siege"
+        "Crafting Metals 200",
+        "Banner Frame Ultra Upgrades"
       ],
       "free": []
     },
     "level_58": {
       "premium": [
-        "Clear!"
+        "Sticker Too Cute"
       ],
       "free": [
         "Apex Pack"
@@ -386,13 +403,13 @@
     },
     "level_59": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_60": {
       "premium": [
-        "Resonant Draw"
+        "RE-45 Electrification"
       ],
       "free": []
     }

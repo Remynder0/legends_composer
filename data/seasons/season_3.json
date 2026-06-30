@@ -1,27 +1,31 @@
 {
-  "season": 3,
+  "season": "3",
   "max_level": 110,
   "rewards": {
     "level_1": {
       "premium": [
-        "Longbow DMR Skin: Reckoner Mirage Skin: Fired Up Bloodhound Skin: Arctic Hunter Octane Skin: Glacial Pace XP Boost[note 1]"
+        "Longbow DMR Skin: Reckoner",
+        "Mirage Skin: Fired Up",
+        "Bloodhound Skin: Arctic Hunter",
+        "Octane Skin: Glacial Pace",
+        "XP Boost [ note 1 ]"
       ],
       "free": []
     },
     "level_2": {
       "premium": [
-        "Charm: Pyro Meteor"
+        "Charm : Pyro Meteor"
       ],
       "free": [
-        "Loading Screen: Humble Witt"
+        "Loading Screen : Humble Witt"
       ]
     },
     "level_3": {
       "premium": [
-        "XP Boost[note 1]"
+        "XP Boost [ note 1 ]"
       ],
       "free": [
-        "Crypto Stat Tracker: Season 3 Wins"
+        "Crypto Stat Tracker : Season 3 Wins"
       ]
     },
     "level_4": {
@@ -29,15 +33,15 @@
         "Apex Pack"
       ],
       "free": [
-        "Gibraltar Stat Tracker: Season 3 Wins"
+        "Gibraltar Stat Tracker : Season 3 Wins"
       ]
     },
     "level_5": {
       "premium": [
-        "50"
+        "Apex Coins 50"
       ],
       "free": [
-        "Wraith Stat Tracker: Season 3 Wins"
+        "Wraith Stat Tracker : Season 3 Wins"
       ]
     },
     "level_6": {
@@ -45,15 +49,15 @@
         "Apex Pack"
       ],
       "free": [
-        "Caustic Stat Tracker: Season 3 Wins"
+        "Caustic Stat Tracker : Season 3 Wins"
       ]
     },
     "level_7": {
       "premium": [
-        "Loading Screen: Streets of Suotamo"
+        "Loading Screen : Streets of Suotamo"
       ],
       "free": [
-        "Mirage Stat Tracker: Season 3 Wins"
+        "Mirage Stat Tracker : Season 3 Wins"
       ]
     },
     "level_8": {
@@ -61,15 +65,15 @@
         "Apex Pack"
       ],
       "free": [
-        "Bangalore Stat Tracker: Season 3 Wins"
+        "Bangalore Stat Tracker : Season 3 Wins"
       ]
     },
     "level_9": {
       "premium": [
-        "50"
+        "Apex Coins 50"
       ],
       "free": [
-        "Pathfinder Stat Tracker: Season 3 Wins"
+        "Pathfinder Stat Tracker : Season 3 Wins"
       ]
     },
     "level_10": {
@@ -77,15 +81,15 @@
         "Charge Rifle Skin: Frozen Path"
       ],
       "free": [
-        "Wattson Stat Tracker: Season 3 Wins"
+        "Wattson Stat Tracker : Season 3 Wins"
       ]
     },
     "level_11": {
       "premium": [
-        "Pathfinder Banner Frame: Ice Towers"
+        "Pathfinder Banner Frame : Ice Towers"
       ],
       "free": [
-        "Octane Stat Tracker: Season 3 Wins"
+        "Octane Stat Tracker : Season 3 Wins"
       ]
     },
     "level_12": {
@@ -93,26 +97,26 @@
         "P2020 Skin: Cold Punch"
       ],
       "free": [
-        "Lifeline Stat Tracker: Season 3 Wins"
+        "Lifeline Stat Tracker : Season 3 Wins"
       ]
     },
     "level_13": {
       "premium": [
-        "Gibraltar Skydive Emote: Surf's Up"
+        "Gibraltar Skydive Emote : Surf's Up"
       ],
       "free": [
-        "Bloodhound Stat Tracker: Season 3 Wins"
+        "Bloodhound Stat Tracker : Season 3 Wins"
       ]
     },
     "level_14": {
       "premium": [
-        "XP Boost[note 1]"
+        "XP Boost [ note 1 ]"
       ],
       "free": []
     },
     "level_15": {
       "premium": [
-        "Loading Screen: A New Dawn"
+        "Loading Screen : A New Dawn"
       ],
       "free": []
     },
@@ -124,7 +128,7 @@
     },
     "level_17": {
       "premium": [
-        "50"
+        "Apex Coins 50"
       ],
       "free": [
         "Apex Pack"
@@ -138,19 +142,19 @@
     },
     "level_19": {
       "premium": [
-        "Charm: Abominable Snowman"
+        "Charm : Abominable Snowman"
       ],
       "free": []
     },
     "level_20": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_21": {
       "premium": [
-        "Wattson Skydive Emote: Tesla-Copter"
+        "Wattson Skydive Emote : Tesla-Copter"
       ],
       "free": [
         "Apex Pack"
@@ -158,19 +162,19 @@
     },
     "level_22": {
       "premium": [
-        "XP Boost[note 1]"
+        "XP Boost [ note 1 ]"
       ],
       "free": []
     },
     "level_23": {
       "premium": [
-        "Loading Screen: World's Edge - Meltdown"
+        "Loading Screen : World's Edge - Meltdown"
       ],
       "free": []
     },
     "level_24": {
       "premium": [
-        "Crypto Kill Quip: You Thought You Were Better Than Me"
+        "Crypto Quip Kill Quip : You Thought You Were Better Than Me"
       ],
       "free": []
     },
@@ -190,19 +194,19 @@
     },
     "level_27": {
       "premium": [
-        "Gibraltar Banner Frame: Hot Chains"
+        "Gibraltar Banner Frame : Hot Chains"
       ],
       "free": []
     },
     "level_28": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_29": {
       "premium": [
-        "Music Pack: Gibraltar"
+        "Music Pack : Gibraltar"
       ],
       "free": [
         "Apex Pack"
@@ -210,25 +214,25 @@
     },
     "level_30": {
       "premium": [
-        "XP Boost[note 1]"
+        "XP Boost [ note 1 ]"
       ],
       "free": []
     },
     "level_31": {
       "premium": [
-        "Loading Screen: Mirage's Worst Day"
+        "Loading Screen : Mirage's Worst Day"
       ],
       "free": []
     },
     "level_32": {
       "premium": [
-        "Lifeline Kill Quip: I Don't Even Think You Tryin'"
+        "Lifeline Quip Kill Quip : I Don't Even Think You Tryin'"
       ],
       "free": []
     },
     "level_33": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
         "Apex Pack"
@@ -242,19 +246,19 @@
     },
     "level_35": {
       "premium": [
-        "Lifeline Banner Frame: Crystalized Ice"
+        "Lifeline Banner Frame : Crystalized Ice"
       ],
       "free": []
     },
     "level_36": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_37": {
       "premium": [
-        "Music Pack: Crypto"
+        "Music Pack : Crypto"
       ],
       "free": [
         "Caustic Skin: Freezer Burn"
@@ -262,13 +266,13 @@
     },
     "level_38": {
       "premium": [
-        "XP Boost[note 1]"
+        "XP Boost [ note 1 ]"
       ],
       "free": []
     },
     "level_39": {
       "premium": [
-        "Loading Screen: Send in the Clowns"
+        "Loading Screen : Send in the Clowns"
       ],
       "free": []
     },
@@ -280,7 +284,7 @@
     },
     "level_41": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
@@ -292,31 +296,31 @@
     },
     "level_43": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_44": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_45": {
       "premium": [
-        "Mirage Banner Frame: Hot Head"
+        "Mirage Banner Frame : Hot Head"
       ],
       "free": []
     },
     "level_46": {
       "premium": [
-        "XP Boost[note 1]"
+        "XP Boost [ note 1 ]"
       ],
       "free": []
     },
     "level_47": {
       "premium": [
-        "Loading Screen: True Warrior"
+        "Loading Screen : True Warrior"
       ],
       "free": []
     },
@@ -328,7 +332,7 @@
     },
     "level_49": {
       "premium": [
-        "Wraith Banner Frame: Snow Monster"
+        "Wraith Banner Frame : Snow Monster"
       ],
       "free": []
     },
@@ -340,13 +344,13 @@
     },
     "level_51": {
       "premium": [
-        "Charm: Nox's Trap"
+        "Charm : Nox's Trap"
       ],
       "free": []
     },
     "level_52": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
@@ -358,7 +362,7 @@
     },
     "level_54": {
       "premium": [
-        "XP Boost[note 1]"
+        "XP Boost [ note 1 ]"
       ],
       "free": []
     },
@@ -370,13 +374,13 @@
     },
     "level_56": {
       "premium": [
-        "Bloodhound Kill Quip: The Allfather Has Gifted Me"
+        "Bloodhound Quip Kill Quip : The Allfather Has Gifted Me"
       ],
       "free": []
     },
     "level_57": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
@@ -388,31 +392,31 @@
     },
     "level_59": {
       "premium": [
-        "50"
+        "Apex Coins 50"
       ],
       "free": []
     },
     "level_60": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_61": {
       "premium": [
-        "Caustic Banner Frame: Gassed Out"
+        "Caustic Banner Frame : Gassed Out"
       ],
       "free": []
     },
     "level_62": {
       "premium": [
-        "XP Boost[note 1]"
+        "XP Boost [ note 1 ]"
       ],
       "free": []
     },
     "level_63": {
       "premium": [
-        "Octane Banner Frame: Running Hot"
+        "Octane Banner Frame : Running Hot"
       ],
       "free": []
     },
@@ -424,7 +428,7 @@
     },
     "level_65": {
       "premium": [
-        "Crypto Banner Frame: Nuclear Air"
+        "Crypto Banner Frame : Nuclear Air"
       ],
       "free": []
     },
@@ -436,13 +440,13 @@
     },
     "level_67": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_68": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
@@ -454,13 +458,13 @@
     },
     "level_70": {
       "premium": [
-        "XP Boost[note 1]"
+        "XP Boost [ note 1 ]"
       ],
       "free": []
     },
     "level_71": {
       "premium": [
-        "Loading Screen: Books and Covers"
+        "Loading Screen : Books and Covers"
       ],
       "free": []
     },
@@ -472,7 +476,7 @@
     },
     "level_73": {
       "premium": [
-        "Mirage Skydive Emote: It Takes Two"
+        "Mirage Skydive Emote : It Takes Two"
       ],
       "free": []
     },
@@ -484,13 +488,13 @@
     },
     "level_75": {
       "premium": [
-        "Bangalore Banner Frame: Melted Grounds"
+        "Bangalore Banner Frame : Melted Grounds"
       ],
       "free": []
     },
     "level_76": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
@@ -508,7 +512,7 @@
     },
     "level_79": {
       "premium": [
-        "Loading Screen: Rose-Colored Legends"
+        "Loading Screen : Rose-Colored Legends"
       ],
       "free": []
     },
@@ -520,7 +524,7 @@
     },
     "level_81": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
@@ -532,19 +536,19 @@
     },
     "level_83": {
       "premium": [
-        "Wattson Banner Frame: Down Under"
+        "Wattson Banner Frame : Down Under"
       ],
       "free": []
     },
     "level_84": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_85": {
       "premium": [
-        "Lifeline Skydive Emote: Windmill"
+        "Lifeline Skydive Emote : Windmill"
       ],
       "free": []
     },
@@ -556,7 +560,7 @@
     },
     "level_87": {
       "premium": [
-        "Loading Screen: Codename Crypto"
+        "Loading Screen : Codename Crypto"
       ],
       "free": []
     },
@@ -568,7 +572,7 @@
     },
     "level_89": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
@@ -580,19 +584,19 @@
     },
     "level_91": {
       "premium": [
-        "Charm: Artur"
+        "Charm : Artur"
       ],
       "free": []
     },
     "level_92": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_93": {
       "premium": [
-        "Pathfinder Skydive Emote: I Can Fly!"
+        "Pathfinder Skydive Emote : I Can Fly!"
       ],
       "free": []
     },
@@ -604,7 +608,7 @@
     },
     "level_95": {
       "premium": [
-        "Loading Screen: Pathfinder the Poet"
+        "Loading Screen : Pathfinder the Poet"
       ],
       "free": []
     },
@@ -616,7 +620,7 @@
     },
     "level_97": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
@@ -628,7 +632,7 @@
     },
     "level_99": {
       "premium": [
-        "Charm: Nessy"
+        "Charm : Nessy"
       ],
       "free": []
     },
@@ -643,7 +647,7 @@
         "Peacekeeper Skin: Blood Stone"
       ],
       "free": [
-        "Badge: Meltdown Level Season 3 Badge"
+        "Badge : Meltdown Level Season 3 Badge"
       ]
     }
   }

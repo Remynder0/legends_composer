@@ -1,13 +1,17 @@
 {
-  "season": 6,
+  "season": "6",
   "max_level": 110,
   "rewards": {
     "level_1": {
       "premium": [
-        "Sentinel Skin: Rollcage Bangalore Skin: Victory Lap Octane Skin: Hit and Run Mirage Skin: Stunt Double XP Boost[note 2]"
+        "Sentinel Skin: Rollcage",
+        "Bangalore Skin: Victory Lap",
+        "Octane Skin: Hit and Run",
+        "Mirage Skin: Stunt Double",
+        "XP Boost [ note 2 ]"
       ],
       "free": [
-        "Rampart Stat Tracker: Season 6 Wins"
+        "Rampart Stat Tracker : Season 6 Wins"
       ]
     },
     "level_2": {
@@ -15,23 +19,23 @@
         "Apex Pack"
       ],
       "free": [
-        "Rampart Stat Tracker: Season 6 Kills"
+        "Rampart Stat Tracker : Season 6 Kills"
       ]
     },
     "level_3": {
       "premium": [
-        "50"
+        "Apex Coins 50"
       ],
       "free": [
-        "Pathfinder Stat Tracker: Season 6 Wins"
+        "Pathfinder Stat Tracker : Season 6 Wins"
       ]
     },
     "level_4": {
       "premium": [
-        "Octane Holo-Spray: Catch me if you can!"
+        "Octane Holo-Spray : Catch me if you can!"
       ],
       "free": [
-        "Gibraltar Stat Tracker: Season 6 Kills"
+        "Gibraltar Stat Tracker : Season 6 Kills"
       ]
     },
     "level_5": {
@@ -44,10 +48,10 @@
     },
     "level_6": {
       "premium": [
-        "XP Boost[note 2]"
+        "XP Boost [ note 2 ]"
       ],
       "free": [
-        "Wraith Stat Tracker: Season 6 Wins"
+        "Wraith Stat Tracker : Season 6 Wins"
       ]
     },
     "level_7": {
@@ -55,12 +59,12 @@
         "Apex Pack"
       ],
       "free": [
-        "Crypto Stat Tracker: Season 6 Kills"
+        "Crypto Stat Tracker : Season 6 Kills"
       ]
     },
     "level_8": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": [
         "Apex Pack"
@@ -68,10 +72,10 @@
     },
     "level_9": {
       "premium": [
-        "Music Pack: Boosted"
+        "Music Pack : Boosted"
       ],
       "free": [
-        "Bangalore Stat Tracker: Season 6 Wins"
+        "Bangalore Stat Tracker : Season 6 Wins"
       ]
     },
     "level_10": {
@@ -79,12 +83,12 @@
         "R-99 SMG Skin: Carbon Cross"
       ],
       "free": [
-        "Wattson Stat Tracker: Season 6 Kills"
+        "Wattson Stat Tracker : Season 6 Kills"
       ]
     },
     "level_11": {
       "premium": [
-        "Weapon Charm: Tools of the Trade"
+        "Charm Weapon Charm : Tools of the Trade"
       ],
       "free": [
         "Apex Pack"
@@ -92,26 +96,26 @@
     },
     "level_12": {
       "premium": [
-        "Pathfinder Banner Frame: Energized"
+        "Pathfinder Banner Frame : Energized"
       ],
       "free": [
-        "Octane Stat Tracker: Season 6 Wins"
+        "Octane Stat Tracker : Season 6 Wins"
       ]
     },
     "level_13": {
       "premium": [
-        "50"
+        "Apex Coins 50"
       ],
       "free": [
-        "Loba Stat Tracker: Season 6 Kills"
+        "Loba Stat Tracker : Season 6 Kills"
       ]
     },
     "level_14": {
       "premium": [
-        "XP Boost[note 2]"
+        "XP Boost [ note 2 ]"
       ],
       "free": [
-        "Lifeline Stat Tracker: Season 6 Wins"
+        "Lifeline Stat Tracker : Season 6 Wins"
       ]
     },
     "level_15": {
@@ -119,15 +123,15 @@
         "Longbow DMR Skin: Rumble Strip"
       ],
       "free": [
-        "Mirage Stat Tracker: Season 6 Kills"
+        "Mirage Stat Tracker : Season 6 Kills"
       ]
     },
     "level_16": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": [
-        "Caustic Stat Tracker: Season 6 Wins"
+        "Caustic Stat Tracker : Season 6 Wins"
       ]
     },
     "level_17": {
@@ -140,10 +144,10 @@
     },
     "level_18": {
       "premium": [
-        "Revenant Banner Frame: Death Tuner"
+        "Revenant Banner Frame : Death Tuner"
       ],
       "free": [
-        "Bloodhound Stat Tracker: Season 6 Kills"
+        "Bloodhound Stat Tracker : Season 6 Kills"
       ]
     },
     "level_19": {
@@ -151,36 +155,36 @@
         "L-STAR EMG Skin: Notched"
       ],
       "free": [
-        "Revenant Stat Tracker: Season 6 Wins"
+        "Revenant Stat Tracker : Season 6 Wins"
       ]
     },
     "level_20": {
       "premium": [
-        "Wraith Banner Frame: On The Prowl"
+        "Wraith Banner Frame : On The Prowl"
       ],
       "free": [
-        "Revenant Stat Tracker: Season 6 Kills"
+        "Revenant Stat Tracker : Season 6 Kills"
       ]
     },
     "level_21": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "Bloodhound Stat Tracker: Season 6 Wins"
+        "Bloodhound Stat Tracker : Season 6 Wins"
       ]
     },
     "level_22": {
       "premium": [
-        "XP Boost[note 2]"
+        "XP Boost [ note 2 ]"
       ],
       "free": [
-        "Caustic Stat Tracker: Season 6 Wins"
+        "Caustic Stat Tracker : Season 6 Wins"
       ]
     },
     "level_23": {
       "premium": [
-        "Loading Screen: Destination Unkown"
+        "Loading Screen : Destination Unkown"
       ],
       "free": [
         "Apex Pack"
@@ -188,10 +192,10 @@
     },
     "level_24": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": [
-        "Mirage Stat Tracker: Season 6 Wins"
+        "Mirage Stat Tracker : Season 6 Wins"
       ]
     },
     "level_25": {
@@ -199,7 +203,7 @@
         "Pathfinder Skin: Full Throttle"
       ],
       "free": [
-        "Lifeline Stat Tracker: Season 6 Kills"
+        "Lifeline Stat Tracker : Season 6 Kills"
       ]
     },
     "level_26": {
@@ -207,28 +211,28 @@
         "Mastiff Shotgun Skin: Acid Burn"
       ],
       "free": [
-        "Loba Stat Tracker: Season 6 Wins"
+        "Loba Stat Tracker : Season 6 Wins"
       ]
     },
     "level_27": {
       "premium": [
-        "Weapon Charm: Fantastic Plastic"
+        "Charm Weapon Charm : Fantastic Plastic"
       ],
       "free": [
-        "Octane Stat Tracker: Season 6 Kills"
+        "Octane Stat Tracker : Season 6 Kills"
       ]
     },
     "level_28": {
       "premium": [
-        "Bangalore Banner Frame: Muscled Up"
+        "Bangalore Banner Frame : Muscled Up"
       ],
       "free": [
-        "Wattson Stat Tracker: Season 6 Wins"
+        "Wattson Stat Tracker : Season 6 Wins"
       ]
     },
     "level_29": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
         "Apex Pack"
@@ -236,18 +240,18 @@
     },
     "level_30": {
       "premium": [
-        "XP Boost[note 2]"
+        "XP Boost [ note 2 ]"
       ],
       "free": [
-        "Bangalore Stat Tracker: Season 6 Kills"
+        "Bangalore Stat Tracker : Season 6 Kills"
       ]
     },
     "level_31": {
       "premium": [
-        "Loading Screen: Self-Destruct"
+        "Loading Screen : Self-Destruct"
       ],
       "free": [
-        "Crypto Stat Tracker: Season 6 Wins"
+        "Crypto Stat Tracker : Season 6 Wins"
       ]
     },
     "level_32": {
@@ -255,23 +259,23 @@
         "Mozambique Shotgun Skin: Short Shifter"
       ],
       "free": [
-        "Wraith Stat Tracker: Season 6 Kills"
+        "Wraith Stat Tracker : Season 6 Kills"
       ]
     },
     "level_33": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": [
-        "Gibraltar Stat Tracker: Season 6 Wins"
+        "Gibraltar Stat Tracker : Season 6 Wins"
       ]
     },
     "level_34": {
       "premium": [
-        "Bangalore Skydive Emote: Controlled Demolition"
+        "Bangalore Skydive Emote : Controlled Demolition"
       ],
       "free": [
-        "Pathfinder Stat Tracker: Season 6 Kills"
+        "Pathfinder Stat Tracker : Season 6 Kills"
       ]
     },
     "level_35": {
@@ -282,25 +286,25 @@
     },
     "level_36": {
       "premium": [
-        "Caustic Banner Frame: Failed Emissions"
+        "Caustic Banner Frame : Failed Emissions"
       ],
       "free": []
     },
     "level_37": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_38": {
       "premium": [
-        "XP Boost[note 2]"
+        "XP Boost [ note 2 ]"
       ],
       "free": []
     },
     "level_39": {
       "premium": [
-        "Octane Kill Quip: I was bored until you came along"
+        "Octane Quip Kill Quip : I was bored until you came along"
       ],
       "free": []
     },
@@ -312,31 +316,31 @@
     },
     "level_41": {
       "premium": [
-        "Pathfinder Kill Quip: I'm going to a party after this"
+        "Pathfinder Quip Kill Quip : I'm going to a party after this"
       ],
       "free": []
     },
     "level_42": {
       "premium": [
-        "Weapon Charm: Rims"
+        "Charm Weapon Charm : Rims"
       ],
       "free": []
     },
     "level_43": {
       "premium": [
-        "Gibraltar Kill Quip: You're a bit too slow, brother"
+        "Gibraltar Quip Kill Quip : You're a bit too slow, brother"
       ],
       "free": []
     },
     "level_44": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_45": {
       "premium": [
-        "Wraith Skydive Emote: Spiralling Void"
+        "Wraith Skydive Emote : Spiralling Void"
       ],
       "free": [
         "Apex Pack"
@@ -344,13 +348,13 @@
     },
     "level_46": {
       "premium": [
-        "XP Boost[note 2]"
+        "XP Boost [ note 2 ]"
       ],
       "free": []
     },
     "level_47": {
       "premium": [
-        "Loading Screen: Aftermatch"
+        "Loading Screen : Aftermatch"
       ],
       "free": []
     },
@@ -362,7 +366,7 @@
     },
     "level_49": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
@@ -380,13 +384,13 @@
     },
     "level_52": {
       "premium": [
-        "Octane Banner Frame: Fuel Injected"
+        "Octane Banner Frame : Fuel Injected"
       ],
       "free": []
     },
     "level_53": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
         "Rampart Skin: Cascade"
@@ -394,7 +398,7 @@
     },
     "level_54": {
       "premium": [
-        "XP Boost[note 2]"
+        "XP Boost [ note 2 ]"
       ],
       "free": []
     },
@@ -406,7 +410,7 @@
     },
     "level_56": {
       "premium": [
-        "Loading Screen: The Referral"
+        "Loading Screen : The Referral"
       ],
       "free": []
     },
@@ -424,7 +428,7 @@
     },
     "level_59": {
       "premium": [
-        "Rampart Skydive Emote: Spray and Sway"
+        "Rampart Skydive Emote : Spray and Sway"
       ],
       "free": []
     },
@@ -436,13 +440,13 @@
     },
     "level_61": {
       "premium": [
-        "Bloodhound Banner Frame: Boneyard Bound"
+        "Bloodhound Banner Frame : Boneyard Bound"
       ],
       "free": []
     },
     "level_62": {
       "premium": [
-        "XP Boost[note 2]"
+        "XP Boost [ note 2 ]"
       ],
       "free": []
     },
@@ -454,7 +458,7 @@
     },
     "level_64": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
@@ -466,37 +470,37 @@
     },
     "level_66": {
       "premium": [
-        "Weapon Charm: Chrome Hound"
+        "Charm Weapon Charm : Chrome Hound"
       ],
       "free": []
     },
     "level_67": {
       "premium": [
-        "Rampart Kill Quip: Maybe give it a rest"
+        "Rampart Quip Kill Quip : Maybe give it a rest"
       ],
       "free": []
     },
     "level_68": {
       "premium": [
-        "Lifeline Banner Frame: Car Package"
+        "Lifeline Banner Frame : Car Package"
       ],
       "free": []
     },
     "level_69": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_70": {
       "premium": [
-        "XP Boost[note 2]"
+        "XP Boost [ note 2 ]"
       ],
       "free": []
     },
     "level_71": {
       "premium": [
-        "Bloodhound Holo-Spray: Slátra and victory!"
+        "Bloodhound Holo-Spray : Slátra and victory!"
       ],
       "free": []
     },
@@ -508,13 +512,13 @@
     },
     "level_73": {
       "premium": [
-        "Lifeline Kill Quip: This ain't no place for you"
+        "Lifeline Quip Kill Quip : This ain't no place for you"
       ],
       "free": []
     },
     "level_74": {
       "premium": [
-        "Loading Screen: Midnight Pint"
+        "Loading Screen : Midnight Pint"
       ],
       "free": []
     },
@@ -526,19 +530,19 @@
     },
     "level_76": {
       "premium": [
-        "Weapon Charm: The Score"
+        "Charm Weapon Charm : The Score"
       ],
       "free": []
     },
     "level_77": {
       "premium": [
-        "Loba Banner Frame: Moonlit Gateway"
+        "Loba Banner Frame : Moonlit Gateway"
       ],
       "free": []
     },
     "level_78": {
       "premium": [
-        "Wraith Holo-Spray: Looking for me?"
+        "Wraith Holo-Spray : Looking for me?"
       ],
       "free": []
     },
@@ -556,7 +560,7 @@
     },
     "level_81": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
@@ -568,25 +572,25 @@
     },
     "level_83": {
       "premium": [
-        "Revenant Skydive Emote: Exhumed"
+        "Revenant Skydive Emote : Exhumed"
       ],
       "free": []
     },
     "level_84": {
       "premium": [
-        "Rampart Banner Frame: Pit Lane"
+        "Rampart Banner Frame : Pit Lane"
       ],
       "free": []
     },
     "level_85": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_86": {
       "premium": [
-        "Mirage Holo-Spray: Bamboozled!"
+        "Mirage Holo-Spray : Bamboozled!"
       ],
       "free": []
     },
@@ -604,7 +608,7 @@
     },
     "level_89": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
@@ -616,37 +620,37 @@
     },
     "level_91": {
       "premium": [
-        "Music Pack: Rampart"
+        "Music Pack : Rampart"
       ],
       "free": []
     },
     "level_92": {
       "premium": [
-        "Caustic Skydive Emote: Chemtrails"
+        "Caustic Skydive Emote : Chemtrails"
       ],
       "free": []
     },
     "level_93": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_94": {
       "premium": [
-        "Loba Holo-Spray: It's not me. It's you."
+        "Loba Holo-Spray : It's not me. It's you."
       ],
       "free": []
     },
     "level_95": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_96": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
@@ -658,7 +662,7 @@
     },
     "level_98": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
         "Volt SMG Skin: Data Protector"
@@ -685,7 +689,7 @@
         "G7 Scout Skin: Hypersonic"
       ],
       "free": [
-        "Badge: Boosted Level Season 6 Badge"
+        "Badge : Boosted Level Season 6 Badge"
       ]
     }
   }

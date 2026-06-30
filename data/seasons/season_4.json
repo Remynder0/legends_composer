@@ -1,19 +1,23 @@
 {
-  "season": 4,
+  "season": "4",
   "max_level": 110,
   "rewards": {
     "level_1": {
       "premium": [
-        "R-99 SMG Skin: Zero Point Lifeline Skin: Health Drain Pathfinder Skin: Team Lift Crypto Skin: Blue Steel XP Boost[note 1]"
+        "R-99 SMG Skin: Zero Point",
+        "Lifeline Skin: Health Drain",
+        "Pathfinder Skin: Team Lift",
+        "Crypto Skin: Blue Steel",
+        "XP Boost [ note 1 ]"
       ],
       "free": []
     },
     "level_2": {
       "premium": [
-        "50"
+        "Apex Coins 50"
       ],
       "free": [
-        "Revenant Stat Tracker: Season 4 Wins"
+        "Revenant Stat Tracker : Season 4 Wins"
       ]
     },
     "level_3": {
@@ -21,15 +25,15 @@
         "Apex Pack"
       ],
       "free": [
-        "Crypto Stat Tracker: Season 4 Wins"
+        "Crypto Stat Tracker : Season 4 Wins"
       ]
     },
     "level_4": {
       "premium": [
-        "XP Boost[note 1]"
+        "XP Boost [ note 1 ]"
       ],
       "free": [
-        "Wattson Stat Tracker: Season 4 Wins"
+        "Wattson Stat Tracker : Season 4 Wins"
       ]
     },
     "level_5": {
@@ -37,31 +41,31 @@
         "Apex Pack"
       ],
       "free": [
-        "Pathfinder Stat Tracker: Season 4 Wins"
+        "Pathfinder Stat Tracker : Season 4 Wins"
       ]
     },
     "level_6": {
       "premium": [
-        "50"
+        "Apex Coins 50"
       ],
       "free": [
-        "Bangalore Stat Tracker: Season 4 Wins"
+        "Bangalore Stat Tracker : Season 4 Wins"
       ]
     },
     "level_7": {
       "premium": [
-        "Weapon Charm: Knockout!"
+        "Charm Weapon Charm : Knockout!"
       ],
       "free": [
-        "Mirage Stat Tracker: Season 4 Wins"
+        "Mirage Stat Tracker : Season 4 Wins"
       ]
     },
     "level_8": {
       "premium": [
-        "Loading Screen: Hammond Robotics (Draft1)"
+        "Loading Screen : Hammond Robotics (Draft1)"
       ],
       "free": [
-        "Caustic Stat Tracker: Season 4 Wins"
+        "Caustic Stat Tracker : Season 4 Wins"
       ]
     },
     "level_9": {
@@ -69,15 +73,15 @@
         "Apex Pack"
       ],
       "free": [
-        "Wraith Stat Tracker: Season 4 Wins"
+        "Wraith Stat Tracker : Season 4 Wins"
       ]
     },
     "level_10": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": [
-        "Gibraltar Stat Tracker: Season 4 Wins"
+        "Gibraltar Stat Tracker : Season 4 Wins"
       ]
     },
     "level_11": {
@@ -85,28 +89,28 @@
         "Kraber .50-Cal Sniper Skin: Sapphire Protection"
       ],
       "free": [
-        "Bloodhound Stat Tracker: Season 4 Wins"
+        "Bloodhound Stat Tracker : Season 4 Wins"
       ]
     },
     "level_12": {
       "premium": [
-        "Gibraltar Banner Frame: Slow and Steady"
+        "Gibraltar Banner Frame : Slow and Steady"
       ],
       "free": [
-        "Lifeline Stat Tracker: Season 4 Wins"
+        "Lifeline Stat Tracker : Season 4 Wins"
       ]
     },
     "level_13": {
       "premium": [
-        "Revenant Skydive Emote: Dodging Death"
+        "Revenant Skydive Emote : Dodging Death"
       ],
       "free": [
-        "Octane Stat Tracker: Season 4 Wins"
+        "Octane Stat Tracker : Season 4 Wins"
       ]
     },
     "level_14": {
       "premium": [
-        "XP Boost[note 1]"
+        "XP Boost [ note 1 ]"
       ],
       "free": []
     },
@@ -120,19 +124,19 @@
     },
     "level_16": {
       "premium": [
-        "Wraith Banner Frame: Inside The System"
+        "Wraith Banner Frame : Inside The System"
       ],
       "free": []
     },
     "level_17": {
       "premium": [
-        "Loading Screen: Dining With Dino"
+        "Loading Screen : Dining With Dino"
       ],
       "free": []
     },
     "level_18": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
@@ -146,13 +150,13 @@
     },
     "level_20": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_21": {
       "premium": [
-        "Octane Skydive Emote: Influencer"
+        "Octane Skydive Emote : Influencer"
       ],
       "free": []
     },
@@ -172,7 +176,7 @@
     },
     "level_24": {
       "premium": [
-        "XP Boost[note 1]"
+        "XP Boost [ note 1 ]"
       ],
       "free": []
     },
@@ -184,7 +188,7 @@
     },
     "level_26": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
@@ -198,19 +202,19 @@
     },
     "level_28": {
       "premium": [
-        "Weapon Charm: MOBO"
+        "Charm Weapon Charm : MOBO"
       ],
       "free": []
     },
     "level_29": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_30": {
       "premium": [
-        "Caustic Skydive Emote: Knox Powered"
+        "Caustic Skydive Emote : Knox Powered"
       ],
       "free": []
     },
@@ -224,19 +228,19 @@
     },
     "level_32": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_33": {
       "premium": [
-        "Gibraltar Kill Quip: Win? Against me? Hahaha"
+        "Gibraltar Quip Kill Quip : Win? Against me? Hahaha"
       ],
       "free": []
     },
     "level_34": {
       "premium": [
-        "XP Boost[note 1]"
+        "XP Boost [ note 1 ]"
       ],
       "free": []
     },
@@ -248,19 +252,19 @@
     },
     "level_36": {
       "premium": [
-        "Loading Screen: Seasonal Special"
+        "Loading Screen : Seasonal Special"
       ],
       "free": []
     },
     "level_37": {
       "premium": [
-        "Pathfinder Banner Frame: Connection Established"
+        "Pathfinder Banner Frame : Connection Established"
       ],
       "free": []
     },
     "level_38": {
       "premium": [
-        "Bloodhound Banner Frame: Warning Signs"
+        "Bloodhound Banner Frame : Warning Signs"
       ],
       "free": []
     },
@@ -272,19 +276,19 @@
     },
     "level_40": {
       "premium": [
-        "Revenant Kill Quip: Are your friends nearby?"
+        "Revenant Quip Kill Quip : Are your friends nearby?"
       ],
       "free": []
     },
     "level_41": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_42": {
       "premium": [
-        "Loading Screen: Exhibit C"
+        "Loading Screen : Exhibit C"
       ],
       "free": []
     },
@@ -296,19 +300,19 @@
     },
     "level_44": {
       "premium": [
-        "XP Boost[note 1]"
+        "XP Boost [ note 1 ]"
       ],
       "free": []
     },
     "level_45": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_46": {
       "premium": [
-        "Crypto Skydive Emote: Danger Zone"
+        "Crypto Skydive Emote : Danger Zone"
       ],
       "free": []
     },
@@ -320,13 +324,13 @@
     },
     "level_48": {
       "premium": [
-        "Loading Screen: Just Business"
+        "Loading Screen : Just Business"
       ],
       "free": []
     },
     "level_49": {
       "premium": [
-        "Bangalore Banner Frame: Streamlined"
+        "Bangalore Banner Frame : Streamlined"
       ],
       "free": []
     },
@@ -344,19 +348,19 @@
     },
     "level_52": {
       "premium": [
-        "Crypto Banner Frame: Gated"
+        "Crypto Banner Frame : Gated"
       ],
       "free": []
     },
     "level_53": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_54": {
       "premium": [
-        "XP Boost[note 1]"
+        "XP Boost [ note 1 ]"
       ],
       "free": []
     },
@@ -368,19 +372,19 @@
     },
     "level_56": {
       "premium": [
-        "Mirage Banner Frame: Red Beau"
+        "Mirage Banner Frame : Red Beau"
       ],
       "free": []
     },
     "level_57": {
       "premium": [
-        "Loading Screen: Mirror Images"
+        "Loading Screen : Mirror Images"
       ],
       "free": []
     },
     "level_58": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
@@ -400,13 +404,13 @@
     },
     "level_61": {
       "premium": [
-        "Weapon Charm: Mecha Artur"
+        "Charm Weapon Charm : Mecha Artur"
       ],
       "free": []
     },
     "level_62": {
       "premium": [
-        "Loading Screen: Lies"
+        "Loading Screen : Lies"
       ],
       "free": []
     },
@@ -418,19 +422,19 @@
     },
     "level_64": {
       "premium": [
-        "XP Boost[note 1]"
+        "XP Boost [ note 1 ]"
       ],
       "free": []
     },
     "level_65": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_66": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
@@ -442,7 +446,7 @@
     },
     "level_68": {
       "premium": [
-        "Caustic Banner Frame: Last Rites"
+        "Caustic Banner Frame : Last Rites"
       ],
       "free": []
     },
@@ -454,7 +458,7 @@
     },
     "level_70": {
       "premium": [
-        "Music Pack: Revenant"
+        "Music Pack : Revenant"
       ],
       "free": []
     },
@@ -466,19 +470,19 @@
     },
     "level_72": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_73": {
       "premium": [
-        "Loading Screen: The Program"
+        "Loading Screen : The Program"
       ],
       "free": []
     },
     "level_74": {
       "premium": [
-        "XP Boost[note 1]"
+        "XP Boost [ note 1 ]"
       ],
       "free": []
     },
@@ -490,19 +494,19 @@
     },
     "level_76": {
       "premium": [
-        "Wattson Kill Quip: Don't be afraid of the dark"
+        "Wattson Quip Kill Quip : Don't be afraid of the dark"
       ],
       "free": []
     },
     "level_77": {
       "premium": [
-        "Octane Banner Frame: High Performance"
+        "Octane Banner Frame : High Performance"
       ],
       "free": []
     },
     "level_78": {
       "premium": [
-        "Loading Screen: The Cycle"
+        "Loading Screen : The Cycle"
       ],
       "free": []
     },
@@ -514,19 +518,19 @@
     },
     "level_80": {
       "premium": [
-        "Music Pack: Assimilation"
+        "Music Pack : Assimilation"
       ],
       "free": []
     },
     "level_81": {
       "premium": [
-        "Wattson Banner Frame: Electric Flail"
+        "Wattson Banner Frame : Electric Flail"
       ],
       "free": []
     },
     "level_82": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
@@ -538,19 +542,19 @@
     },
     "level_84": {
       "premium": [
-        "XP Boost[note 1]"
+        "XP Boost [ note 1 ]"
       ],
       "free": []
     },
     "level_85": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
     "level_86": {
       "premium": [
-        "Weapon Charm: Plushness Monster"
+        "Charm Weapon Charm : Plushness Monster"
       ],
       "free": []
     },
@@ -562,7 +566,7 @@
     },
     "level_88": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
@@ -574,7 +578,7 @@
     },
     "level_90": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
@@ -586,19 +590,19 @@
     },
     "level_92": {
       "premium": [
-        "120"
+        "Crafting Metals 120"
       ],
       "free": []
     },
     "level_93": {
       "premium": [
-        "Wraith Skydive Emote: Think Fast"
+        "Wraith Skydive Emote : Think Fast"
       ],
       "free": []
     },
     "level_94": {
       "premium": [
-        "Weapon Charm: Mr. Robobble"
+        "Charm Weapon Charm : Mr. Robobble"
       ],
       "free": []
     },
@@ -610,13 +614,13 @@
     },
     "level_96": {
       "premium": [
-        "Loading Screen: No More Lies"
+        "Loading Screen : No More Lies"
       ],
       "free": []
     },
     "level_97": {
       "premium": [
-        "100"
+        "Apex Coins 100"
       ],
       "free": []
     },
@@ -643,7 +647,7 @@
         "VK-47 Flatline Skin: Heat Sink"
       ],
       "free": [
-        "Badge: Assimilation Level Season 4 Badge"
+        "Badge : Assimilation Level Season 4 Badge"
       ]
     }
   }
