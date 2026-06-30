@@ -3,7 +3,7 @@ import { ref } from 'vue'
 import { buildTeam } from '../../logic/composer'
 import { legendsData, antiSynergiesData, historyData } from '../../logic/store'
 
-const iterations = ref<number>(100)
+const iterations = ref<number>(500)
 const teamSize = ref<number>(3)
 const isSimulating = ref(false)
 
@@ -16,7 +16,8 @@ interface PresenceResult {
 const results = ref<PresenceResult[]>([])
 
 function runSimulation() {
-    if (iterations.value < 1 || iterations.value > 10000) return;
+    if (iterations.value > 1500) iterations.value = 1500;
+    if (iterations.value < 1) iterations.value = 1;
     
     isSimulating.value = true;
     results.value = [];
@@ -64,7 +65,7 @@ function runSimulation() {
         <div class="flex flex-col md:flex-row gap-6 items-end">
             <div>
                 <label class="block text-titan-cyan text-xs font-bold font-mono uppercase tracking-widest mb-2">Itérations :</label>
-                <input v-model="iterations" type="number" min="1" max="10000" class="bg-black/50 border border-titan-border text-white px-4 py-2 font-mono focus:outline-none focus:border-titan-orange w-32" />
+                <input v-model="iterations" type="number" min="1" max="1500" class="bg-black/50 border border-titan-border text-white px-4 py-2 font-mono focus:outline-none focus:border-titan-orange w-32" />
             </div>
             
             <div>
