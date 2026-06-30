@@ -1,5 +1,6 @@
 import { ref } from 'vue';
 import type { Legend, AntiSynergy, SpecialSynergy, HistoryRecord } from './composer';
+import { syncToCloud } from './syncService';
 
 export const legendsData = ref<Legend[]>([]);
 export const antiSynergiesData = ref<AntiSynergy[]>([]);
@@ -44,4 +45,5 @@ export async function loadGameData() {
 export function saveMatchResult(teamNames: string[], placement: number) {
     historyData.value.push({ team: teamNames, placement });
     localStorage.setItem('apex_composer_history', JSON.stringify(historyData.value));
+    syncToCloud();
 }

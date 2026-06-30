@@ -9,6 +9,8 @@ import TabSimulation from './components/tabs/TabSimulation.vue'
 import TabStats from './components/tabs/TabStats.vue'
 import TabSort from './components/tabs/TabSort.vue'
 import TabBattlePass from './components/tabs/TabBattlePass.vue'
+import SyncStatus from './components/SyncStatus.vue'
+import { initSync } from './logic/syncService'
 
 const currentTab = ref('TeamGen')
 
@@ -24,6 +26,7 @@ const tabs = [
 
 onMounted(async () => {
   await loadGameData()
+  initSync()
 })
 </script>
 
@@ -52,9 +55,7 @@ onMounted(async () => {
         </button>
       </nav>
 
-      <div class="p-4 border-t border-titan-border text-xs font-mono text-gray-600 text-center">
-        SYSTEM ONLINE
-      </div>
+      <SyncStatus />
     </aside>
 
     <!-- Main Content -->
