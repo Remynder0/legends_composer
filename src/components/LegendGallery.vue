@@ -65,9 +65,7 @@ function handleGridPortraitError(event: Event, fallbackSrc: string) {
   <!-- Le fond gris de la carte est maintenant en dehors de innerRef -->
   <!-- Il restera donc 100% statique et ne tournera pas avec la souris -->
   <div class="card-bg">
-      <span class="absolute top-4 left-0 w-full text-center font-black text-3xl uppercase tracking-widest font-sans text-white drop-shadow-[0_2px_4px_rgba(0,0,0,1)]">
-          {{ legendName }}
-      </span>
+      
   </div>
 
   <div ref="innerRef" class="card-inner">
@@ -87,13 +85,12 @@ function handleGridPortraitError(event: Event, fallbackSrc: string) {
 
 <style scoped>
 .marvel-card {
-  width: 100%;
-  height: 300px; /* Taille exacte du fond gris */
+  width: 80%;
+  height: 250px; /* Taille exacte du fond gris */
   perspective: 1000px; 
   cursor: pointer;
   margin-top: 100px; /* Espace pour laisser la tête déborder en haut */
   position: relative; /* Ajouté pour ancrer le fond statique */
-  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 50px), calc(10% - 40px) 100%, 0 100%);
 }
 
 .card-inner {
