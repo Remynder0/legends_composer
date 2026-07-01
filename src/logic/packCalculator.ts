@@ -112,8 +112,12 @@ export function generateSeasons(): SeasonData[] {
         const data = getParsedSeasonData(id);
         let skinName = "Inconnu";
         
-        if (data?.rewards?.level_1?.premium) {
-            skinName = extractWeaponSkin(data.rewards.level_1.premium, `${i}`);
+        // Reactive is at level 100 or 110
+        if (data?.rewards?.level_100?.premium) {
+            skinName = extractWeaponSkin(data.rewards.level_100.premium, `${i}`);
+        }
+        if (skinName === "Inconnu" && data?.rewards?.level_110?.premium) {
+            skinName = extractWeaponSkin(data.rewards.level_110.premium, `${i}`);
         }
         const weaponSkin = `${skinName}`;
 
@@ -134,8 +138,9 @@ export function generateSeasons(): SeasonData[] {
             const data = getParsedSeasonData(id);
             let skinName = "Inconnu";
             
-            if (data?.rewards?.level_1?.premium) {
-                skinName = extractWeaponSkin(data.rewards.level_1.premium, key);
+            // Reactive is at level 60 for new split passes
+            if (data?.rewards?.level_60?.premium) {
+                skinName = extractWeaponSkin(data.rewards.level_60.premium, key);
             }
             const weaponSkin = `${skinName}`;
 

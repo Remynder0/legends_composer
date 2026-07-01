@@ -1,13 +1,30 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
 import { legendsData, loadLegendDetails, currentLegendDetails, isLoadingLegendDetails } from '../../logic/store'
+import LegendGallery from '../LegendGallery.vue'
 
 const searchQuery = ref('')
 const selectedLegendName = ref<string | null>(null)
+const groupByClass = ref(false)
 
 const filteredLegends = computed(() => {
-    if (!searchQuery.value) return legendsData.value
-    return legendsData.value.filter(l => l.Name.toLowerCase().includes(searchQuery.value.toLowerCase()))
+    let list = legendsData.value
+    if (searchQuery.value) {
+        list = list.filter(l => l.Name.toLowerCase().includes(searchQuery.value.toLowerCase()))
+    }
+    // Sort alphabetically by base
+    return list.slice().sort((a, b) => a.Name.localeCompare(b.Name))
+})
+
+const groupedLegends = computed(() => {
+    if (!groupByClass.value) return null
+    const groups: Record<string, typeof legendsData.value> = {}
+    filteredLegends.value.forEach(legend => {
+        const c = legend.Class || 'Unknown'
+        if (!groups[c]) groups[c] = []
+        groups[c].push(legend)
+    })
+    return groups
 })
 
 async function selectLegend(name: string) {
@@ -20,6 +37,7 @@ function closeModal() {
 }
 
 const formatImgName = (name: string) => name.toLowerCase().replace(/ /g, '_')
+const formatClassName = (name: string) => name.toLowerCase().replace(/ /g, '_')
 
 const portraitError = ref(false)
 const ability1Error = ref(false)
@@ -45,54 +63,72 @@ function handleImageError(event: Event, fallbackSrc: string, errorFlagRef: 'port
     };
 }
 
-function handleGridPortraitError(event: Event, fallbackSrc: string) {
+function hideErrorImage(event: Event) {
     const img = event.target as HTMLImageElement;
-    img.src = fallbackSrc;
+    if (img) img.style.display = 'none';
 }
 </script>
 
 <template>
   <div class="h-full flex flex-col overflow-hidden relative">
     <!-- Top Search Bar & Header -->
-    <div class="p-6 border-b border-titan-border bg-black/60 shrink-0 flex flex-col md:flex-row md:items-center justify-between gap-4">
+    <div class="p-6 border-b border-titan-border bg-black/60 shrink-0 flex flex-col md:flex-row md:items-center justify-between gap-4 z-10">
         <h2 class="text-2xl font-black text-white tracking-widest uppercase font-mono flex items-center">
             <span class="text-titan-cyan mr-3 block w-3 h-3 bg-titan-cyan"></span> 
             Archives Légendes
         </h2>
-        <input 
-            v-model="searchQuery" 
-            type="text" 
-            placeholder="RECHERCHER UNE LÉGENDE..." 
-            class="w-full md:w-96 bg-black/50 border border-titan-border text-white px-4 py-2 font-mono text-sm focus:outline-none focus:border-titan-cyan transition-colors"
-        />
+        <div class="flex items-center gap-4 w-full md:w-auto">
+            <button 
+                @click="groupByClass = !groupByClass" 
+                class="px-4 py-2 font-mono text-xs uppercase tracking-widest border transition-colors whitespace-nowrap"
+                :class="groupByClass ? 'border-titan-cyan text-titan-cyan bg-titan-cyan/10' : 'border-titan-border text-gray-400 hover:text-white'"
+            >
+                Groupé par Classe
+            </button>
+            <input 
+                v-model="searchQuery" 
+                type="text" 
+                placeholder="RECHERCHER UNE LÉGENDE..." 
+                class="w-full md:w-96 bg-black/50 border border-titan-border text-white px-4 py-2 font-mono text-sm focus:outline-none focus:border-titan-cyan transition-colors"
+            />
+        </div>
     </div>
 
     <!-- Legends Grid -->
     <div class="flex-1 overflow-y-auto custom-scrollbar p-6 bg-black/40">
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 content-start">
-            <button 
+        <!-- Ungrouped Display -->
+        <div v-if="!groupByClass" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-x-12 gap-y-20 content-start pt-16 pb-8">
+            <LegendGallery 
                 v-for="legend in filteredLegends" 
                 :key="legend.Name"
+                :legendName="legend.Name"
                 @click="handleSelectLegend(legend.Name)"
-                class="flex flex-col items-center justify-end p-0 border border-titan-border/50 bg-black/30 hover:border-titan-cyan transition-all relative group h-80 overflow-hidden"
-            >
-                <!-- Because some are .jpg and some are .png, we try .jpg first based on user instruction, fallback to .png -->
-                <img 
-                    :src="`/images/legends/portraits/${formatImgName(legend.Name)}.jpg`" 
-                    @error="handleGridPortraitError($event, `/images/legends/portraits/${formatImgName(legend.Name)}.png`)"
-                    :alt="legend.Name"
-                    class="absolute inset-0 w-full h-full object-cover object-top opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500"
-                />
-                <!-- Gradient overlay to make text readable -->
-                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
-                
-                <div class="relative z-10 w-full p-4 text-center transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                    <span class="font-black text-2xl uppercase tracking-widest font-sans text-white group-hover:text-titan-cyan transition-colors drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">
-                        {{ legend.Name }}
-                    </span>
-                    <div class="w-8 h-1 bg-titan-cyan mx-auto mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100"></div>
+            />
+        </div>
+
+        <!-- Grouped Display -->
+        <div v-else class="space-y-16 pb-8">
+            <div v-for="(group, className) in groupedLegends" :key="className">
+                <div class="flex items-center gap-4 mb-4 border-b border-titan-border/50 pb-2">
+                    <div class="w-10 h-10 bg-black/60 border border-titan-border flex items-center justify-center p-2 rounded-sm shrink-0">
+                        <img 
+                            :src="`/images/legends/classes/${formatClassName(String(className))}_class.svg`" 
+                            class="w-full h-full opacity-80 invert drop-shadow" 
+                            @error="hideErrorImage"
+                        />
+                    </div>
+                    <h3 class="text-2xl font-black text-white tracking-widest uppercase font-sans">{{ className }}</h3>
+                    <span class="text-titan-cyan font-mono text-sm ml-2">[{{ group.length }}]</span>
                 </div>
-            </button>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-x-12 gap-y-20 content-start pt-16">
+                    <LegendGallery 
+                        v-for="legend in group" 
+                        :key="legend.Name"
+                        :legendName="legend.Name"
+                        @click="handleSelectLegend(legend.Name)"
+                    />
+                </div>
+            </div>
         </div>
     </div>
 

@@ -40,6 +40,53 @@ const levels = computed(() => {
     }
     return result
 })
+const getWeaponIconName = (skinStr: string) => {
+    if (!skinStr) return null;
+    const lower = skinStr.toLowerCase();
+    if (lower.includes('r-301')) return 'r-301_carbine';
+    if (lower.includes('flatline')) return 'vk-47_flatline';
+    if (lower.includes('car') || lower.includes('c.a.r.')) return 'c.a.r._smg';
+    if (lower.includes('nemesis')) return 'nemesis_burst_ar';
+    if (lower.includes('prowler')) return 'prowler_burst_pdw';
+    if (lower.includes('hemlok')) return 'hemlok_burst_ar';
+    if (lower.includes('r-99')) return 'r-99_smg';
+    if (lower.includes('volt')) return 'volt_smg';
+    if (lower.includes('alternator')) return 'alternator_smg';
+    if (lower.includes('spitfire')) return 'm600_spitfire';
+    if (lower.includes('devotion')) return 'devotion_lmg';
+    if (lower.includes('rampage')) return 'rampage_lmg';
+    if (lower.includes('l-star')) return 'l-star_emg';
+    if (lower.includes('havoc')) return 'havoc_rifle';
+    if (lower.includes('g7 scout')) return 'g7_scout';
+    if (lower.includes('triple take')) return 'triple_take';
+    if (lower.includes('30-30')) return '30-30_repeater';
+    if (lower.includes('bocek')) return 'bocek_compound_bow';
+    if (lower.includes('kraber')) return 'kraber_.50-cal_sniper';
+    if (lower.includes('sentinel')) return 'sentinel_esr';
+    if (lower.includes('charge rifle')) return 'charge_rifle';
+    if (lower.includes('longbow')) return 'longbow_dmr';
+    if (lower.includes('peacekeeper')) return 'peacekeeper';
+    if (lower.includes('mastiff')) return 'mastiff_shotgun';
+    if (lower.includes('eva-8')) return 'eva-8_auto';
+    if (lower.includes('mozambique')) return 'mozambique_shotgun';
+    if (lower.includes('wingman')) return 'wingman';
+    if (lower.includes('p2020')) return 'p2020';
+    if (lower.includes('re-45')) return 're-45_auto';
+    return null;
+}
+
+const getWeaponSkinIcon = (item: string) => {
+    const lower = item.toLowerCase();
+    if (lower.includes('xp boost') || lower.includes('apex coin') || lower.includes('crafting') || lower.includes('apex pack') || lower.includes('banner') || lower.includes('holospray') || lower.includes('tracker') || lower.includes('voice line') || lower.includes('quip') || lower.includes('emote') || lower.includes('transition') || lower.includes('charm') || lower.includes('sticker') || lower.includes('music') || lower.includes('skydive') || lower.includes('badge') || lower.includes('stat tracker')) {
+        return null;
+    }
+    return getWeaponIconName(item);
+}
+
+const hideImageOnError = (event: Event) => {
+    const target = event.target as HTMLImageElement;
+    if (target) target.style.display = 'none';
+};
 </script>
 
 <template>
@@ -52,16 +99,41 @@ const levels = computed(() => {
     </div>
 
     <!-- Controls -->
-    <div class="flex gap-4 items-center bg-black/40 p-4 border border-titan-border">
-      <label class="text-sm font-bold text-titan-cyan uppercase tracking-wider">Sélectionner une Saison</label>
-      <select 
-        v-model="selectedSeasonId" 
-        class="bg-titan-panel border border-titan-border text-white px-4 py-2 font-mono outline-none focus:border-titan-cyan transition-colors min-w-[200px]"
-      >
-        <option v-for="season in seasons" :key="season.id" :value="season.id">
-          {{ season.name }}
-        </option>
-      </select>
+    <div class="flex flex-wrap gap-6 items-center bg-black/40 p-6 border border-titan-border relative overflow-hidden">
+      <div class="flex gap-4 items-center z-10">
+          <label class="text-sm font-bold text-titan-cyan uppercase tracking-wider">Sélectionner une Saison</label>
+          <select 
+            v-model="selectedSeasonId" 
+            class="bg-titan-panel border border-titan-border text-white px-4 py-2 font-mono outline-none focus:border-titan-cyan transition-colors min-w-[200px]"
+          >
+            <option v-for="season in seasons" :key="season.id" :value="season.id">
+              {{ season.name }}
+            </option>
+          </select>
+      </div>
+      
+      <div v-if="selectedSeasonMeta?.weaponSkin && selectedSeasonMeta.weaponSkin !== 'Inconnu'" class="ml-auto flex items-center gap-4 bg-black/60 border border-titan-border/50 px-4 py-2 z-10">
+          <div class="flex flex-col">
+              <span class="text-[10px] text-gray-500 font-mono uppercase tracking-widest mb-1">Skin Réactif</span>
+              <span class="text-white font-bold tracking-wider font-mono text-sm">{{ selectedSeasonMeta.weaponSkin }}</span>
+          </div>
+          <div class="w-24 h-12 flex items-center justify-center shrink-0 ml-4">
+              <img 
+                  v-if="getWeaponIconName(selectedSeasonMeta.weaponSkin)"
+                  :src="`/images/weapons/${getWeaponIconName(selectedSeasonMeta.weaponSkin)}.svg`"
+                  class="max-w-full max-h-full invert opacity-80 drop-shadow-[0_0_10px_rgba(255,255,255,0.2)]"
+                  :alt="selectedSeasonMeta.weaponSkin"
+                  @error="hideImageOnError"
+              />
+          </div>
+      </div>
+      
+      <!-- Deco Background Weapon -->
+      <img 
+          v-if="selectedSeasonMeta?.weaponSkin && selectedSeasonMeta.weaponSkin !== 'Inconnu' && getWeaponIconName(selectedSeasonMeta.weaponSkin)"
+          :src="`/images/weapons/${getWeaponIconName(selectedSeasonMeta.weaponSkin)}.svg`"
+          class="absolute -right-10 -bottom-10 h-[250%] opacity-[0.03] invert pointer-events-none transform -rotate-12"
+      />
     </div>
 
     <!-- Rewards List -->
@@ -80,7 +152,7 @@ const levels = computed(() => {
         <!-- Rows -->
         <template v-for="item in levels" :key="item.level">
           <div 
-            v-if="item.level < 101 || item.level > 109"
+            v-if="item.premium.length > 0 || item.free.length > 0"
             class="grid grid-cols-12 gap-4 px-4 py-3 bg-black/20 border border-titan-border/50 hover:border-titan-cyan/50 hover:bg-black/40 transition-colors items-center group"
           >
             <div class="col-span-2 flex justify-center">
@@ -89,29 +161,43 @@ const levels = computed(() => {
               </div>
             </div>
             
-            <div class="col-span-5 flex flex-col gap-1">
+            <div class="col-span-5 flex flex-col gap-1 items-start">
               <span v-if="item.premium.length === 0" class="text-gray-600 italic text-sm">-</span>
               <span 
                 v-else 
                 v-for="(r, idx) in item.premium" 
                 :key="idx"
-                class="text-sm font-medium"
+                class="text-sm font-medium w-full flex items-center"
                 :class="r.includes('Apex Pack') ? 'text-yellow-400' : 'text-gray-200'"
               >
-                {{ r }}
+                <img 
+                    v-if="getWeaponSkinIcon(r)"
+                    :src="`/images/weapons/${getWeaponSkinIcon(r)}.svg`"
+                    class="h-6 object-contain invert opacity-90 drop-shadow"
+                    :title="r"
+                    @error="hideImageOnError"
+                />
+                <span>{{ r }}</span>
               </span>
             </div>
             
-            <div class="col-span-5 flex flex-col gap-1 border-l border-titan-border/50 pl-4">
+            <div class="col-span-5 flex flex-col gap-1 items-start border-l border-titan-border/50 pl-4">
               <span v-if="item.free.length === 0" class="text-gray-600 italic text-sm">-</span>
               <span 
                 v-else 
                 v-for="(r, idx) in item.free" 
                 :key="idx"
-                class="text-sm font-medium"
+                class="text-sm font-medium w-full flex items-center"
                 :class="r.includes('Apex Pack') ? 'text-yellow-400' : 'text-gray-300'"
               >
-                {{ r }}
+                <img 
+                    v-if="getWeaponSkinIcon(r)"
+                    :src="`/images/weapons/${getWeaponSkinIcon(r)}.svg`"
+                    class="h-6 object-contain invert opacity-90 drop-shadow"
+                    :title="r"
+                    @error="hideImageOnError"
+                />
+                <span>{{ r }}</span>
               </span>
             </div>
           </div>
